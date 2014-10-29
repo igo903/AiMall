@@ -1,0 +1,25 @@
+{
+  "name": "aimall",
+  "version": "1.0.0",
+  "description": "mall for asiainfo",
+  "keywords": [],
+  "homepage": "",
+  "author": "igo903 <igo903@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      ""
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}
