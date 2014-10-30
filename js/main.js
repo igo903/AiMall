@@ -5,72 +5,8 @@ seajs.config({
 
 	alias:{
 		"jquery":"jquery/1.7.2/jquery-debug.js"
-		//"detector":"detector/1.4.0/detector.js"
 	}
 })
-
-
-
-
-//jQuery
-seajs.use(['jquery'],function($){
-
-	var flag = false;
-	$('#prds-pop').mouseover(function(){
-
-		if(flag == false){
-			$('#side-pop').removeClass('none');	
-			console.log(9999);
-			flag = true;
-		} else if(flag == true){
-			$('#side-pop').addClass('none');
-			flag = false;
-			console.log(1010);
-		}
-	});
-
-});
-
-
-// popup
-seajs.use(['arale-popup/1.2.0/popup-debug','jquery'], function(Popup, $){
-	new Popup({
-		trigger: '#myMall',
-		element: '#popupMyMall'
-	});
-
-	var coolNum = new Popup({
-		trigger: '#coolNum',
-		align: {
-            baseXY: [176, 1]
-        },
-		element: '#coolNumPopup'
-	});
-
-	var mbAcc = new Popup({
-		trigger: '#mbAcc',
-		align: {
-            baseXY: [176, -1]
-        },
-		element: '#mbAccPopup'
-	});
-
-	var surfWeb = new Popup({
-		trigger: '#surfWeb',
-		align: {
-            baseXY: [176, -1]
-        },
-		element: '#surfWebPopup'
-	});
-
-	$('.subside').hover(function(){
-		$('.subside').removeClass('current');
-		$(this).addClass('current');
-	});
-});
-
-
-
 
 
 seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide, $) {
@@ -102,13 +38,6 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 		slide.next();
 	});
 
-
-	
-
-
-
-
-
 	var sideTabA = new Slide({
 	    element: '#side-tab-a',
 	    triggers: '#side-tab-a .ui-switchable-nav li',
@@ -125,8 +54,6 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 
 });
 
-
-
 seajs.use(['slick/1.3.11/slick/slick-debug', 'jquery'], function(slick, $) {
 	$('.caro').slick({
 		slidesToShow: 3,
@@ -135,6 +62,4 @@ seajs.use(['slick/1.3.11/slick/slick-debug', 'jquery'], function(slick, $) {
 		variableWidth: true,
 		autoplaySpeed: 2000
 	});
-
-
 });

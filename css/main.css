@@ -1,4 +1,25 @@
 /*developed by Alain*/
+@charset "utf-8";
+
+
+@font-face {
+    font-family: "rei";
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot"); /* IE9*/
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("https://i.alipayobjects.com/common/fonts/rei.woff") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
+         url("https://i.alipayobjects.com/common/fonts/rei.ttf")  format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+         url("https://i.alipayobjects.com/common/fonts/rei.svg#rei") format("svg"); /*  iOS 4.1- */
+    font-weight: normal;
+    font-style: normal;
+}
+.iconfont {
+    font-family: "rei";
+    font-style: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+
+
 body{
     background:#fff;
 }
@@ -479,7 +500,7 @@ i{font-style: normal;}
 
 
 .side.service-side {
-	z-index: 1;
+	z-index: 2;
 	position: absolute;
 	display: inline;
 	float: left;
@@ -923,6 +944,99 @@ i{font-style: normal;}
 	font-weight: 700;
 	font-size: 18px;
 }
+
+
+.filter-panel{
+	margin-top: 10px;
+}
+.filter-panel .bread-nav{
+	height: 30px;
+	line-height: 30px;
+}
+.filter-panel h3{
+	background: #efefef;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 20px;
+}
+.filter-panel .content{
+	border: 1px solid #e8e8e8;
+	border-top: 2px solid #ff3300;
+}
+.filter-panel .row{
+	line-height: 40px;
+	border-bottom: 1px dotted #e8e8e8;
+	padding:0 50px 0 110px;
+	position: relative;
+}
+.filter-panel .row span{
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	font-weight: bold;
+}
+.filter-panel .row a{
+	margin: 0px 10px;
+	padding: 5px 10px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+}
+.filter-panel .row a.selected{
+	background: #ff3300;
+	color: #fff;
+	border-radius: 5px;
+}
+.filter-panel .row a.removeSelected{
+	position: absolute;
+	right: 0px;
+	top: 5px;
+}
+.filter-panel .row:last-child, .filter-panel .row.last{
+	border: none;
+}
+
+.prd-list{
+	/*border-left:1px solid #e8e8e8;*/
+	margin-top: 20px;
+}
+.prd-list .ui-paging{
+	margin-top: 10px;
+}
+.prd-list .channel-item{
+	border-left: 0;
+}
+.prd-list .channel-item a.btn{
+	width: 93px;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #e8e8e8;
+	display: block;
+	float: left;
+	margin: 5px 5px 0 5px;
+	text-align: center;
+	position: relative;
+}
+.prd-list .channel-item a.btn.save{
+	background: #efefef;
+}
+.prd-list .channel-item a.btn.buy{
+	color: #ff3300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

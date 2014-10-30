@@ -1,100 +1,15 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="ie ie6"><![endif]-->
-<!--[if IE 7]><html class="ie ie7"><![endif]-->
-<!--[if IE 8 ]><html class="ie8"><![endif]-->
-<!--[if !IE]><!-->
-<html lang="zh-CN">
-<!--<![endif]-->
-<head>
-	<meta charset="UTF-8">
-	<title>亚信商城</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="spm_modules/alice-base/1.1.0/src/base.css">
-	<link rel="stylesheet" href="spm_modules/alice-button/1.3.0/button.css">
-	<link rel="stylesheet" href="spm_modules/fontawesome/css/font-awesome.min.css">
-	<script type="text/javascript" src="spm_modules/seajs/2.3.0/sea-debug.js"></script>
-	<!--[if lt IE 9]>
-	    <script src="spm_modules/html5shiv/dist/html5shiv.js"></script>
-	<![endif]-->
-</head>
+<?php include("header.php"); ?>
 
 
-<body>
-	<div id="topNav" class="site-nav">
-		<div class="mininavInner site-nav-bd">
 
-			<div class="fn-left">
-				<span>产业互联网-亚信商城开通啦！</span>
-				<a href="javascript:;" class="ai">请登录</a>
-				<a href="javascript:;">免费注册</a>
-			</div>
-			
-			<div class="fn-right dropdowns">		
-				<div class="fn-left">
-					<a href="javascript:;" id="myMall">我的商城<i class="fa fa-angle-down" id="rm"></i></a>
-					<ul id="popupMyMall" class="fn-hide ui-popup">
-						<li><a href="javascript:;">我的订单</a></li>
-						<li><a href="javascript:;">个人信息</a></li>
-						<li><a href="javascript:;">收货地址维护</a></li>
-						<li><a href="javascript:;">我的收藏</a></li>
-					</ul>
 
-					<a href="javascript:;" class="" id="mobileMall">手机商城</a>
-					<a href="javascript:;" id="clientService">客户服务</a>
-					<a href="javascript:;" class="" id="siteMap">网站导航</a>
-					<a href="javascript:;" class="" id="bookmarkAi">收藏亚信商城</a>
-				</div>
-			</div>
-		</div>
-	</div><!--//topnav-->
-
-	<div class="adv mt10 wrap"><img src="images/topAd_sx.png" alt=""></div>
-
-	<div id="Ai_Wrap" class="wrap row">
-		
-		<div class="screen-hd row" id="home-part-1">
-			<div class="head" id="Ai_Head">
-				<div class="logo" id="ailogo">
-					<h1><a href="http://www.asiainfo.com" class="ailogo"><span class="fn-hide">亚信商城</span></a></h1>
-					<span>江苏站</span>
-				</div>
-				<div class="search-bd fn-left">
-					<form action="#" name="search_box" target="_blank">
-						<div id="searchbar">
-							<div class="search" id="sosobar">
-								<div id="searchTxt" class="searchTxt">
-									<input name="s" type="hidden" value="">
-									<input type="text"  name="q"  size="30" id="wholSearchTxt">
-								</div>
-							</div>
-							<div class="searchBtn">
-								<button id="searchBtn" type="submit" onclick="javascript:;">搜索</button>
-								<input type="hidden" name="hidden">
-							</div>
-						</div>
-						<div id="hotwords">
-							<strong>热门搜索：</strong>
-							<a href="javascript:;" target="_blank" class="ai">iPhone6 Plus</a>
-							<a href="javascript:;" target="_blank">精选底价</a>
-							<a href="javascript:;" target="_blank">值得买</a>
-							<a href="javascript:;" target="_blank">iPhone6</a>
-						</div>
-					</form>
-				</div>
-				
-
-				<div class="fn-right s-topbtn" id="">
-					<div id="myOrder"><a href="javascript:;">我的订单</a></div>
-					<div id="myCarter"><a href="javascript:;">购物车</a></div>
-				</div>
-			</div><!--//head-->
+	
 
 			<div id="main-nav" class="row">
 				<ul>
 					<li><a href="javascript:;" class="all-prds">所有商品分类</a></li>
-					<li><a href="main.html" class="active">首页</a></li>
-					<li><a href="innovate.html">创新产品</a></li>
+					<li><a href="index.php" class="active">首页</a></li>
+					<li><a href="innovate.php">创新产品</a></li>
 					<li><a href="javascript:;">流量专区</a></li>
 					<li><a href="javascript:;">沃云.推荐</a></li>
 					<li><a href="javascript:;">团购</a></li>
@@ -289,148 +204,10 @@
 			</div><!--//cont-->
 
 			<div class="side service-side">
-				<ul>
-					<li class="subside" id="coolNum">
-						<i class="fa fa-cube fa-lg"></i><a href="javascript:;">靓号</a>
-						<a href="javascript:;">套餐</a>
-					</li>
-					<div class="fn-hide ui-popup subside-cont" id="coolNumPopup">
-						<s></s>
-						<dl class="subitem">
-							<dt>选号码</dt>
-							<dd>
-								<a href="javascript:;">186</a>
-								<a href="javascript:;">185</a>
-								<a href="javascript:;">156</a>
-								<a href="javascript:;">152</a>
-								<a href="javascript:;">150</a>
-								<a href="javascript:;">130</a>
-								<a href="javascript:;">138</a>
-								<a href="javascript:;">186</a>
-								<a href="javascript:;">185</a>
-								<a href="javascript:;">156</a>
-								<a href="javascript:;">152</a>
-								<a href="javascript:;">150</a>
-								<a href="javascript:;">130</a>
-								<a href="javascript:;">138</a>
-							</dd>
-						</dl>
-
-						<dl class="subitem">
-							<dt>3G基本套餐</dt>
-							<dd>
-								<a href="javascript:;">A计划套餐（更多上网流量）</a>
-								<a href="javascript:;">B计划套餐（更多长途漫游）</a>
-								<a href="javascript:;">C计划套餐（更多本地通话）</a>
-								<a href="javascript:;">20元卡</a>
-							</dd>
-						</dl>
-
-						<dl class="subitem">
-							<dt>4G套餐</dt>
-							<dd>
-								<a href="javascript:;">4G/3G一体化套餐</a>
-								<a href="javascript:;">自由组合套餐</a>
-							</dd>
-						</dl>
-
-						<dl class="subitem">
-							<dt>本地套餐</dt>
-							<dd>
-								<a href="javascript:;">本地语音套餐</a>
-								<a href="javascript:;">本地语音及流量套餐</a>
-							</dd>
-						</dl>
-					</div><!--//subside-cont-->
-
-					<li class="subside" id="mbAcc">
-						<i class="fa fa-mobile fa-lg"></i>
-						<a href="javascript:;">手机</a>
-						<a href="javascript:;">配件</a>
-					</li>
-					<div class="fn-hide ui-popup subside-cont" id="mbAccPopup">
-						<s></s>
-						<dl class="subitem">
-							<dt>选号码</dt>
-							<dd>
-								<a href="javascript:;">186</a>
-								<a href="javascript:;">185</a>
-								<a href="javascript:;">156</a>
-								<a href="javascript:;">152</a>
-								<a href="javascript:;">150</a>
-								<a href="javascript:;">130</a>
-								<a href="javascript:;">138</a>
-								<a href="javascript:;">186</a>
-								<a href="javascript:;">185</a>
-								<a href="javascript:;">156</a>
-								<a href="javascript:;">152</a>
-								<a href="javascript:;">150</a>
-								<a href="javascript:;">130</a>
-								<a href="javascript:;">138</a>
-							</dd>
-						</dl>
-
-						<dl class="subitem">
-							<dt>3G基本套餐</dt>
-							<dd>
-								<a href="javascript:;">A计划套餐（更多上网流量）</a>
-								<a href="javascript:;">B计划套餐（更多长途漫游）</a>
-								<a href="javascript:;">C计划套餐（更多本地通话）</a>
-								<a href="javascript:;">20元卡</a>
-							</dd>
-						</dl>
-					</div><!--//subside-cont-->
-
-					<li class="subside" id="surfWeb">
-						<i class="fa fa-globe fa-lg"></i>
-						<a href="javascript:;">上网卡</a>
-					</li>
-					<div class="fn-hide ui-popup subside-cont" id="surfWebPopup">
-						<s></s>
-						<dl class="subitem">
-							<dt>选号码</dt>
-							<dd>
-								<a href="javascript:;">186</a>
-								<a href="javascript:;">185</a>
-								<a href="javascript:;">156</a>
-								<a href="javascript:;">152</a>
-								<a href="javascript:;">150</a>
-								<a href="javascript:;">130</a>
-								<a href="javascript:;">138</a>
-								<a href="javascript:;">186</a>
-								<a href="javascript:;">185</a>
-								<a href="javascript:;">156</a>
-								<a href="javascript:;">152</a>
-								<a href="javascript:;">150</a>
-								<a href="javascript:;">130</a>
-								<a href="javascript:;">138</a>
-							</dd>
-						</dl>
-
-						<dl class="subitem">
-							<dt>3G基本套餐</dt>
-							<dd>
-								<a href="javascript:;">A计划套餐（更多上网流量）</a>
-								<a href="javascript:;">B计划套餐（更多长途漫游）</a>
-								<a href="javascript:;">C计划套餐（更多本地通话）</a>
-								<a href="javascript:;">20元卡</a>
-							</dd>
-						</dl>
-					</div><!--//subside-cont-->
-
-
-
-					<li class="subside"><i class="fa fa-phone fa-lg"></i><a href="javascript:;">宽带</a><a href="javascript:;">固话</a></li>
-					<li class="subside"><i class="fa fa-cc-discover fa-lg"></i><a href="javascript:;">充值卡</a><a href="javascript:;">流量卡</a></li>
-					<li class="subside"><i class="fa fa-rmb fa-lg"></i><a href="javascript:;">交话费</a></li>
-					<li class="subside"><i class="fa fa-search fa-lg"></i><a href="javascript:;">查话费</a></li>
-					<li class="subside"><i class="fa fa-lightbulb-o fa-lg"></i><a href="javascript:;">创新产品</a></li>
-					<li class="subside"><i class="fa fa-database fa-lg"></i><a href="javascript:;">积分兑商品</a></li>
-					<li class="subside"><i class="fa fa-cubes fa-lg"></i><a href="javascript:;">小额支付产品</a></li>
-					<li class="subside"><i class="fa fa-apple fa-lg"></i><a href="javascript:;">App应用</a></li>
-					<li class="last subside"><i class="fa fa-gift fa-lg"></i><a href="javascript:;">送礼品</a></li>
-				</ul>
+				<?php include("service_side.php"); ?>
 			</div><!--//service-side-->
+
+
 		</div><!--//home-part-1-->
 
 		<div id="cellPhone" class="channel">
@@ -441,7 +218,7 @@
 					<a title="储物柜" class="line" href="javascript:;">双卡双待</a>
 					<a title="马甲女" class="line" href="javascript:;">大屏</a>
 					<a title="马甲女" class="line" href="javascript:;">千元智能机</a>
-					<a title="更多" class="" href="">更多</a>
+					<a title="更多" class="" href="mobile_list.php">更多</a>
 				</div>
 			</div>
 
@@ -830,104 +607,10 @@
 				</div><!--//items-wrap-->
 			</div>
 		</div><!--//accessory-->
-
-
 	</div><!--//Ai_Wrap-->
 
-
-	<div class="screen-ft row">
-			<div class="helper">
-				<div class="mod mod-a">
-					<div class="mod-wrap">
-						<h4>
-					      <span class="s-adults">购物指南</span>
-					    </h4>
-					    <ul>
-					        <li><a title="购物流程" href="">购物流程</a></li>
-					        <li><a title="发票说明" href="">发票说明</a></li>
-					        <li><a title="联系客服" href="">联系客服</a></li>
-					        <li><a title="注册协议" href="">注册协议</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="mod mod-b">
-					<div class="mod-wrap">
-						<h4>
-					      <span class="s-adults">支付方式</span>
-					    </h4>
-					    <ul>
-					        <li><a title="在线支付" href="">在线支付</a></li>
-					        <li><a title="快捷支付" href="">快捷支付</a></li>
-					        <li><a title="货到付款" href="">货到付款</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="mod mod-c">
-					<div class="mod-wrap">
-						<h4>
-					      <span class="s-adults">配送方式</span>
-					    </h4>
-					    <ul>
-					        <li><a title="快递配送" href="">快递配送</a></li>
-					        <li><a title="上门自提" href="">上门自提</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="mod mod-d">
-					<div class="mod-wrap">
-						<h4>
-							<span class="s-adults">售后服务</span>
-					    </h4>
-					    <ul>
-					        <li><a title="退换货政策" href="">退换货政策</a></li>
-					        <li><a title="退换货流程" href="">退换货流程</a></li>
-					        <li><a title="退款说明" href="">退款说明</a></li>
-					        <li><a title="手机维修" href="">手机维修</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="mod mod-e">
-					<div class="mod-wrap">
-						<h4>
-							<span class="s-adults">联通特色服务</span>
-					    </h4>
-					    <ul>
-					        <li><a title="交费充值" href="">交费充值</a></li>
-					        <li><a title="营业厅分布查询" href="">营业厅分布查询</a></li>
-					        <li><a title="号码归属地查询" href="">号码归属地查询</a></li>
-					        <li><a title="常见问题" href="">常见问题</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="footer-link txtcenter">
-				<a href="javascript:void(0)">关于亚信商城</a>|
-				<a href="javascript:void(0)">友情链接</a>|
-				<a href="javascript:void(0)">客户端下载</a>|
-				<a href="javascript:void(0)">合作伙伴入驻</a>|
-				<a href="http://115.29.208.79:8083" target="_blank">合作伙伴登录</a>
-				<p class="copyright txtcenter">Copyright © 1999-2014  亚信科技 版权所有<br>中华人民共和国增值电信业务经营许可证 经营许可证编号：A2.B1.B2-20090003 </p>
-			</div>
-			
-	
-	</div>
-
-
-
-
-
-
-
-
-	
-
 	<script type="text/javascript" src="js/common.js"></script>
-	<script type="text/javascript">
 
-	</script>
+	<?php include("footer.php"); ?>
+	
 
-</body>
-</html>
