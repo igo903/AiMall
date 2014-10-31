@@ -997,16 +997,16 @@ i{font-style: normal;}
 }
 
 .prd-list{
-	/*border-left:1px solid #e8e8e8;*/
 	margin-top: 20px;
 }
-.prd-list .ui-paging{
-	margin-top: 10px;
+#pagination.ui-paging{
+	margin: 10px 0;
+	height: 30px;
 }
 .prd-list .channel-item{
 	border-left: 0;
 }
-.prd-list .channel-item a.btn{
+a.btn{
 	width: 93px;
 	height: 26px;
 	line-height: 26px;
@@ -1024,7 +1024,79 @@ i{font-style: normal;}
 	color: #ff3300;
 }
 
+.recommend-panel{
+	border: 1px solid #e8e8e8;
+	border-top: 2px solid #ff3300;
+	width: 100%;
+	float: left;
+}
+.recommend-panel .col-main{
+	float: left;
+	width: 100%;
+}
+.recommend-panel .col-sub{
+	
+}
+.recommend-panel .main-wrap{
+	margin-left: 235px;
+}
 
+.recommend-panel h3{
+	background: #efefef;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 20px;
+}
+.recommend-panel i{
+	color: #ff3300;
+	display: block;
+}
+.recommend-panel .jingxuan{
+	width: 234px;
+	border-right: 1px solid #e8e8e8;
+	margin-left: -100%;
+}
+.jingxuan ul, .hotsell ul{
+	padding: 10px;
+}
+.jingxuan ul li{
+	border-bottom: 1px dotted #e8e8e8;
+	position: relative;
+	height: 80px;
+	overflow: hidden;
+}
+.hotsell ul li{
+	position: relative;
+	height: 120px;
+	width: 230px;
+	overflow: hidden;
+	float: left;
+}
+
+.jingxuan ul li:last-child, .jingxuan ul li.last{
+	border-bottom: none;
+}
+.jingxuan ul li .info, .hotsell ul li .info{
+	width: 130px;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.jingxuan ul li img, .hotsell ul li img{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.hotsell ul li img{
+	width: 90px;
+	height: 90px;
+}
+.hotsell a.btn{
+	margin-left: 0;
+	color: #ff3300;
+}
 
 
 
