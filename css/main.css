@@ -73,6 +73,7 @@ i{font-style: normal;}
 .divide {font-style: normal;color: #CCC;}
 .error{color:red;}
 .border{border:1px solid #e8e8e8;}
+.last{border-bottom: none;}
 
 .ui-popup{
     border: 1px solid #EBEBEB;
@@ -807,6 +808,23 @@ i{font-style: normal;}
 	color: #999;
 }
 
+.custom .ai-form .ui-form-item{
+	padding: 0;
+}
+.custom .ai-form .ui-form-item{
+	position: absolute;
+	top: 0px;
+}
+.custom .ai-form .ui-form-item.alibtn{
+	position: absolute;
+	top: -2px;
+	left: 297px;
+}
+.custom .ai-form .ui-input{
+	height: 26px;
+	line-height: 26px;
+}
+
 
 
 
@@ -965,6 +983,7 @@ i{font-style: normal;}
 }
 .filter-panel .row{
 	line-height: 40px;
+	height: 40px;
 	border-bottom: 1px dotted #e8e8e8;
 	padding:0 50px 0 110px;
 	position: relative;
@@ -992,6 +1011,19 @@ i{font-style: normal;}
 	right: 0px;
 	top: 5px;
 }
+.filter-panel .row a.removeCondition{
+	border: 1px solid #e8e8e8;
+	height: 22px;
+	line-height: 22px;
+}
+.filter-panel .row a.removeCondition:hover{
+	text-decoration: none;
+	color: #666
+}
+.filter-panel .row a.removeCondition i{
+	margin-right: 5px;
+}
+
 .filter-panel .row:last-child, .filter-panel .row.last{
 	border: none;
 }
@@ -1016,6 +1048,7 @@ a.btn{
 	margin: 5px 5px 0 5px;
 	text-align: center;
 	position: relative;
+	background: #fff;
 }
 .prd-list .channel-item a.btn.save{
 	background: #efefef;
@@ -1100,6 +1133,41 @@ a.btn{
 
 
 
+
+
+
+.num-list ul li{
+	border: 1px solid #e8e8e8;
+	float: left;
+	width: 594px;
+	position: relative;
+	height: 58px;
+	line-height: 58px;
+	margin-bottom: 20px;
+}
+.num-list ul li.right-col{
+	border-left: none;
+	width: 592px;
+}
+.num-list .num{
+	font-size: 22px;
+	position: absolute;
+	left: 30px;
+}
+.num-list .gobuy{
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	padding: 0 10px;
+	background: #efefef;
+}
+.num-list .gobuy .info{
+	float: left;
+	margin-left: 30px;
+}
+.num-list .gobuy .buy{
+	margin: 15px 0px 0 20px;
+}
 
 
 

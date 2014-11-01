@@ -17,75 +17,65 @@
 			</div>
 
 			<div class="cont">
-
-					<div class="filter-panel">
-						<div class="bread-nav">
-							<span>全部结果</span>
-							<i>></i>
-							<span>手机</span>
+				<div class="filter-panel">
+					<div class="bread-nav">
+						<span>全部结果</span>
+						<i>></i>
+						<span>靓号</span>
+					</div>
+					<div class="content">
+						<h3>靓号<span>商品筛选</span><span>(共<i>92</i>件商品)</span></h3>
+						<div class="row">
+							<span>已选条件:</span>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeSelected">全部撤销</a>
 						</div>
-						<div class="content">
-							<h3>手机<span>商品筛选</span><i>(共92件商品)</i></h3>
-							<div class="row">
-								<span>品牌:</span>
-								<a href="javascript:;">Apple/苹果</a>
-								<a href="javascript:;">Sony/索尼</a>
-								<a href="javascript:;">ZTE/中兴</a>
-								<a href="javascript:;" class="selected">MEIZU/魅族</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;">Coolpad/酷派</a>
-								<a href="javascript:;" class="removeSelected">全部撤销</a>
-							</div>
-							<div class="row">
-								<span>特点:</span>
-								<a href="javascript:;">双卡双待</a>
-								<a href="javascript:;">千元智能机</a>
-								<a href="javascript:;">大屏</a>
-								<a href="javascript:;">4G手机</a>
-								<a href="javascript:;">安卓智能</a>
-							</div>
-							<div class="row">
-								<span>机身颜色:</span>
-								<a href="javascript:;">银色</a>
-								<a href="javascript:;">钱黑后白</a>
-								<a href="javascript:;">粉色</a>
-								<a href="javascript:;">银色</a>
-								<a href="javascript:;">金色</a>
-							</div>
-							<div class="row">
-								<span>尺寸:</span>
-								<a href="javascript:;">6.0寸</a>
-								<a href="javascript:;">5.0寸</a>
-								<a href="javascript:;">4.0寸</a>
-								<a href="javascript:;">3.5寸</a>
-								<a href="javascript:;">4.7英寸</a>
-							</div>
-							<div class="row">
-								<span>网络类型:</span>
-								<a href="javascript:;">联通3G(CDMA)</a>
-								<a href="javascript:;">联通4G(FDD-LTE/TD-LTE)</a>
-								<a href="javascript:;">电信3G(CDMA2000)</a>
-								<a href="javascript:;">移动2G/联通2G(GSM)</a>
-								<a href="javascript:;">移动4G</a>
-							</div>
-							<div class="row last">
-								<span>操作系统:</span>
-								<a href="javascript:;">MIUI</a>
-								<a href="javascript:;">Android/安卓</a>
-								<a href="javascript:;">iOS</a>
-								<a href="javascript:;">Windows Phone</a>
-								<a href="javascript:;">SYMBIAN</a>
-							</div>
+						<div class="row custom">
+							<span>号码自定义:</span>
+							<form class="ui-form ai-form" name="" method="post" action="#" id="">
+							    <fieldset>
+							        <div class="ui-form-item">
+							            <input class="ui-input" type="text">
+							        </div>
+							        <div class="ui-form-item alibtn">
+							            <input type="submit" class="ui-button ui-button-morange" value="搜索">
+							        </div>
+								</fieldset>
+							</form>	
+
+
+
+
+
+						</div>
+						<div class="row">
+							<span>号段:</span>
+							<a href="javascript:;">186</a>
+							<a href="javascript:;">185</a>
+							<a href="javascript:;">156</a>
+							<a href="javascript:;">155</a>
+							<a href="javascript:;">132</a>
+							<a href="javascript:;" class="selected">150</a>
+							<a href="javascript:;">152</a>
+						</div>
+						<div class="row">
+							<span>预存话费:</span>
+							<a href="javascript:;">0 - 100</a>
+							<a href="javascript:;">100 - 300</a>
+							<a href="javascript:;">300 - 500</a>
+							<a href="javascript:;">500 - 1000</a>
+							<a href="javascript:;">1000以上</a>
+						</div>
+						<div class="row last">
+							<span>靓号类型:</span>
+							<a href="javascript:;">AAAAA</a>
+							<a href="javascript:;">AAAA</a>
+							<a href="javascript:;">ABCDE</a>
+							<a href="javascript:;">AABBAA</a>
+							<a href="javascript:;">AABBCC</a>
 						</div>
 					</div>
+				</div>
 
 			</div><!--//cont-->
 
@@ -95,6 +85,54 @@
 		</div><!--//home-part-1-->
 
 		
+		<div class="num-list mt40">
+			<ul>
+				<li class="">
+					<div class="num ">15005819123</div>
+					<div class="gobuy">
+						<span class="info">预存话费：<i>￥0</i>元</span>
+						<a href="javascript:;" class="btn buy">立即购买</a>
+					</div>
+				</li>
+				<li class="right-col">
+					<div class="num ">13616517296</div>
+					<div class="gobuy">
+						<span class="info">预存话费：<i>￥0</i>元</span>
+						<a href="javascript:;" class="btn buy">立即购买</a>
+					</div>
+				</li>
+				<li class="">
+					<div class="num ">15005819123</div>
+					<div class="gobuy">
+						<span class="info">预存话费：<i>￥0</i>元</span>
+						<a href="javascript:;" class="btn buy">立即购买</a>
+					</div>
+				</li>
+				<li class="right-col">
+					<div class="num ">13616517296</div>
+					<div class="gobuy">
+						<span class="info">预存话费：<i>￥0</i>元</span>
+						<a href="javascript:;" class="btn buy">立即购买</a>
+					</div>
+				</li>
+				<li class="">
+					<div class="num ">15005819123</div>
+					<div class="gobuy">
+						<span class="info">预存话费：<i>￥0</i>元</span>
+						<a href="javascript:;" class="btn buy">立即购买</a>
+					</div>
+				</li>
+				<li class="right-col">
+					<div class="num ">13616517296</div>
+					<div class="gobuy">
+						<span class="info">预存话费：<i>￥0</i>元</span>
+						<a href="javascript:;" class="btn buy">立即购买</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
 
 		<div class="ui-paging row fn-right" id="pagination">
 		    <a href="#" class="ui-paging-prev">
@@ -210,7 +248,7 @@
 							<i>￥1719.00</i>
 						</div>
 					</li>
-					<li>
+					<li class="last">
 						<img src="images/Q403_60x60.jpg" alt="">
 						<div class="info">
 							<a href="javascript:;">中兴（ZTE）星星一号(S2002) 4G全国套餐</a>

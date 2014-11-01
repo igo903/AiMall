@@ -25,7 +25,7 @@
 							<span>手机</span>
 						</div>
 						<div class="content">
-							<h3>手机<span>商品筛选</span><i>(共92件商品)</i></h3>
+							<h3>手机<span>商品筛选</span><span>(共<i>92</i>件商品)</span></h3>
 							<div class="row">
 								<span>品牌:</span>
 								<a href="javascript:;">Apple/苹果</a>
@@ -390,8 +390,7 @@
 					</li>
 				</ul>
 				
-			</div>
-			
+			</div>			
 		</div>
 
 
