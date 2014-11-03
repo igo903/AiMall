@@ -345,7 +345,7 @@
 					<div class="channel-item">
 						<dl>
 							<dd class="p-img txtcenter">
-								<a href="javascript:;"><img src="images/img2.png" alt=""></a>
+								<a href="innove_detail.php"><img src="images/img2.png" alt=""></a>
 							</dd>
 							<dt class="p-name">
 								<a href="javascript:;">小米 小米4 4G全国套餐合约机</a>
