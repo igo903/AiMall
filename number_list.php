@@ -85,16 +85,16 @@
 		</div><!--//home-part-1-->
 
 		
-		<div class="num-list mt40">
+		<div class="num-list mt12">
 			<ul>
-				<li class="">
+				<li class="row">
 					<div class="num ">15005819123</div>
 					<div class="gobuy">
 						<span class="info">预存话费：<i>￥0</i>元</span>
 						<a href="javascript:;" class="btn buy">立即购买</a>
 					</div>
 				</li>
-				<li class="right-col">
+				<li class="right-col row">
 					<div class="num ">13616517296</div>
 					<div class="gobuy">
 						<span class="info">预存话费：<i>￥0</i>元</span>

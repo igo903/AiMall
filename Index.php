@@ -414,9 +414,9 @@
 			<div class="sale-hd">
 				<h3><i class="fa fa-globe fa-lg"></i>上网卡</h3>
 				<div id="channel-mini-nav" class="sale-p4p">
-					<a title="妈妈装" class="line" href="javascript:;">包月套餐</a>
-					<a title="储物柜" class="line" href="javascript:;">包年套餐</a>
-					<a title="更多" class="" href="">更多</a>
+					<a title="" class="line" href="javascript:;">包月套餐</a>
+					<a title="" class="line" href="javascript:;">包年套餐</a>
+					<a title="更多" class="" href="innove_list.php">更多</a>
 				</div>
 			</div>
 

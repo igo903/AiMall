@@ -814,6 +814,7 @@ i{font-style: normal;}
 .custom .ai-form .ui-form-item{
 	position: absolute;
 	top: 0px;
+	margin-left: 10px;
 }
 .custom .ai-form .ui-form-item.alibtn{
 	position: absolute;
@@ -824,6 +825,14 @@ i{font-style: normal;}
 	height: 26px;
 	line-height: 26px;
 }
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+}
+
 
 
 
@@ -983,9 +992,9 @@ i{font-style: normal;}
 }
 .filter-panel .row{
 	line-height: 40px;
-	height: 40px;
+	min-height: 40px;
 	border-bottom: 1px dotted #e8e8e8;
-	padding:0 50px 0 110px;
+	padding:0 100px 0 110px;
 	position: relative;
 }
 .filter-panel .row span{
@@ -1130,6 +1139,31 @@ a.btn{
 	margin-left: 0;
 	color: #ff3300;
 }
+.channel-item.innove{
+	position: relative;
+	height: 170px;
+
+}
+.channel-item.innove h3{
+	font-size: 14px;
+}
+.channel-item.innove img{
+	width: 80px;
+	height: 80px;
+}
+.channel-item.innove .p-img{
+	margin-bottom: 20px;
+}
+.channel-item.innove .p-name{
+	position: absolute;
+	width: 120px;
+	top: 10px;
+	right: 10px;
+	height: 75px;
+	overflow: hidden;
+}
+
+
 
 
 
@@ -1144,10 +1178,12 @@ a.btn{
 	height: 58px;
 	line-height: 58px;
 	margin-bottom: 20px;
+	background: url(../images/num-arrow.png) no-repeat 262px 0;
 }
 .num-list ul li.right-col{
 	border-left: none;
 	width: 592px;
+	background-position: 260px 0;
 }
 .num-list .num{
 	font-size: 22px;
@@ -1155,11 +1191,12 @@ a.btn{
 	left: 30px;
 }
 .num-list .gobuy{
-	position: absolute;
-	right: 0px;
+	/*position: absolute;
+	right: 0px;*/
+	float: right;
 	width: 300px;
 	padding: 0 10px;
-	background: #efefef;
+	background: #f8f8f8;
 }
 .num-list .gobuy .info{
 	float: left;
