@@ -66,6 +66,101 @@
 			<div class="channel-item innove">
 				<dl class="">
 					<dd class="p-img">
+						<a href="innove_detail.php"><img src="images/mob_music.png" alt=""></a>
+					</dd>
+					<dt class="p-name">
+						<h3>手机音乐</h3>
+						<a href="innove_detail.php">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
+					</dt>
+					<dd class="p-price">
+				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
+				    </dd>
+				    <dd class="fn-btns">
+				    	<a href="javascript:;" class="btn buy">立即订购</a>
+				    	<a href="javascript:;" class="btn save">加入收藏</a>
+				    </dd>	
+			    </dl>
+			</div>
+			
+			<div class="channel-item innove">
+				<dl class="">
+					<dd class="p-img">
+						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
+					</dd>
+					<dt class="p-name">
+						<h3>手机音乐</h3>
+						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
+					</dt>
+					<dd class="p-price">
+				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
+				    </dd>
+				    <dd class="fn-btns">
+				    	<a href="javascript:;" class="btn buy">立即订购</a>
+				    	<a href="javascript:;" class="btn save">加入收藏</a>
+				    </dd>	
+			    </dl>
+			</div>
+
+			<div class="channel-item innove">
+				<dl class="">
+					<dd class="p-img">
+						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
+					</dd>
+					<dt class="p-name">
+						<h3>手机音乐</h3>
+						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
+					</dt>
+					<dd class="p-price">
+				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
+				    </dd>
+				    <dd class="fn-btns">
+				    	<a href="javascript:;" class="btn buy">立即订购</a>
+				    	<a href="javascript:;" class="btn save">加入收藏</a>
+				    </dd>	
+			    </dl>
+			</div>
+			
+			<div class="channel-item innove">
+				<dl class="">
+					<dd class="p-img">
+						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
+					</dd>
+					<dt class="p-name">
+						<h3>手机音乐</h3>
+						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
+					</dt>
+					<dd class="p-price">
+				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
+				    </dd>
+				    <dd class="fn-btns">
+				    	<a href="javascript:;" class="btn buy">立即订购</a>
+				    	<a href="javascript:;" class="btn save">加入收藏</a>
+				    </dd>	
+			    </dl>
+			</div>
+
+			<div class="channel-item innove last">
+				<dl class="">
+					<dd class="p-img">
+						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
+					</dd>
+					<dt class="p-name">
+						<h3>手机音乐</h3>
+						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
+					</dt>
+					<dd class="p-price">
+				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
+				    </dd>
+				    <dd class="fn-btns">
+				    	<a href="javascript:;" class="btn buy">立即订购</a>
+				    	<a href="javascript:;" class="btn save">加入收藏</a>
+				    </dd>	
+			    </dl>
+			</div>
+
+			<div class="channel-item innove">
+				<dl class="">
+					<dd class="p-img">
 						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
 					</dd>
 					<dt class="p-name">
@@ -157,106 +252,6 @@
 				    </dd>	
 			    </dl>
 			</div>
-
-
-
-			<div class="channel-item innove">
-				<dl class="">
-					<dd class="p-img">
-						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
-					</dd>
-					<dt class="p-name">
-						<h3>手机音乐</h3>
-						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
-					</dt>
-					<dd class="p-price">
-				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
-				    </dd>
-				    <dd class="fn-btns">
-				    	<a href="javascript:;" class="btn buy">立即订购</a>
-				    	<a href="javascript:;" class="btn save">加入收藏</a>
-				    </dd>	
-			    </dl>
-			</div>
-			
-			<div class="channel-item innove">
-				<dl class="">
-					<dd class="p-img">
-						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
-					</dd>
-					<dt class="p-name">
-						<h3>手机音乐</h3>
-						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
-					</dt>
-					<dd class="p-price">
-				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
-				    </dd>
-				    <dd class="fn-btns">
-				    	<a href="javascript:;" class="btn buy">立即订购</a>
-				    	<a href="javascript:;" class="btn save">加入收藏</a>
-				    </dd>	
-			    </dl>
-			</div>
-
-			<div class="channel-item innove">
-				<dl class="">
-					<dd class="p-img">
-						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
-					</dd>
-					<dt class="p-name">
-						<h3>手机音乐</h3>
-						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
-					</dt>
-					<dd class="p-price">
-				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
-				    </dd>
-				    <dd class="fn-btns">
-				    	<a href="javascript:;" class="btn buy">立即订购</a>
-				    	<a href="javascript:;" class="btn save">加入收藏</a>
-				    </dd>	
-			    </dl>
-			</div>
-			
-			<div class="channel-item innove">
-				<dl class="">
-					<dd class="p-img">
-						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
-					</dd>
-					<dt class="p-name">
-						<h3>手机音乐</h3>
-						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
-					</dt>
-					<dd class="p-price">
-				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
-				    </dd>
-				    <dd class="fn-btns">
-				    	<a href="javascript:;" class="btn buy">立即订购</a>
-				    	<a href="javascript:;" class="btn save">加入收藏</a>
-				    </dd>	
-			    </dl>
-			</div>
-
-			<div class="channel-item innove last">
-				<dl class="">
-					<dd class="p-img">
-						<a href="javascript:;"><img src="images/mob_music.png" alt=""></a>
-					</dd>
-					<dt class="p-name">
-						<h3>手机音乐</h3>
-						<a href="javascript:;">享受榜单查询、振铃下载、整曲/MV点播下载、音乐直播、炫铃定制、音乐搜索</a>
-					</dt>
-					<dd class="p-price">
-				    	<span class="g_price g_price-highlight"><strong>¥0.10</strong>元/月</span>
-				    </dd>
-				    <dd class="fn-btns">
-				    	<a href="javascript:;" class="btn buy">立即订购</a>
-				    	<a href="javascript:;" class="btn save">加入收藏</a>
-				    </dd>	
-			    </dl>
-			</div>
-
-
-
 
 		</div>
 
@@ -291,67 +286,67 @@
 						<h3>热卖</h3>
 						<ul>
 							<li>
-								<img src="images/546_90x90.jpg" alt="">
+								<img src="images/21m.png" alt="">
 								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
+									<a href="javascript:;">21M上网 </a>
+									<i>￥3.00<span>元/月</span></i>
 				    				<a href="javascript:;" class="btn buy">立即订购</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/659_90x90.jpg" alt="">
+								<img src="images/21m.png" alt="">
 								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
+									<a href="javascript:;">21M上网 </a>
+									<i>￥3.00<span>元/月</span></i>
+				    				<a href="javascript:;" class="btn buy">立即订购</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/659_90x90.jpg" alt="">
+								<img src="images/21m.png" alt="">
 								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
+									<a href="javascript:;">21M上网 </a>
+									<i>￥3.00<span>元/月</span></i>
+				    				<a href="javascript:;" class="btn buy">立即订购</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/601_90x90.jpg" alt="">
+								<img src="images/21m.png" alt="">
 								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
+									<a href="javascript:;">21M上网 </a>
+									<i>￥3.00<span>元/月</span></i>
+				    				<a href="javascript:;" class="btn buy">立即订购</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/659_90x90.jpg" alt="">
+								<img src="images/21m.png" alt="">
 								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
+									<a href="javascript:;">21M上网 </a>
+									<i>￥3.00<span>元/月</span></i>
+				    				<a href="javascript:;" class="btn buy">立即订购</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/546_90x90.jpg" alt="">
+								<img src="images/21m.png" alt="">
 								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
+									<a href="javascript:;">21M上网 </a>
+									<i>￥3.00<span>元/月</span></i>
+				    				<a href="javascript:;" class="btn buy">立即订购</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/611_90x90.jpg" alt="">
+								<img src="images/21m.png" alt="">
 								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
+									<a href="javascript:;">21M上网 </a>
+									<i>￥3.00<span>元/月</span></i>
+				    				<a href="javascript:;" class="btn buy">立即订购</a>
 								</div>
 							</li>
 							<li>
-								<img src="images/659_90x90.jpg" alt="">
+								<img src="images/21m.png" alt="">
 								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
+									<a href="javascript:;">21M上网 </a>
+									<i>￥3.00<span>元/月</span></i>
+				    				<a href="javascript:;" class="btn buy">立即订购</a>
 								</div>
 							</li>
 						</ul>
@@ -363,24 +358,24 @@
 				<h3>精选</h3>
 				<ul>
 					<li>
-						<img src="images/Q403_60x60.jpg" alt="">
+						<img src="images/mob_halfyear.png" alt="">
 						<div class="info">
-							<a href="javascript:;">中兴（ZTE）星星一号(S2002) 4G全国套餐</a>
-							<i>￥1719.00</i>
+							<a href="javascript:;">全国流量半年包</a>
+							<i>￥100.00<span>元/月</span></i>
 						</div>
 					</li>
 					<li>
-						<img src="images/Q403_60x60.jpg" alt="">
+						<img src="images/mob_read.png" alt="">
 						<div class="info">
-							<a href="javascript:;">iPhone5s 默认开通炫铃升级版</a>
-							<i>￥1719.00</i>
+							<a href="javascript:;">全国流量半年包</a>
+							<i>￥100.00<span>元/月</span></i>
 						</div>
 					</li>
-					<li class="last">
-						<img src="images/Q403_60x60.jpg" alt="">
+					<li>
+						<img src="images/mob_combonews.png" alt="">
 						<div class="info">
-							<a href="javascript:;">中兴（ZTE）星星一号(S2002) 4G全国套餐</a>
-							<i>￥1719.00</i>
+							<a href="javascript:;">全国流量半年包</a>
+							<i>￥100.00<span>元/月</span></i>
 						</div>
 					</li>
 				</ul>
