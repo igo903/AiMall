@@ -114,7 +114,7 @@
 					<div class="channel-item">
 						<dl>
 							<dd class="p-img txtcenter">
-								<a href="javascript:;"><img src="images/mob_tv.png" alt=""></a>
+								<a href="innove_detail.php"><img src="images/mob_tv.png" alt=""></a>
 							</dd>
 							<dt class="p-name">
 								<a href="javascript:;">手机电视</a>

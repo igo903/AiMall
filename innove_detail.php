@@ -67,12 +67,56 @@
 		</div><!--//home-part-1-->
 
 
-		<div class="detail-cont-wrap fn-clear">
-			<div class="left-col-hot">
-				
+		<div class="detail-cont-wrap mt12 fn-clear">
+			<div class="left-col-hot fn-left">
+				<h3>热卖</h3>
+				<ul>
+					<li>
+						<div class="">
+							<a href=""><img src="images/601_90x90.jpg" alt=""></a>
+						</div>
+						<div class="info">
+							<a href="javascript:;">中兴（ZTE）星星一号(S2002)</a>
+							<p class=" ai">￥1719.00</p>
+						</div>
+					</li>
+					<li>
+						<div class="">
+							<a href=""><img src="images/601_90x90.jpg" alt=""></a>
+						</div>
+						<div class="info">
+							<a href="javascript:;">中兴（ZTE）星星一号(S2002)</a>
+							<p class=" ai">￥1719.00</p>
+						</div>
+					</li>
+					<li>
+						<div class="">
+							<a href=""><img src="images/601_90x90.jpg" alt=""></a>
+						</div>
+						<div class="info">
+							<a href="javascript:;">中兴（ZTE）星星一号(S2002)</a>
+							<p class=" ai">￥1719.00</p>
+						</div>
+					</li>
+					<li class="last">
+						<div class="">
+							<a href=""><img src="images/601_90x90.jpg" alt=""></a>
+						</div>
+						<div class="info">
+							<a href="javascript:;">中兴（ZTE）星星一号(S2002)</a>
+							<p class=" ai">￥1719.00</p>
+						</div>
+					</li>
+				</ul>
 			</div>
-			<div class="right-col-detail">
-				
+			<div class="right-col-detail fn-left">
+				<ul class="tabs">
+					<li class="selected"><a href="javascript:;">商品详情</a></li>
+					<li><a href="javascript:;">规格参数</a></li>
+					<li><a href="javascript:;">评价</a></li>
+					<li><a href="javascript:;">售后保障</a></li>
+					<li class="fill"><a href="javascript:;"></a></li>
+				</ul>
 			</div>
 		</div>
 
