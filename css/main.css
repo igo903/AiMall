@@ -1150,6 +1150,7 @@ i{font-style: normal;}
 .right-col-detail{
 	width: 946px;
 }
+.right-col-detail .ui-switchable-nav{}
 .right-col-detail .ui-switchable-nav li{
 	height:35px;
 	line-height: 35px;
@@ -1162,6 +1163,7 @@ i{font-style: normal;}
 	float: left;
 	width: 100px;
 	cursor: pointer;
+	position: relative;
 }
 .right-col-detail .ui-switchable-nav .ui-switchable-active{
 	background: #fff;
@@ -1169,8 +1171,14 @@ i{font-style: normal;}
 	color: #ff3300;
 	border-top: 2px solid #ff3300;
 }
-.right-col-detail .ui-switchable-nav li.fill{
+.right-col-detail .ui-switchable-nav .fill{
 	width: 541px;
+	height: 35px;
+	float: left;
+	border-top: 2px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+
 }
 .right-col-detail .ui-switchable-content .ui-switchable-panel{
 	padding: 50px 20px 20px;
