@@ -250,10 +250,10 @@
 					<div class="channel-item">
 						<dl>
 							<dd class="p-img txtcenter">
-								<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+								<a href="phone_detail.php"><img src="images/mobile_xm.jpg" alt=""></a>
 							</dd>
 							<dt class="p-name">
-								<a href="javascript:;">小米 小米4 4G全国套餐合约机</a>
+								<a href="phone_detail.php">小米 小米4 4G全国套餐合约机</a>
 							</dt>
 							<dt class="desc">
 								5英寸高饱和度屏幕 骁龙801四核2.5GHz处

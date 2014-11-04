@@ -31,28 +31,34 @@
 							<a class="saveto" href="javascript:;"><i class="fa fa-star"></i>收藏商品</a>
 						</div>
 						<div class="right-col">
-							<h3>手机电视</h3>
-							<h2>点播、下载、上传视频、还可以实时收看多个电视直播频道</h2>
-							<div class="price row">
-								<span class="de">资 费:</span>
-								<span class="priceNum">￥19</span><span>元/月</span>
+							<h3>苹果(APPLE)5S 16G版 3G手机 WCDMA/GSM</h3>
+							<h4>指纹识别传感器、64位架构的全新A7芯片+M7协处理器</h4>
+							<div class="price row orgin-p">
+									<span class="de">资 费:</span>
+									<span class="priceNum">￥4569</span><span>元</span>
+									<br>
+									<span class="de">原 价:</span>
+									<span class="linethr">￥4999元</span>
 							</div>
 							<div class="row">
 								<span class="de">商品编号:</span>
-								<span>18970000</span>
+								<span>823</span>
 							</div>
 							<div class="row">
-								<span class="de">业务档次:</span>
-								<a href="javascript:;" class="selected">央视直播多频道包月</a>
-								<a href="javascript:;">东方龙直播多频道包月</a>
-								<a href="javascript:;">央广直播多频道包月</a>
-								<a href="javascript:;">无线江苏</a>
+								<span class="de">机身内存:</span>
+								<a href="javascript:;" class="selected">16GB</a>
+								<a href="javascript:;">32GB</a>
+								<a href="javascript:;">64GB</a>
+								<a href="javascript:;">128GB</a>
 							</div>
 							<div class="row">
-								<span class="de">生效方式:</span>
-								<a href="javascript:;" class="selected">立即生效</a>
+								<span class="de">机身颜色:</span>
+								<a href="javascript:;" class="selected">黑色</a>
+								<a href="javascript:;" class="">金色</a>
+								<a href="javascript:;" class="">白色</a>
 							</div>
 							<div class="row gobuy">
+								<a href="javascript:;">加入购物车</a>
 								<a href="javascript:;">立即订购</a>
 							</div>
 						</div>
