@@ -40,3 +40,18 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 	});
 });
 
+
+//jQuery Only
+seajs.use(['jquery'],function($){
+	$(document).ready(function(){
+		$('#ui_gotop').remove();
+		$('<div class="ui_upward_wrapper" id="ui_gotop">'
+			+'<div class="floor one"><a href="javascript:;"></a></div>'
+			+'<div class="floor two"><a href="javascript:;"></a></div>'
+			+'<div class="floor three"><a href="javascript:;"></a></div>'
+			+'<div class="floor four"><a href="javascript:;"></a></div>'
+			+'<div class="floor five"><a href="javascript:;"></a></div>'
+			+'<div class="ui_upward_icon"></div></div>').insertAfter('#footer');
+	});
+});
+

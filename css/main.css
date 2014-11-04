@@ -1462,7 +1462,7 @@ a.btn{
 .ui_upward_wrapper{
 	display: none;
 	position: fixed;
-	left: 0;
+	right: 0;
 	top: 0;
 	z-index: 100;
 	width: 40px;

@@ -76,13 +76,13 @@
 			</div>			
 	</div>
 
-	<div class='ui_upward_wrapper' id='ui_gotop'>
+	<div class="ui_upward_wrapper" id="ui_gotop">
 		<!-- <div class="floor one"><a href="javascript:;"></a></div>
 		<div class="floor two"><a href="javascript:;"></a></div>
 		<div class="floor three"><a href="javascript:;"></a></div>
 		<div class="floor four"><a href="javascript:;"></a></div>
 		<div class="floor five"><a href="javascript:;"></a></div> -->
-		<div class='ui_upward_icon'></div>
+		<div class="ui_upward_icon"></div>
 	</div>
 	<script type="text/javascript" src="js/common.js"></script>
 
