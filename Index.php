@@ -609,7 +609,6 @@
 		</div><!--//accessory-->
 	</div><!--//Ai_Wrap-->
 
-	<script type="text/javascript" src="js/common.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	
 

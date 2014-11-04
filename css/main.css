@@ -1459,6 +1459,45 @@ a.btn{
 	line-height: 22px;
 }
 
+.ui_upward_wrapper{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 40px;
+}
+.ui_upward_wrapper div{
+	width: 40px;
+	height: 40px;
+	background-color: #f5f5f5;
+	border: 1px solid #e8e8e8;
+	margin-top: -1px;
+	cursor: pointer;
+}
+.ui_upward_wrapper .floor.one{background:#f5f5f5 url(../images/floatingmenu_icon.png) no-repeat;}
+.ui_upward_wrapper .floor.two{background:#f5f5f5 url(../images/floatingmenu_icon.png) no-repeat 0px -59px;}
+.ui_upward_wrapper .floor.three{background:#f5f5f5 url(../images/floatingmenu_icon.png) no-repeat 0px -118px;}
+.ui_upward_wrapper .floor.four{background:#f5f5f5 url(../images/floatingmenu_icon.png) no-repeat 0px -177px;}
+.ui_upward_wrapper .floor.five{background:#f5f5f5 url(../images/floatingmenu_icon.png) no-repeat 0px -236px;}
+
+.ui_upward_wrapper .floor.one:hover{background: url(../images/floatingmenu_icon.png) no-repeat -60px 0px;}
+.ui_upward_wrapper .floor.two:hover{background: url(../images/floatingmenu_icon.png) no-repeat -60px -59px;}
+.ui_upward_wrapper .floor.three:hover{background: url(../images/floatingmenu_icon.png) no-repeat -60px -118px;}
+.ui_upward_wrapper .floor.four:hover{background: url(../images/floatingmenu_icon.png) no-repeat -60px -177px;}
+.ui_upward_wrapper .floor.five:hover{background: url(../images/floatingmenu_icon.png) no-repeat -60px -236px;}
+
+.ui_upward_wrapper div.ui_upward_icon{
+	width: 40px;
+	height: 40px;
+	background: #f5f5f5 url(../images/floatingmenu_icon.png) no-repeat 2px -293px;
+}
+.ui_upward_wrapper div.ui_upward_icon:hover{
+	background: #efefef url(../images/floatingmenu_icon.png) no-repeat 2px -293px;
+}
+.ui_upward_wrapper div:hover{
+	background-color: #efefef;
+}
 
 
 
