@@ -1,6 +1,7 @@
 # Xcode
 #
 spm_modules
+.idea
 build/
 *.pbxuser
 !default.pbxuser
