@@ -118,47 +118,125 @@
 			<div class="right-col-detail fn-left" id="details-tab">
 				<div class="details-hd">
 					<ul class="ui-switchable-nav" data-role="nav">
-						<li class="" data-role="trigger">商品详情</li>
-						<li data-role="trigger">规格参数</li>
-						<li data-role="trigger">评价<i>(119条)</i></li>
-						<li data-role="trigger">售后保障</li>
+						<li class="nav1" data-role="trigger">商品详情</li>
+						<li class="nav1" data-role="trigger">规格参数</li>
+						<li class="nav1" data-role="trigger">评价<i>(119条)</i></li>
+						<li class="nav1" data-role="trigger">售后保障</li>
 						<div class="fill"></div>
 					</ul>
 				</div>
 				<div class="ui-switchable-content details-article" data-role="content" id="">
-				    <div data-role="panel">
-				    	<h1>业务介绍</h1>
-						<h2>手机电视是中国联通为您提供的在手机上观看视频节目的业务。</h2>
-						<p>根据播放方式的不同，可以分为：</p>
-						<p>1、点播方式：您可以选择在线或下载收看视频片断，在线观看期间，可以进行播放，暂停，快进，快退，停止等。</p>
-						<p>2、直播方式：您可以实时收看各个电视频道，在观看期间，您只能对节目进行播放和停止操作，不能快进、快退或者拖动。直播形式可实时交互，您可以通过回复数字等方式参与节目互动。</p>
-						</br>
-						<p>根据播放方式的不同，可以分为：</p>
-						<p>1、点播方式：您可以选择在线或下载收看视频片断，在线观看期间，可以进行播放，暂停，快进，快退，停止等。</p>
-						<p>2、直播方式：您可以实时收看各个电视频道，在观看期间，您只能对节目进行播放和停止操作，不能快进、快退或者拖动。直播形式可实时交互，您可以通过回复数字等方式参与节目互动。</p>
+				    <div data-role="panel" class="tab-panel">
+				    	<div class="fill">
+				    		<h1>业务介绍</h1>
+							<h2>手机电视是中国联通为您提供的在手机上观看视频节目的业务。</h2>
+							<p>根据播放方式的不同，可以分为：</p>
+							<p>1、点播方式：您可以选择在线或下载收看视频片断，在线观看期间，可以进行播放，暂停，快进，快退，停止等。</p>
+							<p>2、直播方式：您可以实时收看各个电视频道，在观看期间，您只能对节目进行播放和停止操作，不能快进、快退或者拖动。直播形式可实时交互，您可以通过回复数字等方式参与节目互动。</p>
+							</br>
+							<p>根据播放方式的不同，可以分为：</p>
+							<p>1、点播方式：您可以选择在线或下载收看视频片断，在线观看期间，可以进行播放，暂停，快进，快退，停止等。</p>
+							<p>2、直播方式：您可以实时收看各个电视频道，在观看期间，您只能对节目进行播放和停止操作，不能快进、快退或者拖动。直播形式可实时交互，您可以通过回复数字等方式参与节目互动。</p>
+					    </div>				 
+				    </div>
+				    <div class="fn-hide tab-panel" data-role="panel">
+				    	<p>这里是参数</p>
+				    </div>
+				    <div class="fn-hide tab-panel" data-role="panel">
+				    	<div class="details-comment">
+				    		<div class="mt">
+				    			<h2>商品评价</h2>
+				    		</div>
+				    		<div class="mc">
+					    		<div class="rate">
+	                                <strong>95<span>%</span></strong>
+	                                <br> 
+	                                <span>好评度</span>    
+	                            </div>
+	                            <div class="percent">
+		                            <dl>             
+	                                    <dt>好评<span>(95%)</span></dt>             
+	                                    <dd> <div style="width: 95px;"></div></dd>        
+	                                </dl> 
+                                    <dl>             
+                                        <dt>好评<span>(50%)</span></dt>             
+                                        <dd> <div style="width: 50px;"></div></dd>        
+                                    </dl>
+                                    <dl>             
+                                        <dt>好评<span>(10%)</span></dt>             
+                                        <dd> <div style="width: 10px;"></div></dd>        
+                                    </dl>
+                                </div>
+                                <div class="actor-new">
+	                                <dl>            
+	                                    <dt>小伙伴是这样觉得的：</dt>            
+	                                    <dd >
+	                                        <q class="comm-tags"><span>外观漂亮</span><em>(3381)</em></q>
+	                                        <q class="comm-tags"><span>系统流畅</span><em>(3062)</em></q>
+	                                        <q class="comm-tags"><span>反应快</span><em>(2469)</em></q>
+	                                        <q class="comm-tags"><span>功能齐全</span><em>(2395)</em></q>
+	                                        <q class="comm-tags"><span>照相不错</span><em>(2269)</em></q>
+	                                        <q class="comm-tags"><span>分辨率高</span><em>(2136)</em></q>
+	                                        <q class="comm-tags"><span>通话质量好</span><em>(1848)</em></q>
+	                                        <q class="comm-tags"><span>音质好</span><em>(1734)</em></q>
+	                                        <q class="comm-tags"><span>性价比高</span><em>(1481)</em></q>
+	                                        <q class="comm-tags"><span>信号稳定</span><em>(1441)</em></q>              
+	                                    </dd>              
+	                                </dl>
+                               </div>
+                           </div>
+				    	</div>
+
+
+
+
+
+				    	<div class="right-col-detail fn-left" id="comment-tab">
+               				<div class="details-hd">
+               					<ul class="ui-switchable-nav" data-role="nav">
+               						<li class="nav2" data-role="trigger">全部评价(14)</li>
+               						<li class="nav2" data-role="trigger">好评(14)</li>
+               						<li class="nav2" data-role="trigger">中评(14)</li>
+               						<li class="nav2" data-role="trigger">差评(14)</li>
+               						<div class="fill"></div>
+               					</ul>
+               				</div>
+               				<div class="ui-switchable-content comment-article" data-role="content" id="">
+               				    <div data-role="panel" class="comment-a-panel">
+               				    	wwwereerer				 
+               				    </div>
+               				    <div class="fn-hide comment-a-panel" data-role="panel">
+               				    	<p>ssssssss</p>
+               				    </div>
+               				    <div class="fn-hide comment-a-panel" data-role="panel">
+               				    	ttttttttt
+               				    </div>
+               				    <div class="fn-hide comment-a-panel" data-role="panel">
+               				    	<p>rerererer</p>
+               				    </div>
+               				</div>
+               			</div>
+
+
+				    	
+
+
+
+			    		
+
+
+
+
+
+
+
+				    
 
 				    </div>
-				    <div class="fn-hide" data-role="panel">
-				    	<p>这里是规格参数</p>
-				    </div>
-				    <div class="fn-hide" data-role="panel">
-				    	<p>这里是评价</p>
-				    </div>
-				    <div class="fn-hide" data-role="panel">
+				    <div class="fn-hide tab-panel" data-role="panel">
 				    	<p>这里是售后保障</p>
 				    </div>
 				</div>
-				
-
-
-
-
-
-				
-
-
-
-
 			</div>
 		</div>
 

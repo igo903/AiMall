@@ -13,10 +13,18 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 	
 	var sideTabB = new Slide({
 	    element: '#details-tab',
-	    triggers: '#details-tab .ui-switchable-nav li',
-	    panels: '#details-tab .ui-switchable-content > div',
+	    triggers: '#details-tab .ui-switchable-nav li.nav1',
+	    panels: '#details-tab .ui-switchable-content .tab-panel',
 	    activeIndex: 0
 	});
 
+	var commentTab = new Slide({
+	    element: '#comment-tab',
+	    triggers: '#comment-tab .ui-switchable-nav li.nav2',
+	    panels: '#comment-tab .ui-switchable-content .comment-a-panel',
+	    activeIndex: 0
+	});
+
+	
 });
 
