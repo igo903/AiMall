@@ -137,10 +137,48 @@
 							<p>根据播放方式的不同，可以分为：</p>
 							<p>1、点播方式：您可以选择在线或下载收看视频片断，在线观看期间，可以进行播放，暂停，快进，快退，停止等。</p>
 							<p>2、直播方式：您可以实时收看各个电视频道，在观看期间，您只能对节目进行播放和停止操作，不能快进、快退或者拖动。直播形式可实时交互，您可以通过回复数字等方式参与节目互动。</p>
+							<p class="img-center"><img src="images/panel01.jpg"></p>
+							<p class="img-center"><img src="images/panel02.jpg"></p>
+							<p class="img-center"><img src="images/panel03.jpg"></p>
+							<p class="img-center"><img src="images/panel04.jpg"></p>
+
 					    </div>				 
 				    </div>
 				    <div class="fn-hide tab-panel" data-role="panel">
-				    	<p>这里是参数</p>
+				    	<table width="100%" border="0" cellspacing="1" cellpadding="0" class="ptable">
+	                        <tr>
+	                            <th class="tdtitle" colspan="2">主体</th>
+	                        </tr>
+	                        <tr></tr>
+	                        <tr>
+	                            <td class="tdtitle">品牌</td>
+	                            <td>索尼（SONY）</td>
+	                        </tr>
+	                        <tr>
+	                            <td class="tdtitle">品牌</td>
+	                            <td>索尼（SONY）</td>
+	                        </tr>
+	                        <tr>
+	                            <td class="tdtitle">品牌</td>
+	                            <td>索尼（SONY）</td>
+	                        </tr>
+	                        <tr>
+	                            <th class="tdtitle" colspan="2">主体</th>
+	                        </tr>
+	                        <tr></tr>
+	                        <tr>
+	                            <td class="tdtitle">品牌</td>
+	                            <td>索尼（SONY）</td>
+	                        </tr>
+	                        <tr>
+	                            <td class="tdtitle">品牌</td>
+	                            <td>索尼（SONY）</td>
+	                        </tr>
+	                        <tr>
+	                            <td class="tdtitle">品牌</td>
+	                            <td>索尼（SONY）</td>
+	                        </tr>
+                        </table>
 				    </div>
 				    <div class="fn-hide tab-panel" data-role="panel">
 				    	<div class="details-comment">
@@ -186,11 +224,6 @@
                                </div>
                            </div>
 				    	</div>
-
-
-
-
-
 				    	<div class="" id="comment-tab">
                				<div class="details-hd details-ul">
                					<ul class="ui-switchable-nav" data-role="nav">
@@ -454,22 +487,6 @@
                				    </div>
                				</div>
                			</div>
-
-
-				    	
-
-
-
-			    		
-
-
-
-
-
-
-
-				    
-
 				    </div>
 				    <div class="fn-hide tab-panel" data-role="panel">
 				    	<p>这里是售后保障</p>
