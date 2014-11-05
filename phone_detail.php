@@ -191,28 +191,266 @@
 
 
 
-				    	<div class="right-col-detail fn-left" id="comment-tab">
-               				<div class="details-hd">
+				    	<div class="" id="comment-tab">
+               				<div class="details-hd details-ul">
                					<ul class="ui-switchable-nav" data-role="nav">
-               						<li class="nav2" data-role="trigger">全部评价(14)</li>
-               						<li class="nav2" data-role="trigger">好评(14)</li>
-               						<li class="nav2" data-role="trigger">中评(14)</li>
-               						<li class="nav2" data-role="trigger">差评(14)</li>
-               						<div class="fill"></div>
+               						<li class="nav2" data-role="trigger">全部评价<i>(14)</i></li>
+               						<li class="nav2" data-role="trigger">好评<i>(14)</i></li>
+               						<li class="nav2" data-role="trigger">中评<i>(14)</i></li>
+               						<li class="nav2" data-role="trigger">差评<i>(14)</i></li>
+               						<div class="fill2"></div>
                					</ul>
                				</div>
                				<div class="ui-switchable-content comment-article" data-role="content" id="">
                				    <div data-role="panel" class="comment-a-panel">
-               				    	wwwereerer				 
+
+               				    	<div class="i-item">
+	               				    	<div class="score">
+	                                        <div class="i-stars">
+	                                            <div class="i-left">评分：</div>
+	                                            <div class="i-right"><div class="stars01"></div></div>
+	                                        </div>
+	                                        <div class="i-evaluation">
+	                                            <div class="i-left">内容：</div>
+	                                            <div class="i-right">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</div>
+	                                        </div>
+	                                        <div class="i-time">2014-10-10 13:13</div>
+	                                    </div>
+		                                <div class="product">
+		                                	<dl>颜色：<span>黑色</span></dl>
+		                                	<br />
+		                                	<dl>内存：<span>8G</span></dl>
+		                                </div>
+		                                <div class="i-user">用户</div>
+               				    	</div>
+
+               				    	<div class="i-item">
+	               				    	<div class="score">
+	                                        <div class="i-stars">
+	                                            <div class="i-left">评分：</div>
+	                                            <div class="i-right"><div class="stars02"></div></div>
+	                                        </div>
+	                                        <div class="i-evaluation">
+	                                            <div class="i-left">内容：</div>
+	                                            <div class="i-right">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</div>
+	                                        </div>
+	                                        <div class="i-time">2014-10-10 13:13</div>
+	                                    </div>
+		                                <div class="product">
+		                                	<dl>颜色：<span>黑色</span></dl>
+		                                	<br />
+		                                	<dl>内存：<span>8G</span></dl>
+		                                </div>
+		                                <div class="i-user">用户</div>
+               				    	</div>
+
+               				    	<div class="i-item">
+	               				    	<div class="score">
+	                                        <div class="i-stars">
+	                                            <div class="i-left">评分：</div>
+	                                            <div class="i-right"><div class="stars03"></div></div>
+	                                        </div>
+	                                        <div class="i-evaluation">
+	                                            <div class="i-left">内容：</div>
+	                                            <div class="i-right">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</div>
+	                                        </div>
+	                                        <div class="i-time">2014-10-10 13:13</div>
+	                                    </div>
+		                                <div class="product">
+		                                	<dl>颜色：<span>黑色</span></dl>
+		                                	<br />
+		                                	<dl>内存：<span>8G</span></dl>
+		                                </div>
+		                                <div class="i-user">用户</div>
+               				    	</div>
+
+               				    	<div class="i-item">
+	               				    	<div class="score">
+	                                        <div class="i-stars">
+	                                            <div class="i-left">评分：</div>
+	                                            <div class="i-right"><div class="stars04"></div></div>
+	                                        </div>
+	                                        <div class="i-evaluation">
+	                                            <div class="i-left">内容：</div>
+	                                            <div class="i-right">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</div>
+	                                        </div>
+	                                        <div class="i-time">2014-10-10 13:13</div>
+	                                    </div>
+		                                <div class="product">
+		                                	<dl>颜色：<span>黑色</span></dl>
+		                                	<br />
+		                                	<dl>内存：<span>8G</span></dl>
+		                                </div>
+		                                <div class="i-user">用户</div>
+               				    	</div>
+
+               				    	<div class="i-item">
+	               				    	<div class="score">
+	                                        <div class="i-stars">
+	                                            <div class="i-left">评分：</div>
+	                                            <div class="i-right"><div class="stars05"></div></div>
+	                                        </div>
+	                                        <div class="i-evaluation">
+	                                            <div class="i-left">内容：</div>
+	                                            <div class="i-right">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</div>
+	                                        </div>
+	                                        <div class="i-time">2014-10-10 13:13</div>
+	                                    </div>
+		                                <div class="product">
+		                                	<dl>颜色：<span>黑色</span></dl>
+		                                	<br />
+		                                	<dl>内存：<span>8G</span></dl>
+		                                </div>
+		                                <div class="i-user">用户</div>
+               				    	</div>
+
+               				    	<div class="ui-paging row fn-right">
+									    <a href="#" class="ui-paging-prev">
+									        <i class="iconfont" title="左三角形">&#xF039;</i> 上一页
+									    </a>
+									    <a href="#" class="ui-paging-item">1</a>
+									    <a href="#" class="ui-paging-item ui-paging-current">2</a>
+									    <a href="#" class="ui-paging-item">3</a>
+									    <a href="#" class="ui-paging-item">4</a>
+									    <a href="#" class="ui-paging-item">5</a>
+									    <a href="#" class="ui-paging-item">6</a>
+									    <a href="#" class="ui-paging-item">7</a>
+									    <span class="ui-paging-ellipsis">...</span>
+									    <a href="#" class="ui-paging-item">24</a>
+									    <a href="#" class="ui-paging-next">
+									        下一页 <i class="iconfont" title="右三角形">&#xF03A;</i>
+									    </a>
+									    <span class="ui-paging-info"><span class="ui-paging-bold">5/7</span>页</span>
+									    <span class="ui-paging-which"><input name="some_name" value="6" type="text"></span>
+									    <a class="ui-paging-info ui-paging-goto" href="#">跳转</a>
+									</div>
+
+								</div>
+               				    <div class="fn-hide comment-a-panel" data-role="panel">
+               				    	<div class="i-item">
+	               				    	<div class="score">
+	                                        <div class="i-stars">
+	                                            <div class="i-left">评分：</div>
+	                                            <div class="i-right"><div class="stars01"></div></div>
+	                                        </div>
+	                                        <div class="i-evaluation">
+	                                            <div class="i-left">内容：</div>
+	                                            <div class="i-right">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</div>
+	                                        </div>
+	                                        <div class="i-time">2014-10-10 13:13</div>
+	                                    </div>
+		                                <div class="product">
+		                                	<dl>颜色：<span>黑色</span></dl>
+		                                	<br />
+		                                	<dl>内存：<span>8G</span></dl>
+		                                </div>
+		                                <div class="i-user">用户</div>
+               				    	</div>
+
+               				    	<div class="ui-paging row fn-right">
+									    <a href="#" class="ui-paging-prev">
+									        <i class="iconfont" title="左三角形">&#xF039;</i> 上一页
+									    </a>
+									    <a href="#" class="ui-paging-item">1</a>
+									    <a href="#" class="ui-paging-item ui-paging-current">2</a>
+									    <a href="#" class="ui-paging-item">3</a>
+									    <a href="#" class="ui-paging-item">4</a>
+									    <a href="#" class="ui-paging-item">5</a>
+									    <a href="#" class="ui-paging-item">6</a>
+									    <a href="#" class="ui-paging-item">7</a>
+									    <span class="ui-paging-ellipsis">...</span>
+									    <a href="#" class="ui-paging-item">24</a>
+									    <a href="#" class="ui-paging-next">
+									        下一页 <i class="iconfont" title="右三角形">&#xF03A;</i>
+									    </a>
+									    <span class="ui-paging-info"><span class="ui-paging-bold">5/7</span>页</span>
+									    <span class="ui-paging-which"><input name="some_name" value="6" type="text"></span>
+									    <a class="ui-paging-info ui-paging-goto" href="#">跳转</a>
+									</div>
                				    </div>
                				    <div class="fn-hide comment-a-panel" data-role="panel">
-               				    	<p>ssssssss</p>
+               				    	<div class="i-item">
+	               				    	<div class="score">
+	                                        <div class="i-stars">
+	                                            <div class="i-left">评分：</div>
+	                                            <div class="i-right"><div class="stars02"></div></div>
+	                                        </div>
+	                                        <div class="i-evaluation">
+	                                            <div class="i-left">内容：</div>
+	                                            <div class="i-right">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</div>
+	                                        </div>
+	                                        <div class="i-time">2014-10-10 13:13</div>
+	                                    </div>
+		                                <div class="product">
+		                                	<dl>颜色：<span>黑色</span></dl>
+		                                	<br />
+		                                	<dl>内存：<span>8G</span></dl>
+		                                </div>
+		                                <div class="i-user">用户</div>
+               				    	</div>
+
+               				    	<div class="ui-paging row fn-right">
+									    <a href="#" class="ui-paging-prev">
+									        <i class="iconfont" title="左三角形">&#xF039;</i> 上一页
+									    </a>
+									    <a href="#" class="ui-paging-item">1</a>
+									    <a href="#" class="ui-paging-item ui-paging-current">2</a>
+									    <a href="#" class="ui-paging-item">3</a>
+									    <a href="#" class="ui-paging-item">4</a>
+									    <a href="#" class="ui-paging-item">5</a>
+									    <a href="#" class="ui-paging-item">6</a>
+									    <a href="#" class="ui-paging-item">7</a>
+									    <span class="ui-paging-ellipsis">...</span>
+									    <a href="#" class="ui-paging-item">24</a>
+									    <a href="#" class="ui-paging-next">
+									        下一页 <i class="iconfont" title="右三角形">&#xF03A;</i>
+									    </a>
+									    <span class="ui-paging-info"><span class="ui-paging-bold">5/7</span>页</span>
+									    <span class="ui-paging-which"><input name="some_name" value="6" type="text"></span>
+									    <a class="ui-paging-info ui-paging-goto" href="#">跳转</a>
+									</div>
                				    </div>
                				    <div class="fn-hide comment-a-panel" data-role="panel">
-               				    	ttttttttt
-               				    </div>
-               				    <div class="fn-hide comment-a-panel" data-role="panel">
-               				    	<p>rerererer</p>
+               				    	<div class="i-item">
+	               				    	<div class="score">
+	                                        <div class="i-stars">
+	                                            <div class="i-left">评分：</div>
+	                                            <div class="i-right"><div class="stars03"></div></div>
+	                                        </div>
+	                                        <div class="i-evaluation">
+	                                            <div class="i-left">内容：</div>
+	                                            <div class="i-right">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</div>
+	                                        </div>
+	                                        <div class="i-time">2014-10-10 13:13</div>
+	                                    </div>
+		                                <div class="product">
+		                                	<dl>颜色：<span>黑色</span></dl>
+		                                	<br />
+		                                	<dl>内存：<span>8G</span></dl>
+		                                </div>
+		                                <div class="i-user">用户</div>
+               				    	</div>
+
+               				    	<div class="ui-paging row fn-right">
+									    <a href="#" class="ui-paging-prev">
+									        <i class="iconfont" title="左三角形">&#xF039;</i> 上一页
+									    </a>
+									    <a href="#" class="ui-paging-item">1</a>
+									    <a href="#" class="ui-paging-item ui-paging-current">2</a>
+									    <a href="#" class="ui-paging-item">3</a>
+									    <a href="#" class="ui-paging-item">4</a>
+									    <a href="#" class="ui-paging-item">5</a>
+									    <a href="#" class="ui-paging-item">6</a>
+									    <a href="#" class="ui-paging-item">7</a>
+									    <span class="ui-paging-ellipsis">...</span>
+									    <a href="#" class="ui-paging-item">24</a>
+									    <a href="#" class="ui-paging-next">
+									        下一页 <i class="iconfont" title="右三角形">&#xF03A;</i>
+									    </a>
+									    <span class="ui-paging-info"><span class="ui-paging-bold">5/7</span>页</span>
+									    <span class="ui-paging-which"><input name="some_name" value="6" type="text"></span>
+									    <a class="ui-paging-info ui-paging-goto" href="#">跳转</a>
+									</div>
                				    </div>
                				</div>
                			</div>
@@ -250,5 +488,6 @@
 	</div><!--//Ai_Wrap-->
 
 	<script type="text/javascript" src="js/details.js"></script>
+	<link rel="stylesheet" href="spm_modules/alice-paging/1.1.0/paging.css">
 	<?php include("footer.php"); ?>
 
