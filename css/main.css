@@ -977,10 +977,10 @@ i{font-style: normal;}
 }
 
 
-.filter-panel, .direct-buy{
+.filter-panel, .direct-buy, .management-panel{
 	margin-top: 10px;
 }
-.filter-panel .bread-nav, .direct-buy .bread-nav{
+.filter-panel .bread-nav, .direct-buy .bread-nav, .management-panel .bread-nav{
 	height: 30px;
 	line-height: 30px;
 }
@@ -990,7 +990,7 @@ i{font-style: normal;}
 	height: 40px;
 	padding: 0 20px;
 }
-.filter-panel .content, .direct-buy .content{
+.filter-panel .content, .direct-buy .content, .management-panel .content{
 	border: 1px solid #e8e8e8;
 	border-top: 2px solid #ff3300;
 }
@@ -1710,13 +1710,75 @@ a.btn{
 
 
 
-
-
-
-
-
-
-
+.management-panel .left-col{
+	position: relative;
+	width: 182px;
+	float: left;
+	background: #f9f9f9
+}
+.management-panel .my-user{ 
+	width:165px; 
+	height:107px; 
+	padding:20px 0 0 15px; 
+	overflow:hidden; 
+	color:#424242; 
+	border-right:2px solid #eee;
+}
+.management-panel .my-img{ 
+	width:78px; 
+	height:78px; 
+	border:1px solid #e1e1e1; 
+	float:left; 
+	margin-right:10px;
+}
+.management-panel .my-name{ 
+	width:74px; 
+	margin-top:20px;
+	float:left;}
+.management-panel .my-name2{
+	margin-top:15px;
+}
+.management-panel .my-title{
+	background: url("../images/my-bd.jpg");
+	height: 40px;
+}
+.management-panel .my-link li { 
+	width:140px; 
+	height:33px; 
+	line-height:33px; 
+	border-top:1px solid #fff; 
+	padding-left:40px; 
+	border-bottom:1px solid #eee;
+	cursor:pointer; 
+	list-style:none; 
+	color:#b7b7b7;
+	border-right:2px solid #eee; 
+	position:relative;
+}
+.management-panel .my-link li a{ 
+	display:block; 
+	width:140px; 
+	height:33px;
+	color:#b7b7b7;
+}
+.management-panel .my-link li a:hover{ 
+	color:#000
+}
+.myicon001,.myicon002,.myicon003,.myicon004,.myicon005,.myicon006,.myicon007{ 
+	position:absolute; 
+	left:15px; 
+	top:12px; 
+	width:18px; 
+	height:15px; 
+	background:url(../images/my-icon.png) no-repeat 0 0;
+}
+.myicon001{ background-position: 0 0;}
+.myicon002{ background-position: 0 -25px;}
+.myicon003{ background-position: 0 -49px;}
+.myicon004{ background-position: 0 -73px;}
+.myicon005{ background-position: 0 -98px;}
+.myicon006{ background-position: 0 -121px;}
+.myicon007{ background-position: 0 -145px;}
 
 
 
