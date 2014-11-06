@@ -24,9 +24,20 @@
 						<span>创新产品</span>
 					</div>
 					<div class="content fn-clear">
-						<div class="left-col">
-							<div class="snap-img">
-								<img src="images/mob_music.png" alt="">
+						<div class="left-col prd">
+							<div class="magnifier">
+								<img src="images/phone-direct.jpg" alt="">
+							</div>
+							<div class="magnifier-small">
+								<div class="smallimg">
+									<ul>
+										<li><img src="images/phone-direct-small.jpg" alt=""></li>
+										<li><img src="images/phone-direct-small2.jpg" alt=""></li>
+										<li><img src="images/phone-direct-small3.jpg" alt=""></li>
+										<li><img src="images/phone-direct-small4.jpg" alt=""></li>
+										<li><img src="images/phone-direct-small2.jpg" alt=""></li>
+									</ul>
+								</div>
 							</div>
 							<a class="saveto" href="javascript:;"><i class="fa fa-star"></i>收藏商品</a>
 						</div>

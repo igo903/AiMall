@@ -1040,6 +1040,62 @@ i{font-style: normal;}
 .filter-panel .row:last-child, .filter-panel .row.last{
 	border: none;
 }
+
+.direct-buy .magnifier{
+	width: 338px;
+	height: 348px;
+	margin: 20px 0 0 0;
+	text-align: center;
+	border:1px solid #eee;
+}
+.direct-buy .magnifier img{
+	width: 320px;
+	height: 320px;
+}
+.direct-buy .magnifier-small { 
+	height: 80px; 
+	margin: 0 0px;
+	position: relative;
+	border:1px solid #eee; 
+	border-top: 0px;
+	width: 338px;
+}
+
+.direct-buy .magnifier-small .smallimg{ 
+	overflow: hidden; 
+	height: 70px;  
+	width:290px; 
+	margin: 0px auto;
+	padding: 10px 0 0 0 ;
+}
+.direct-buy .magnifier-small .smallimg ul {	
+	height: 60px; 
+	display: inline-block; 
+	margin:0px 0; 
+	overflow:hidden;
+	border-right: 1px solid #eee;
+}
+.direct-buy .magnifier-small .smallimg li {
+	overflow: hidden; 
+	cursor: pointer;
+	height: 56px;  
+	width: 56px; 
+	vertical-align:bottom; 
+	float: left; 
+	margin: 0 -1px 0 0 ;
+	border: 1px solid #eee;
+	_display: inline}
+.direct-buy .magnifier-small .smallimg li:hover{
+	border: 1px solid #ff5500;
+	border-right: 2px solid #ff5500;
+	height: 56px;  
+	width: 55px; 
+	padding: 0px;
+}
+
+
+
+
 .direct-buy .snap-img img{
 	width: 180px;
 	height: 180px;
@@ -1050,10 +1106,14 @@ i{font-style: normal;}
 	height: 365px;
 	float: left;
 }
+.direct-buy .left-col.prd{
+	height: 520px;
+}
 .direct-buy .left-col .snap-img{
 	position: absolute;
 	top: 30px;
 	left: 80px;
+	
 }
 .direct-buy .left-col .saveto{
 	position: absolute;
