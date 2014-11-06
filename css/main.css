@@ -1716,9 +1716,16 @@ a.btn{
 	float: left;
 	background: #f9f9f9
 }
+.management-panel .right-col{
+	width: 1005px;
+	float: left;
+	padding-bottom: 20px;
+	border:2px solid #eee;
+	margin-left:-3px;
+}
 .management-panel .my-user{ 
 	width:165px; 
-	height:107px; 
+	height:147px; 
 	padding:20px 0 0 15px; 
 	overflow:hidden; 
 	color:#424242; 
@@ -1740,7 +1747,18 @@ a.btn{
 }
 .management-panel .my-title{
 	background: url("../images/my-bd.jpg");
-	height: 40px;
+	width:183px; 
+	height:40px; 
+	font-family:"微软雅黑"; 
+	color:#fff; 
+	font-size:14px; 
+	text-align:center; 
+	line-height:40px; 
+	position: absolute;
+	top:126px; 
+	left:0px;
+	z-index: 2;
+
 }
 .management-panel .my-link li { 
 	width:140px; 
@@ -1764,21 +1782,268 @@ a.btn{
 .management-panel .my-link li a:hover{ 
 	color:#000
 }
-.myicon001,.myicon002,.myicon003,.myicon004,.myicon005,.myicon006,.myicon007{ 
+.management-panel .my-link li.myselected { 
+	color:#b7b7b7; 
+	background:#fff; 
+	border-left:3px solid #f33f00;
+	padding-left:37px; 
+	height:33px; 
+	border-right:0px;
+}
+.myicon01,.myicon02,.myicon03,.myicon04,.myicon05,.myicon06{ 
 	position:absolute; 
 	left:15px; 
 	top:12px; 
 	width:18px; 
 	height:15px; 
-	background:url(../images/my-icon.png) no-repeat 0 0;
+	background: url("../images/my-icon.png") no-repeat 0 0;
 }
-.myicon001{ background-position: 0 0;}
-.myicon002{ background-position: 0 -25px;}
-.myicon003{ background-position: 0 -49px;}
-.myicon004{ background-position: 0 -73px;}
-.myicon005{ background-position: 0 -98px;}
-.myicon006{ background-position: 0 -121px;}
-.myicon007{ background-position: 0 -145px;}
+.myicon01{ background-position: 0 0;}
+.myicon02{ background-position: 0 -25px;}
+.myicon03{ background-position: 0 -49px;}
+.myicon04{ background-position: 0 -73px;}
+.myicon05{ background-position: 0 -98px;}
+.myicon06{ background-position: 0 -145px;}
+
+.management-panel .right-title{
+	 height:36px; 
+	 background-color:#f9f9f9; 
+	 font-size:18px; 
+	 font-family:"微软雅黑"; 
+	 color:#424242; 
+	 padding-left:20px; 
+	 line-height:36px; 
+	 font-weight:bold;
+}
+.management-panel .evaluate{ 
+	margin:25px 0 0 25px;
+}
+.management-panel .evaluate h2{ 
+	font-size:12px; 
+	color:#999;
+}
+.management-panel .evaluate h2 b{ 
+	color:#ff0000;
+}
+.management-panel .writing{ 
+	width:958px; 
+	border:1px solid #e8e8e8; 
+	margin:10px 0 20px 0;
+}
+.management-panel .writing-title{ 
+	height:34px; 
+	border-bottom:1px solid #e8e8e8; 
+	background-color:#f9f9f9;
+}
+.management-panel .writing-title .item-name{ 
+	width:460px; 
+	line-height:34px; 
+	color:#828282; 
+	margin-left:25px;
+	float: left;
+}
+.management-panel .writing-title .item-info{ 
+	width:320px; 
+	line-height:34px;
+	color:#828282;
+	float: left;
+}
+.management-panel .writing-title .item-comm{ 
+	width:150px; 
+	line-height:34px;
+	color:#828282;
+	float: left;
+}
+.management-panel .writing-cont{
+	border-bottom:1px solid #e8e8e8; 
+	overflow:hidden; 
+	padding-bottom:10px;
+}
+.management-panel .writing-cont .item-name{ 
+	width:460px; 
+	margin:20px 0 0 25px;
+	float: left;
+}
+.management-panel .writing-cont .picimg{ 
+	width:58px; 
+	height:58px; 
+	border:1px solid #f2f2f2; 
+	float:left; 
+}
+.management-panel .writing-cont .picname{ 
+	float:left; 
+	color:#4397e3; 
+	margin:18px 0 0 10px;
+}
+.management-panel .writing-cont .item-info{ 
+	width:320px;
+	margin:20px 0 0 0; 
+	color:#828282; 
+	line-height:20px;
+	float: left;
+}
+.management-panel .writing-cont .item-comm{
+ width:150px; 
+ margin:40px 0 0 0;
+ float: left;
+}
+.management-panel .writing-cont .item-comm span{
+	color:#4397e3; 
+}
+
+.management-panel .writing-text{
+	background-color:#f9f9f9;
+	padding:25px; 
+	position:relative;
+}
+.management-panel .writing-text .evaluatesj{ 
+	width:32px; 
+	height:16px; 
+	position:absolute; 
+	top:-16px; 
+	right:120px; 
+	background:url(../images/evaluatesj.jpg) no-repeat 0 0;
+}
+.management-panel .writing-text .item {
+	display: block;
+	margin-bottom: 20px;
+	line-height: 30px; 
+	clear:both; 
+	overflow:hidden;
+}
+.management-panel .writing-text .item em {
+	color: #ff0000; 
+}
+.management-panel .writing-text .item span.label {
+	float: left;
+	height: 18px;
+	line-height: 18px;
+	padding: 6px 0;
+	width: 100px;
+	text-align: right; 
+	color:#999; 
+	margin-right:10px;
+}
+.management-panel .writing-text .item .fl{
+	float: left;
+}
+.management-panel .writing-text .wrapper{
+	height:20px;
+	padding:5px;
+	width:130px;
+}
+.management-panel .writing-text .stara{
+	float:left;
+	width:19px;
+	height:16px;
+	background:url(../images/evaluatestar.png) 0 -16px no-repeat; 
+	margin-right:7px;
+}
+.management-panel .writing-text .tips-list {
+	display: block;
+	width: 700px; 
+	overflow:hidden; 
+	border-bottom:1px dashed #e8e8e8; 
+	padding-bottom:10px;
+}
+.management-panel .writing-text .tips-list li {
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+	line-height: 18px;
+	padding: 6px 9px;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+	white-space: nowrap;
+}
+.management-panel .writing-text .tips-list li s.f-check {
+	display: inline-block;
+	vertical-align: middle;
+	width: 13px;
+	height: 13px;
+	overflow: hidden;
+	background: url(../images/cicon.png) -15px 0;
+	margin-right: 5px;
+}
+.management-panel .writing-text .tips-list li.select {
+	padding: 5px 8px;
+	border: 2px solid #ff5500;
+}
+.management-panel .writing-text .tips-list li.select s.f-check {
+	background-position: 0px 0;
+}
+.management-panel .writing-text .custom{  
+	border-bottom:1px dashed #e8e8e8; 
+	padding:10px 0; 
+	overflow:hidden;
+}
+.management-panel .writing-text .custom span{ 
+	margin-right:10px; 
+	color:#999;float:left;
+}
+.management-panel .writing-text .custominput{ 
+	border:1px solid #d8d8d8; 
+	height:26px;
+	float:left; 
+	padding-left:10px; 
+	color:#ccc;
+}
+.management-panel .writing-text .custom a{ 
+	width:38px; 
+	height:26px;
+	line-height: 26px; 
+	background-color:#e8e8e8;
+	border:1px solid #d8d8d8; 
+	border-left:0px; 
+	color:#666; 
+	display:block; 
+	float:left; 
+	text-align:center;
+}
+.management-panel .writing-text .item-cont {
+	float: left;
+	width: 650px;
+}
+.management-panel .writing-text .item-cont .area {
+	width: 650px;
+	height: 88px; 
+	padding:5px; 
+	color:#ccc;
+}
+.management-panel .writing-text .item-cont .msg-text {
+	float: right; 
+	color:#999;
+}
+.management-panel .writing-text .item-text{ 
+	color:#666;
+}
+
+.management-panel .writing-text .commstar {
+	width: 141px;
+	height: 20px;
+	background:url("../images/evaluate.png") no-repeat 0 0px ;
+	margin-top: 5px;
+	display: inline-block;
+	overflow: hidden;
+	zoom: 1; 
+	display:block;
+}
+.management-panel .writing-text .commstar1{ width:29px;height: 20px;background:url("../images/evaluate.png") no-repeat -141px 0px ;}
+.management-panel .writing-text .commstar2{ width:57px;height: 20px;background:url("../images/evaluate.png") no-repeat -141px 0px ;}
+.management-panel .writing-text .commstar3{ width:85px;height: 20px;background:url("../images/evaluate.png") no-repeat -141px 0px ;}
+.management-panel .writing-text .commstar4{ width:112px;height: 20px;background:url("../images/evaluate.png") no-repeat -141px 0px ;}
+.management-panel .writing-text .commstar5{ width:140px;height: 20px;background:url("../images/evaluate.png") no-repeat -141px 0px ;}
+
+
+
+
+
+
+
+
+
+
 
 
 
