@@ -2027,6 +2027,75 @@ a.btn{
 
 
 
+.cart-success{ 
+	margin-top:20px; 
+	height:100px; 
+	padding:70px 0 0 500px ;
+	position: relative;
+}
+.cart-success .cart-ok{
+	position: absolute;
+	left: 350px;
+	top: 50px;
+	width: 125px;
+	height: 76px;
+	background: url("../images/yun.jpg") no-repeat;
+}
+.cart-success span{ 
+	font-size:18px; 
+	font-weight:bold; 
+	color:#35a539; 
+	display:block; 
+	float:left; 
+	margin-right:20px; 
+	line-height:40px;
+}
+.hoticon h3{ 
+	background: url("../images/hot.jpg") no-repeat 10px 10px #f8f8f8;
+    padding-left: 30px;
+}
+
+.mycartbox{
+	overflow: hidden;
+}
+
+.mycartbox .mycart-title{ 
+	margin-top:25px; 
+	overflow:hidden; 
+	line-height:30px;
+}
+.mycartbox .mycart-title .fl{ 
+	font-size:18px; 
+	font-weight:bold; 
+	float: left;
+}
+.mycartbox .mycart-title .fr{ 
+	float: right;
+}
+.mycartbox .mycart-title .fr a{ 
+	background-color: #ff5500;
+	text-align: center;
+	color: #fff;
+	padding: 20px 20px;
+	margin: 0 10px;
+}
+.mycartbox .mycart-content{
+ min-height:150px;  
+ margin-top:15px; 
+ position:relative; 
+ float:left; 
+ clear:both; 
+ width:1188px; 
+ margin-bottom:20px;
+ border-top:2px solid #f33f00; 
+ border-left:1px solid #eee;
+ border-right:1px solid #eee;
+ border-bottom:1px solid #eee;
+}
+.mycartbox .mycart-content .message{ height:130px; background:url(../images/cart.png) no-repeat 300px 40px ; padding:70px 0 0 500px; line-height:30px;}
+.mycartbox .mycart-content .message a{ color:#F00; text-decoration:underline;}
+.mycartbox .mycart-content .mycart-ok-bd{ background:url(../images/yun.jpg) no-repeat 330px 40px; min-height:130px; padding:45px 0 0 480px;}
+
 
 
 

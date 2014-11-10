@@ -269,7 +269,7 @@
 								<a href="javascript:;"><img src="images/mobile_xlj.jpg" alt=""></a>
 							</dd>
 							<dt class="p-name">
-								<a href="javascript:;">小辣椒 LA5-W 默认开通炫铃升级版</a>
+								<a href="management-comment.php">小辣椒 LA5-W 默认开通炫铃升级版</a>
 							</dt>
 							<dt class="desc">
 								全球首款5.5英寸 八核双4G手机
