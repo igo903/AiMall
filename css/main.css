@@ -1042,13 +1042,13 @@ i{font-style: normal;}
 }
 
 .direct-buy .magnifier{
-	width: 338px;
-	height: 348px;
-	margin: 20px 0 0 0;
+	width: 320px;
+	height: 320px;
+	margin: 10px;
 	text-align: center;
 	border:1px solid #eee;
 }
-.direct-buy .magnifier img{
+.direct-buy .magnifier img.small{
 	width: 320px;
 	height: 320px;
 }
@@ -1056,9 +1056,10 @@ i{font-style: normal;}
 	height: 80px; 
 	margin: 0 0px;
 	position: relative;
-	border:1px solid #eee; 
-	border-top: 0px;
+	/*border:1px solid #eee; 
 	width: 338px;
+	border-top: 0px;*/
+	
 }
 
 .direct-buy .magnifier-small .smallimg{ 
@@ -1066,7 +1067,7 @@ i{font-style: normal;}
 	height: 70px;  
 	width:290px; 
 	margin: 0px auto;
-	padding: 10px 0 0 0 ;
+	/*padding: 10px 0 0 0 ;*/
 }
 .direct-buy .magnifier-small .smallimg ul {	
 	height: 60px; 

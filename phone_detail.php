@@ -27,7 +27,7 @@
 						<div class="left-col prd">
 							<div class="magnifier easyzoom">
 								<a href="images/phone-direct-large.jpg">
-									<img src="images/phone-direct-large.jpg" alt="">
+									<img class="small" src="images/phone-direct.jpg" alt="">
 								</a>
 							</div>
 							<div class="magnifier-small">
