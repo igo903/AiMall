@@ -1063,18 +1063,19 @@ i{font-style: normal;}
 }
 
 .direct-buy .magnifier-small .smallimg{ 
-	overflow: hidden; 
 	height: 70px;  
-	width:290px; 
+	/*width:290px; 
+	overflow: hidden;
 	margin: 0px auto;
-	/*padding: 10px 0 0 0 ;*/
+	padding: 10px 0 0 0 ;*/
 }
 .direct-buy .magnifier-small .smallimg ul {	
-	height: 60px; 
+	/*height: 60px; 
 	display: inline-block; 
 	margin:0px 0; 
 	overflow:hidden;
-	border-right: 1px solid #eee;
+	border-right: 1px solid #eee;*/
+	margin: 0px 0px 0px 28px;
 }
 .direct-buy .magnifier-small .smallimg li {
 	overflow: hidden; 
@@ -1082,16 +1083,22 @@ i{font-style: normal;}
 	height: 56px;  
 	width: 56px; 
 	vertical-align:bottom; 
-	float: left; 
-	margin: 0 -1px 0 0 ;
 	border: 1px solid #eee;
-	_display: inline}
+	/*_display: inline;*/
+
+	float:left;
+	position:relative;
+	z-index:1;
+	margin-left:-1px
+}
 .direct-buy .magnifier-small .smallimg li:hover{
-	border: 1px solid #ff5500;
-	border-right: 2px solid #ff5500;
+	border:1px solid #f40;
+	z-index:10;
+
+	/*border-right: 2px solid #ff5500;
 	height: 56px;  
 	width: 55px; 
-	padding: 0px;
+	padding: 0px;*/
 }
 
 
