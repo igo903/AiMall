@@ -19,7 +19,7 @@
 }
 
 .easyzoom.is-ready img {
-	cursor: crosshair;
+	cursor: move;
 }
 
 .easyzoom.is-error  img {
@@ -43,7 +43,12 @@
 	position:absolute;
 	z-index: 100;
 	overflow: hidden;
-	background: #FFF;
+	background: #000;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	border: 1px solid #efefef;
+	margin-left: 20px;
 }
 
 /**

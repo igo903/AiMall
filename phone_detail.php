@@ -25,8 +25,10 @@
 					</div>
 					<div class="content fn-clear">
 						<div class="left-col prd">
-							<div class="magnifier">
-								<img src="images/phone-direct.jpg" alt="">
+							<div class="magnifier easyzoom">
+								<a href="images/phone-direct-large.jpg">
+									<img src="images/phone-direct-large.jpg" alt="">
+								</a>
 							</div>
 							<div class="magnifier-small">
 								<div class="smallimg">
@@ -517,5 +519,6 @@
 
 	<script type="text/javascript" src="js/details.js"></script>
 	<link rel="stylesheet" href="spm_modules/alice-paging/1.1.0/paging.css">
+	<link rel="stylesheet" href="css/easyzoom.css">
 	<?php include("footer.php"); ?>
 

@@ -33,9 +33,12 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 
 
 seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
-	// $(document).ready(function(){
-	// 	alert(9898);
-	// });
+	
+	// Instantiate EasyZoom plugin
+	var $easyzoom = $('.easyzoom').easyZoom();
+
+	// Get the instance API
+	var api = $easyzoom.data('easyZoom');
 
 });
 
