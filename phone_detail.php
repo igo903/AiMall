@@ -33,11 +33,11 @@
 							<div class="magnifier-small">
 								<div class="smallimg">
 									<ul>
-										<li><img src="images/phone-direct-small.jpg" alt=""></li>
-										<li><img src="images/phone-direct-small2.jpg" alt=""></li>
-										<li><img src="images/phone-direct-small3.jpg" alt=""></li>
-										<li><img src="images/phone-direct-small4.jpg" alt=""></li>
-										<li><img src="images/phone-direct-small2.jpg" alt=""></li>
+										<li><img src="images/phone-direct-small.jpg" alt="" data-lg-attr="images/phone-direct-large.jpg" data-mid-attr="images/phone-direct.jpg"></li>
+										<li><img src="images/phone-direct-small2.jpg" alt="" data-lg-attr="images/phone-direct-large01.jpg" data-mid-attr="images/phone-direct01.jpg"></li>
+										<li><img src="images/phone-direct-small3.jpg" alt="" data-lg-attr="images/phone-direct-large02.jpg" data-mid-attr="images/phone-direct02.jpg"></li>
+										<li><img src="images/phone-direct-small4.jpg" alt="" data-lg-attr="images/phone-direct-large03.jpg" data-mid-attr="images/phone-direct03.jpg"></li>
+										<li><img src="images/phone-direct-small2.jpg" alt="" data-lg-attr="images/phone-direct-large.jpg" data-mid-attr="images/phone-direct.jpg"></li>
 									</ul>
 								</div>
 							</div>

@@ -11,8 +11,6 @@ seajs.config({
 })
 
 
-
-
 seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide, $) {
 	
 	var sideTabB = new Slide({
@@ -27,6 +25,21 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 	    triggers: '#comment-tab .ui-switchable-nav li.nav2',
 	    panels: '#comment-tab .ui-switchable-content .comment-a-panel',
 	    activeIndex: 0
+	});
+
+
+	$('.smallimg ul li').hover(function(){
+
+		var lg = $(this).find('img').attr('data-lg-attr');
+		var mid = $(this).find('img').attr('data-mid-attr');
+
+		$('.magnifier').find('a').attr('href',lg);
+		$('.magnifier').find('img').attr('src',mid);
+
+		var $easyzoom = $('.easyzoom').easyZoom();
+		var api = $easyzoom.data('easyZoom');
+
+		//console.log($('.magnifier').find('a').attr('href'));
 	});
 	
 });
