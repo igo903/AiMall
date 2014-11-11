@@ -70,6 +70,15 @@
 								<a href="javascript:;" class="">金色</a>
 								<a href="javascript:;" class="">白色</a>
 							</div>
+							<div class="row">
+								<span class="de">号码归属地:</span>
+								<span>南京市</span>
+								<a href="javascript:;" class="" id="switchCity">切换归属地</a>
+							</div>
+							<div class="row">
+								<span class="de">手机套餐:</span>
+								<a href="javascript:;" class="" id="chooseSuite">选套餐</a>
+							</div>
 							<div class="row gobuy">
 								<a href="javascript:;">加入购物车</a>
 								<a href="javascript:;">立即订购</a>

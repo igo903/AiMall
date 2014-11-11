@@ -27,7 +27,7 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 	    activeIndex: 0
 	});
 
-
+	/*zoom image*/
 	$('.smallimg ul li').hover(function(){
 
 		var lg = $(this).find('img').attr('data-lg-attr');
@@ -35,23 +35,25 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 
 		$('.magnifier').find('a').attr('href',lg);
 		$('.magnifier').find('img').attr('src',mid);
-
-		//var $easyzoom = $('.easyzoom').easyZoom();
-		//var api = $easyzoom.data('easyZoom');
-
-		//console.log($('.magnifier').find('a').attr('href'));
 	});
 	
 });
 
 
+seajs.use(['arale-dialog/1.4.0/dialog-debug','jquery'],function(Dialog,$){
+	new Dialog({
+        trigger: '#switchCity',
+        height: '100px',
+        content: '传入了字符串'
+    });
+});
+
+
+
 seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
-	
 	// Instantiate EasyZoom plugin
 	var $easyzoom = $('.easyzoom').easyZoom();
-
 	// Get the instance API
 	var api = $easyzoom.data('easyZoom');
-
 });
 
