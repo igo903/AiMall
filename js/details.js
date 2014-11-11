@@ -43,8 +43,7 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 seajs.use(['arale-dialog/1.4.0/dialog-debug','jquery'],function(Dialog,$){
 	new Dialog({
         trigger: '#switchCity',
-        height: '100px',
-        content: '传入了字符串'
+        content: $('#switchCityContent')
     });
 });
 

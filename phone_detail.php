@@ -526,6 +526,27 @@
 
 	</div><!--//Ai_Wrap-->
 
+
+	<div id="switchCityContent" class="">
+		<h1>选择归属地</h1>
+		<div class="cities">
+			<ul>
+				<li><a href="javascript:;">南京市</a></li>
+				<li><a href="javascript:;">无锡市</a></li>
+				<li><a href="javascript:;">徐州市</a></li>
+				<li><a href="javascript:;">常州市</a></li>
+				<li><a href="javascript:;">苏州市</a></li>
+				<li><a href="javascript:;">南通市</a></li>
+				<li><a href="javascript:;">连云港市</a></li>
+				<li><a href="javascript:;">淮安市</a></li>
+				<li><a href="javascript:;">盐城市</a></li>
+				<li><a href="javascript:;">扬州市</a></li>
+				<li><a href="javascript:;">镇江市</a></li>
+				<li><a href="javascript:;">泰州市</a></li>
+			</ul>
+		</div> 
+	</div>
+
 	<script type="text/javascript" src="js/details.js"></script>
 	<link rel="stylesheet" href="spm_modules/alice-paging/1.1.0/paging.css">
 	<link rel="stylesheet" href="css/easyzoom.css">
