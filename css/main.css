@@ -2406,23 +2406,25 @@ a.btn{
 	font-weight:bold;
 }
 .belonging  .cities{
-	width: 420px;
-	margin: 25px auto;
+	/*width: 420px;
+	margin: 25px auto;*/
+	margin-top: 10px;
+	margin-left: 15px;
 }
 .belonging  .cities li{
-	width: 68px; 
-	height: 35px;
+	width: 66px; 
+	height: 33px;
 	border: 1px solid #d8d8d8;
 	float: left;
 	margin-left: -1px;
 	margin-top: -1px;
 	text-align: center; 
-	line-height: 35px;
+	line-height: 33px;
 	position: relative;
 }
 .belonging  .cities li:hover{
-	border:2px solid #ff5500; 
-	z-index: 1;
+	border:1px solid #ff5500; 
+	z-index: 10;
 	width: 66px; 
 	height: 33px;
 	line-height: 33px;	
@@ -2580,4 +2582,53 @@ display: block;
 .belonging .gobuy a:hover{
 	text-decoration: none;
 	background-color: #ff3300;
-}	
+}
+
+
+
+
+
+
+#overlay_area {
+	display: none;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+}
+#overlay_area div {
+	background-color: #000000;
+	filter: alpha(opacity=25);
+	opacity: 0.25;
+	width: 100%;
+}
+.overlay_content {
+	background-color: #FFF;
+	left: 300px;
+	position: absolute;
+	top: 70px;
+	width: 500px;
+	z-index: 110;
+	padding: 8px;
+	display: none;
+}
+.overlay_content div.close_overlay a {
+	background: #000 url(/r3/images/SSgA_sprites.png) no-repeat 0px 0px;
+	display: block;
+	height: 24px;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	width: 24px;
+}
+.overlay_content div.white {
+	background: #FFF;
+	/*padding: 20px;
+	width: 400px;*/
+}
+
+
+
+
+

@@ -72,7 +72,7 @@
 							</div>
 							<div class="row">
 								<span class="de">号码归属地:</span>
-								<span class="current-city">南京市</span>
+								<span class="current-city ai">南京市</span>
 								<a href="javascript:;" class="" id="switchCity">切换归属地</a>
 							</div>
 							<div class="row">
@@ -531,29 +531,35 @@
 	</div><!--//Ai_Wrap-->
 
 
-	<div class="fn-hide">
-		<div id="switchCityContent" class="belonging">
-			<h1>选择归属地</h1>
-			<div class="cities">
-				<ul>
-					<li><a href="javascript:;" data-role="close">南京市</a></li>
-					<li><a href="javascript:;">无锡市</a></li>
-					<li><a href="javascript:;">徐州市</a></li>
-					<li><a href="javascript:;">常州市</a></li>
-					<li><a href="javascript:;">苏州市</a></li>
-					<li><a href="javascript:;">南通市</a></li>
-					<li><a href="javascript:;">连云港市</a></li>
-					<li><a href="javascript:;">淮安市</a></li>
-					<li><a href="javascript:;">盐城市</a></li>
-					<li><a href="javascript:;">扬州市</a></li>
-					<li><a href="javascript:;">镇江市</a></li>
-					<li><a href="javascript:;">泰州市</a></li>
-				</ul>
-			</div> 
-		</div>
-	</div>
 
-	<div class="fn-hide">
+		<div id="switchCityContent" class="belonging overlay_content">
+			<div class="close_overlay"><a href="javascript:;"></a></div>
+			<div class="white">
+				<div class="allcities">
+					<h1>选择归属地</h1>
+					<div class="cities">
+						<ul>
+							<li><a href="javascript:;">南京市</a></li>
+							<li><a href="javascript:;">无锡市</a></li>
+							<li><a href="javascript:;">徐州市</a></li>
+							<li><a href="javascript:;">常州市</a></li>
+							<li><a href="javascript:;">苏州市</a></li>
+							<li><a href="javascript:;">南通市</a></li>
+							<li><a href="javascript:;">连云港市</a></li>
+							<li><a href="javascript:;">淮安市</a></li>
+							<li><a href="javascript:;">盐城市</a></li>
+							<li><a href="javascript:;">扬州市</a></li>
+							<li><a href="javascript:;">镇江市</a></li>
+							<li><a href="javascript:;">泰州市</a></li>
+						</ul>
+					</div> 
+				</div><!--//allcities-->
+			</div>
+		</div>
+
+
+
+
 		<div id="switchnNmberContent" class="belonging">
 			<h1>选号码去下单</h1>
 			<div class="chooseunmber">
@@ -628,7 +634,36 @@
 				<a href="#" class="">确定</a>
 			</div>
 		</div>
-	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div id="overlay_area">
+			<div></div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 	<script type="text/javascript" src="js/details.js"></script>
 	<link rel="stylesheet" href="spm_modules/alice-paging/1.1.0/paging.css">
