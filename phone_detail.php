@@ -6,7 +6,7 @@
 
 			<div id="main-nav" class="row">
 				<ul>
-					<li id="prds-pop"><a href="javascript:;" class="all-prds">所有商品分类</a></li>
+					<li id="prds-pop"><a href="javascr	ipt:;" class="all-prds">所有商品分类</a></li>
 					<li><a href="index.php" >首页</a></li>
 					<li><a href="innovate.php" class="active">创新产品</a></li>
 					<li><a href="javascript:;">流量专区</a></li>
@@ -527,7 +527,7 @@
 	</div><!--//Ai_Wrap-->
 
 
-	<div id="switchCityContent" class="">
+	<div id="switchCityContent" class="belonging">
 		<h1>选择归属地</h1>
 		<div class="cities">
 			<ul>

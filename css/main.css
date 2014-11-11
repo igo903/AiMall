@@ -2390,6 +2390,43 @@ a.btn{
 
 
 
-
-
+.belonging{
+    min-height: 150px;	
+}
+.belonging h1{
+	height: 35px;
+	background-color: #f33f00;
+	line-height: 35px;
+	color: #fff;
+	padding-left: 14px;
+}
+.belonging  .cities{
+	width: 420px;
+	margin: 25px auto;
+}
+.belonging  .cities li{
+	width: 68px; 
+	height: 35px;
+	border: 1px solid #d8d8d8;
+	float: left;
+	margin-left: -1px;
+	margin-top: -1px;
+	text-align: center; 
+	line-height: 35px;
+	position: relative;
+}
+.belonging  .cities li:hover{
+	border:2px solid #ff5500; 
+	z-index: 1;
+	width: 66px; 
+	height: 33px;
+	line-height: 33px;
+}
+.ui-dialog .ui-dialog-close{
+ color: #fff;
+}
+.ui-dialog .ui-dialog-close:hover{
+	color: #fff;
+	text-decoration: none;
+}
 
