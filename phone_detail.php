@@ -72,12 +72,16 @@
 							</div>
 							<div class="row">
 								<span class="de">号码归属地:</span>
-								<span>南京市</span>
+								<span class="current-city">南京市</span>
 								<a href="javascript:;" class="" id="switchCity">切换归属地</a>
 							</div>
 							<div class="row">
 								<span class="de">手机套餐:</span>
 								<a href="javascript:;" class="" id="chooseSuite">选套餐</a>
+							</div>
+							<div class="row">
+								<span class="de">手机号码:</span>
+								<a href="javascript:;" class="" id="chooseSuite">选号码</a>
 							</div>
 							<div class="row gobuy">
 								<a href="javascript:;">加入购物车</a>
@@ -526,25 +530,26 @@
 
 	</div><!--//Ai_Wrap-->
 
-
-	<div id="switchCityContent" class="">
-		<h1>选择归属地</h1>
-		<div class="cities">
-			<ul>
-				<li><a href="javascript:;">南京市</a></li>
-				<li><a href="javascript:;">无锡市</a></li>
-				<li><a href="javascript:;">徐州市</a></li>
-				<li><a href="javascript:;">常州市</a></li>
-				<li><a href="javascript:;">苏州市</a></li>
-				<li><a href="javascript:;">南通市</a></li>
-				<li><a href="javascript:;">连云港市</a></li>
-				<li><a href="javascript:;">淮安市</a></li>
-				<li><a href="javascript:;">盐城市</a></li>
-				<li><a href="javascript:;">扬州市</a></li>
-				<li><a href="javascript:;">镇江市</a></li>
-				<li><a href="javascript:;">泰州市</a></li>
-			</ul>
-		</div> 
+	<div class="fn-hide">
+		<div id="switchCityContent" class="">
+			<h1>选择归属地</h1>
+			<div class="cities">
+				<ul>
+					<li><a href="javascript:;" data-role="close">南京市</a></li>
+					<li><a href="javascript:;">无锡市</a></li>
+					<li><a href="javascript:;">徐州市</a></li>
+					<li><a href="javascript:;">常州市</a></li>
+					<li><a href="javascript:;">苏州市</a></li>
+					<li><a href="javascript:;">南通市</a></li>
+					<li><a href="javascript:;">连云港市</a></li>
+					<li><a href="javascript:;">淮安市</a></li>
+					<li><a href="javascript:;">盐城市</a></li>
+					<li><a href="javascript:;">扬州市</a></li>
+					<li><a href="javascript:;">镇江市</a></li>
+					<li><a href="javascript:;">泰州市</a></li>
+				</ul>
+			</div> 
+		</div>
 	</div>
 
 	<script type="text/javascript" src="js/details.js"></script>

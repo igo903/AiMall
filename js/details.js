@@ -36,6 +36,12 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 		$('.magnifier').find('a').attr('href',lg);
 		$('.magnifier').find('img').attr('src',mid);
 	});
+
+	/*cities*/
+	$('.cities li a').click(function(){
+		var cityname = $(this).html();
+		$('.current-city').html(cityname);
+	});
 	
 });
 
@@ -43,6 +49,8 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 seajs.use(['arale-dialog/1.4.0/dialog-debug','jquery'],function(Dialog,$){
 	new Dialog({
         trigger: '#switchCity',
+        effect: 'fade',
+        closeTpl: '点我可以关闭对话框',
         content: $('#switchCityContent')
     });
 });
