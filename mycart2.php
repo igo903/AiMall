@@ -45,6 +45,25 @@
                    				<div class="column t-quantity">数量</div>
                    				<div class="column t-total">小计</div>
                    				<div class="column t-action">操作</div>
+			        		</div>
+
+			        		<div class="cart-tbody">
+			        			<div clitem_selected>
+			        				<div class="cell p-checkbox">
+				                        <input class="checkbox" type="checkbox" name="checkItem" checked=""  >
+				                    </div>
+
+				                    <div class="cell p-goods">
+				        				<div class="p-img">
+				        					<a href="#" target="_blank"><img  src="images/phone10.jpg" alt=""></a>
+				        				</div>    
+					                    <div class="p-name">
+					                        <a href="#"  target="_blank" >iPhone5s 金银灰色 指纹识别 送3600M流量</a>
+					                        <p class="font_green">好友推荐最高得100元话费x1微信晒单得20元话费x1 </p>
+					                    </div>
+				        			</div>
+			        			</div>
+			        			
 			        		</div>			        		
 			        	</div>
 			        </div>
