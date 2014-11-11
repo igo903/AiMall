@@ -96,9 +96,9 @@
 							    <div class="ui-switchable-content" data-role="content">
 							        <div data-role="panel">
 							        	<ul>
-							        		<li><a href="javascript:;">续约沃送礼，短信加流量！</a></li>
-							        		<li><a href="javascript:;">"盛夏同学惠，沃派送大礼"，沃派暑期促销</a></li>
-							        		<li><a href="javascript:;">3G新入网即送"联通秘书"</a></li>
+							        		<li><a href="mycart.php">续约沃送礼，短信加流量！</a></li>
+							        		<li><a href="pluscart.php">"盛夏同学惠，沃派送大礼"，沃派暑期促销</a></li>
+							        		<li><a href="management-comment.php">3G新入网即送"联通秘书"</a></li>
 							        		<li><a href="javascript:;">查询"个人信息"，号码状态轻松知晓</a></li>
 							        	</ul>
 							        </div>
@@ -269,7 +269,7 @@
 								<a href="javascript:;"><img src="images/mobile_xlj.jpg" alt=""></a>
 							</dd>
 							<dt class="p-name">
-								<a href="management-comment.php">小辣椒 LA5-W 默认开通炫铃升级版</a>
+								<a href="javascript:;">小辣椒 LA5-W 默认开通炫铃升级版</a>
 							</dt>
 							<dt class="desc">
 								全球首款5.5英寸 八核双4G手机

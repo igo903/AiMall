@@ -2092,9 +2092,144 @@ a.btn{
  border-right:1px solid #eee;
  border-bottom:1px solid #eee;
 }
-.mycartbox .mycart-content .message{ height:130px; background:url(../images/cart.png) no-repeat 300px 40px ; padding:70px 0 0 500px; line-height:30px;}
-.mycartbox .mycart-content .message a{ color:#F00; text-decoration:underline;}
-.mycartbox .mycart-content .mycart-ok-bd{ background:url(../images/yun.jpg) no-repeat 330px 40px; min-height:130px; padding:45px 0 0 480px;}
+.mycartbox .mycart-content .message{ 
+	height:130px; 
+	background:url("../images/cart.png") no-repeat 300px 40px ; 
+	padding:70px 0 0 500px; 
+	line-height:30px;
+}
+.mycartbox .mycart-content .message a{ 
+	color:#F00; 
+	text-decoration:underline;
+}
+.mycartbox .mycart-content .mycart-ok-bd{ 
+	background:url("../images/yun.jpg") no-repeat 330px 40px; 
+	min-height:130px;
+	padding:45px 0 0 480px;
+}
+.mycartbox .mycart-split{ 
+	border:1px solid #ffbdbf; 
+	height:30px; 
+	line-height:30px; 
+	padding-left:35px; 
+	color: #666;
+	background:url("../images/triangle.png") no-repeat 11px 10px #ffebec; 
+	margin-top:15px; 
+	float:left; 
+	clear:both;
+	width:1153px;
+}
+.mycartbox .mycart-remind{ 
+	margin-top:15px; 
+	overflow:hidden;
+	float:left; 
+	clear:both; 
+	width:100%;
+	position: relative;
+}
+.mycartbox .mycart-remind .s-time{ 
+	background:url("../images/clock.png") no-repeat 0px 3px;
+	color:#737373; 
+	font-size:14px; 
+	padding-left:25px;
+	color: #333;
+}
+.mycartbox .mycart-remind .s-time .font_red{ 
+	margin:0 10px;
+	color: #ff0000
+}
+.mycartbox .mycart-remind .cart-sum{ 
+	font-size:14px; 
+	font-weight:bold;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.mycartbox .mycart-remind .cart-sum .font_red{
+	 margin:0 10px;
+	 color: #ff5500;
+}
+.mycartbox .mycart-remind .cart-sum b{ 
+	margin:0 10px;
+}
+.mycartbox .mycart-remind .cart-sum a{ 
+	font-weight:normal;
+	background-color: #ff5500;
+	text-align: center;
+	color: #fff;
+	padding: 20px 20px;
+	margin: 0 0px 0 10px;
+}
+
+.mycartbox .mycart-content{ 
+	min-height:150px;  
+	margin-top:15px; 
+	position:relative; 
+	float:left; 
+	clear:both; 
+	width:1188px; 
+	margin-bottom:20px;
+}
+.mycartbox .cart-thead{
+	height: 35px;
+	background-color: #f9f9f9;
+}
+.mycartbox .cart-thead .column {
+	width: 99px;
+	height: 35px;
+	border-right: 1px solid #f9f9f9;
+	float: left;
+	color: #666;
+	line-height: 35px;
+	text-align: center;
+}
+.mycartbox .cart-thead .t-checkbox {
+	line-height: normal;
+	text-align: left; 
+}
+.mycartbox .cart-thead .t-checkbox input {
+	margin: 12px 15px 0 19px;
+	display: inline;
+	float: left;
+}
+.mycartbox .cart-thead .t-checkbox label {
+	line-height: 35px;
+	float: left;
+}
+.mycartbox .cart-thead .t-goods {
+	width: 250px;
+}
+.mycartbox .cart-thead .t-message{ 
+	width:180px; 
+	text-align:left;
+}
+.mycartbox .cart-thead .t-price {
+	width:180px; 
+}
+.mycartbox .cart-thead .t-total{ 
+	width:173px;
+}
+.mycartbox .cart-thead .t-action{ 
+	width:120px;
+}
+.mycartbox .cart-thead #inventory {
+	width: 68px;
+	height: 23px;
+	margin: 5px auto 0;
+	border: 1px solid #ddd;
+	overflow: hidden;
+	background: #fff url(../images/cart-icon-bg-1.png) no-repeat right center;}
+.mycartbox .cart-thead #inventory span {
+	width: 36px;
+	height: 17px;
+	margin: 3px 0 0 5px;
+	float: left;
+	overflow: hidden;
+	line-height: 17px;
+	_display: inline;
+}	
+
+
 
 
 
