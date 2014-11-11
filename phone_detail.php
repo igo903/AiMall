@@ -81,7 +81,7 @@
 							</div>
 							<div class="row">
 								<span class="de">手机号码:</span>
-								<a href="javascript:;" class="" id="chooseSuite">选号码</a>
+								<a href="javascript:;" class="" id="switchnNmber">选号码</a>
 							</div>
 							<div class="row gobuy">
 								<a href="javascript:;">加入购物车</a>
@@ -550,6 +550,83 @@
 					<li><a href="javascript:;">泰州市</a></li>
 				</ul>
 			</div> 
+		</div>
+	</div>
+
+	<div class="fn-hide">
+		<div id="switchnNmberContent" class="belonging">
+			<h1>选号码去下单</h1>
+			<div class="chooseunmber">
+				<div class="numbertitle">选号码</div>
+				<div class="screening">
+ 					<div class="city">
+ 						<span>入网地区:</span>
+ 						<span class="color">南京</span>
+ 					</div>
+ 					<div class="cond">
+ 						<div class="number-select">
+ 							<div class="select">
+	 							靓号类型
+	 							<i class="fa fa-angle-down" id="rm"></i>
+ 							</div>
+ 						</div>
+ 					</div>
+				</div>
+				<div class="numberbox">
+					<ul>
+						<li>
+							<p class="number">185  1254  0808</p>
+							<p class="money">预存￥100元</p>
+						</li>
+						<li>
+							<p class="number">185  1254  0808</p>
+							<p class="money">预存￥100元</p>
+						</li>
+						<li>
+							<p class="number">185  1254  0808</p>
+							<p class="money">预存￥100元</p>
+						</li>
+						<li>
+							<p class="number">185  1254  0808</p>
+							<p class="money">预存￥100元</p>
+						</li>
+						<li>
+							<p class="number">185  1254  0808</p>
+							<p class="money">预存￥100元</p>
+						</li>
+						<li>
+							<p class="number">185  1254  0808</p>
+							<p class="money">预存￥100元</p>
+						</li>
+					</ul>
+				</div>
+			</div> 
+
+			<div class="chooseunmber">
+				<div class="numbertitle">备选号码</div>
+				<div class="numberbox">
+					<ul>
+						<li>
+							<div class="close">x</div>
+							<p class="number">185  1254  0808</p>
+							<p class="money">预存￥100元</p>
+						</li>
+						<li>
+							<div class="waiting">待添加</div>
+						</li>
+						<li>
+							<div class="waiting">待添加</div>
+						</li>
+					</ul>
+				</div>
+			</div> 
+
+			<div class="numberok">
+				<span>已选号码<b>185  1254  0808</b>号码预存款:<b>￥100元</b>（号码预存款100元入网后立即返还。）</span>
+			</div>
+			<div class="gobuy">
+				<a href="#" class="">确定</a>
+			</div>
 		</div>
 	</div>
 

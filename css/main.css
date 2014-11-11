@@ -2391,7 +2391,10 @@ a.btn{
 
 
 .belonging{
-    min-height: 150px;	
+   float: left;
+   background-color: #fff;
+   clear: both;
+   padding-bottom: 20px;	
 }
 .belonging h1{
 	height: 35px;
@@ -2399,6 +2402,8 @@ a.btn{
 	line-height: 35px;
 	color: #fff;
 	padding-left: 14px;
+	font-size: 14px;
+	font-weight:bold;
 }
 .belonging  .cities{
 	width: 420px;
@@ -2420,7 +2425,10 @@ a.btn{
 	z-index: 1;
 	width: 66px; 
 	height: 33px;
-	line-height: 33px;
+	line-height: 33px;	
+}
+.belonging  .cities li a{
+	text-decoration: none;
 }
 .ui-dialog .ui-dialog-close{
  color: #fff;
@@ -2430,3 +2438,146 @@ a.btn{
 	text-decoration: none;
 }
 
+.belonging .chooseunmber{
+	margin: 20px;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+.belonging .chooseunmber .screening{
+	height: 50px;
+	float: left;
+	clear: both;
+}
+.belonging .screening .city{
+	float: left;
+	line-height: 26px;
+}
+.belonging .screening .city .color{
+	color: #ff5500;
+}
+.belonging .screening .cond{
+	float: left;
+	margin-left: 20px;
+}
+.belonging .screening .number-select{
+	width: 94px;
+	line-height: 26px;
+}
+.belonging .screening .number-select .select{
+	width: 94px;
+	height: 26px;
+	line-height: 26px;
+	border:1px solid #e8e8e8; 
+	color: #999;
+	padding-left: 10px;
+}
+.belonging .screening .number-select  .select i{
+	float: right;
+	margin: 7px 10px;
+}
+
+.belonging .chooseunmber .numbertitle{
+	background: url("../images/numbericon.jpg") no-repeat 0 5px;
+ 	padding-left: 20px;
+ 	line-height: 25px;
+ 	color: #666;
+ 	font-weight: bold;
+}
+.belonging .chooseunmber .numberbox{
+	margin: 10px 0;
+	float: left;
+	clear: both;
+}
+.belonging  .numberbox li{
+	width: 146px;
+	height: 56px;
+	border:1px solid #e8e8e8;
+	padding-left: 13px;
+	padding: 1px;
+	position: relative;
+	margin: -1px 0 0 -1px;
+	cursor: pointer;
+	float: left;
+}
+.belonging  .numberbox li:hover{
+	border: 2px solid #ff5500;
+	padding: 0px ;
+	z-index: 1
+}
+.belonging  .numberbox li p{
+	padding-left: 13px;
+}
+.belonging  .numberbox li .number{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	margin: 5px 0;
+}
+.belonging  .numberbox li:hover .number{
+	color:#ff5500;
+}
+.belonging  .numberbox li .money{
+	color: #999;
+}
+.belonging  .numberbox li .waiting{
+	color: #ccc;
+	text-align: center;
+	line-height: 56px;
+	font-size: 18px;
+}
+.belonging  .numberbox li .close{
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	color:#666;
+	font-weight: bold;
+
+}
+.belonging  .numberbox li:hover .close{
+	position: absolute;
+	right: 4px;
+	top: -1px;
+	font-weight: bold;
+	color:#666；
+}
+.belonging .numberok{
+	height: 50px;
+	border-top:1px dashed #e8e8e8; 
+	border-bottom:1px dashed #e8e8e8; 
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: #f8f8f8;
+}
+.belonging .numberok span{
+	color: #999;
+}
+.belonging .numberok b{
+	color:#009900;
+	font-size: 16px;
+	margin: 0 10px;
+}
+.belonging .gobuy{
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 10px 0;
+}
+.belonging .gobuy a {
+height: 35px;
+width: 140px;
+margin: 0 auto;
+line-height: 35px;
+background: #ff5500;
+width: 80px;
+color: #fff;
+text-align: center;
+border-radius: 3px;
+border: none;
+display: block;
+}
+.belonging .gobuy a:hover{
+	text-decoration: none;
+	background-color: #ff3300;
+}	

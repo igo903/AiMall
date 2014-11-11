@@ -50,10 +50,15 @@ seajs.use(['arale-dialog/1.4.0/dialog-debug','jquery'],function(Dialog,$){
 	new Dialog({
         trigger: '#switchCity',
         effect: 'fade',
-        closeTpl: '点我可以关闭对话框',
         content: $('#switchCityContent')
     });
+    new Dialog({
+        trigger: '#switchnNmber',
+        effect: 'fade',
+        content: $('#switchnNmberContent')
+    });
 });
+
 
 
 
