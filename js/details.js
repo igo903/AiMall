@@ -36,8 +36,8 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 		$('.magnifier').find('a').attr('href',lg);
 		$('.magnifier').find('img').attr('src',mid);
 
-		var $easyzoom = $('.easyzoom').easyZoom();
-		var api = $easyzoom.data('easyZoom');
+		//var $easyzoom = $('.easyzoom').easyZoom();
+		//var api = $easyzoom.data('easyZoom');
 
 		//console.log($('.magnifier').find('a').attr('href'));
 	});
