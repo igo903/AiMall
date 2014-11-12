@@ -58,60 +58,64 @@ seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
 
 
 seajs.use(['jquery'],function($){
-	var docH = $(document).height() + 100;
-	var docW = $("body").width();
-	var todoIndex = 0;
 
-	$('#switchCity, #switchnNumber').click(function(){
-		$("#overlay_area").height(docH).width(docW);
-		$("#overlay_area div").height(docH).width(docW).show();
-		$("#overlay_area").fadeIn("fast");
 
-		//console.log($(this).attr('data-name'));
-		var panelName = $(this).attr('data-name');
 
-		$("#" +panelName + ".overlay_content" ).each(function(){
-			$(this).css("left", docW/2 - $(this).width()/2).show();
-			$(this).css("top", docH/6 - $(this).height()/2);
+		var docH = $(document).height() + 100;
+		var docW = $("body").width();
+		var todoIndex = 0;
+
+		$('#switchCity, #switchnNumber').click(function(){
+			$("#overlay_area").height(docH).width(docW);
+			$("#overlay_area div").height(docH).width(docW).show();
+			$("#overlay_area").fadeIn("fast");
+
+			//console.log($(this).attr('data-name'));
+			var panelName = $(this).attr('data-name');
+
+			$("#" +panelName + ".overlay_content" ).each(function(){
+				$(this).css("left", docW/2 - $(this).width()/2).show();
+				$(this).css("top", docH/6 - $(this).height()/2);
+			});
 		});
-	});
 
-	$('.close_overlay').click(function(){
-		$('#overlay_area').hide();
-		$('.overlay_content').hide();
-	});
+		$('.close_overlay, .gobuy a').click(function(){
+			$('#overlay_area').hide();
+			$('.overlay_content').hide();
+		});
 
-	$('.cities li a').click(function(){
-		var cityname = $(this).html();
-		$('.current-city').html(cityname);
-		$('#overlay_area').hide();
-		$('.overlay_content').hide();
-	});
+		$('.cities li a').click(function(){
+			var cityname = $(this).html();
+			$('.current-city').html(cityname);
+			$('#overlay_area').hide();
+			$('.overlay_content').hide();
+		});
 
 
-	$('.preview li').click(function(){
-		var preview = $(this).html();
-		var total = $('.todos').length;
-		var closebtn = '<div class="close">x</div>'
-		//$('.todo li').html(preview);
+		$('.preview li').click(function(){
+			var preview = $(this).html();
+			var total = $('.todos').length;
+			var closebtn = '<div class="close">x</div>'
+			//$('.todo li').html(preview);
 
-		if(todoIndex >= total){
-			alert('限制添加三个号码，请删除一个再添加');
-		} else {
-			$('.todo li')[todoIndex].innerHTML = preview;
-			todoIndex ++;
-		}
-		console.log(todoIndex);
-	});
+			if(todoIndex >= total){
+				alert('限制添加三个号码，请删除一个再添加');
+			} else {
+				$('.todo li')[todoIndex].innerHTML = preview;
+				todoIndex ++;
+			}
+			console.log(todoIndex);
+		});
 
-	$('.todos .close').click(function(event) {
-		if(todoIndex <= 0){
-			todoIndex = 0;
-		} else {
-			todoIndex --;
-		}
-		$(this).parent().html('<div class="waiting">待添加</div>');
-	});
+
+		$( "body" ).on( "click", ".todos .close",function() {
+			if(todoIndex <= 0){
+				todoIndex = 0;
+			} else {
+				todoIndex --;
+			}
+			$(this).parent().html('<div class="waiting">待添加</div>');
+		});
 
 
 
