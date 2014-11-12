@@ -2241,7 +2241,7 @@ a.btn{
 	clear:both;
 	border-bottom:1px solid #eee; 
 	position:relative; 
-	width:1208px; 
+	width:1188px; 
 	*min-height:120px;
 }
 
@@ -2379,8 +2379,19 @@ a.btn{
 	color: #4397e3;
 	font-weight: normal;
 }
-.mycartbox .cart-tbody .p-action a:hover{ text-decoration:underline;}
+.mycartbox .cart-tbody .p-action a:hover{ 
+	text-decoration:underline;
+}
 
+.cart-total {clear: both; height:48px; background-color:#f9f9f9;padding: 20px 10px 0; position:relative;}
+.cart-total .delete{line-height: normal;text-align: left; float: left;}
+.cart-total .delete input {margin: 11px 15px 0 10px;display: inline; float: left;}
+.cart-total .delete label {line-height: 35px; margin-right:20px;float: left;}
+.cart-total .delete a{line-height: 35px; color: #4397e3}
+.cart-total .delete a:hover{ text-decoration:underline;}
+.cart-total .total {float: right; width: 500px;margin-left: 10px;line-height: 30px;font-weight: 700; text-align:right;}
+.cart-total .total span {font-weight: bold; color: #e4393c;font-weight: 400;font-family: Verdana,Arial; margin:0 10px;}
+.cart-total .total b{ margin:0 10px;}
 
 
 

@@ -89,8 +89,20 @@
 				                    </div>
 
 			        			</div>
-			        			
-			        		</div>			        		
+			        		</div>			        	
+
+							<div class="cart-total">
+				                <div class="delete form">
+			                        <input  id="toggle-checkboxes" type="checkbox" value="">
+			                      	<label for="toggle-checkboxes">全选</label>
+			                      	<a href="#" >删除</a>                  
+				                </div>
+				                <div class="total">已选商品<span>2</span>件<b></b>合计：<span >¥2320.00</span></div>
+				                 
+				            </div>
+
+
+
 			        	</div>
 			        </div>
 				</div>
