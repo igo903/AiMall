@@ -73,7 +73,7 @@
 							<div class="row">
 								<span class="de">号码归属地:</span>
 								<span class="current-city ai">南京市</span>
-								<a href="javascript:;" class="" id="switchCity">切换归属地</a>
+								<a href="javascript:;" class="" id="switchCity" data-name="switchCityContent">切换归属地</a>
 							</div>
 							<div class="row">
 								<span class="de">手机套餐:</span>
@@ -81,7 +81,7 @@
 							</div>
 							<div class="row">
 								<span class="de">手机号码:</span>
-								<a href="javascript:;" class="" id="switchnNumber">选号码</a>
+								<a href="javascript:;" class="" id="switchnNumber" data-name="switchnNumberContent">选号码</a>
 							</div>
 							<div class="row gobuy">
 								<a href="javascript:;">加入购物车</a>
@@ -561,10 +561,10 @@
 
 
 
-		<div id="switchnNumberContent" class="belonging overlay_number">
+		<div id="switchnNumberContent" class="belonging overlay_content">
 			<div class="close_overlay"><a href="javascript:;"></a></div>
 			<div class="white">
-				<div class="allcities">
+				<div class="">
 					<h1>选号码去下单</h1>
 					<div class="chooseunmber">
 						<div class="numbertitle">选号码</div>
@@ -635,7 +635,7 @@
 						<span>已选号码<b>185  1254  0808</b>号码预存款:<b>￥100元</b>（号码预存款100元入网后立即返还。）</span>
 					</div>
 					<div class="gobuy">
-						<a href="#" class="">确定</a>
+						<a href="javascript:;" class="">确定</a>
 					</div>
 
 

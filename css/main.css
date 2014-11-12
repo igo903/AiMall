@@ -2531,7 +2531,6 @@ a.btn{
 	top: 0px;
 	color:#666;
 	font-weight: bold;
-
 }
 .belonging  .numberbox li:hover .close{
 	position: absolute;
@@ -2566,17 +2565,17 @@ a.btn{
 	margin: 10px 0;
 }
 .belonging .gobuy a {
-height: 35px;
-width: 140px;
-margin: 0 auto;
-line-height: 35px;
-background: #ff5500;
-width: 80px;
-color: #fff;
-text-align: center;
-border-radius: 3px;
-border: none;
-display: block;
+	height: 35px;
+	width: 140px;
+	margin: 0 auto;
+	line-height: 35px;
+	background: #ff5500;
+	width: 80px;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	border: none;
+	display: block;
 }
 .belonging .gobuy a:hover{
 	text-decoration: none;
@@ -2594,7 +2593,7 @@ display: block;
 	position: absolute;
 	top: 0px;
 	width: 100%;
-	z-index: 100;
+	z-index: 101;
 }
 #overlay_area div {
 	background-color: #000000;
@@ -2627,30 +2626,11 @@ display: block;
 	width: 400px;*/
 }
 
-.overlay_number {
-	background-color: #FFF;
-	left: 300px;
-	position: absolute;
-	top: 70px;
+#switchnNumberContent.overlay_content {
 	width: 800px;
-	z-index: 110;
-	padding: 8px;
-	display: none;
 }
-.overlay_number div.close_overlay a {
-	background:url(../images/close.png) no-repeat 0px 0px;
-	display: block;
-	height: 24px;
-	position: absolute;
-	right: 8px;
-	top: 15px;
-	width: 24px;
-}
-.overlay_number div.white {
-	background: #FFF;
-	/*padding: 20px;
-	width: 400px;*/
-}
+
+
 
 
 

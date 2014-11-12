@@ -41,16 +41,7 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 
 
 seajs.use(['arale-dialog/1.4.0/dialog-debug','jquery'],function(Dialog,$){
-	// new Dialog({
- //        trigger: '#switchCity',
- //        effect: 'fade',
- //        content: $('#switchCityContent')
- //    });
- //    new Dialog({
- //        trigger: '#switchnNmber',
- //        effect: 'fade',
- //        content: $('#switchnNmberContent')
- //    });
+
 });
 
 
@@ -67,19 +58,21 @@ seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
 
 
 seajs.use(['jquery'],function($){
-	var docH = $(document).height()+100;
+	var docH = $(document).height() + 100;
 	var docW = $("body").width();
 
-	$('#switchCity').click(function(){
+	$('#switchCity, #switchnNumber').click(function(){
 		$("#overlay_area").height(docH).width(docW);
 		$("#overlay_area div").height(docH).width(docW).show();
 		$("#overlay_area").fadeIn("fast");
 
-		$("div.overlay_content").each(function(){
+		console.log($(this).attr('data-name'));
+		var panelName = $(this).attr('data-name');
+
+		$("#" +panelName + ".overlay_content" ).each(function(){
 			$(this).css("left", docW/2 - $(this).width()/2).show();
 			$(this).css("top", docH/6 - $(this).height()/2);
 		});
-
 	});
 
 	$('.close_overlay').click(function(){
@@ -93,34 +86,6 @@ seajs.use(['jquery'],function($){
 		$('#overlay_area').hide();
 		$('.overlay_content').hide();
 	});
-
-
-
-
-	$('#switchnNumber').click(function(){
-		$("#overlay_area").height(docH).width(docW);
-		$("#overlay_area div").height(docH).width(docW).show();
-		$("#overlay_area").fadeIn("fast");
-
-		$("div.overlay_number").each(function(){
-			$(this).css("left", docW/2 - $(this).width()/2).show();
-			$(this).css("top", docH/6 - $(this).height()/2);
-		});
-
-	});
-
-	$('.close_overlay').click(function(){
-		$('#overlay_area').hide();
-		$('.overlay_number').hide();
-	});
-
-	$('.cities li a').click(function(){
-		var cityname = $(this).html();
-		$('.current-city').html(cityname);
-		$('#overlay_area').hide();
-		$('.overlay_number').hide();
-	});
-	
 
 
 
