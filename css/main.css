@@ -2494,7 +2494,7 @@ a.btn{
 	width: 146px;
 	height: 56px;
 	border:1px solid #e8e8e8;
-	padding-left: 13px;
+	padding-left: 0px;
 	position: relative;
 	margin: -1px 0 0 -1px;
 	cursor: pointer;

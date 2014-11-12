@@ -60,13 +60,14 @@ seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
 seajs.use(['jquery'],function($){
 	var docH = $(document).height() + 100;
 	var docW = $("body").width();
+	var todoIndex = 0;
 
 	$('#switchCity, #switchnNumber').click(function(){
 		$("#overlay_area").height(docH).width(docW);
 		$("#overlay_area div").height(docH).width(docW).show();
 		$("#overlay_area").fadeIn("fast");
 
-		console.log($(this).attr('data-name'));
+		//console.log($(this).attr('data-name'));
 		var panelName = $(this).attr('data-name');
 
 		$("#" +panelName + ".overlay_content" ).each(function(){
@@ -86,6 +87,29 @@ seajs.use(['jquery'],function($){
 		$('#overlay_area').hide();
 		$('.overlay_content').hide();
 	});
+
+
+	$('.preview li').click(function(){
+		var preview = $(this).html();
+		var total = $('.todos').length;
+		//$('.todo li').html(preview);
+
+		//console.log(total);
+		//console.log($('.todo li')[0]);
+		//console.log($('.todo li')[0].innerHTML);
+
+		if(todoIndex >= total){
+			alert('限制添加三个号码，请删除一个再添加');
+		} else {
+			$('.todo li')[todoIndex].innerHTML = preview;
+			todoIndex ++;
+		}
+
+		console.log(todoIndex);
+
+	});
+
+
 
 
 

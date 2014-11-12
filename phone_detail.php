@@ -571,7 +571,7 @@
 						<div class="screening">
 		 					<div class="city">
 		 						<span>入网地区:</span>
-		 						<span class="color">南京</span>
+		 						<span class="ai">南京</span>
 		 					</div>
 		 					<div class="cond">
 		 						<div class="number-select">
@@ -582,26 +582,26 @@
 		 						</div>
 		 					</div>
 						</div>
-						<div class="numberbox">
+						<div class="numberbox preview">
 							<ul>
 								<li>
-									<p class="number">185  1254  0808</p>
+									<p class="number">185  1254  0800</p>
 									<p class="money">预存￥100元</p>
 								</li>
 								<li>
-									<p class="number">185  1254  0808</p>
+									<p class="number">185  1254  0338</p>
 									<p class="money">预存￥100元</p>
 								</li>
 								<li>
-									<p class="number">185  1254  0808</p>
+									<p class="number">185  1254  0128</p>
 									<p class="money">预存￥100元</p>
 								</li>
 								<li>
-									<p class="number">185  1254  0808</p>
+									<p class="number">185  1254  0788</p>
 									<p class="money">预存￥100元</p>
 								</li>
 								<li>
-									<p class="number">185  1254  0808</p>
+									<p class="number">185  1254  0908</p>
 									<p class="money">预存￥100元</p>
 								</li>
 								<li>
@@ -614,18 +614,24 @@
 					
 					<div class="chooseunmber">
 						<div class="numbertitle">备选号码</div>
-						<div class="numberbox">
+						<div class="numberbox todo">
 							<ul>
-								<li>
-									<div class="close">x</div>
+								<li class="todos">
+									<!-- <div class="close">x</div>
 									<p class="number">185  1254  0808</p>
-									<p class="money">预存￥100元</p>
-								</li>
-								<li>
+									<p class="money">预存￥100元</p> -->
 									<div class="waiting">待添加</div>
 								</li>
-								<li>
+								<li class="todos">
 									<div class="waiting">待添加</div>
+								</li>
+								<li class="todos">
+									<div class="waiting">待添加</div>
+								</li>
+								<li class="">
+									<div class="waiting">
+										上限为三个号
+									</div>
 								</li>
 							</ul>
 						</div>
