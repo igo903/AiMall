@@ -2260,7 +2260,7 @@ a.btn{
 	display: inline;
 }
 .mycartbox .cart-tbody .p-goods {
-	width: 280px;
+	width: 270px;
 	overflow: hidden; 
 	margin-right:20px;
 }
@@ -2273,10 +2273,11 @@ a.btn{
 	float: left;
 	background-color: #fff;
 }
-.mycartbox .cart-tbody .p-name {
+.mycartbox .cart-tbody .p-names {
 	padding-right: 10px;
 	line-height: 18px; 
 	overflow:hidden;
+	float: left;
 }
 
 
@@ -2505,7 +2506,7 @@ a.btn{
 	z-index: 1
 }
 .belonging  .numberbox li p{
-	padding-left: 13px;
+	padding-left: 10px;
 }
 .belonging  .numberbox li .number{
 	font-size: 16px;
@@ -2533,9 +2534,6 @@ a.btn{
 	font-weight: bold;
 }
 .belonging  .numberbox li:hover .close{
-	position: absolute;
-	right: 4px;
-	top: -1px;
 	font-weight: bold;
 	color:#666；
 }

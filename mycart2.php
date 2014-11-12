@@ -57,7 +57,7 @@
 				        				<div class="p-img">
 				        					<a href="#" target="_blank"><img  src="images/phone10.jpg" alt=""></a>
 				        				</div>    
-					                    <div class="p-name">
+					                    <div class="p-names">
 					                        <a href="#"  target="_blank" >iPhone5s 金银灰色 指纹识别 送3600M流量</a>
 					                        <p class="font_green">好友推荐最高得100元话费x1微信晒单得20元话费x1 </p>
 					                    </div>
