@@ -62,6 +62,16 @@
 					                        <p class="font_green">好友推荐最高得100元话费x1微信晒单得20元话费x1 </p>
 					                    </div>
 				        			</div>
+
+				        			<div class="cell p-message">
+				                        颜色：金色<br />
+				                        号码：18612345678（武汉）<br />
+				                        套餐：286元3GiPhone套餐<br />
+				                        合约：预存话费送手机<br />
+				                        协议期：24个月<br />
+				                    </div>
+
+				                    <div class="cell p-price">￥4999.00<p>￥5200.00</p></div>
 			        			</div>
 			        			
 			        		</div>			        		

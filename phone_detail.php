@@ -587,26 +587,32 @@
 								<li>
 									<p class="number">185  1254  0800</p>
 									<p class="money">预存￥100元</p>
+									<div class="close">x</div>
 								</li>
 								<li>
 									<p class="number">185  1254  0338</p>
 									<p class="money">预存￥100元</p>
+									<div class="close">x</div>
 								</li>
 								<li>
 									<p class="number">185  1254  0128</p>
 									<p class="money">预存￥100元</p>
+									<div class="close">x</div>
 								</li>
 								<li>
 									<p class="number">185  1254  0788</p>
 									<p class="money">预存￥100元</p>
+									<div class="close">x</div>
 								</li>
 								<li>
 									<p class="number">185  1254  0908</p>
 									<p class="money">预存￥100元</p>
+									<div class="close">x</div>
 								</li>
 								<li>
 									<p class="number">185  1254  0808</p>
 									<p class="money">预存￥100元</p>
+									<div class="close">x</div>
 								</li>
 							</ul>
 						</div>

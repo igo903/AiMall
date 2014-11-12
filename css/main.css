@@ -2262,7 +2262,7 @@ a.btn{
 .mycartbox .cart-tbody .p-goods {
 	width: 270px;
 	overflow: hidden; 
-	margin-right:20px;
+	margin-right:0px;
 }
 .mycartbox .cart-tbody .p-img {
 	width: 60px;
@@ -2278,6 +2278,20 @@ a.btn{
 	line-height: 18px; 
 	overflow:hidden;
 	float: left;
+	width: 188px;
+}
+.mycartbox .cart-tbody .p-message{
+	width:180px; 
+	color:#828282;
+}
+.mycartbox .cart-tbody .p-price {
+	width:180px;
+	text-align:center; 
+	line-height:25px ; 
+	color:#333; 
+	font-size:14px; 
+	font-weight:bold; 
+	margin-top:15px; 
 }
 
 
@@ -2526,16 +2540,16 @@ a.btn{
 	line-height: 56px;
 	font-size: 18px;
 }
-.belonging  .numberbox li .close{
+.belonging .numberbox li .close{
+	display: none;
+}
+.belonging .numberbox li.todos .close{
 	position: absolute;
 	right: 5px;
 	top: 0px;
 	color:#666;
 	font-weight: bold;
-}
-.belonging  .numberbox li:hover .close{
-	font-weight: bold;
-	color:#666；
+	display: block;
 }
 .belonging .numberok{
 	height: 50px;
