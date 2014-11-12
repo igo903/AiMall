@@ -48,7 +48,7 @@
 			        		</div>
 
 			        		<div class="cart-tbody">
-			        			<div clitem_selected>
+			        			<div class="item_selected">
 			        				<div class="cell p-checkbox">
 				                        <input class="checkbox" type="checkbox" name="checkItem" checked=""  >
 				                    </div>
@@ -72,6 +72,22 @@
 				                    </div>
 
 				                    <div class="cell p-price">￥4999.00<p>￥5200.00</p></div>
+				                    <div class="cell p-inventory">有货</div>
+				                    <div class="cell p-quantity">
+					                     <div class="quantity-form ">
+					                        <a class="reduce" href="javascript:;">-</a>
+					                        <input type="text" name="qty_item_1" value="1" id="qty_item_1" class="count-text" />
+					                        <a class="add" href="javascript:;">+</a>
+					                     </div>
+				                    </div>
+     								<div class="cell p-total">
+				                       ￥4999.00
+				                       <p>(含号码预存款￥：9999.00)</p>
+				                    </div>
+				                    <div class="cell p-action">
+				                       <a href="#" class="p-del">删除</a><br /><a href="#" id="t1">收藏</a>                    
+				                    </div>
+
 			        			</div>
 			        			
 			        		</div>			        		
