@@ -92,11 +92,8 @@ seajs.use(['jquery'],function($){
 	$('.preview li').click(function(){
 		var preview = $(this).html();
 		var total = $('.todos').length;
+		var closebtn = '<div class="close">x</div>'
 		//$('.todo li').html(preview);
-
-		//console.log(total);
-		//console.log($('.todo li')[0]);
-		//console.log($('.todo li')[0].innerHTML);
 
 		if(todoIndex >= total){
 			alert('限制添加三个号码，请删除一个再添加');
@@ -104,9 +101,16 @@ seajs.use(['jquery'],function($){
 			$('.todo li')[todoIndex].innerHTML = preview;
 			todoIndex ++;
 		}
-
 		console.log(todoIndex);
+	});
 
+	$('.todos .close').click(function(event) {
+		if(todoIndex <= 0){
+			todoIndex = 0;
+		} else {
+			todoIndex --;
+		}
+		$(this).parent().html('<div class="waiting">待添加</div>');
 	});
 
 
