@@ -93,6 +93,33 @@ seajs.use(['jquery'],function($){
 		$('#overlay_area').hide();
 		$('.overlay_content').hide();
 	});
+
+
+
+
+	$('#switchnNumber').click(function(){
+		$("#overlay_area").height(docH).width(docW);
+		$("#overlay_area div").height(docH).width(docW).show();
+		$("#overlay_area").fadeIn("fast");
+
+		$("div.overlay_number").each(function(){
+			$(this).css("left", docW/2 - $(this).width()/2).show();
+			$(this).css("top", docH/6 - $(this).height()/2);
+		});
+
+	});
+
+	$('.close_overlay').click(function(){
+		$('#overlay_area').hide();
+		$('.overlay_number').hide();
+	});
+
+	$('.cities li a').click(function(){
+		var cityname = $(this).html();
+		$('.current-city').html(cityname);
+		$('#overlay_area').hide();
+		$('.overlay_number').hide();
+	});
 	
 
 

@@ -2398,7 +2398,7 @@ a.btn{
 }
 .belonging h1{
 	height: 35px;
-	background-color: #f33f00;
+	background-color: #ff5500;
 	line-height: 35px;
 	color: #fff;
 	padding-left: 14px;
@@ -2444,7 +2444,6 @@ a.btn{
 	margin: 20px;
 	clear: both;
 	float: left;
-	width: 100%;
 }
 .belonging .chooseunmber .screening{
 	height: 50px;
@@ -2496,15 +2495,13 @@ a.btn{
 	height: 56px;
 	border:1px solid #e8e8e8;
 	padding-left: 13px;
-	padding: 1px;
 	position: relative;
 	margin: -1px 0 0 -1px;
 	cursor: pointer;
 	float: left;
 }
 .belonging  .numberbox li:hover{
-	border: 2px solid #ff5500;
-	padding: 0px ;
+	border: 1px solid #ff5500;
 	z-index: 1
 }
 .belonging  .numberbox li p{
@@ -2549,8 +2546,10 @@ a.btn{
 	border-bottom:1px dashed #e8e8e8; 
 	float: left;
 	clear: both;
-	width: 100%;
+	width: 760px;
 	background-color: #f8f8f8;
+	padding: 0 20px;
+	line-height: 50px;
 }
 .belonging .numberok span{
 	color: #999;
@@ -2614,15 +2613,40 @@ display: block;
 	display: none;
 }
 .overlay_content div.close_overlay a {
-	background: #000 url(/r3/images/SSgA_sprites.png) no-repeat 0px 0px;
+	background:url(../images/close.png) no-repeat 0px 0px;
 	display: block;
 	height: 24px;
 	position: absolute;
 	right: 8px;
-	top: 8px;
+	top: 15px;
 	width: 24px;
 }
 .overlay_content div.white {
+	background: #FFF;
+	/*padding: 20px;
+	width: 400px;*/
+}
+
+.overlay_number {
+	background-color: #FFF;
+	left: 300px;
+	position: absolute;
+	top: 70px;
+	width: 800px;
+	z-index: 110;
+	padding: 8px;
+	display: none;
+}
+.overlay_number div.close_overlay a {
+	background:url(../images/close.png) no-repeat 0px 0px;
+	display: block;
+	height: 24px;
+	position: absolute;
+	right: 8px;
+	top: 15px;
+	width: 24px;
+}
+.overlay_number div.white {
 	background: #FFF;
 	/*padding: 20px;
 	width: 400px;*/
