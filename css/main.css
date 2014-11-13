@@ -2431,7 +2431,11 @@ a.btn{
 .mycartbox .cart-total .total b{ 
 	margin:0 10px;
 }
-.mycartbox .cart-btn{ margin-top:10px; float: left; width: 100%}
+.mycartbox .cart-btn{ 
+	margin-top:10px; 
+	float: left; 
+	width: 100%;
+}
 .mycartbox .cart-btn .goonbuy{ 
 	width:132px; 
 	height:35px;
@@ -2466,20 +2470,73 @@ a.btn{
 
 
 #dialog-inner.overlay_content{
-	width:250px; 
+	width:355px; 
 	border-color: #ddd;
-	border:5px solid #c2c2c2; 
 	background-color:#fff; 
 }
 
-.dialog-close {float:right; margin:5px 5px; background:url(../images/thickbox_close.png) no-repeat; width:23px; height:23px; text-indent:-9999px; cursor:pointer;}
-.dialog-title {float:left; line-height:40px; padding:0 8px; font-weight:bold; font-size:16px; font-family:"微软雅黑";}
-.dialog-content {width: 220px;overflow: hidden;padding: 15px;}
+.dialog-content {
+	width: 350px;
+	overflow: hidden;
+	padding: 15px;
+}
+.multiple-select {
+	width: 99px;
+	height: 198px;
+	margin: 0 5px;
+	float: left;
+	display: inline; 
+	line-height:25px;
+}
 
-.multiple-select {width: 99px;height: 198px;margin: 0 5px;float: left;display: inline; line-height:25px;}
+#switchndeleteContent.overlay_content，#switchnbusinessContent.overlay_content{
+	width:370px; 
+}
+#switchndeleteContent .deleteContent{
+	margin: 30px 0 ;
+	text-align: center;
+}
 
-
-
+.overlay_content .switchnbuttn{
+	width: 170px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+.overlay_content .switchnbuttn a{
+	padding: 0 20px;
+}
+.overlay_content a.determine{
+	height: 30px;
+	margin-right: 15px;
+	line-height: 30px;
+	background: #ff5500;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	border: none;
+	display: block;
+	float: left;
+}
+.overlay_content a.determine:hover{
+	background-color: #ff3300;
+	text-decoration: none;
+}
+.overlay_content .cancel{
+	height: 30px;
+	margin: 0 auto;	
+	background: #f8f8f8;
+	color: #666;
+	text-align: center;
+	border-radius: 3px;
+	display: block;
+	line-height: 30px;
+	border:1px solid #e8e8e8;
+	float: right;
+}
+.overlay_content .cancel:hover{
+	background-color: #f1f1f1;
+	text-decoration: none;
+}
 
 
 
