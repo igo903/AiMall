@@ -2818,15 +2818,13 @@ a.btn{
 	display: block;
 }
 .belonging .numberok{
-	height: 50px;
 	border-top:1px dashed #e8e8e8; 
 	border-bottom:1px dashed #e8e8e8; 
 	float: left;
 	clear: both;
 	width: 760px;
 	background-color: #f8f8f8;
-	padding: 0 20px;
-	line-height: 50px;
+	padding: 20px;
 }
 .belonging .numberok span{
 	color: #999;

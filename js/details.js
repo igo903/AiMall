@@ -116,7 +116,20 @@ seajs.use(['jquery'],function($){
 		});
 
 
-		$('#switchTaocan .r1 li, #switchTaocan .r2 li').click(function(){
+		$('#switchTaocan .r2 li').click(function(){
+			var taocanTxt = $(this).find('p').html();
+			$(this).siblings().removeClass("selected");
+			$(this).addClass("selected");
+			$('.rmbTaocan').html(taocanTxt);
+		});
+		$('#switchTaocan .r1 li').click(function(){
+			var heyueTxt = $(this).find('p').html();
+			$(this).siblings().removeClass("selected");
+			$(this).addClass("selected");
+			$('.contactTxt').html(heyueTxt);
+		});
+
+		$('.direct-buy .right-col .row a').click(function(){
 			$(this).siblings().removeClass("selected");
 			$(this).addClass("selected");
 		});

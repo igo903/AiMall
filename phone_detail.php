@@ -644,7 +644,7 @@
 					</div> 
 
 					<div class="numberok">
-						<span>已选号码<b>185  1254  0808</b>号码预存款:<b>￥100元</b>（号码预存款100元入网后立即返还。）</span>
+						<span>已选号码<b class="num">185  1254  0808</b>号码预存款:<b class="rmb">￥100元</b>（号码预存款100元入网后立即返还。）</span>
 					</div>
 					<div class="gobuy">
 						<a href="javascript:;" class="">确定</a>
@@ -671,7 +671,10 @@
 						<div class="numberbox ">
 							<ul>
 								<li class="wgo">
-									<p >小米4 4G全国套餐购机送费</p>
+									<p >24个月存费送机</p>
+								</li>
+								<li class="wgo">
+									<p >30个月存费送机</p>
 								</li>
 							</ul>
 						</div>
@@ -685,26 +688,26 @@
 									<p >76元套餐</p>
 								</li>
 								<li class="wgo wgo2">
-									<p >76元套餐</p>
+									<p >77元套餐</p>
 								</li>
 								<li class="wgo wgo2">
-									<p >76元套餐</p>
+									<p >75元套餐</p>
 								</li>
 								<li class="wgo wgo2">
-									<p >76元套餐</p>
+									<p >90元套餐</p>
 								</li>
 								<li class="wgo wgo2">
-									<p >76元套餐</p>
+									<p >33元套餐</p>
 								</li>
 								<li class="wgo wgo2">
-									<p >76元套餐</p>
+									<p >99元套餐</p>
 								</li>
 							</ul>
 						</div>
 					</div> 
 
 					<div class="numberok">
-						<span>已选号码<b>185  1254  0808</b>号码预存款:<b>￥100元</b>（号码预存款100元入网后立即返还。）</span>
+						<span>已选择:<b class="rmbTaocan">166元套餐</b>（含上网流量2GB，语音通话500分钟）| <b class="contactTxt">24个月存费送机合约</b>（含赠送话费1200元，分23个月返还）</span>
 					</div>
 					<div class="gobuy">
 						<a href="javascript:;" class="">确定</a>
