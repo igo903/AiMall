@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
-<div style="background-color: #999; height:400px;">
+<div style="background-color: #999; height:1400px;">
                <!-- 查看库存 -->
 				<!-- <div id="dialog-inner" class="belonging overlay_content" style="display:block">
 	                <div class="close_overlay"><a href="javascript:;"></a></div>
@@ -105,6 +105,120 @@
 
 
 				<!-- 选套餐（3G/4G一体化套餐） -->
+
+
+				<div id="switch4GTaocan" class="belonging overlay_content" style="display:block">
+					<div class="close_overlay"><a href="javascript:;"></a></div>
+					<div class="white">
+						<div class="">
+							<h1>选套餐（3G/4G一体化套餐）</h1>
+							<div class="chooseunmber r1">
+								<div class="numbertitle">选合约</div>
+								
+								<div class="numberbox ">
+									<ul>
+										<li class="wgo3">
+											<p >存120元</p>
+											<p>得360元话费</p>
+										</li>
+										<li class="wgo3">
+											<p >存240元</p>
+											<p>得720元话费</p>
+										</li>
+									</ul>
+								</div>
+							</div>  
+							
+							<div class="chooseunmber r2">
+								<div class="numbertitle">选套餐</div>
+								<div class="numberbox ">
+									<ul>
+										<li class="wgo wgo2">
+											<p >76元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >77元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >75元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >90元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >33元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >99元套餐</p>
+										</li>
+									</ul>
+								</div>
+							</div> 
+
+							<div class="taocan-table">
+		                       <table width="100%" border="0" cellspacing="0" cellpadding="0">
+		                          <tr>
+		                            <td colspan="2" bgcolor="#f5f5f5">套餐包含</td>
+		                            <td colspan="5" bgcolor="#f5f5f5">套餐超出及其他业务资费</td>
+		                            <td width="9%" rowspan="2" bgcolor="#f5f5f5">预存款</td>
+		                            <td width="23%" rowspan="2" bgcolor="#f5f5f5">每月返还话费（从次月起连续12个月）</td>
+		                          </tr>
+		                          <tr>
+		                            <td width="6%">套餐流量</td>
+		                            <td width="13%">国内语音（分钟）</td>
+		                            <td width="6%">接听免费</td>
+		                            <td width="16%">国内语音拨打(元/分钟)</td>
+		                            <td width="12%">国内流量(元/GB)</td>
+		                            <td width="9%">短彩信(元/条)</td>
+		                            <td width="6%">其他业务</td>
+		                          </tr>
+		                          <tr>
+		                            <td>400M</td>
+		                            <td>200</td>
+		                            <td>国内</td>
+		                            <td>0.15</td>
+		                            <td>60</td>
+		                            <td>0.1</td>
+		                            <td>标准资费</td>
+		                            <td>120</td>
+		                            <td>30元/月</td>
+		                          </tr>
+		                        </table>
+	                        </div>
+
+	                        <div class="chooseunmber r2">
+								<div class="numbertitle">短/彩信包</div>
+								<div class="numberbox ">
+									<ul>
+										<li class="wgo wgo2">
+											<p >10元包200条</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >20元包400条</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >30元包500条</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >暂不需要</p>
+										</li>
+									</ul>
+								</div>
+							</div> 
+
+
+
+							<div class="numberok">
+								<span>已选择:</span>
+								<span class="fixed"><b class="rmbTaocan">76元套餐</b>（含上网流量400MB，语音通话500分钟）| <b class="contactTxt">存120元得360元话费合约</b>（含赠送话费1200元，从入网次月起分12个月，分月返还30元）| <b class="contactTxt">10元短/彩信包（包200条）</b></span>
+								
+							</div>
+							<div class="gobuy">
+								<a href="javascript:;" class="">确定</a>
+							</div>
+						</div>
+					</div>
+				</div>
 
 
 

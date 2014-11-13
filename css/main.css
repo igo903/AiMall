@@ -2088,12 +2088,24 @@ a.btn{
 	float: right;
 }
 .mycartbox .mycart-title .fr a{ 
-	background-color: #ff5500;
-	text-align: center;
-	color: #fff;
-	padding: 20px 20px;
+	padding: 5px 20px;
+	width: 60px;
+	height: 30px;
 	margin: 0 10px;
+	background: #ff5500;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	line-height: 28px;
 }
+.mycartbox .mycart-title .fr a:hover{
+	background-color: #ff3300;
+	text-decoration: none;
+}
+
+
+
+
 .mycartbox .mycart-content{
  min-height:150px;  
  margin-top:15px; 
@@ -2148,6 +2160,7 @@ a.btn{
 	font-size:14px; 
 	padding-left:25px;
 	color: #333;
+	height: 30px;
 }
 .mycartbox .mycart-remind .s-time .font_red{ 
 	margin:0 10px;
@@ -2159,6 +2172,7 @@ a.btn{
 	position: absolute;
 	right: 0px;
 	top: 0px;
+	height: 28px;
 }
 .mycartbox .mycart-remind .cart-sum .font_red{
 	 margin:0 10px;
@@ -2169,11 +2183,20 @@ a.btn{
 }
 .mycartbox .mycart-remind .cart-sum a{ 
 	font-weight:normal;
-	background-color: #ff5500;
-	text-align: center;
-	color: #fff;
-	padding: 20px 20px;
 	margin: 0 0px 0 10px;
+	width: 100px;
+	height: 28px;
+	float: right;
+	background: #ff5500;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	display: block;
+	line-height: 28px;
+}
+.mycartbox .mycart-remind .cart-sum a:hover{
+	background-color: #ff3300;
+	text-decoration: none;
 }
 
 
@@ -2779,7 +2802,7 @@ a.btn{
 }
 
 .belonging .chooseunmber{
-	margin: 20px;
+	margin: 20px 20px 0px 20px;
 	clear: both;
 	float: left;
 }
@@ -2828,7 +2851,7 @@ a.btn{
 	float: left;
 	clear: both;
 }
-.belonging  .numberbox li{
+.belonging .numberbox li{
 	width: 146px;
 	height: 56px;
 	border:1px solid #e8e8e8;
@@ -2838,28 +2861,35 @@ a.btn{
 	cursor: pointer;
 	float: left;
 }
-.belonging  .numberbox li.wgo{ 
+.belonging  .numberbox li p{
+	padding-left: 10px;
+}
+.belonging .numberbox li.wgo{ 
 	width: auto;
 	height: 30px; 
 	padding: 0 10px 0 0 ;
 	line-height: 30px;
 }
-.belonging  .numberbox li.wgo2{
+.belonging .numberbox li.wgo2{
 	width: 140px;
 	text-align: center;
 }
-.belonging  .numberbox li.wgo2 p{
-	margin: 0;
+.belonging .numberbox li.wgo2 p, .belonging .numberbox li.wgo3 p{
+	padding: 0;
 }
+.belonging .numberbox li.wgo3{
+	height: 32px;
+	text-align: center;
+	line-height: 15px;
+	padding-top: 3px;
 
+}
 .belonging  .numberbox li:hover, .belonging .numberbox li.selected{
 	border: 1px solid #ff5500;
 	color:#ff5500;
 	z-index: 1
 }
-.belonging  .numberbox li p{
-	padding-left: 10px;
-}
+
 .belonging  .numberbox li .number{
 	font-size: 16px;
 	font-weight: bold;
@@ -2897,9 +2927,16 @@ a.btn{
 	width: 760px;
 	background-color: #f8f8f8;
 	padding: 20px;
+	margin-top: 10px;
 }
 .belonging .numberok span{
 	color: #999;
+	float: left;
+	line-height: 24px;
+	margin-right: 10px;
+}
+.belonging .numberok span.fixed{
+	width: 700px;
 }
 .belonging .numberok b{
 	color:#009900;
@@ -2929,7 +2966,15 @@ a.btn{
 	text-decoration: none;
 	background-color: #ff3300;
 }
-
+.belonging .taocan-table{
+	margin: 20px 20px 10px 20px;
+}
+.belonging .taocan-table td{ 
+	border:1px solid #ccc; 
+	line-height:25px; 
+	text-align:center;
+	width:11%;
+}
 
 
 
@@ -2975,7 +3020,7 @@ a.btn{
 }
 
 
-#switchnNumberContent.overlay_content, #switchTaocan.overlay_content{
+#switchnNumberContent.overlay_content, #switchTaocan.overlay_content,#switch4GTaocan.overlay_content{
 	width: 800px;
 }
 
