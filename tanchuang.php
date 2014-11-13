@@ -105,9 +105,7 @@
 
 
 				<!-- 选套餐（3G/4G一体化套餐） -->
-
-
-				<div id="switch4GTaocan" class="belonging overlay_content" style="display:block">
+				<!-- <div id="switch4GTaocan" class="belonging overlay_content" style="display:block">
 					<div class="close_overlay"><a href="javascript:;"></a></div>
 					<div class="white">
 						<div class="">
@@ -206,11 +204,102 @@
 								</div>
 							</div> 
 
+							<div class="numberok">
+								<span>已选择:</span>
+								<span class="fixed"><b class="rmbTaocan">76元套餐</b>（含上网流量400MB，语音通话500分钟）| <b class="contactTxt">存120元得360元话费合约</b>（含赠送话费1200元，从入网次月起分12个月，分月返还30元）| <b class="contactTxt">10元短/彩信包</b>（包200条）</span>
+								
+							</div>
+							<div class="gobuy">
+								<a href="javascript:;" class="">确定</a>
+							</div>
+						</div>
+					</div>
+				</div> -->
 
+
+
+
+				<!-- 选套餐（A/B/C计划套餐） -->
+				<div id="switchABCTaocan" class="belonging overlay_content" style="display:block">
+					<div class="close_overlay"><a href="javascript:;"></a></div>
+					<div class="white">						
+						<div class="">
+							<h1>选套餐（A/B/C计划套餐）</h1>
+							<div class="hooseunmberprompt">
+								您可根据每月消费情况在以下A、B、C计划中随需要选择适合的套餐。如果您想选择其他套餐，请选择其他月费的优惠活动。
+							</div>
+							</div>
+							<div class="chooseunmber r1">
+								<div class="numbertitle">A计划（上网流量多）</div>
+								
+								<div class="numberbox ">
+									<ul>
+										<li class="wgo wgo2 noclick">
+											<p >46元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >66元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >96元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >126元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >156元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >186元套餐</p>
+										</li>
+									</ul>
+								</div>
+							</div>  
+							
+							<div class="chooseunmber r2">
+								<div class="numbertitle">B计划（长途漫游多）</div>
+								<div class="numberbox ">
+									<ul>
+										<li class="wgo wgo2">
+											<p >76元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >77元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >75元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >90元套餐</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >33元套餐</p>
+										</li>
+									</ul>
+								</div>
+							</div> 
+
+							
+	                        <div class="chooseunmber r2">
+								<div class="numbertitle">C计划（本地通话多）</div>
+								<div class="numberbox ">
+									<ul>
+										<li class="wgo wgo2">
+											<p >10元包200条</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >20元包400条</p>
+										</li>
+										<li class="wgo wgo2">
+											<p >30元包500条</p>
+										</li>
+									</ul>
+								</div>
+							</div> 
 
 							<div class="numberok">
 								<span>已选择:</span>
-								<span class="fixed"><b class="rmbTaocan">76元套餐</b>（含上网流量400MB，语音通话500分钟）| <b class="contactTxt">存120元得360元话费合约</b>（含赠送话费1200元，从入网次月起分12个月，分月返还30元）| <b class="contactTxt">10元短/彩信包（包200条）</b></span>
+								<span class="fixed"><b class="rmbTaocan">76元套餐</b>（含上网流量400MB，语音通话500分钟）| <b class="contactTxt">存120元得360元话费合约</b>（含赠送话费1200元，从入网次月起分12个月，分月返还30元）| <b class="contactTxt">10元短/彩信包</b>（包200条）</span>
 								
 							</div>
 							<div class="gobuy">
@@ -219,6 +308,8 @@
 						</div>
 					</div>
 				</div>
+
+
 
 
 

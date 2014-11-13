@@ -2884,6 +2884,10 @@ a.btn{
 	padding-top: 3px;
 
 }
+.belonging .numberbox li.noclick{
+	background-color: #f8f8f8;
+	color: #ccc;
+}
 .belonging  .numberbox li:hover, .belonging .numberbox li.selected{
 	border: 1px solid #ff5500;
 	color:#ff5500;
@@ -2975,6 +2979,14 @@ a.btn{
 	text-align:center;
 	width:11%;
 }
+.belonging .hooseunmberprompt{
+	background-color: #fffaf7;
+	border: 1px solid #ffe5dc;
+	height: 33px;
+	color: #ff5500;
+	padding-left: 10px;
+	line-height: 33px;
+}
 
 
 
@@ -3020,7 +3032,7 @@ a.btn{
 }
 
 
-#switchnNumberContent.overlay_content, #switchTaocan.overlay_content,#switch4GTaocan.overlay_content{
+#switchnNumberContent.overlay_content, #switchTaocan.overlay_content,#switch4GTaocan.overlay_content,#switchABCTaocan.overlay_content{
 	width: 800px;
 }
 
