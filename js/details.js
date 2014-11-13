@@ -70,7 +70,6 @@ seajs.use(['jquery'],function($){
 			$("#overlay_area div").height(docH).width(docW).show();
 			$("#overlay_area").fadeIn("fast");
 
-			//console.log($(this).attr('data-name'));
 			var panelName = $(this).attr('data-name');
 
 			$("#" +panelName + ".overlay_content" ).each(function(){
@@ -107,7 +106,6 @@ seajs.use(['jquery'],function($){
 			console.log(todoIndex);
 		});
 
-
 		$( "body" ).on( "click", ".todos .close",function() {
 			if(todoIndex <= 0){
 				todoIndex = 0;
@@ -118,8 +116,10 @@ seajs.use(['jquery'],function($){
 		});
 
 
-
-
+		$('#switchTaocan .r1 li, #switchTaocan .r2 li').click(function(){
+			$(this).siblings().removeClass("selected");
+			$(this).addClass("selected");
+		});
 
 });
 

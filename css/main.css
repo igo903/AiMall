@@ -2723,7 +2723,7 @@ a.btn{
 	margin: 0;
 }
 
-.belonging  .numberbox li:hover{
+.belonging  .numberbox li:hover, .belonging .numberbox li.selected{
 	border: 1px solid #ff5500;
 	color:#ff5500;
 	z-index: 1
@@ -2848,12 +2848,10 @@ a.btn{
 }
 
 
-#switchnNumberContent.overlay_content{
+#switchnNumberContent.overlay_content, #switchTaocan.overlay_content{
 	width: 800px;
 }
-#switchnNumberContent2.overlay_content{
-	width: 800px;
-}
+
 
 
 

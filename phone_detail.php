@@ -77,7 +77,7 @@
 							</div>
 							<div class="row">
 								<span class="de">手机套餐:</span>
-								<a href="javascript:;" class="" id="chooseSuite" data-name="switchnNumberContent2">选套餐</a>
+								<a href="javascript:;" class="" id="chooseSuite" data-name="switchTaocan">选套餐</a>
 							</div>
 							<div class="row">
 								<span class="de">手机号码:</span>
@@ -660,15 +660,15 @@
 
 
 
-		<div id="switchnNumberContent2" class="belonging overlay_content">
+		<div id="switchTaocan" class="belonging overlay_content">
 			<div class="close_overlay"><a href="javascript:;"></a></div>
 			<div class="white">
 				<div class="">
 					<h1>选合约套餐</h1>
-					<div class="chooseunmber">
+					<div class="chooseunmber r1">
 						<div class="numbertitle">选合约</div>
 						
-						<div class="numberbox preview">
+						<div class="numberbox ">
 							<ul>
 								<li class="wgo">
 									<p >小米4 4G全国套餐购机送费</p>
@@ -677,9 +677,9 @@
 						</div>
 					</div>  
 					
-					<div class="chooseunmber">
+					<div class="chooseunmber r2">
 						<div class="numbertitle">选套餐</div>
-						<div class="numberbox preview">
+						<div class="numberbox ">
 							<ul>
 								<li class="wgo wgo2">
 									<p >76元套餐</p>
@@ -709,10 +709,7 @@
 					<div class="gobuy">
 						<a href="javascript:;" class="">确定</a>
 					</div>
-
-
-
-				</div><!--//allcities-->
+				</div><!--//-->
 			</div>
 		</div>
 
