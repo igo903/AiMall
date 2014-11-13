@@ -75,6 +75,8 @@
 								<span class="current-city ai">南京市</span>
 								<a href="javascript:;" class="" id="switchCity" data-name="switchCityContent">切换归属地</a>
 							</div>
+
+
 							<div class="row" id="xtc">
 								<span class="de">手机套餐:</span>
 								<a href="javascript:;" class="" id="chooseSuite" data-name="switchTaocan">选套餐</a>
@@ -84,10 +86,19 @@
 								<span class="ai">合约套餐166元/月</span><span class="again" id="chooseSuite" data-name="switchTaocan">< 重新选择</span>
 								<p class="m"><span>已选择:<b class="rmbTaocan">166元套餐</b>（含上网流量2GB，语音通话500分钟）| <b class="contactTxt">24个月存费送机合约</b>（含赠送话费1200元，分23个月返还）</span></p>
 							</div>
+
+
 							<div class="row">
 								<span class="de">手机号码:</span>
 								<a href="javascript:;" class="" id="switchnNumber" data-name="switchnNumberContent">选号码</a>
 							</div>
+							<div class="row moreinfo">
+								<span class="de">手机号码:</span>
+								<span class="ai">15005819123</span><span class="again" id="switchnNumber" data-name="switchnNumberContent">< 重新选择</span>
+								<p class="m"><span>已选择:<b class="rmbTaocan">166元套餐</b>（含上网流量2GB，语音通话500分钟）| <b class="contactTxt">24个月存费送机合约</b>（含赠送话费1200元，分23个月返还）</span></p>
+							</div>
+
+
 							<div class="row gobuy">
 								<a href="javascript:;">加入购物车</a>
 								<a href="javascript:;">立即订购</a>
