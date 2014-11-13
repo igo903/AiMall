@@ -2499,7 +2499,7 @@ a.btn{
 	line-height:25px;
 }
 
-#switchndeleteContent.overlay_content，#switchnbusinessContent.overlay_content{
+#switchndeleteContent.overlay_content,#switchnbusinessContent.overlay_content{
 	width:370px; 
 }
 #switchndeleteContent .deleteContent{
@@ -2508,16 +2508,15 @@ a.btn{
 }
 
 .overlay_content .switchnbuttn{
-	width: 170px;
-	margin: 30px auto;
+	width: 190px;
+	margin: 20px auto 10px;
 	overflow: hidden;
 }
 .overlay_content .switchnbuttn a{
 	padding: 0 20px;
 }
 .overlay_content a.determine{
-	height: 30px;
-	margin-right: 15px;
+	height: 30px;	
 	line-height: 30px;
 	background: #ff5500;
 	color: #fff;
@@ -2548,11 +2547,70 @@ a.btn{
 	text-decoration: none;
 }
 
+.business{
+}
+.business p{
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight:bold;
+	color: #333;
+	line-height: 50px;
+}
+.business .businessul{
+	background-color: #f8f8f8;
+	border-top: 1px dashed #e8e8e8;
+	border-bottom: 1px dashed #e8e8e8;
+	overflow: hidden;
+}
+.business .businessul li{
+	margin: 10px 0;
+	overflow: hidden;
+}
+.business .businessul .spanleft{
+	float: left;
+	color: #666;
+	text-align: right;
+	width: 90px;
+}
+.business .businessul .spanright{
+	float: left;
+	color: #333;
+	margin-left: 10px;
+}
+.business .businessul .spanright.bold{
+	font-weight: bold;
+}
+.business .businessul .spanright.color{
+	color: #ff5500;
+}
 
-
-
-
-
+.businessok{
+}
+.businessok .business-text{
+	margin: 20px 20px 30px 20px;
+	line-height: 20px;
+}
+.businessok .business-text span{
+	color: #ff5500;
+	margin: 0 5px;
+}
+.businessok .business-goon{
+	border-top: 1px dashed #e8e8e8;
+	padding: 10px 20px 20px 20px;
+}
+.businessok .business-goon p.bold{
+	font-weight: bold;
+}
+.businessok .business-goon li{
+	background:url("../images/triangleicon.jpg") no-repeat 0 10px;
+	padding-left: 20px;
+	line-height: 25px;
+}
+.businessok .business-goon li a{
+	color: #ff5500;
+	margin-right: 10px;
+	text-decoration:underline;
+}
 
 
 

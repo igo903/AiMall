@@ -37,29 +37,74 @@
 
 				
 
-				<!-- 业务办理 -->
-				<div id="switchnbusinessContent" class="belonging overlay_content" style="display:block">
+				<!-- 业务办理第一步 -->
+				<!-- <div id="switchnbusinessContent" class="belonging overlay_content" style="display:block">
 	                <div class="close_overlay"><a href="javascript:;"></a></div>
 	                <div class="white">
 	                	<div class="allcities">
 							<h1>业务办理</h1>
 							<div class="business">
 								<p>请确认您要开通的业务信息</p>
-								<div>
+								<div class="businessul">
 									<ul>
 										<li>
-											<span>客户号码</span>
-											<span>18512344321</span>
+											<span class="spanleft">客户号码：</span>
+											<span class="spanright bold">18512344321</span>
 										</li>
-										<li></li>
-										<li></li>
-										<li></li>
+										<li>
+											<span class="spanleft">业务名称：</span>
+											<span class="spanright bold">手机电视</span>
+										</li>
+										<li>
+											<span class="spanleft">资费标准：</span>
+											<span class="spanright color">10元/月</span>
+										</li>
+										<li>
+											<span class="spanleft">生效方式：</span>
+											<span class="spanright color">立即生效</span>
+										</li>
+									</ul>
+								</div>
+								<div class="switchnbuttn">
+									<a href="javascript:;" class="determine">确定订购</a>
+									<a href="javascript:;" class="cancel">取消订购</a>
+								</div>
+							</div>
+						</div>
+	                </div>	                
+				</div> -->
+
+
+
+
+
+
+				<!-- 业务办理第二步 -->
+
+				<!-- <div id="switchnbusinessContent" class="belonging overlay_content" style="display:block">
+	                <div class="close_overlay"><a href="javascript:;"></a></div>
+	                <div class="white">
+	                	<div class="allcities">
+							<h1>业务办理</h1>
+							<div class="businessok">
+								<div class="business-text">
+									恭喜，您已成功订购<span>手机电视</span>业务，生效时间为<span>立即生效</span>，预计会在2小时内为您开通，您将在成功开通该业务时受到提示短信，请保持您的手机通讯畅通。
+								</div>
+								<div class="business-goon">
+									<p class="bold">您还可以</p>
+									<ul>
+										<li><a href="javascript:;">返回商城首页</a><a href="javascript:;">查询业务办理记录</a></li>
+										<li>为家人和好友<a href="javascript:;">充值</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 	                </div>	                
-				</div>
+				</div> -->
+
+
+
+				<!-- 选套餐（3G/4G一体化套餐） -->
 
 
 
