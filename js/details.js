@@ -134,6 +134,11 @@ seajs.use(['jquery'],function($){
 			$(this).addClass("selected");
 		});
 
+		$('#switchTaocan .gobuy a').click(function(){
+			var ok = $('#switchTaocan .numberok').html();
+
+		});
+
 });
 
 
