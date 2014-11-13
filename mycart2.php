@@ -100,12 +100,76 @@
 				                <div class="total">已选商品<span>2</span>件<b></b>合计：<span >¥2320.00</span></div>
 				                 
 				            </div>
-
-
-
-			        	</div>
+			        	</div>						
 			        </div>
+
+			        <div class="cart-btn">
+				            <a href="#" class="goonbuy">继续购物</a>
+				            <a href="#" class="goaccounps">去结算</a>
+				    </div>
 				</div>
+
+
+				<div class="recommend-panel fn-clear mt12">
+		    		<div class="col-main">
+						
+							<div class="hotsell hoticon">
+								<h3>热卖</h3>
+								<ul>		
+									<li>
+										<img src="images/601_90x90.jpg" alt="">
+										<div class="info">
+											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+											<i>￥4899.00</i>
+											<a href="javascript:;" class="btn buy">立即订购</a>
+										</div>
+									</li>
+									<li>
+										<img src="images/659_90x90.jpg" alt="">
+										<div class="info">
+											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+											<i>￥4899.00</i>
+											<a href="javascript:;" class="btn buy">立即订购</a>
+										</div>
+									</li>
+									<li>
+										<img src="images/546_90x90.jpg" alt="">
+										<div class="info">
+											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+											<i>￥4899.00</i>
+											<a href="javascript:;" class="btn buy">立即订购</a>
+										</div>
+									</li>
+									<li>
+										<img src="images/611_90x90.jpg" alt="">
+										<div class="info">
+											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+											<i>￥4899.00</i>
+											<a href="javascript:;" class="btn buy">立即订购</a>
+										</div>
+									</li>
+									<li>
+										<img src="images/659_90x90.jpg" alt="">
+										<div class="info">
+											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+											<i>￥4899.00</i>
+											<a href="javascript:;" class="btn buy">立即订购</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						
+					</div>
+		    	</div>
+
+				
+
+
+				
+
+
+
+
 			</div>
 
 

@@ -2057,6 +2057,7 @@ a.btn{
 
 .mycartbox{
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .mycartbox .mycart-title{ 
@@ -2161,15 +2162,12 @@ a.btn{
 	margin: 0 0px 0 10px;
 }
 
-.mycartbox .mycart-content{ 
-	min-height:150px;  
-	margin-top:15px; 
-	position:relative; 
-	float:left; 
-	clear:both; 
-	width:1188px; 
-	margin-bottom:20px;
-}
+
+
+
+
+
+
 .mycartbox .cart-thead{
 	height: 35px;
 	background-color: #f9f9f9;
@@ -2383,15 +2381,115 @@ a.btn{
 	text-decoration:underline;
 }
 
-.cart-total {clear: both; height:48px; background-color:#f9f9f9;padding: 20px 10px 0; position:relative;}
-.cart-total .delete{line-height: normal;text-align: left; float: left;}
-.cart-total .delete input {margin: 11px 15px 0 10px;display: inline; float: left;}
-.cart-total .delete label {line-height: 35px; margin-right:20px;float: left;}
-.cart-total .delete a{line-height: 35px; color: #4397e3}
-.cart-total .delete a:hover{ text-decoration:underline;}
-.cart-total .total {float: right; width: 500px;margin-left: 10px;line-height: 30px;font-weight: 700; text-align:right;}
-.cart-total .total span {font-weight: bold; color: #e4393c;font-weight: 400;font-family: Verdana,Arial; margin:0 10px;}
-.cart-total .total b{ margin:0 10px;}
+.mycartbox  .cart-total {
+	clear: both; 
+	float: left;
+	height:48px; 
+	background-color:#f9f9f9;
+	padding: 20px 10px 0; 
+	position:relative;
+	display: block;
+	width: 1168px;
+}
+.mycartbox .cart-total .delete{
+	line-height: normal;
+	text-align: left; 
+	float: left;
+}
+.mycartbox .cart-total .delete input {
+	margin: 11px 15px 0 10px;
+	display: inline; 
+	float: left;
+}
+.mycartbox .cart-total .delete label {
+	line-height: 35px; 
+	margin-right:20px;
+	float: left;
+}
+.mycartbox .cart-total .delete a{
+	line-height: 35px; 
+	color: #4397e3；
+}
+.mycartbox .cart-total .delete a:hover{ 
+	text-decoration:underline;
+}
+.mycartbox .cart-total .total {
+	float: right; 
+	width: 500px;
+	margin-left: 10px;
+	line-height: 30px;
+	font-weight: 700; 
+	text-align:right;
+}
+.mycartbox .cart-total .total span {
+	font-weight: bold; 
+	font-style: 20px;
+	color: #e4393c;
+	font-family: Verdana,Arial; 
+	margin:0 10px;
+}
+.mycartbox .cart-total .total b{ 
+	margin:0 10px;
+}
+.mycartbox .cart-btn{ margin-top:10px; float: left; width: 100%}
+.mycartbox .cart-btn .goonbuy{ 
+	width:132px; 
+	height:35px;
+	float: left;
+	background: #f8f8f8;
+	color: #666;
+	text-align: center;
+	border-radius: 3px;
+	display: block;
+	line-height: 35px;
+	border:1px solid #e8e8e8;
+}
+.mycartbox .cart-btn .goonbuy:hover{
+	background-color: #f1f1f1;
+	text-decoration: none;
+}
+.mycartbox .cart-btn .goaccounps{ 
+	width:132px; 
+	height:35px; 
+	float: right;
+	background: #ff5500;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	display: block;
+	line-height: 35px;
+}
+.mycartbox .cart-btn .goaccounps:hover{
+	background-color: #ff3300;
+	text-decoration: none;
+}
+
+
+#dialog-inner.overlay_content{
+	width:250px; 
+	border-color: #ddd;
+	border:5px solid #c2c2c2; 
+	background-color:#fff; 
+}
+
+.dialog-close {float:right; margin:5px 5px; background:url(../images/thickbox_close.png) no-repeat; width:23px; height:23px; text-indent:-9999px; cursor:pointer;}
+.dialog-title {float:left; line-height:40px; padding:0 8px; font-weight:bold; font-size:16px; font-family:"微软雅黑";}
+.dialog-content {width: 220px;overflow: hidden;padding: 15px;}
+
+.multiple-select {width: 99px;height: 198px;margin: 0 5px;float: left;display: inline; line-height:25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2611,8 +2709,23 @@ a.btn{
 	cursor: pointer;
 	float: left;
 }
+.belonging  .numberbox li.wgo{ 
+	width: auto;
+	height: 30px; 
+	padding: 0 10px 0 0 ;
+	line-height: 30px;
+}
+.belonging  .numberbox li.wgo2{
+	width: 140px;
+	text-align: center;
+}
+.belonging  .numberbox li.wgo2 p{
+	margin: 0;
+}
+
 .belonging  .numberbox li:hover{
 	border: 1px solid #ff5500;
+	color:#ff5500;
 	z-index: 1
 }
 .belonging  .numberbox li p{
@@ -2734,7 +2847,11 @@ a.btn{
 	width: 400px;*/
 }
 
-#switchnNumberContent.overlay_content {
+
+#switchnNumberContent.overlay_content{
+	width: 800px;
+}
+#switchnNumberContent2.overlay_content{
 	width: 800px;
 }
 

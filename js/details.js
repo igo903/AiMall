@@ -65,7 +65,7 @@ seajs.use(['jquery'],function($){
 		var docW = $("body").width();
 		var todoIndex = 0;
 
-		$('#switchCity, #switchnNumber').click(function(){
+		$('#switchCity, #switchnNumber, #chooseSuite').click(function(){
 			$("#overlay_area").height(docH).width(docW);
 			$("#overlay_area div").height(docH).width(docW).show();
 			$("#overlay_area").fadeIn("fast");

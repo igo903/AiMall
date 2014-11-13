@@ -77,7 +77,7 @@
 							</div>
 							<div class="row">
 								<span class="de">手机套餐:</span>
-								<a href="javascript:;" class="" id="chooseSuite">选套餐</a>
+								<a href="javascript:;" class="" id="chooseSuite" data-name="switchnNumberContent2">选套餐</a>
 							</div>
 							<div class="row">
 								<span class="de">手机号码:</span>
@@ -660,8 +660,60 @@
 
 
 
-		<div id="overlay_area">
-			<div></div>
+		<div id="switchnNumberContent2" class="belonging overlay_content">
+			<div class="close_overlay"><a href="javascript:;"></a></div>
+			<div class="white">
+				<div class="">
+					<h1>选合约套餐</h1>
+					<div class="chooseunmber">
+						<div class="numbertitle">选合约</div>
+						
+						<div class="numberbox preview">
+							<ul>
+								<li class="wgo">
+									<p >小米4 4G全国套餐购机送费</p>
+								</li>
+							</ul>
+						</div>
+					</div>  
+					
+					<div class="chooseunmber">
+						<div class="numbertitle">选套餐</div>
+						<div class="numberbox preview">
+							<ul>
+								<li class="wgo wgo2">
+									<p >76元套餐</p>
+								</li>
+								<li class="wgo wgo2">
+									<p >76元套餐</p>
+								</li>
+								<li class="wgo wgo2">
+									<p >76元套餐</p>
+								</li>
+								<li class="wgo wgo2">
+									<p >76元套餐</p>
+								</li>
+								<li class="wgo wgo2">
+									<p >76元套餐</p>
+								</li>
+								<li class="wgo wgo2">
+									<p >76元套餐</p>
+								</li>
+							</ul>
+						</div>
+					</div> 
+
+					<div class="numberok">
+						<span>已选号码<b>185  1254  0808</b>号码预存款:<b>￥100元</b>（号码预存款100元入网后立即返还。）</span>
+					</div>
+					<div class="gobuy">
+						<a href="javascript:;" class="">确定</a>
+					</div>
+
+
+
+				</div><!--//allcities-->
+			</div>
 		</div>
 
 
@@ -669,6 +721,16 @@
 
 
 
+
+
+
+
+
+
+
+		<div id="overlay_area">
+			<div></div>
+		</div>
 
 
 
