@@ -40,13 +40,6 @@ seajs.use(['arale-switchable/1.1.0/switchable-debug', 'jquery'], function(Slide,
 });
 
 
-seajs.use(['arale-dialog/1.4.0/dialog-debug','jquery'],function(Dialog,$){
-
-});
-
-
-
-
 seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
 	// Instantiate EasyZoom plugin
 	var $easyzoom = $('.easyzoom').easyZoom();
@@ -57,9 +50,11 @@ seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
 
 
 
+
+
 seajs.use(['jquery'],function($){
 
-
+		// convert cell phone number format
 		$('.number').each(function(index){
 			var num = $(this).html();
 
@@ -83,10 +78,26 @@ seajs.use(['jquery'],function($){
 			$("#overlay_area").fadeIn("fast");
 
 			var panelName = $(this).attr('data-name');
+			var offset = $(document).scrollTop();
+			var viewportHeight = $(window).height();
 
+			var winWidth = $(window).width();
+			var winHeight = $(window).height();
+
+
+			//set modal window in the center of the view.
 			$("#" +panelName + ".overlay_content" ).each(function(){
-				$(this).css("left", docW/2 - $(this).width()/2).show();
-				$(this).css("top", docH/6 - $(this).height()/2);
+				$(this).show();
+				//$(this).css("left", docW/2 - $(this).width()/2).show();
+				//$(this).css("top", docH/9 - $(this).height()/2);
+				//$(this).css('top',  (offset  + (viewportHeight/2)) - ($(this).outerHeight()/2));
+
+				$(this).offset({
+			        left: (winWidth - $(this).width()) / 2 + $(window).scrollLeft(),
+			        top: (winHeight - $(this).height()) / 2 + $(window).scrollTop()
+			    });
+
+
 			});
 		});
 
