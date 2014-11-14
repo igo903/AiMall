@@ -2837,6 +2837,7 @@ a.btn{
 .belonging .screening .number-select  .select i{
 	float: right;
 	margin: 7px 10px;
+	cursor: pointer;
 }
 
 .belonging .chooseunmber .numbertitle{

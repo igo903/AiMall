@@ -60,6 +60,18 @@ seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
 seajs.use(['jquery'],function($){
 
 
+		$('.number').each(function(index){
+			var num = $(this).html();
+
+			var first = num.substr(0,3);
+			var second = num.substr(3,4);
+			var third = num.substr(7,4);
+			
+			var newNum = first + ' ' + second + ' ' + third;
+			console.log(newNum);
+			$(this).html(newNum);
+
+		});
 
 		var docH = $(document).height() + 100;
 		var docW = $("body").width();
@@ -88,14 +100,13 @@ seajs.use(['jquery'],function($){
 			$('.current-city').html(cityname);
 			$('#overlay_area').hide();
 			$('.overlay_content').hide();
+			$('#switchCity').removeClass('selected');
 		});
 
 
 		$('.preview li').click(function(){
 			var preview = $(this).html();
 			var total = $('.todos').length;
-			var closebtn = '<div class="close">x</div>'
-			//$('.todo li').html(preview);
 
 			if(todoIndex >= total){
 				alert('限制添加三个号码，请删除一个再添加');
@@ -103,7 +114,6 @@ seajs.use(['jquery'],function($){
 				$('.todo li')[todoIndex].innerHTML = preview;
 				todoIndex ++;
 			}
-			console.log(todoIndex);
 		});
 
 		$( "body" ).on( "click", ".todos .close",function() {
@@ -136,8 +146,9 @@ seajs.use(['jquery'],function($){
 
 		$('#switchTaocan .gobuy a').click(function(){
 			var ok = $('#switchTaocan .numberok').html();
-
 		});
+
+
 
 });
 

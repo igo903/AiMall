@@ -94,7 +94,7 @@
 							</div>
 							<div class="row moreinfo">
 								<span class="de">手机号码:</span>
-								<span class="ai">15005819123</span><span class="again" id="switchnNumber" data-name="switchnNumberContent">< 重新选择</span>
+								<span class="ai number">15005819123</span><span class="again" id="switchnNumber" data-name="switchnNumberContent">< 重新选择</span>
 								<p class="m"><span>已选择:<b class="rmbTaocan">166元套餐</b>（含上网流量2GB，语音通话500分钟）| <b class="contactTxt">24个月存费送机合约</b>（含赠送话费1200元，分23个月返还）</span></p>
 							</div>
 
@@ -601,32 +601,32 @@
 						<div class="numberbox preview">
 							<ul>
 								<li>
-									<p class="number">185  1254  0800</p>
+									<p class="number">18512540800</p>
 									<p class="money">预存￥100元</p>
 									<div class="close">x</div>
 								</li>
 								<li>
-									<p class="number">185  1254  0338</p>
+									<p class="number">18512540338</p>
 									<p class="money">预存￥100元</p>
 									<div class="close">x</div>
 								</li>
 								<li>
-									<p class="number">185  1254  0128</p>
+									<p class="number">18512540128</p>
 									<p class="money">预存￥100元</p>
 									<div class="close">x</div>
 								</li>
 								<li>
-									<p class="number">185  1254  0788</p>
+									<p class="number">18512540788</p>
 									<p class="money">预存￥100元</p>
 									<div class="close">x</div>
 								</li>
 								<li>
-									<p class="number">185  1254  0908</p>
+									<p class="number">18512540908</p>
 									<p class="money">预存￥100元</p>
 									<div class="close">x</div>
 								</li>
 								<li>
-									<p class="number">185  1254  0808</p>
+									<p class="number">18512540808</p>
 									<p class="money">预存￥100元</p>
 									<div class="close">x</div>
 								</li>
@@ -660,7 +660,7 @@
 					</div> 
 
 					<div class="numberok">
-						<span>已选号码<b class="num">185  1254  0808</b>号码预存款:<b class="rmb">￥100元</b>（号码预存款100元入网后立即返还。）</span>
+						<span>已选号码<b class="number">18512540808</b>号码预存款:<b class="rmb">￥100元</b>（号码预存款100元入网后立即返还。）</span>
 					</div>
 					<div class="gobuy">
 						<a href="javascript:;" class="">确定</a>
