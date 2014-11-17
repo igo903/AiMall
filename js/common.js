@@ -15,8 +15,8 @@ seajs.config({
 seajs.use(['jquery'],function($){
 
 	var flag = false;
+	
 	$('#prds-pop').mouseover(function(){
-
 		if(flag == false){
 			$('#side-pop').removeClass('none');	
 			flag = true;
@@ -25,6 +25,21 @@ seajs.use(['jquery'],function($){
 			flag = false;
 		}
 	});
+
+	$('#side-pop').mouseleave(function(event) {
+		$(this).addClass('none');
+		$('.subside').removeClass('current');
+		flag = false;
+	});
+
+
+
+
+
+
+
+
+
 
 
 	/*back to top*/

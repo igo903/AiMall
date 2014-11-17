@@ -87,12 +87,19 @@ seajs.use(['jquery'],function($){
 				var calTop =  (winHeight - $(this).height()) / 2 + $(window).scrollTop();
 				
 				$(this).show();
-				$(this).offset({top: calTop, left:(winWidth - $(this).width())/2});
+				$(this).offset({top: calTop, left:calLeft});
 			});
 		});
 		
 
-		$('.close_overlay, .gobuy a').click(function(){
+		$(document).keyup(function(e){
+			if(e.keyCode == 27){
+				$('#overlay_area').hide();
+				$('.overlay_content').hide();
+			}
+		});
+
+		$('.close_overlay, .gobuy a, #overlay_area').click(function(){
 			$('#overlay_area').hide();
 			$('.overlay_content').hide();
 		});

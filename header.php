@@ -88,7 +88,7 @@
 
 				<div class="fn-right s-topbtn" id="">
 					<div id="myOrder"><a href="javascript:;">我的订单</a></div>
-					<div id="myCarter"><a href="javascript:;">购物车</a></div>
+					<div id="myCarter"><a href="javascript:;">购物车</a><div class="number-hint">999</div></div>
 				</div>
 			</div><!--//head-->
 
