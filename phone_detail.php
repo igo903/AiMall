@@ -573,10 +573,6 @@
 			</div>
 		</div>
 
-
-
-
-
 		<div id="switchnNumberContent" class="belonging overlay_content">
 			<div class="close_overlay"><a href="javascript:;"></a></div>
 			<div class="white">
@@ -672,10 +668,6 @@
 			</div>
 		</div>
 
-
-
-
-
 		<div id="switchTaocan" class="belonging overlay_content">
 			<div class="close_overlay"><a href="javascript:;"></a></div>
 			<div class="white">
@@ -732,28 +724,10 @@
 			</div>
 		</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 		<div id="overlay_area">
 			<div></div>
 		</div>
 
-
-
-
-
-
-	
 
 	<script type="text/javascript" src="js/details.js"></script>
 	<link rel="stylesheet" href="spm_modules/alice-paging/1.1.0/paging.css">

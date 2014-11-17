@@ -18,7 +18,10 @@
 				<div class="cart-success">
 					<div class="cart-ok"></div>
 		          	<span>商品已成功加入购物车！</span>
-		          	<a href="#" class="btn"></a><a href="#" class="btn"></a>		    
+		          	<div class="cart-btn">
+		          		<a href="#" class="btn goonbuy">继续购物</a>
+		          		<a href="#" class="btn goaccounps">去购物车结算</a>
+		          	</div>		          			    
 		    	</div>
 
 		    	<div class="recommend-panel fn-clear mt12">

@@ -171,6 +171,17 @@ i{font-style: normal;}
 	font-size: 16px;
 	color: #333;
 }
+.head .logo .loginicon{
+	display: block;
+	position: absolute;
+	right: -90px;
+	bottom: 30px;
+	font-size: 16px;
+	color: #333;
+	background: url("../images/loginicon.jpg");
+	width: 101px;
+	height:21px;
+}
 
 .head .searchTxt {
     float: left;
@@ -2059,8 +2070,9 @@ a.btn{
 
 .cart-success{ 
 	margin-top:20px; 
-	height:100px; 
-	padding:70px 0 0 500px ;
+	margin-bottom: 40px;
+	padding:70px 0 0 400px ;
+	overflow: hidden;
 	position: relative;
 }
 .cart-success .cart-ok{
@@ -2078,7 +2090,45 @@ a.btn{
 	display:block; 
 	float:left; 
 	margin-right:20px; 
+	margin-left: 100px;
 	line-height:40px;
+	min-height: 80px;
+}
+.cart-success .cart-btn{
+	float: left;
+	clear: both;
+}
+.cart-success .cart-btn .btn{
+	width: 140px;
+	height: 40px;
+	margin-right: 10px;
+}
+.cart-success .cart-btn .goaccounps {
+float: right;
+background: #ff5500;
+color: #fff;
+text-align: center;
+border-radius: 3px;
+display: block;
+line-height: 40px;
+}
+.cart-success .cart-btn .goaccounps:hover{
+	background-color: #ff3300;
+	text-decoration: none;
+}
+.cart-success .cart-btn .goonbuy {
+	float: left;
+	background: #f8f8f8;
+	color: #666;
+	text-align: center;
+	border-radius: 3px;
+	display: block;
+	line-height: 40px;
+	border: 1px solid #e8e8e8;
+}
+.cart-success .cart-btn .goonbuy:hover{
+	background-color: #f1f1f1;
+	text-decoration: none;
 }
 .hoticon h3{ 
 	background: url("../images/hot.jpg") no-repeat 10px 10px #f8f8f8;
@@ -3065,4 +3115,95 @@ a.btn{
 
 #switchnNumberContent.overlay_content, #switchTaocan.overlay_content,#switch4GTaocan.overlay_content,#switchABCTaocan.overlay_content{
 	width: 800px;
+}
+
+
+
+
+
+.login{
+	position: relative;
+	min-height: 550px;
+	overflow: hidden;
+}
+.login-box{
+	position: relative;
+	background-color: #fff;
+	width: 450px;
+	margin: 60px 0 48px 680px;
+	border: 2px solid #dedede;
+	border-top: 2px solid #ff4200;
+	padding: 15px 0;
+}
+.login-box .bd {
+	position: relative;
+	z-index: 2;
+	margin: 0 50px;
+	zoom: 1;
+}
+.login-box .ailk-box {
+	padding: 10px 0;
+	color: #666;
+	zoom: 1;
+}
+.login-box .ui-form-item{
+	 padding: 0;
+}
+.login-box .ui-label{
+	margin-left: 0px;
+	margin-bottom: 5px;
+	text-align: left;
+	font-weight:bold;
+	font-size: 12px;
+}
+.login-box .ui-input{
+	width: 330px;
+}
+.login-box .ui-input.yzm{
+	width: 100px;
+	clear: left;
+	float: left;
+}
+.login-box .ui-checkcode-imgcode-img{
+	float: left;
+}
+.login-box .imgcode-a{
+	float: left;
+	display: block;
+}
+.login-box a.loginbtn{
+	width: 350px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ff5500;
+	margin: 20px 0 0 0;
+	color: #fff;
+	font-weight:bold;
+	font-size: 14px;
+	border-radius: 3px;
+}
+.login-box a.loginbtn:hover{
+	background-color: #ff3300;
+	text-decoration: none;
+}
+
+.login-box .entries {
+	padding-top: 10px;
+	overflow: hidden;
+	zoom: 1;
+}
+.login-box .entries li{
+	width: 165px;
+	float: left;
+}
+.login-box .entries li.tcr{
+	text-align: right;
+	margin-right: 20px;
+}
+.login .login-bg{
+	position: absolute;
+	width: 400px;
+	height: 370px;
+	left: 125px;
+	top: 60px;
 }
