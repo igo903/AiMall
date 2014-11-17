@@ -63,7 +63,7 @@ seajs.use(['jquery'],function($){
 			var third = num.substr(7,4);
 			
 			var newNum = first + ' ' + second + ' ' + third;
-			console.log(newNum);
+			//console.log(newNum);
 			$(this).html(newNum);
 
 		});
@@ -78,28 +78,19 @@ seajs.use(['jquery'],function($){
 			$("#overlay_area").fadeIn("fast");
 
 			var panelName = $(this).attr('data-name');
-			var offset = $(document).scrollTop();
-			var viewportHeight = $(window).height();
-
 			var winWidth = $(window).width();
 			var winHeight = $(window).height();
 
-
 			//set modal window in the center of the view.
 			$("#" +panelName + ".overlay_content" ).each(function(){
+				var calLeft = (winWidth - $(this).width()) / 2 + $(window).scrollLeft();
+				var calTop =  (winHeight - $(this).height()) / 2 + $(window).scrollTop();
+				
 				$(this).show();
-				//$(this).css("left", docW/2 - $(this).width()/2).show();
-				//$(this).css("top", docH/9 - $(this).height()/2);
-				//$(this).css('top',  (offset  + (viewportHeight/2)) - ($(this).outerHeight()/2));
-
-				$(this).offset({
-			        left: (winWidth - $(this).width()) / 2 + $(window).scrollLeft(),
-			        top: (winHeight - $(this).height()) / 2 + $(window).scrollTop()
-			    });
-
-
+				$(this).offset({top: calTop, left:(winWidth - $(this).width())/2});
 			});
 		});
+		
 
 		$('.close_overlay, .gobuy a').click(function(){
 			$('#overlay_area').hide();

@@ -19,12 +19,10 @@ seajs.use(['jquery'],function($){
 
 		if(flag == false){
 			$('#side-pop').removeClass('none');	
-			console.log(9999);
 			flag = true;
 		} else if(flag == true){
 			$('#side-pop').addClass('none');
 			flag = false;
-			console.log(1010);
 		}
 	});
 
@@ -47,7 +45,6 @@ seajs.use(['jquery'],function($){
 			var win_w = win.width();
 			var win_h = win.height();
 			
-			console.log(icon_h);
 			var top = win_h - icon_h - 30; //定义当前icon应该所属的top值
 			var left = (doc_w - 980) / 2 + 1090; //距离左侧距离
 			var right = 40; //距离右侧距离
