@@ -99,7 +99,7 @@
 							        		<li><a href="mycart.php">续约沃送礼，短信加流量！</a></li>
 							        		<li><a href="pluscart.php">"盛夏同学惠，沃派送大礼"，沃派暑期促销</a></li>
 							        		<li><a href="management-comment.php">3G新入网即送"联通秘书"</a></li>
-							        		<li><a href="javascript:;">查询"个人信息"，号码状态轻松知晓</a></li>
+							        		<li><a href="mycart2.php">查询"个人信息"，号码状态轻松知晓</a></li>
 							        	</ul>
 							        </div>
 							        <div class="fn-hide" data-role="panel">
