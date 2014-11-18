@@ -25,7 +25,7 @@
 
 			<div class="fn-left">
 				<span>产业互联网-亚信商城开通啦！</span>
-				<a href="login.html" class="ai">请登录</a>
+				<a href="login.php  ?>" class="ai">请登录</a>
 				<a href="javascript:;">免费注册</a>
 			</div>
 			
