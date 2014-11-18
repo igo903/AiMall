@@ -77,6 +77,21 @@
 					</div>
 				</div>
 
+				<div class="filter-bar">
+					<span class="btn selected">默认</span>
+					<span class="btn ">号码</span>
+					<span class="btn">价格 
+						<i class="fa fa-caret-up ai"></i>
+						<i class="fa fa-caret-down"></i>
+					</span>
+					
+					<div class="turn-page">
+						<span><i>1</i>/<i>4</i></span>
+						<a href="javascript:;" class="fa fa-chevron-circle-left fa-lg"></a>
+						<a href="javascript:;" class="fa fa-chevron-circle-right fa-lg"></a>
+					</div>
+				</div>
+
 			</div><!--//cont-->
 
 			<div class="side service-side none" id="side-pop">
@@ -86,6 +101,8 @@
 
 		
 		<div class="num-list mt12">
+
+			<div class="no404"><p>对不起，没有找到相关的号码，请重新筛选</p></div>
 			<ul>
 				<li class="row">
 					<div class="num ">15005819123</div>

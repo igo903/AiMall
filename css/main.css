@@ -1072,6 +1072,45 @@ i{font-style: normal;}
 .filter-panel .row:last-child, .filter-panel .row.last{
 	border: none;
 }
+.filter-bar {
+	height: 40px;
+	background: #f8f8f8;
+	margin-top: 12px;
+	border: 1px solid #e8e8e8;
+	position: relative;
+}
+.filter-bar .btn{
+	width: 80px;
+	margin-top: 6px;
+	margin-right: 0px;
+	position: relative;
+	cursor: pointer;
+}
+.filter-bar .btn i{
+	position: absolute;
+	right: 15px;
+	top: 11px;
+	cursor: pointer;
+}
+.filter-bar .btn i.fa-caret-up{
+	top: 4px;
+}
+
+.filter-bar a:hover{text-decoration: none;}
+.filter-bar .selected{
+	background: #ff3300;
+	color: #fff;
+	border-color: #efefef;
+}
+.filter-bar .turn-page{
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+
+
+
+
 
 .direct-buy .magnifier{
 	width: 320px;
@@ -1585,7 +1624,7 @@ i{font-style: normal;}
 .prd-list .channel-item{
 	border-left: 0;
 }
-a.btn{
+a.btn, .btn{
 	width: 93px;
 	height: 26px;
 	line-height: 26px;
@@ -1622,7 +1661,7 @@ a.btn{
 }
 
 .recommend-panel h3{
-	background: #efefef;
+	background: #f8f8f8;
 	line-height: 40px;
 	height: 40px;
 	padding: 0 20px;
@@ -1707,7 +1746,11 @@ a.btn{
 
 
 
-
+.num-list .no404{
+	text-align: center;
+	padding: 40px;
+	font-size: 16px;
+}
 .num-list ul li{
 	border: 1px solid #e8e8e8;
 	float: left;
