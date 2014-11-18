@@ -73,7 +73,7 @@
 					</div>
 				</div>
 				<div class="login-bg">
-					<img src="images/loginad.jpg">
+					<img src="images/loginad.png">
 				</div>
 			</div>
 		</div>
