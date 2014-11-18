@@ -178,9 +178,10 @@ i{font-style: normal;}
 	bottom: 10px;
 	font-size: 16px;
 	color: #333;
-	background: url("../images/loginicon.jpg");
 	width: 101px;
 	height:21px;
+	border-left: 5px solid #eee;
+	padding-left: 15px;
 }
 
 .head .searchTxt {
@@ -3163,9 +3164,8 @@ line-height: 40px;
 .login-box .ui-input{
 	width: 330px;
 }
-.login-box .ui-input.yzm{
+.ui-form-item .ui-input.yzm{
 	width: 100px;
-	clear: left;
 	float: left;
 }
 .login-box .ui-checkcode-imgcode-img{
@@ -3175,7 +3175,7 @@ line-height: 40px;
 	float: left;
 	display: block;
 }
-.login-box a.loginbtn{
+.ui-form-item .btn350{
 	width: 350px;
 	height: 40px;
 	line-height: 40px;
@@ -3185,8 +3185,9 @@ line-height: 40px;
 	font-weight:bold;
 	font-size: 14px;
 	border-radius: 3px;
+	border: 0px;
 }
-.login-box a.loginbtn:hover{
+.ui-form-item .btn350:hover{
 	background-color: #ff3300;
 	text-decoration: none;
 }
@@ -3210,4 +3211,56 @@ line-height: 40px;
 	height: 370px;
 	left: 125px;
 	top: 60px;
+}
+.reg-cont{
+	 position:relative; 
+	 float:left; 
+	 clear:both; 
+	 width:1188px; 
+	 margin-bottom:20px;
+	 border-top:2px solid #f33f00; 
+	 border-left:1px solid #eee;
+	 border-right:1px solid #eee;
+	 border-bottom:1px solid #eee;
+}
+.reg-cont  .reg-login{
+	position: absolute;
+	right: 0px;
+	top: -30px;
+	font-weight: normal;
+	color: #666;
+}
+.reg-cont  .reg-login a{
+	color: #4397e3;
+	text-decoration: underline
+}
+.reg-cont .reg-box{
+	margin-left: 270px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.ui-form-item .label-plus{
+	color: #999;
+}
+.reg-box  .ui-input{
+	width: 350px;
+}
+.reg-box  a.label-a{
+	color: #4397e3;
+	text-decoration: underline;
+}
+.ui-form-item{
+	position: relative;
+}
+.ui-form-item .form-prompt{
+	position: absolute;
+	left: 550px;
+	top: 0px;
+	width: 300px;
+	background:#ffebec url("../images/formprompt.jpg") no-repeat 10px 10px;
+	border: 1px solid #ffbdbf;
+	padding: 7px 9px 7px 30px;
+	color: #666;
 }
