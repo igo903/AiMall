@@ -16,30 +16,14 @@ seajs.use(['jquery'],function($){
 
 	var flag = false;
 	
-	$('#prds-pop').mouseover(function(){
-		if(flag == false){
-			$('#side-pop').removeClass('none');	
-			flag = true;
-		} else if(flag == true){
-			$('#side-pop').addClass('none');
-			flag = false;
-		}
-	});
-
-	$('#side-pop').mouseleave(function(event) {
-		$(this).addClass('none');
+	$('.service-side').mouseleave(function(event) {
 		$('.subside').removeClass('current');
-		flag = false;
 	});
 
-
-
-
-
-
-
-
-
+	$('.subside').hover(function(){
+		$('.subside').removeClass('current');
+		$(this).addClass('current');
+	});
 
 
 	/*back to top*/
@@ -128,10 +112,21 @@ seajs.use(['arale-popup/1.2.0/popup-debug','jquery'], function(Popup, $){
 		element: '#surfWebPopup'
 	});
 
-	$('.subside').hover(function(){
-		$('.subside').removeClass('current');
-		$(this).addClass('current');
-	});
+
+	if($('.service-side').attr('id') == 'side-pop'){
+		var sideNav = new Popup({
+			trigger: '#prds-pop',
+			align: {
+	            baseXY: [0, 40]
+	        },
+			element: '#side-pop'
+		}); 
+	}
+
+	
+
+
+	
 });
 
 
