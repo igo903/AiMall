@@ -120,6 +120,12 @@ seajs.use(['arale-popup/1.2.0/popup-debug','jquery'], function(Popup, $){
 	            baseXY: [0, 40]
 	        },
 			element: '#side-pop'
+		});
+
+		sideNav.after('show',function(){
+			$('#prds-pop i').addClass('spinOnce');
+		}).after('hide',function(){
+			$('#prds-pop i').removeClass('spinOnce');
 		}); 
 	}
 });
