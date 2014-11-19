@@ -6,7 +6,7 @@
 
 			<div id="main-nav" class="row">
 				<ul>
-					<li id="prds-pop"><a href="javascript:;" class="all-prds">所有商品分类</a><i class="fa fa-caret-down fa-lg"></i></li>
+					<li id="prds-pop"><a href="javascript:;" class="all-prds">所有商品分类</a></li>
 					<li><a href="index.php" >首页</a></li>
 					<li><a href="innovate.php" class="active">创新产品</a></li>
 					<li><a href="javascript:;">流量专区</a></li>
