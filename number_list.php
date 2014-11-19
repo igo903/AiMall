@@ -103,7 +103,7 @@
 		<div class="num-list mt12">
 
 			<div class="no404"><p>对不起，没有找到相关的号码，请重新筛选</p></div>
-			<ul>
+			<ul class="row">
 				<li class="row">
 					<div class="num ">15005819123</div>
 					<div class="gobuy">
@@ -139,13 +139,13 @@
 						<a href="javascript:;" class="btn buy">立即购买</a>
 					</div>
 				</li>
-				<li class="right-col">
+				<!-- <li class="right-col">
 					<div class="num ">13616517296</div>
 					<div class="gobuy">
 						<span class="info">预存话费：<i>￥0</i>元</span>
 						<a href="javascript:;" class="btn buy">立即购买</a>
 					</div>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 
@@ -172,112 +172,7 @@
 		    <a class="ui-paging-info ui-paging-goto" href="#">跳转</a>
 		</div>
 
-
-		<div class="recommend-panel fn-clear mt12">
-			<div class="col-main">
-				<div class="main-wrap">
-					<div class="hotsell">
-						<h3>热卖</h3>
-						<ul>
-							<li>
-								<img src="images/546_90x90.jpg" alt="">
-								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-				    				<a href="javascript:;" class="btn buy">立即订购</a>
-								</div>
-							</li>
-							<li>
-								<img src="images/659_90x90.jpg" alt="">
-								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
-								</div>
-							</li>
-							<li>
-								<img src="images/659_90x90.jpg" alt="">
-								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
-								</div>
-							</li>
-							<li>
-								<img src="images/601_90x90.jpg" alt="">
-								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
-								</div>
-							</li>
-							<li>
-								<img src="images/659_90x90.jpg" alt="">
-								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
-								</div>
-							</li>
-							<li>
-								<img src="images/546_90x90.jpg" alt="">
-								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
-								</div>
-							</li>
-							<li>
-								<img src="images/611_90x90.jpg" alt="">
-								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
-								</div>
-							</li>
-							<li>
-								<img src="images/659_90x90.jpg" alt="">
-								<div class="info">
-									<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-									<i>￥4899.00</i>
-									<a href="javascript:;" class="btn buy">立即订购</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="jingxuan fn-left col-sub">
-				<h3>精选</h3>
-				<ul>
-					<li>
-						<img src="images/Q403_60x60.jpg" alt="">
-						<div class="info">
-							<a href="javascript:;">中兴（ZTE）星星一号(S2002) 4G全国套餐</a>
-							<i>￥1719.00</i>
-						</div>
-					</li>
-					<li>
-						<img src="images/Q403_60x60.jpg" alt="">
-						<div class="info">
-							<a href="javascript:;">iPhone5s 默认开通炫铃升级版</a>
-							<i>￥1719.00</i>
-						</div>
-					</li>
-					<li class="last">
-						<img src="images/Q403_60x60.jpg" alt="">
-						<div class="info">
-							<a href="javascript:;">中兴（ZTE）星星一号(S2002) 4G全国套餐</a>
-							<i>￥1719.00</i>
-						</div>
-					</li>
-				</ul>
-				
-			</div>
-			
-		</div>
-
+		<?php include("recommend_panel.php"); ?>
 
 
 	</div><!--//Ai_Wrap-->

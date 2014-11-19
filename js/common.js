@@ -122,11 +122,17 @@ seajs.use(['arale-popup/1.2.0/popup-debug','jquery'], function(Popup, $){
 			element: '#side-pop'
 		}); 
 	}
+});
 
-	
 
-
-	
+seajs.use(['slick/1.3.11/slick/slick-debug', 'jquery'], function(slick, $) {
+	$('.caro-side').slick({
+		slidesToShow: 3,
+		slidesToScroll: 2,
+		autoplay: true,
+		vertical: true,
+		autoplaySpeed: 2800
+	});
 });
 
 

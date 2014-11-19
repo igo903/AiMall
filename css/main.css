@@ -1017,7 +1017,7 @@ i{font-style: normal;}
 	line-height: 30px;
 }
 .filter-panel h3{
-	background: #efefef;
+	background: #f8f8f8;
 	line-height: 40px;
 	height: 40px;
 	padding: 0 20px;
@@ -1674,41 +1674,46 @@ a.btn, .btn{
 	width: 234px;
 	border-right: 1px solid #e8e8e8;
 	margin-left: -100%;
+	height: 305px;
 }
-.jingxuan ul, .hotsell ul{
+.jingxuan ul, .hotsell ul, .jingxuan .caro-side, .hotsell .caro-side{
 	padding: 10px;
+	overflow: hidden;
+	height: 245px;
 }
-.jingxuan ul li{
+.jingxuan ul li, .jingxuan .caro-side div.item{
 	border-bottom: 1px dotted #e8e8e8;
 	position: relative;
 	height: 80px;
 	overflow: hidden;
 }
-.hotsell ul li{
+.hotsell ul li, .hotsell .caro-side div.item{
 	position: relative;
 	height: 120px;
 	width: 230px;
 	overflow: hidden;
 	float: left;
 }
-
-.jingxuan ul li:last-child, .jingxuan ul li.last{
+.caro-side.slick-slider{
+	/*margin-bottom: 0;*/
+}
+.jingxuan ul li:last-child, .jingxuan ul li.last, .jingxuan .caro-side div.last, .jingxuan .caro-side div:last-child{
 	border-bottom: none;
 }
-.jingxuan ul li .info, .hotsell ul li .info{
+.jingxuan ul li .info, .hotsell ul li .info, .jingxuan .caro-side div.item .info, .hotsell .caro-side div.item .info{
 	width: 130px;
 	position: absolute;
 	right: 0px;
 	top: 10px;
 }
-.jingxuan ul li img, .hotsell ul li img{
+.jingxuan ul li img, .hotsell ul li img, .jingxuan .caro-side div.item img, .hotsell .caro-side div.item img{
 	width: 60px;
 	height: 60px;
 	position: absolute;
 	top: 10px;
 	left: 0px;
 }
-.hotsell ul li img{
+.hotsell ul li img, .hotsell .caro-side div.item img{
 	width: 90px;
 	height: 90px;
 }

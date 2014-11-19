@@ -60,12 +60,12 @@
 							</div><!--//Ai_Promo-->
 
 							<div id="Ai_Phones" class="phones">
-							        <div class="slider caro row">
-										<div><a href="#"><img src="images/170_155_01.png"/></a></div>
-										<div><a href="#"><img src="images/170_155_02.png"/></a></div>
-										<div class=""><a href="#"><img src="images/170_155_03.png"/></a></div>
-										<div class=""><a href="#"><img src="images/170_155_02.png"/></a></div>
-									</div>
+						        <div class="slider caro row">
+									<div><a href="javascript:;"><img src="images/170_155_01.png"/></a></div>
+									<div><a href="javascript:;"><img src="images/170_155_02.png"/></a></div>
+									<div class=""><a href="javascript:;"><img src="images/170_155_03.png"/></a></div>
+									<div class=""><a href="javascript:;"><img src="images/170_155_02.png"/></a></div>
+								</div>
 							</div>
 							<!--//Ai_Phones-->
 
