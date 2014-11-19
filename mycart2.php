@@ -18,7 +18,7 @@
 			            <div class="fl">我的购物车</div>
 			            <div class="fr">现在<a href="#">登录</a>您购物车中的商品将被永久保存</div>
 			        </div>
-			        <div class="mycart-split">订单中所有商品只能填写一份入网资料，如需填写多份，请分成多个订单提交</div>
+			        <div class="shopping-prompt">订单中所有商品只能填写一份入网资料，如需填写多份，请分成多个订单提交</div>
 
 			        <div class="mycart-remind">
 			            <div class="s-time fl">请在<span class="font_red">29分37秒</span>内提交订单。下单后6小时内完成支付，否则您选择的号码资源会被释放。</div>

@@ -2142,6 +2142,129 @@ a.btn, .btn{
 .management-panel .writing-text .commstar4{ width:112px;height: 20px;background:url("../images/evaluate.png") no-repeat -141px 0px ;}
 .management-panel .writing-text .commstar5{ width:140px;height: 20px;background:url("../images/evaluate.png") no-repeat -141px 0px ;}
 
+.management-panel .ordersbox{
+	margin: 20px 10px 0;
+}
+.management-panel .orders-thead {
+	height: 35px;
+	background-color: #f9f9f9;
+	border: 1px solid #efefef;
+	border-bottom: 0px;
+}
+.orders-thead .column {
+	width: 99px;
+	height: 35px;
+	border-right: 1px solid #f9f9f9;
+	float: left;
+	color: #666;
+	line-height: 35px;
+	text-align: center;
+}
+.orders-thead .t-goods {
+	width: 237px;
+	text-align: left;
+	padding-left: 20px;
+}
+.orders-thead .t-message {
+	width: 190px;
+	text-align: left;
+}
+.orders-thead .t-quantity {
+	width: 70px;
+}
+.orders-thead .t-people {
+	width: 105px;
+}
+.orders-thead .t-total {
+	width: 110px;
+}
+.orders-thead .t-inventory {
+	width: 110px;
+}
+.orders-thead .t-inventory select {
+	margin-top: 7px;
+	color: #666;
+	border: 1px solid #ddd;
+	height: 25px;
+}
+.orders-thead .t-action {
+	width: 100px;
+	padding-left: 34px;
+	text-align: left;
+}
+.orders-explode {
+	border-top: 2px solid #eeeeee;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 5px;
+	margin-top: 15px;
+	background-color: #f9f9f9;
+	_float: left;
+	_clear: both;
+}
+.orders-explode b.font_red{ 
+	float:left;
+	color: #F00;
+}
+.orders-explode span {
+	margin-right: 60px;
+	float: left;
+}
+.orders-explode span.send {
+	text-align: right;
+	margin-right: 10px;
+	float: right;
+}
+
+
+.orders-tbody {
+	background-color: #fff;
+}
+.orders-tbody .item_selected {
+	padding: 10px 0 0;
+	background-color: #fff;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+	_float: left;
+	_clear: both;
+}
+.orders-tbody .goodbox {
+	width: 540px;
+	border-right: 1px solid #efefef;
+	float: left
+}
+.orders-tbody .goodbox-m {
+	border-bottom: 1px solid #efefef;
+	margin-bottom: -1px;
+	overflow: hidden;
+	padding: 10px 0;
+	_float: left;
+	min-height: 100px;
+}
+.orders-tbody .cell {
+	float: left;
+	height: auto !important;
+}
+.orders-tbody .p-goods {width: 270px;overflow: hidden; }
+.orders-tbody .p-img {width: 60px;height: 60px;margin-right: 10px;border: 1px solid #ddd;padding: 0;float: left;background-color: #fff;}
+.orders-tbody .p-name {padding-right: 10px;line-height: 18px; overflow:hidden}
+.orders-tbody .p-message{width:200px; color:#828282;}
+.orders-tbody .p-quantity {width:70px;text-align:center; }
+.orders-tbody .p-people {width:110px;text-align:center; line-height:25px ; color:#333; }
+.orders-tbody .p-total{width:110px; font-size:14px; color:#f33f00; text-align:center; font-weight:bold;}
+.orders-tbody .p-total P{ font-size:12px; font-weight:normal; color:#333;}
+.orders-tbody .p-inventory{ color:#828282; width:110px;text-align:center; }
+.orders-tbody .p-action{width:100px; padding-left:34px; font-weight:bold; }
+.orders-tbody .p-action a{ line-height:30px;}
+.orders-tbody .p-action a:hover{ text-decoration:underline;}
+.orders-tbody .p-action .btn01{ margin:0px; font-size:12px; font-weight:normal; margin-bottom:5px;}
+.orders-tbody .p-action .btn01:hover{ text-decoration:none;}
+
+
+
+
+
 
 
 .cart-success{ 
@@ -2276,17 +2399,13 @@ line-height: 40px;
 	min-height:130px;
 	padding:45px 0 0 480px;
 }
-.mycartbox .mycart-split{ 
+.shopping-prompt{ 
 	border:1px solid #ffbdbf; 
-	height:30px; 
-	line-height:30px; 
-	padding-left:35px; 
+	padding:7px 35px; 
 	color: #666;
 	background:url("../images/triangle.png") no-repeat 11px 10px #ffebec; 
 	margin-top:15px; 
-	float:left; 
-	clear:both;
-	width:1153px;
+
 }
 .mycartbox .mycart-remind{ 
 	margin-top:15px; 
@@ -3234,6 +3353,11 @@ line-height: 40px;
 }
 .login-box .ui-input{
 	width: 330px;
+}
+.ui-form-item .ui-input.yzm2{
+	width: 100px;
+	float: left;
+	clear: left;
 }
 .ui-form-item .ui-input.yzm{
 	width: 100px;

@@ -53,7 +53,7 @@
 
 							        <div class="ui-form-item">
 							            <label for="" class="ui-label">验证码</label>
-							            <input class="ui-input ui-input-checkcode yzm" type="text" data-explain="请输入右图中字符，不区分大小写。" maxlength="4" autocomplete="off" value="" name="fourcode">
+							            <input class="ui-input ui-input-checkcode yzm2" type="text" data-explain="请输入右图中字符，不区分大小写。" maxlength="4" autocomplete="off" value="" name="fourcode">
 							            <img class="ui-checkcode-imgcode-img" align="absMiddle" alt="请输入您看到的内容" src="https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&r=0.9321065918075809"  title="点击刷新图片校验码">
 							            <a href="#" class="imgcode-a">看不清，换一张</a>
 							        </div>
