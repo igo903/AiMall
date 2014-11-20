@@ -2247,7 +2247,7 @@ a.btn, .btn{
 	_clear: both;
 }
 .orders-tbody .goodbox {
-	width: 540px;
+	width: 520px;
 	border-right: 1px solid #efefef;
 	float: left
 }
@@ -2256,29 +2256,118 @@ a.btn, .btn{
 	margin-bottom: -1px;
 	overflow: hidden;
 	padding: 10px 0;
-	_float: left;
 	min-height: 100px;
+	_float: left;
 }
 .orders-tbody .cell {
 	float: left;
 	height: auto !important;
 }
-.orders-tbody .p-goods {width: 270px;overflow: hidden; }
-.orders-tbody .p-img {width: 60px;height: 60px;margin-right: 10px;border: 1px solid #ddd;padding: 0;float: left;background-color: #fff;}
-.orders-tbody .p-name {padding-right: 10px;line-height: 18px; overflow:hidden}
-.orders-tbody .p-message{width:200px; color:#828282;}
-.orders-tbody .p-quantity {width:70px;text-align:center; }
-.orders-tbody .p-people {width:110px;text-align:center; line-height:25px ; color:#333; }
-.orders-tbody .p-total{width:110px; font-size:14px; color:#f33f00; text-align:center; font-weight:bold;}
-.orders-tbody .p-total P{ font-size:12px; font-weight:normal; color:#333;}
-.orders-tbody .p-inventory{ color:#828282; width:110px;text-align:center; }
-.orders-tbody .p-action{width:100px; padding-left:34px; font-weight:bold; }
-.orders-tbody .p-action a{ line-height:30px;}
+.orders-tbody .p-goods {
+	width: 258px;
+	overflow: hidden;
+}
+.orders-tbody .p-img {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+	padding: 0;
+	float: left;
+	background-color: #fff;
+}
+.orders-tbody .p-names {
+	padding-right: 10px;
+	line-height: 18px;
+	overflow: hidden;
+	float: left;
+	width: 175px;
+}
+.orders-tbody .p-names a{
+	color: #4397e0;
+}
+.orders-tbody .p-names .font_green{
+	color: #34a539;
+	margin: 5px 0;
+}
+.orders-tbody .p-names .font_gray{
+	color: #838383;
+}
+.orders-tbody .p-message {
+	width: 191px;
+	color: #828282;
+}
+.orders-tbody .p-quantity {
+	width: 70px;
+	text-align: center;
+}
+.orders-tbody .p-people {
+	width: 106px;
+	text-align: center;
+	line-height: 25px;
+	color: #333;
+}
+.orders-tbody .p-total {
+	width: 110px;
+	font-size: 14px;
+	color: #f33f00;
+	text-align: center;
+	font-weight: bold;
+}
+.orders-tbody .p-total P {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+}
+.orders-tbody .p-inventory {
+	color: #828282;
+	width: 110px;
+	text-align: center;
+}
+.orders-tbody .p-action {
+	width: 100px;
+	padding-left: 34px;
+	font-weight: bold;
+}
+.orders-tbody .p-action a{ line-height:30px; color: #4596e7;}
 .orders-tbody .p-action a:hover{ text-decoration:underline;}
-.orders-tbody .p-action .btn01{ margin:0px; font-size:12px; font-weight:normal; margin-bottom:5px;}
-.orders-tbody .p-action .btn01:hover{ text-decoration:none;}
-
-
+.orders-tbody .p-action a.payment {
+	padding: 5px 15px;
+	background-color: #ff5500;
+	text-align: center;
+	color: #fff;
+	text-decoration:none;
+	border-radius: 3px;
+}
+.orders-tbody .p-action a.payment:hover{
+	background-color: #ff3300;
+}
+.orders-tbody .p-action .btn01 {
+	margin: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+.orders-tbody .p-action .btn01:hover {
+	text-decoration: none;
+}
+.btn01 {
+	width: 98px;
+	height: 25px;
+	border: 1px solid #f2f2f2;
+	background: url(../images/btn-bj.jpg) repeat-x;
+	line-height: 25px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #959595;
+	display: block;
+	text-align: center;
+	margin-left: 18px;
+	cursor: pointer;
+}
+.btn01:hover {
+	background: none;
+}
 
 
 
