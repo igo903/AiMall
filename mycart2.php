@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("header2.php"); ?>
 
 			<div id="main-nav" class="row">
 				<ul>
@@ -182,5 +182,5 @@
 
 	</div>
 
-
+<link rel="stylesheet" href="spm_modules/alice-step/1.1.0/index.css">
 <?php include("footer.php"); ?>

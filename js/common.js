@@ -116,7 +116,6 @@ seajs.use(['arale-popup/1.2.0/popup-debug','jquery'], function(Popup, $){
 	if($('.service-side').attr('id') == 'side-pop'){
 
 		$('<i class="fa fa-caret-down fa-lg"></i>').insertAfter($('.all-prds'));
-
 		var sideNav = new Popup({
 			trigger: '#prds-pop',
 			align: {

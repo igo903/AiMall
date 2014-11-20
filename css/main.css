@@ -163,6 +163,13 @@ i{font-style: normal;}
     position: relative;
     width: 290px;
 }
+.head .steps{
+	position: absolute;
+	top: 18px;
+	right: 0;
+	width: 500px;
+}
+
 .head .logo .ailogo {
     display: block;
     width: 230px;

@@ -727,7 +727,7 @@
 
 
 	<script type="text/javascript" src="js/innov.js"></script>
-	<script type="text/javascript" src="js/common.js"></script>
+
 	
 	
 	<?php include("footer.php"); ?>
