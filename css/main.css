@@ -843,6 +843,8 @@ i{font-style: normal;}
 	line-height: 25px;
 	list-style-type: disc;
 	list-style-position: inside;
+	width: 252px;
+	overflow: hidden;
 }
 #side-promo{
 	width: 274px;
@@ -1736,6 +1738,14 @@ a.btn, .btn{
 	right: 0px;
 	top: 10px;
 }
+.jingxuan .info a, .hotsell .info a{
+	width: 117px;
+	height: 35px;
+	overflow: hidden;
+	display: block;
+
+}
+
 .jingxuan ul li img, .hotsell ul li img, .jingxuan .caro-side div.item img, .hotsell .caro-side div.item img{
 	width: 60px;
 	height: 60px;
@@ -3134,15 +3144,16 @@ line-height: 40px;
 	padding-left: 10px;
 }
 .belonging .numberbox li.wgo{ 
-	width: auto;
+	width: 140px;
 	height: 30px; 
 	padding: 0 10px 0 0 ;
 	line-height: 30px;
-}
-.belonging .numberbox li.wgo2{
-	width: 140px;
 	text-align: center;
 }
+/*.belonging .numberbox li.wgo2{
+	width: 140px;
+	text-align: center;
+}*/
 .belonging .numberbox li.wgo2 p, .belonging .numberbox li.wgo3 p{
 	padding: 0;
 }
@@ -3282,7 +3293,8 @@ line-height: 40px;
 	top: 70px;
 	width: 500px;
 	z-index: 110;
-	padding: 8px;
+	/*padding: 8px;*/
+	border: 8px solid #666;
 	display: none;
 }
 /*.overlay_content {
@@ -3305,7 +3317,7 @@ line-height: 40px;
 	height: 24px;
 	position: absolute;
 	right: 8px;
-	top: 15px;
+	top: 8px;
 	width: 24px;
 }
 .overlay_content div.white {
