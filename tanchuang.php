@@ -220,7 +220,7 @@
 
 
 				<!-- 选套餐（A/B/C计划套餐） -->
-				<div id="switchABCTaocan" class="belonging overlay_content" style="display:block">
+				<!-- <div id="switchABCTaocan" class="belonging overlay_content" style="display:block">
 					<div class="close_overlay"><a href="javascript:;"></a></div>
 					<div class="white">						
 						<div class="">
@@ -307,10 +307,68 @@
 							</div>
 						</div>
 					</div>
+				</div> -->
+
+
+
+
+				<!-- 购物车 删除商品 -->
+				<!-- <div id="delall" class="close-off" style="display:block">
+                    <div class="detailtit">
+	                    <span> 删除商品</span>
+	                    <i class="close">x</i>
+                    </div>
+                    <div class="delorder-c">确定从购物车中删除此商品？</div>
+                    <div class="delorder-b">
+	                    <a href="#" class="delbtns">确定</a>
+	                    <a href="#" class="delbtns">取消</a>
+                    </div>                  
+                </div> -->
+
+
+
+
+
+                <!-- 收藏商品 -->
+				<div id="switchncollectContent" class="belonging overlay_content" style="display:block">
+	                <div class="close_overlay"><a href="javascript:;"></a></div>
+	                <div class="white">
+	                	<div class="allcities">
+
+							<h1>收藏商品</h1>
+							<div class="tips">
+						        <h2>成功加入<a href="#">收藏夹</a></h2>
+						    </div>
+
+						    <div class="wrap">
+					            <p>热卖商品</p>
+						        <ul>
+						            <li>
+						               <div class="p-img"><a href="#"><img src="images/phone08.jpg" /></a></div>
+						               <div class="p-name"><a href="#">苹果（APPLE）iPhone 4S 8G版 3G</a></div>
+						               <div class="p-price font_red">￥2328.00</div>
+						            </li>
+						            <li>
+						               <div class="p-img"><a href="#"><img src="images/phone08.jpg" /></a></div>
+						               <div class="p-name"><a href="#">苹果（APPLE）iPhone 4S 8G版 3G</a></div>
+						               <div class="p-price font_red">￥2328.00</div>
+						            </li>
+						            <li>
+						               <div class="p-img"><a href="#"><img src="images/phone08.jpg" /></a></div>
+						               <div class="p-name"><a href="#">苹果（APPLE）iPhone 4S 8G版 3G</a></div>
+						               <div class="p-price font_red">￥2328.00</div>
+						            </li>
+						            <li>
+						               <div class="p-img"><a href="#"><img src="images/phone08.jpg" /></a></div>
+						               <div class="p-name"><a href="#">苹果（APPLE）iPhone 4S 8G版 3G</a></div>
+						               <div class="p-price font_red">￥2328.00</div>
+						            </li>
+						        </ul>
+					        </div>
+							
+						</div>
+	                </div>	                
 				</div>
-
-
-
 
 
 
