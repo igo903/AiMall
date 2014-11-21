@@ -32,7 +32,7 @@
 								<ul>
 									<li>
 										<div class="myicon01"></div>
-             					    	<a href="#">订单中心</a>
+             					    	<a href="indent.php">订单中心</a>
              						</li>
              						<li>
 										<div class="myicon02"></div>

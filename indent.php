@@ -29,7 +29,7 @@
 								<ul>
 									<li class="myselected">
 										<div class="myicon01"></div>
-             					    	<a href="#">订单中心</a>
+             					    	<a href="indent.php">订单中心</a>
              						</li>
              						<li>
 										<div class="myicon02"></div>
@@ -45,7 +45,7 @@
              						</li>
              						<li>
 										<div class="myicon06"></div>
-             					    	<a href="#">评价管理</a>
+             					    	<a href="comment.php">评价管理</a>
              						</li>
              						<li>
 										<div class="myicon05"></div>

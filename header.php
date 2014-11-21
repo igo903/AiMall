@@ -33,7 +33,7 @@
 				<div class="fn-left">
 					<a href="javascript:;" id="myMall">我的商城<i class="fa fa-angle-down" id="rm"></i></a>
 					<ul id="popupMyMall" class="fn-hide ui-popup">
-						<li><a href="javascript:;">我的订单</a></li>
+						<li><a href="indent.php">我的订单</a></li>
 						<li><a href="javascript:;">个人信息</a></li>
 						<li><a href="javascript:;">收货地址维护</a></li>
 						<li><a href="javascript:;">我的收藏</a></li>
@@ -88,7 +88,7 @@
 
 				<div class="fn-right s-topbtn" id="">
 					<div id="myOrder"><a href="javascript:;">我的订单</a></div>
-					<div id="myCarter"><a href="javascript:;">购物车</a><div class="number-hint">999</div></div>
+					<div id="myCarter"><a href="mycart2.php">购物车</a><div class="number-hint">999</div></div>
 				</div>
 			</div><!--//head-->
 
