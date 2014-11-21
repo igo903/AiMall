@@ -1062,7 +1062,7 @@ i{font-style: normal;}
 	line-height: 40px;
 	min-height: 40px;
 	border-bottom: 1px dotted #e8e8e8;
-	padding:0 100px 0 110px;
+	padding:5px 100px 5px 110px;
 	position: relative;
 }
 .filter-panel .row span{
@@ -1072,11 +1072,12 @@ i{font-style: normal;}
 	font-weight: bold;
 }
 .filter-panel .row a{
-	margin: 0px 10px;
+	margin: 0px 5px 0 10px;
 	padding: 5px 10px;
 	height: 22px;
 	line-height: 22px;
 	text-align: center;
+	display: inline-block;
 }
 .filter-panel .row a.selected{
 	background: #ff3300;
@@ -1546,7 +1547,7 @@ i{font-style: normal;}
 }
 .details-comment .actor-new dd {
 	height: 70px;
-	overflow: hidden; o
+	overflow: hidden;
 }
 .details-comment .actor-new .comm-tags {
 	margin-top: 10px;
@@ -1738,13 +1739,13 @@ a.btn, .btn{
 	right: 0px;
 	top: 10px;
 }
-.jingxuan .info a, .hotsell .info a{
+.jingxuan .info a{
 	width: 117px;
 	height: 35px;
 	overflow: hidden;
 	display: block;
-
 }
+
 
 .jingxuan ul li img, .hotsell ul li img, .jingxuan .caro-side div.item img, .hotsell .caro-side div.item img{
 	width: 60px;

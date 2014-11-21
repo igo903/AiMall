@@ -94,7 +94,7 @@
 			</div><!--//service-side-->
 		</div><!--//home-part-1-->
 
-		<div class="prd-list">
+		<div class="prd-list row">
 			<div class="channel-item">
 				<dl>
 					<dd class="p-img txtcenter">

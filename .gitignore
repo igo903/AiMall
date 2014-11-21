@@ -1,5 +1,6 @@
 # Xcode
 #
+.sass-cache
 spm_modules
 .idea
 build/

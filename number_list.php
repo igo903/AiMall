@@ -28,6 +28,14 @@
 						<div class="row">
 							<span>已选条件:</span>
 							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186</i><i class="fa fa-close ai"></i></a>
+							<a href="javascript:;" class="removeCondition"><i>号段:</i><i class="ai">186186186186186</i><i class="fa fa-close ai"></i></a>
 							<a href="javascript:;" class="removeSelected">全部撤销</a>
 						</div>
 						<div class="row custom">
