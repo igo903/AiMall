@@ -1,0 +1,84 @@
+
+
+
+
+@font-face {
+    font-family: "rei";
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot"); /* IE9*/
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("https://i.alipayobjects.com/common/fonts/rei.woff") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
+         url("https://i.alipayobjects.com/common/fonts/rei.ttf")  format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+         url("https://i.alipayobjects.com/common/fonts/rei.svg#rei") format("svg"); /*  iOS 4.1- */
+    font-weight: normal;
+    font-style: normal;
+}
+.iconfont {
+    font-family: "rei";
+    font-style: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+body{
+    background:#fff;
+}
+
+.row {
+	*zoom:1
+}
+.row:after {
+	content:"";
+	display:table;
+	clear:both
+}
+.row-full {
+	width:100%;
+	*zoom:1
+}
+.row-full:after {
+	content:"";
+	display:table;
+	clear:both
+}
+
+
+.wrap {
+	width:1190px;
+	margin:0 auto;
+	*zoom:1;
+	position:relative
+}
+.wrap:after {
+	content:"";
+	display:table;
+	clear:both
+}
+.figure {
+    display: block;
+    position: relative;
+    width: 100%;
+    font-weight: 500;
+}
+i{font-style: normal;}
+.ai, .ai:link, .ai:visited{color: #f33f00 !important;}
+.mt12{margin-top: 12px !important;}
+.mt10{margin-top: 10px;}
+.mt40{margin-top: 40px;}
+.mt100{margin-top: 100px !important;}
+.mt200{margin-top: 200px !important;}
+.hidden{display: none;}
+.none{display: none;}
+.txtcenter{text-align: center;}
+.divide {font-style: normal;color: #CCC;}
+.error{color:red;}
+.border{border:1px solid #e8e8e8;}
+.last{border-bottom: none;}
+.linethr{text-decoration: line-through;}
+.priceNum{color: #ff5500;font-size: 22px;font-weight: bold;margin-right: 5px;}

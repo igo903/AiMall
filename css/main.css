@@ -1125,9 +1125,16 @@ i{font-style: normal;}
 	top: 11px;
 	cursor: pointer;
 }
-.filter-bar .btn i.fa-caret-up{
+.filter-bar .btn i.ai{
 	top: 4px;
 }
+.filter-bar .btn.selected i{
+	color: #333;
+}
+.filter-bar .btn.selected i.fa-caret-up{
+	color: #666 !important;
+}
+
 
 .filter-bar a:hover{text-decoration: none;}
 .filter-bar .selected{

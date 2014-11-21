@@ -9,7 +9,7 @@ images_dir = "images"
 javascripts_dir = "js"
 environment = :development
 line_comments = false
-output_style = (environment == :production) ? :compressed : :nested
+output_style = (environment == :production) ? :compressed : :expanded
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
