@@ -1,10 +1,93 @@
-/*developed by Alain*/
+
 @import "compass/typography";
 @import "compass/utilities";
 @import "compass/css3";
-@import "base";
 
 
+/*developed by Alain*/
+@charset "utf-8";
+
+
+@font-face {
+    font-family: "rei";
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot"); /* IE9*/
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("https://i.alipayobjects.com/common/fonts/rei.woff") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
+         url("https://i.alipayobjects.com/common/fonts/rei.ttf")  format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+         url("https://i.alipayobjects.com/common/fonts/rei.svg#rei") format("svg"); /*  iOS 4.1- */
+    font-weight: normal;
+    font-style: normal;
+}
+.iconfont {
+    font-family: "rei";
+    font-style: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+body{
+    background:#fff;
+}
+
+.row {
+	*zoom:1
+}
+.row:after {
+	content:"";
+	display:table;
+	clear:both
+}
+.row-full {
+	width:100%;
+	*zoom:1
+}
+.row-full:after {
+	content:"";
+	display:table;
+	clear:both
+}
+
+
+.wrap {
+	width:1190px;
+	margin:0 auto;
+	*zoom:1;
+	position:relative
+}
+.wrap:after {
+	content:"";
+	display:table;
+	clear:both
+}
+.figure {
+    display: block;
+    position: relative;
+    width: 100%;
+    font-weight: 500;
+}
+i{font-style: normal;}
+.ai, .ai:link, .ai:visited{color: #f33f00 !important;}
+.mt12{margin-top: 12px !important;}
+.mt10{margin-top: 10px;}
+.mt40{margin-top: 40px;}
+.mt100{margin-top: 100px !important;}
+.mt200{margin-top: 200px !important;}
+.hidden{display: none;}
+.none{display: none;}
+.txtcenter{text-align: center;}
+.divide {font-style: normal;color: #CCC;}
+.error{color:red;}
+.border{border:1px solid #e8e8e8;}
+.last{border-bottom: none;}
+.linethr{text-decoration: line-through;}
+.priceNum{color: #ff5500;font-size: 22px;font-weight: bold;margin-right: 5px;}
 
 .ui-popup{
     border: 1px solid #EBEBEB;
@@ -226,17 +309,12 @@
 	top: 16px;
 	right: 10px;
 	cursor: pointer;
-	-webkit-transition: all 300ms ease-out;
-	transition: all 300ms ease-out;
+	@include transition-property(all);
+	@include transition-duration(300ms);
+	@include transition-timing-function(ease-out);
 }
 #main-nav ul li#prds-pop i.spinOnce{
-	/*-webkit-animation:spin .5s linear 2;
-    -moz-animation:spin .5s linear 2;
-    animation:spin .5s linear 2;*/
-
-	-ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
+	@include transform(rotate(180deg));
 }
 #main-nav ul li{float: left;position: relative;}
 #main-nav ul li, #main-nav ul li a{
@@ -1457,12 +1535,16 @@
 }
 .details-comment .percent dd div {
 	overflow: hidden;height: 10px;width: 0;background-color: #ED0000;
-	background-image: -ms-linear-gradient(top,#ff5500 0,#ff3600 100%);
+
+	@include background-image(linear-gradient(to bottom right, #ff5500 0, #ff3600 100%));
+
+
+	/*background-image: -ms-linear-gradient(top,#ff5500 0,#ff3600 100%);
 	background-image: -moz-linear-gradient(top,#ff5500 0,#ff3600 100%);
 	background-image: -o-linear-gradient(top,#ff5500 0,#ff3600 100%);
 	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ff5500),color-stop(1,#ff3600));
 	background-image: -webkit-linear-gradient(top,#ff5500 0,#ff3600 100%);
-	background-image: linear-gradient(to bottom,#ff5500 0,#ff3600 100%);
+	background-image: linear-gradient(to bottom,#ff5500 0,#ff3600 100%);*/
 }
 .details-comment .actor-new {
 	float: left;
@@ -2831,7 +2913,9 @@ line-height: 40px;
 	margin: 30px 0 ;
 	text-align: center;
 }
-
+#switchncollectContent.overlay_content{
+	width: 540px;
+}
 .overlay_content .switchnbuttn{
 	width: 190px;
 	margin: 20px auto 10px;
@@ -3499,3 +3583,121 @@ line-height: 40px;
 	color: #666;
 }
 
+
+
+#delall {
+	position: absolute;
+	left: 400px;
+	top: 145px;
+	width: 250px;
+	border: 1px solid #c4c4c4;
+	background: #fff;
+	display: none;
+	z-index: 101;
+	padding-bottom: 20px;
+	*left: 130px;
+	*top: 10px;
+}
+#delall .detailtit {
+	display: block;
+	height: 25px;
+	ottom: 1px solid #f2f2f2;
+	background-color: #f3f3f3;
+	border-top: 0px;
+}
+#delall .detailtit span {
+	float: left;
+	line-height: 25px;
+	padding: 0 0 0 10px;
+	color: #666;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+#delall .detailtit i {
+	float: right;
+	margin: 5px 5px;
+	background: url("../images/dialog-close.gif") no-repeat;
+	width: 13px;
+	height: 13px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+#delall .delorder-c {
+	text-align: center;
+	padding: 20px 0 0 0;
+	color: #c00;
+	line-height: 22px;
+}
+#delall .delorder-b {
+	padding: 20px 0 0 65px;
+}
+#delall .delorder-b a {
+	float: left;
+	margin-right: 10px;
+}
+a.delbtns {
+	width: 51px;
+	height: 21px;
+	background: url("../images/deletebtn.png") no-repeat;
+	line-height: 21px;
+	display: block;
+	color: #666;
+	text-align: center;
+}
+a.delbtns:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+#switchncollectContent .tips {
+	width: 480px;
+	padding: 10px;
+}
+#switchncollectContent .tips h2 {
+	background: url("../images/icon_correct.jpg") no-repeat 10px 0;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+	height: 40px;
+	margin-left: 20px;
+	padding: 0 0 15px 70px;
+	border-bottom: 1px dashed #e4e4e4
+}
+#switchncollectContent .wrap {
+	overflow: hidden;
+	margin-left: 20px;
+}
+#switchncollectContent .wrap p {
+	color: #666;
+}
+#switchncollectContent .wrap ul li {
+	width: 100px;
+	margin: 0 13px;
+	float: left;
+	_margin: 0 8px;
+}
+#switchncollectContent .wrap ul li .p-img {
+	padding: 0 5px;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+#switchncollectContent .wrap ul li .p-name {
+	width: 100px;
+	height: 3em;
+	line-height: 1.5em;
+	overflow: hidden;
+}
+#switchncollectContent .wrap ul li .p-name a {
+	color: #666;
+}
+#switchncollectContent .wrap ul li .p-name a:hover {
+	color: #e4393c;
+	text-decoration: underline;
+}
+#switchncollectContent .wrap ul li .p-price {
+	text-align: center;
+}
