@@ -2137,11 +2137,11 @@ a.btn, .btn {
 }
 
 .management-panel .right-col {
-  width: 1005px;
+  width: 1004px;
   float: left;
   padding-bottom: 20px;
   border: 2px solid #eee;
-  margin-left: -3px;
+  margin-left: -2px;
 }
 
 .management-panel .my-user {
@@ -2601,7 +2601,7 @@ a.btn, .btn {
 
 .orders-thead .t-action {
   width: 100px;
-  padding-left: 34px;
+  padding-left: 33px;
   text-align: left;
 }
 
@@ -4136,11 +4136,11 @@ a.btn, .btn {
   text-decoration: underline;
 }
 
-.ui-form-item {
+.reg-box .ui-form-item {
   position: relative;
 }
 
-.ui-form-item .form-prompt {
+.reg-box .form-prompt {
   position: absolute;
   left: 550px;
   top: 0px;
@@ -4281,4 +4281,63 @@ a.delbtns:hover {
 
 #switchncollectContent .wrap ul li .p-price {
   text-align: center;
+}
+
+.ui-form-item .textplus {
+  width: 270px;
+}
+
+.woradio {
+  float: none;
+  vertical-align: -2px;
+  margin: 0 3px 0 0;
+  padding: 0;
+}
+
+.ui-form-item .info-radio {
+  padding: 7px 9px;
+}
+
+.ui-form-item .info-radio .mr10 {
+  margin-right: 10px;
+}
+
+.ui-form-item .selt {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.info-position {
+  position: relative;
+}
+
+.info-position .form-prompt {
+  position: absolute;
+  left: 470px;
+  top: 0px;
+  width: 300px;
+  background: #ffebec url("../images/formprompt.jpg") no-repeat 10px 10px;
+  border: 1px solid #ffbdbf;
+  padding: 7px 9px 7px 30px;
+  color: #666;
+}
+
+.ui-form-item .btn290 {
+  width: 290px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ff5500;
+  margin: 20px 0 0 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+.ui-form-item .btn290:hover {
+  background-color: #ff3300;
+  text-decoration: none;
 }

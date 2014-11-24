@@ -29,7 +29,7 @@
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
-$info-input:270px;
+
 
 
 body{
@@ -1854,11 +1854,11 @@ a.btn, .btn{
 	background: #f9f9f9
 }
 .management-panel .right-col{
-	width: 1004px;
+	width: 1005px;
 	float: left;
 	padding-bottom: 20px;
 	border:2px solid #eee;
-	margin-left:-2px;
+	margin-left:-3px;
 }
 .management-panel .my-user{ 
 	width:165px; 
@@ -2219,7 +2219,7 @@ a.btn, .btn{
 }
 .orders-thead .t-action {
 	width: 100px;
-	padding-left: 33px;
+	padding-left: 34px;
 	text-align: left;
 }
 .orders-explode {
@@ -3568,10 +3568,10 @@ line-height: 40px;
 	color: #4397e3;
 	text-decoration: underline;
 }
-.reg-box .ui-form-item{
+.ui-form-item{
 	position: relative;
 }
-.reg-box .form-prompt{
+.ui-form-item .form-prompt{
 	position: absolute;
 	left: 550px;
 	top: 0px;
@@ -3700,57 +3700,6 @@ a.delbtns:hover {
 #switchncollectContent .wrap ul li .p-price {
 	text-align: center;
 }
+.ww{width: 1px;}
+.ss{width: 11px;}
 
-
-.ui-form-item .textplus	{
-	width: $info-input;
-}
-.woradio {
-	float: none;
-	vertical-align: -2px;
-	margin: 0 3px 0 0;
-	padding: 0;
-}
-.ui-form-item .info-radio{
-	padding: 7px 9px;
-}
-.ui-form-item .info-radio .mr10{
-	margin-right: 10px;
-}
-
-.ui-form-item .selt {
-	width: 70px;
-	height: 30px;
-	border: 1px solid #ccc;
-	margin-right: 10px;
-}
-
-.info-position{
-	position: relative;
-}
-.info-position .form-prompt {
-  position: absolute;
-  left: 470px;
-  top: 0px;
-  width: 300px;
-  background: #ffebec url("../images/formprompt.jpg") no-repeat 10px 10px;
-  border: 1px solid #ffbdbf;
-  padding: 7px 9px 7px 30px;
-  color: #666;
-}
-.ui-form-item .btn290{
-	width: 290px;
-	height: 40px;
-	line-height: 40px;
-	background-color: #ff5500;
-	margin: 20px 0 0 0;
-	color: #fff;
-	font-weight:bold;
-	font-size: 14px;
-	border-radius: 3px;
-	border: 0px;
-}
-.ui-form-item .btn290:hover{
-	background-color: #ff3300;
-	text-decoration: none;
-}	

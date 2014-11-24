@@ -36,7 +36,7 @@
              						</li>
              						<li>
 										<div class="myicon02"></div>
-             					    	<a href="#">个人信息</a>
+             					    	<a href="info.php">个人信息</a>
              						</li>
              						<li>
 										<div class="myicon03"></div>
