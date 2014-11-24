@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
-<div style="background-color: #999; height:1400px;">
+<div style="background-color: #999; height:5400px;">
                <!-- 查看库存 -->
-				<!-- <div id="dialog-inner" class="belonging overlay_content" style="display:block">
+				<div id="dialog-inner" class="belonging overlay_content" style="display:block;position: relative; top:0px;">
 	                <div class="close_overlay"><a href="javascript:;"></a></div>
 	                <div class="white">
 	                	<div class="allcities">
@@ -15,11 +15,11 @@
 						</div>
 	                </div>
 	                
-				</div> -->
+				</div>
 
 
 				<!-- 删除商品 -->
-				<!-- <div id="switchndeleteContent" class="belonging overlay_content" style="display:block">
+				<div id="switchndeleteContent" class="belonging overlay_content" style="display:block;position: relative; top:0px;">
 	                <div class="close_overlay"><a href="javascript:;"></a></div>
 	                <div class="white">
 	                	<div class="allcities">
@@ -33,12 +33,12 @@
 							</div>
 						</div>
 	                </div>	                
-				</div> -->
+				</div>
 
 				
 
 				<!-- 业务办理第一步 -->
-				<!-- <div id="switchnbusinessContent" class="belonging overlay_content" style="display:block">
+				<div id="switchnbusinessContent" class="belonging overlay_content" style="display:block;position: relative; top:0px;">
 	                <div class="close_overlay"><a href="javascript:;"></a></div>
 	                <div class="white">
 	                	<div class="allcities">
@@ -72,7 +72,7 @@
 							</div>
 						</div>
 	                </div>	                
-				</div> -->
+				</div>
 
 
 
@@ -81,7 +81,7 @@
 
 				<!-- 业务办理第二步 -->
 
-				<!-- <div id="switchnbusinessContent" class="belonging overlay_content" style="display:block">
+				<div id="switchnbusinessContent" class="belonging overlay_content" style="display:block;position: relative; top:0px;">
 	                <div class="close_overlay"><a href="javascript:;"></a></div>
 	                <div class="white">
 	                	<div class="allcities">
@@ -100,12 +100,12 @@
 							</div>
 						</div>
 	                </div>	                
-				</div> -->
+				</div>
 
 
 
 				<!-- 选套餐（3G/4G一体化套餐） -->
-				<!-- <div id="switch4GTaocan" class="belonging overlay_content" style="display:block">
+				<div id="switch4GTaocan" class="belonging overlay_content" style="display:block;position: relative; top:0px;">
 					<div class="close_overlay"><a href="javascript:;"></a></div>
 					<div class="white">
 						<div class="">
@@ -214,13 +214,13 @@
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
 
 
 
 
 				<!-- 选套餐（A/B/C计划套餐） -->
-				<!-- <div id="switchABCTaocan" class="belonging overlay_content" style="display:block">
+				<div id="switchABCTaocan" class="belonging overlay_content" style="display:block;position: relative; top:0px;">
 					<div class="close_overlay"><a href="javascript:;"></a></div>
 					<div class="white">						
 						<div class="">
@@ -228,7 +228,7 @@
 							<div class="hooseunmberprompt">
 								您可根据每月消费情况在以下A、B、C计划中随需要选择适合的套餐。如果您想选择其他套餐，请选择其他月费的优惠活动。
 							</div>
-							</div>
+						</div>
 							<div class="chooseunmber r1">
 								<div class="numbertitle">A计划（上网流量多）</div>
 								
@@ -305,15 +305,14 @@
 							<div class="gobuy">
 								<a href="javascript:;" class="">确定</a>
 							</div>
-						</div>
 					</div>
-				</div> -->
+				</div>
 
 
 
 
 				<!-- 购物车 删除商品 -->
-				<!-- <div id="delall" class="close-off" style="display:block">
+				<div id="delall" class="close-off" style="display:block;position: relative; top:0px; overflow:hidden">
                     <div class="detailtit">
 	                    <span> 删除商品</span>
 	                    <i class="close">x</i>
@@ -323,14 +322,14 @@
 	                    <a href="#" class="delbtns">确定</a>
 	                    <a href="#" class="delbtns">取消</a>
                     </div>                  
-                </div> -->
+                </div>
 
 
 
 
 
                 <!-- 收藏商品 -->
-				<div id="switchncollectContent" class="belonging overlay_content" style="display:block">
+				<div id="switchncollectContent" class="belonging overlay_content" style="display:block; position: relative; top:0px;">
 	                <div class="close_overlay"><a href="javascript:;"></a></div>
 	                <div class="white">
 	                	<div class="allcities">
