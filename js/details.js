@@ -121,18 +121,26 @@ seajs.use(['jquery'],function($){
 				alert('限制添加三个号码，请删除一个再添加');
 			} else {
 				$('.todo li')[todoIndex].innerHTML = preview;
-				todoIndex ++;
 			}
+			todoIndex ++;
 		});
 
 		$( "body" ).on( "click", ".todos .close",function() {
+			var todos = $(this).parent();
+
 			if(todoIndex <= 0){
 				todoIndex = 0;
 			} else {
 				todoIndex --;
 			}
+
 			$(this).parent().html('<div class="waiting">待添加</div>');
+			todoIndex = todos.index();
+
+			console.log(todoIndex + '  -------');
 		});
+
+
 
 
 		$('#switchTaocan .r2 li').click(function(){
