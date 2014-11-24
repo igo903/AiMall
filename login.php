@@ -45,10 +45,10 @@
 							            <div class="ui-form-explain">用户名为电子邮箱。</div>
 							        </div>
 
-							        <div class="ui-form-item">
+							        <div class="ui-form-item ui-form-item-error">
 							            <label for="username" class="ui-label">登录密码</label>
-							            <input id="username" name="username" class="ui-input" type="text" />
-							            <div class="ui-form-explain">用户名为电子邮箱。</div>
+							            <input id="username" name="username" class="ui-input" type="password" />
+							            <div class="ui-form-explain">* 密码错误，请重新输入密码</div>
 							        </div>
 
 							        <div class="ui-form-item">
@@ -64,8 +64,8 @@
 						  	</form>
 							<div class="entries">
 								<ul>
-									<li class="tcr"><a href="javsecpt:;">忘记密码?</a></li>
-									<li><a href="javsecpt:;">快速注册</a></li>
+									<li class="tcr"><a href="javascript:;">忘记密码?</a></li>
+									<li><a href="javascript:;">快速注册</a></li>
 								</ul>
 							</div>
 						</div>

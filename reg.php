@@ -76,13 +76,13 @@
 
 				        <div class="ui-form-item">
 				            <label for="username" class="ui-label label-plus"><span class="ui-form-required">*</span>设置密码</label>
-				            <input id="username" name="username" class="ui-input" type="text" />
+				            <input id="username" name="username" class="ui-input" type="password" />
 				            <div class="ui-form-explain">默认文案</div>
 				        </div>
 
 				        <div class="ui-form-item">
 				            <label for="username" class="ui-label label-plus"><span class="ui-form-required">*</span>确认密码</label>
-				            <input id="username" name="username" class="ui-input" type="text" />
+				            <input id="username" name="username" class="ui-input" type="password" />
 				            <div class="ui-form-explain">默认文案</div>
 				        </div>
 
