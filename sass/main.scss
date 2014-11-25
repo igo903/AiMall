@@ -32,6 +32,14 @@
 $info-input:270px;
 
 
+.font_red{
+	color: #f00
+}
+.font_gray{
+	color: #999
+}
+
+
 body{
     background:#fff;
 }
@@ -2695,6 +2703,13 @@ line-height: 40px;
 	float: left;
 	width: 188px;
 }
+.mycartbox .cart-tbody .p-names a{
+	text-decoration: none;
+	color: #547ec2;
+}
+.mycartbox .cart-tbody .p-names .font_green{
+	color: #34a539;
+}
 .mycartbox .cart-tbody .p-message{
 	width:180px; 
 	color:#828282;
@@ -2719,6 +2734,9 @@ line-height: 40px;
  	text-align: center;
  	width: 100px;
  }
+.mycartbox .cart-tbody .p-inventory span{
+	color: #f00;
+}
 .mycartbox .cart-tbody .p-quantity {
 	line-height: 60px;
 	width: 100px;
@@ -2797,7 +2815,11 @@ line-height: 40px;
 .mycartbox .cart-tbody .p-action a:hover{ 
 	text-decoration:underline;
 }
-
+.cart-tbody .item_oos{ 
+	color:#cdcdcd;
+}
+.cart-tbody .item_oos .p-price,.cart-tbody .item_oos .p-message,.cart-tbody .item_oos .p-inventory,.cart-tbody .item_oos .p-total,.cart-tbody .item_oos .p-goods a{ color:#cdcdcd;}
+.cart-tbody .item_oos .font_reg{color: #F00}
 .mycartbox  .cart-total {
 	clear: both; 
 	float: left;
@@ -3754,3 +3776,238 @@ a.delbtns:hover {
 	background-color: #ff3300;
 	text-decoration: none;
 }	
+
+
+
+	
+.exobox {
+	margin-top: 15px;
+	position: relative;
+	border-top: 2px solid #f33f00;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;		
+	
+	.steps {
+		border-bottom: 1px dashed #ddd;
+		padding-bottom: 30px;
+		overflow: hidden;
+
+		.steps-title {
+			height: 36px;
+			background-color: #f9f9f9;
+			padding-left: 20px;
+			font-size: 18px;
+			color: #424242;
+			line-height: 36px;
+			font-weight: bold;
+
+			.gocar {
+				font-size: 12px;
+				font-weight: normal;
+				float: right;
+				margin-right: 40px;
+			}
+		}
+
+
+
+		.steps-content {
+			margin-top: 30px;
+			padding: 0 35px;
+			overflow: hidden;
+
+			.consignee-from{ 
+				overflow:hidden;
+
+				.list {
+					padding: 5px 0;
+					overflow: hidden;
+					zoom: 1;
+					position: relative;
+					height: 30px;
+					line-height: 30px;
+
+					.label {
+						width: 85px;
+						height: 26px;
+						margin-right: 15px;
+						float: left;
+						color: #666;
+						line-height: 26px;
+						text-align: right;
+						color: #828282;
+
+						em{
+						margin-right: 5px;
+						color: #f60;
+						font-family: sans-serif;
+						}
+					}
+
+
+
+					.field {
+						height: 26px;
+						float: left;
+						line-height: 26px;						
+					}
+
+					.my-hint {
+						position: absolute;
+						top: 5px;
+						left: 470px;
+						height: 28px;
+						padding: 0 10px;
+						background-color: #f7f7f7;
+						border: 1px solid #ddd;
+						color: #666;
+					}
+					.my-hint2 {
+						position: absolute;
+						top: 5px;
+						left: 470px;
+						height: 28px;
+						line-height: 28px;
+						padding: 0 10px 0 25px;
+						background: url("../images/triangle.png") no-repeat 5px 8px #fff9f7;
+						border: 1px solid #ffe5db;
+						color: #777;
+					}
+					.patch{ 
+						left:330px; 
+					}
+
+
+
+				}
+				.consignee-prompt {
+					background-color: #fff9f7;
+					border: 1px solid #ffe5db;
+					padding: 10px 20px;
+					margin: 10px 0;
+				}
+
+
+			}
+
+
+
+		}
+
+
+
+
+		.timing ul li {
+			width: 341px;
+			height: 108px;
+			border: 2px solid #f2f2f2;
+			padding-left: 20px;
+			float: left;
+			margin: 0 7px 10px 0;
+			cursor: pointer;
+			&:hover {
+				border: 2px solid #ccc;
+			}			
+			.tining-title {
+				height: 30px;
+				margin-top: 5px;
+			}
+			.tining-title input {
+				margin: 8px 5px 0 0;
+			}
+			.tining-title label {
+				line-height: 30px;
+			}
+			.tining-content {
+				height: 60px;
+				overflow: hidden;
+				line-height: 20px;
+				margin-top: 7px
+			}
+			.t-ok {
+				display: none;
+			}
+			&.timing-selected {
+				border: 2px solid #f33f00;
+				position: relative;
+				.t-ok {
+					width: 23px;
+					height: 23px;
+					background: url("../images/ordersicon.png") no-repeat 0 0px;
+					position: absolute;
+					right: 0px;
+					bottom: 0px;
+					display: block;
+				}
+			}
+		}
+
+
+
+	}
+
+	.textbox {
+		width: 350px;
+		height: 20px;
+		border: 1px solid #ccc;
+		padding: 4px 3px;
+		font-family: Arial, "\5b8b\4f53", sans-serif;
+	}
+	.textbox2 {
+		width: 235px;
+		height: 20px;
+		border: 1px solid #ccc;
+		padding: 4px 3px;
+		font-family: Arial, "\5b8b\4f53", sans-serif;
+	}
+	.selectbox01 {
+		width: 105px;
+		height: 30px;
+		border: 1px solid #ccc;
+		margin-right: 5px;
+	}
+	.checkbox01 {
+		border: 1px solid #dbdbdb;
+		margin: 10px 5px 0 20px;
+		float: left;
+		_border: 0px;
+		*border: 0px;
+	}
+	.checklabel{
+		float: left;
+	}
+	
+	.form-btn {
+		height: 40px;
+		padding-top: 10px;
+		clear: both;
+		a.btn-submit {
+			display: block;
+		    width: 350px;
+		    height: 40px;
+		    line-height: 40px;
+		    text-align: center;
+		    background: #ff5500;
+		    color: #fff;
+	  	    text-decoration: none;
+		    font-size: 14px;
+		    font-weight: bold;
+		    border-radius: 3px;
+			&:hover{
+				background: #ff3300;
+			}
+		}
+
+
+	}
+
+
+}
+
+
+
+
+
+
+

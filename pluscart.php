@@ -20,7 +20,7 @@
 		          	<span>商品已成功加入购物车！</span>
 		          	<div class="cart-btn">
 		          		<a href="#" class="btn goonbuy">继续购物</a>
-		          		<a href="#" class="btn goaccounps">去购物车结算</a>
+		          		<a href="mycart2.php" class="btn goaccounps">去购物车结算</a>
 		          	</div>		          			    
 		    	</div>
 
