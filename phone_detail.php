@@ -587,12 +587,50 @@
 		 					</div>
 		 					<div class="cond">
 		 						<div class="number-select">
+		 							<div class="select" id="num-type">
+			 							<div>靓号类型</div>
+			 							<i class="fa fa-angle-down" id="rm"></i>
+		 							</div>
+		 							<ul id="popupNumType" class="fn-hide ui-popup">
+										<li>AAAAA</li>
+										<li>AAAA</li>
+										<li>ABCD</li>
+										<li>AAA</li>
+										<li>AABB</li>
+										<li>ABAB</li>
+										<li>ABC</li>
+										<li>AA</li>
+									</ul>
+
+
+		 						</div>
+		 					</div>
+		 					<div class="cond">
+		 						<div class="number-select">
+		 							<div class="select" id="num-price">
+			 							<div>号码价格</div>
+			 							<i class="fa fa-angle-down" id="rm"></i>
+		 							</div>
+		 							<ul id="popupNumPrice" class="fn-hide ui-popup">
+										<li>100元</li>
+										<li>1000元</li>
+										<li>10元</li>
+										<li>20元</li>
+										<li>30元</li>
+										<li>50元</li>
+									</ul>
+		 						</div>
+		 					</div>
+		 					<div class="cond">
+		 						<div class="number-select">
 		 							<div class="select">
-			 							靓号类型
+			 							号码价格
 			 							<i class="fa fa-angle-down" id="rm"></i>
 		 							</div>
 		 						</div>
 		 					</div>
+
+
 						</div>
 						<div class="numberbox preview">
 							<ul>

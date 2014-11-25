@@ -165,7 +165,41 @@ seajs.use(['jquery'],function($){
 			var ok = $('#switchTaocan .numberok').html();
 		});
 
+});
 
+
+// popup
+seajs.use(['arale-popup/1.2.0/popup-debug','jquery'], function(Popup, $){
+
+	var numType = new Popup({
+		trigger: '#num-type',
+		triggerType: 'click',
+		effect: 'fade slide',
+		element: '#popupNumType'
+	});
+
+	var numPrice = new Popup({
+		trigger: '#num-price',
+		triggerType: 'click',
+		effect: 'fade slide',
+		element: '#popupNumPrice'
+	});
+
+	$('#popupNumType li').click(function(e){
+		e.preventDefault();
+		var dropTxt = $(this).text();
+
+		numType.get('trigger').find('div').html(dropTxt);
+		numType.hide();
+	});
+
+	$('#popupNumPrice li').click(function(e){
+		e.preventDefault();
+		var dropTxt = $(this).text();
+
+		numPrice.get('trigger').find('div').html(dropTxt);
+		numPrice.hide();
+	});
 
 });
 
