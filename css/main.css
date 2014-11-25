@@ -3755,7 +3755,6 @@ a.btn, .btn {
   float: left;
   line-height: 26px;
 }
-
 .belonging .screening .city .color {
   color: #ff5500;
 }
@@ -3763,6 +3762,21 @@ a.btn, .btn {
 .belonging .screening .cond {
   float: left;
   margin-left: 20px;
+}
+
+.belonging .screening .cond .ui-popup {
+  width: 104px;
+  padding: 0;
+  background: #fff;
+  border-top: 0px;
+}
+.belonging .screening .cond .ui-popup li {
+  padding: 5px;
+  cursor: pointer;
+}
+.belonging .screening .cond .ui-popup li:hover {
+  background: #ff3300;
+  color: #fff !important;
 }
 
 .belonging .screening .number-select {
@@ -3777,12 +3791,15 @@ a.btn, .btn {
   border: 1px solid #e8e8e8;
   color: #999;
   padding-left: 10px;
+  position: relative;
+  cursor: pointer;
 }
 
 .belonging .screening .number-select .select i {
-  float: right;
-  margin: 7px 10px;
+  position: absolute;
   cursor: pointer;
+  top: 8px;
+  right: 8px;
 }
 
 .belonging .chooseunmber .numbertitle {

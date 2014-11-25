@@ -3217,14 +3217,29 @@ line-height: 40px;
 .belonging .screening .city{
 	float: left;
 	line-height: 26px;
-}
-.belonging .screening .city .color{
-	color: #ff5500;
+
+	.color{color: #ff5500;}
 }
 .belonging .screening .cond{
 	float: left;
 	margin-left: 20px;
 }
+.belonging .screening .cond{
+	.ui-popup{
+		width: 104px;
+		padding: 0;
+		background:#fff;
+		border-top: 0px;
+
+		li{
+			padding:5px;
+			cursor: pointer;
+		&:hover{background:#ff3300;color:#fff !important;}
+		}
+
+	}
+}
+
 .belonging .screening .number-select{
 	width: 94px;
 	line-height: 26px;
@@ -3236,11 +3251,14 @@ line-height: 40px;
 	border:1px solid #e8e8e8; 
 	color: #999;
 	padding-left: 10px;
+	position: relative;
+	cursor: pointer;
 }
 .belonging .screening .number-select  .select i{
-	float: right;
-	margin: 7px 10px;
+	position: absolute;
 	cursor: pointer;
+	top:8px;
+	right:8px;
 }
 
 .belonging .chooseunmber .numbertitle{
