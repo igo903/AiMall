@@ -100,7 +100,7 @@
 
 
 							<div class="row gobuy">
-								<a href="javascript:;">加入购物车</a>
+								<a href="pluscart.php">加入购物车</a>
 								<a href="javascript:;" class="disabled">立即订购</a>
 							</div>
 						</div>
