@@ -148,18 +148,18 @@ i {
 .ui-popup {
   border: 1px solid #EBEBEB;
   border-top: 0;
-  padding: 3px 5px;
-  background: #f5f5f5;
+  background: #fff;
   margin: 0;
 }
-
+.ui-popup li:hover {
+  background: #f8f8f8;
+}
 .ui-popup li a {
   margin-left: 0;
+  padding: 5px 10px;
 }
-
-.adv img {
-  /*width: 100%;
-  height: 100%;*/
+.ui-popup li a:hover {
+  text-decoration: none;
 }
 
 .site-nav:after {
@@ -191,7 +191,15 @@ i {
 	}
 }*/
 #popupMyMall {
-  width: 80px;
+  width: 100px;
+}
+#popupMyMall li {
+  line-height: 30px;
+  height: 30px;
+}
+#popupMyMall li a {
+  padding: 10px;
+  display: inline;
 }
 
 .mininavInner {
@@ -205,6 +213,7 @@ i {
 .mininavInner a {
   margin-left: 15px;
   color: #666;
+  display: inline-block;
 }
 
 .mininavInner a:hover, .mininavInner a:link, .mininavInner i.app {
@@ -1391,6 +1400,10 @@ i {
   z-index: 1;
   margin-left: -1px;
 }
+.direct-buy .magnifier-small .smallimg li img {
+  width: 56px;
+  height: 56px;
+}
 
 .direct-buy .magnifier-small .smallimg li:hover {
   border: 1px solid #f40;
@@ -1513,7 +1526,6 @@ i {
 .direct-buy .right-col .row.gobuy {
   padding-left: 75px;
 }
-
 .direct-buy .right-col .row.gobuy a {
   height: 35px;
   line-height: 35px;
@@ -1524,9 +1536,15 @@ i {
   border-radius: 3px;
   border: none;
 }
-
 .direct-buy .right-col .row.gobuy a:hover {
   background: #ff3300;
+}
+.direct-buy .right-col .row.gobuy a.disabled {
+  background: #d6d6d6;
+  cursor: default;
+}
+.direct-buy .right-col .row.gobuy a.disabled:hover {
+  background: #d6d6d6;
 }
 
 .left-col-hot {
@@ -1534,6 +1552,10 @@ i {
   border-top: 2px solid #ff3300;
   width: 232px;
   margin-right: 10px;
+}
+.left-col-hot img {
+  width: 90px;
+  height: 90px;
 }
 
 .left-col-hot h3 {
@@ -3683,6 +3705,7 @@ a.btn, .btn {
   text-align: center;
   line-height: 33px;
   position: relative;
+  cursor: pointer;
 }
 
 .belonging .cities li:hover {
@@ -3728,11 +3751,10 @@ a.btn, .btn {
 
 .belonging .screening .cond {
   float: left;
-  margin-left: 20px;
+  margin-left: 10px;
 }
-
 .belonging .screening .cond .ui-popup {
-  width: 104px;
+  width: 80px;
   padding: 0;
   background: #fff;
   border-top: 0px;
@@ -3742,17 +3764,44 @@ a.btn, .btn {
   cursor: pointer;
 }
 .belonging .screening .cond .ui-popup li:hover {
-  background: #ff3300;
+  background: #f33f00;
   color: #fff !important;
+}
+.belonging .screening .cond input {
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #e8e8e8;
+  color: #999;
+  padding: 0 5px;
+  width: 70px;
+  float: left;
+}
+.belonging .screening .cond .sbtn {
+  margin: 0;
+  width: 70px;
+  text-align: center;
+  height: 28px;
+  line-height: 28px;
+  background: #e8e8e8;
+  color: #333;
+  display: block;
+  float: left;
+}
+.belonging .screening .cond #pagination.ui-paging {
+  margin: 0;
+}
+.belonging .screening .cond #pagination.ui-paging input {
+  width: 30px;
+  float: none;
 }
 
 .belonging .screening .number-select {
-  width: 94px;
+  width: 84px;
   line-height: 26px;
 }
 
 .belonging .screening .number-select .select {
-  width: 94px;
+  width: 70px;
   height: 26px;
   line-height: 26px;
   border: 1px solid #e8e8e8;

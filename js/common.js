@@ -85,6 +85,9 @@ seajs.use(['jquery'],function($){
 seajs.use(['arale-popup/1.2.0/popup-debug','jquery'], function(Popup, $){
 	new Popup({
 		trigger: '#myMall',
+		align: {
+            baseXY: [-5, 34]
+        },
 		element: '#popupMyMall'
 	});
 

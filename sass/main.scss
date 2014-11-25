@@ -92,18 +92,23 @@ i{font-style: normal;}
 .ui-popup{
     border: 1px solid #EBEBEB;
     border-top: 0;
-    padding: 3px 5px;
-    background: #f5f5f5;
+    background: #fff;
     margin: 0;
-}
-.ui-popup li a{
-    margin-left: 0;
+
+    li {
+		&:hover{
+			background:#f8f8f8;
+		}
+
+		a{
+	    	margin-left: 0;
+			padding: 5px 10px;
+	   		&:hover{text-decoration: none;}
+		}
+
+	}
 }
 
-.adv img{
-	/*width: 100%;
-	height: 100%;*/
-}
 
 .site-nav:after {
 	content: "";
@@ -130,7 +135,12 @@ i{font-style: normal;}
 	}
 }*/
 #popupMyMall {
-	width: 80px;
+	width: 100px;
+	li{
+		line-height: 30px;
+		height: 30px;
+		a {padding:10px;display: inline;}
+	}
 }
 .mininavInner {
     height: 35px;
@@ -142,6 +152,7 @@ i{font-style: normal;}
 .mininavInner a{
     margin-left: 15px;
     color: #666;
+    display: inline-block;
 }
 .mininavInner a:hover,.mininavInner a:link,.mininavInner i.app {
     color: #666;
@@ -1188,8 +1199,15 @@ i{font-style: normal;}
 	float:left;
 	position:relative;
 	z-index:1;
-	margin-left:-1px
+	margin-left:-1px;
+
+	img{
+		width: 56px;
+		height: 56px;
+	}
 }
+
+
 .direct-buy .magnifier-small .smallimg li:hover{
 	border:1px solid #f40;
 	z-index:10;
@@ -1298,26 +1316,41 @@ i{font-style: normal;}
 }
 .direct-buy .right-col .row.gobuy{
 	padding-left: 75px;
+
+	a{
+		height: 35px;
+		line-height: 35px;
+		background: #ff5500;
+		width: 80px;
+		color: #fff;
+		text-align: center;
+		border-radius: 3px;
+		border: none;
+
+		&:hover{background: #ff3300;}
+
+		&.disabled{
+			background:#d6d6d6;
+			cursor:default;
+			&:hover{
+				background:#d6d6d6;
+			}
+		}
+	}
 }
-.direct-buy .right-col .row.gobuy a{
-	height: 35px;
-	line-height: 35px;
-	background: #ff5500;
-	width: 80px;
-	color: #fff;
-	text-align: center;
-	border-radius: 3px;
-	border: none;
-}
-.direct-buy .right-col .row.gobuy a:hover{
-	background: #ff3300;
-}
+
+
 
 .left-col-hot{
 	border: 1px solid #e8e8e8;
 	border-top: 2px solid #ff3300;
 	width: 232px;
 	margin-right: 10px;
+
+	img{
+		width: 90px;
+		height: 90px;
+	}
 }
 .left-col-hot h3{
 	background: #f5f5f5;
@@ -3163,6 +3196,7 @@ line-height: 40px;
 	text-align: center; 
 	line-height: 33px;
 	position: relative;
+	cursor: pointer;
 }
 .belonging  .cities li:hover{
 	border:1px solid #ff5500; 
@@ -3198,13 +3232,12 @@ line-height: 40px;
 
 	.color{color: #ff5500;}
 }
+
 .belonging .screening .cond{
 	float: left;
-	margin-left: 20px;
-}
-.belonging .screening .cond{
+	margin-left: 10px;
 	.ui-popup{
-		width: 104px;
+		width: 80px;
 		padding: 0;
 		background:#fff;
 		border-top: 0px;
@@ -3212,18 +3245,45 @@ line-height: 40px;
 		li{
 			padding:5px;
 			cursor: pointer;
-		&:hover{background:#ff3300;color:#fff !important;}
+		&:hover{background:#f33f00;color:#fff !important;}
 		}
+	}
+	input{
+		height: 26px;
+		line-height: 26px;
+		border:1px solid #e8e8e8;
+		color:#999;
+		padding:0 5px;
+		width: 70px;
+		float: left;
+	}
+	.sbtn{
+		margin:0;
+		width: 70px;
+		text-align: center;
+		height: 28px;
+		line-height: 28px;
+		background:#e8e8e8;
+		color:#333;
+		display: block;
+		float: left;
+	}
+	#pagination.ui-paging{
+		margin:0;
 
+		input{
+			width: 30px;
+			float: none;
+		}
 	}
 }
 
 .belonging .screening .number-select{
-	width: 94px;
+	width: 84px;
 	line-height: 26px;
 }
 .belonging .screening .number-select .select{
-	width: 94px;
+	width: 70px;
 	height: 26px;
 	line-height: 26px;
 	border:1px solid #e8e8e8; 

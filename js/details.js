@@ -104,8 +104,8 @@ seajs.use(['jquery'],function($){
 			$('.overlay_content').hide();
 		});
 
-		$('.cities li a').click(function(){
-			var cityname = $(this).html();
+		$('.cities li').click(function(){
+			var cityname = $(this).find('a').html();
 			$('.current-city').html(cityname);
 			$('#overlay_area').hide();
 			$('.overlay_content').hide();
@@ -168,7 +168,7 @@ seajs.use(['jquery'],function($){
 });
 
 
-// popup
+// dropdown for popup modal
 seajs.use(['arale-popup/1.2.0/popup-debug','jquery'], function(Popup, $){
 
 	var numType = new Popup({
