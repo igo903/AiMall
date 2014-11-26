@@ -122,7 +122,7 @@
 	<div class="white">
 		<div class="">
 			<h1>注册协议</h1>
-			<div class="txt">SD放松放松东方时代发</div>
+			<div class="txt"><p>SD放松放松东方时代发</p><p>SD放松放松东方时代发</p></div>
 			<div class="gobuy">
 				<a href="javascript:;" class="">确定</a>
 			</div>

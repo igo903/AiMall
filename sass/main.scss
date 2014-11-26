@@ -1297,12 +1297,12 @@ i{font-style: normal;}
 	margin-top: 10px;
 }
 .direct-buy .right-col .row{
-	height: 40px;
+	// height: 40px;
 	line-height: 40px;
 	padding: 0px 0 0px 15px;
 }
 .direct-buy .right-col .row.moreinfo{
-	height: 70px;
+	// height: 70px;
 	line-height: 22px;
 }
 .direct-buy .right-col .row .again{
@@ -3388,19 +3388,26 @@ line-height: 40px;
 	width: 146px;
 	height: 56px;
 	border:1px solid #e8e8e8;
-	padding-left: 0px;
+	padding-left: 5px;
 	position: relative;
 	margin: -1px 0 0 -1px;
 	cursor: pointer;
 	float: left;
+
+	&.wgo p{
+		width: 130px;
+
+		height: 30px;
+		line-height: 30px;
+		overflow: hidden;
+	}
 }
 .belonging  .numberbox li p{
-	padding-left: 10px;
+
 }
 .belonging .numberbox li.wgo{ 
 	width: 140px;
 	height: 30px; 
-	padding: 0 10px 0 0 ;
 	line-height: 30px;
 	text-align: center;
 }
@@ -3587,8 +3594,16 @@ line-height: 40px;
 #switchCityContent.overlay_content{
 	padding-bottom: 10px;
 }
-#aiAgreement.overlay_content .txt{
-	padding:10px;
+#aiAgreement.overlay_content {
+	width: 960px;
+
+	.txt{
+		padding:10px;
+
+		p{
+			margin:5px 0;
+		}
+	}
 }
 
 
