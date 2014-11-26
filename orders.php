@@ -106,8 +106,7 @@
 	             	</div>
 
 
-
-              		<!-- <div class="steps">
+              		<div class="steps">
 	                  	<div class="steps-title">3.地址选择</div>
 	                  	<div class="steps-content">
 		                    <div class="address">
@@ -144,19 +143,210 @@
 		                        <div class="form-btn">
 		                           <div class="btn01" id="tsite2">+使用新地址</div>
 		                        </div>   
-		                        <p class="add-hint">收货地址不能超过5个，如需请直接修改已有收货地址</p>
+		                        <p class="shopping-prompt">收货地址不能超过5个，如需请直接修改已有收货地址</p>
 		                          
 		                    </div>       
 	                  	</div>
-	             	</div> -->
+	             	</div>
 
 
+	             	<div class="steps">
+	                  	<div class="steps-title">4.支付方式选择</div>
+			            <div class="steps-content">
+		                    <div class="paybox">
+		                      	<div class="shopping-split6">下单后6小时内完成支付，否则您选择的号码资源会被释放。</div>
+			                     <ul>
+			                        <li class="pay-selected">
+			                            <input name="radio2" type="radio" id="radio2" value="radio2" checked="checked" />
+			                            <label for="radio2">在线支付</label>
+			                            <div class="t-ok"></div>
+			                        </li>
+
+			                        <li >
+			                            <input name="radio2" type="radio" id="radio2" value="radio2" />
+			                            <label for="radio2">在线支付</label>
+			                            <div class="t-ok"></div>
+			                        </li>
+			                     </ul>
+		                    </div>
+		                    <p class="font_gray">在线支付，支持信用卡、储蓄卡、支付宝</p>   
+			            </div>
+	             	</div>
 
 
+	             	<div class="steps">
+	                  	<div class="steps-title">5.配送方式选择</div>
+	                  	<div class="steps-content">
+	                    	<div class="distribution-box">
+		                      	<ul>
+			                        <li class="d-selected">
+			                            <input name="radio3" type="radio" id="radio3" value="radio3" checked="checked" />
+			                            <label for="radio3">快递 0.00元</label>
+			                            <div class="t-ok"></div>
+			                        </li>
+		                      	</ul>
+	                      
+	                      		<div class="font_blue">送货时间</div>
+		                      	<ul>
+			                        <li class="d-selected">
+			                            <input name="radio4" type="radio" id="radio4" value="radio4" checked="checked" />
+			                            <label for="radio41">仅工作日送货</label>
+			                            <div class="t-ok"></div>
+			                        </li>
+			                        <li>
+			                            <input type="radio" name="radio4" id="radio4" value="radio4" />
+			                            <label for="radio42">仅周末送货</label>
+			                            <div class="t-ok"></div>
+			                        </li>
+			                        <li>
+			                            <input type="radio" name="radio4" id="radio4" value="radio4" />
+			                            <label for="radio43">工作日/周末/假日均可</label>
+			                            <div class="t-ok"></div>
+			                        </li>
+		                      	</ul>
+	                      		<p class="font_gray">声明：我们会努力按照您指定的时间配送，但因天气、交通等各类因素影响，您的订单有可能会有延误现象！敬请谅解！</p>
+	                    	</div>       
+	                  	</div>
+	             	</div>
 
 
+	             	<div class="steps">
+		                <div class="steps-title"><div class="fl">6.商品详情</div> <div class="gocar"><a href="#">返回购物车</a></div></div>
+	                  	<div class="steps-content">
+		                    <div class="inventory">
+	                          	<table class="review-thead" width="100%" border="0" cellpadding="0" cellspacing="0">
+		                            <tr>
+		                              	<td class="fore1">商品</td>
+		                              	<td class="fore2">商品信息</td>
+		                              	<td class="fore3">库存</td>
+		                              	<td class="fore4">数量(件)</td>
+		                              	<td class="fore5">小计</td>
+		                            </tr>
+	                          	</table>
+
+		                      	<div class="review-body">
+	                             	<div class="review-tbody cart-tbody">
+	                                 	<table class="order-table" width="100%" border="0" cellspacing="0" cellpadding="0">
+		                                   	<tr>
+		                                     	<td class="fore1">
+			                                       <div class="p-goods">
+			                                            <div class="p-img"><a href="#" target="_blank"><img  src="images/phone10.jpg" alt=""></a></div>    
+			                                            <div class="p-names">
+			                                            <a href="#"  target="_blank" >iPhone5s 金银灰色 指纹识别 送3600M流量</a>
+			                                            <p class="font_green">好友推荐最高得100元话费x1微信晒单得20元话费x1 </p></div>    
+			                                        </div>
+		                                     	</td>
+		                                     	<td class="fore2">
+			                                        颜色：金色<br />
+			                                        号码：18612345678（武汉）<br />
+			                                        套餐：286元3GiPhone套餐<br />
+			                                        合约：预存话费送手机<br />
+			                                        协议期：24个月<br />                                        
+		                                     	</td>
+		                                     	<td class="fore3">有货</td>
+		                                     	<td class="fore4">1</td>
+		                                     	<td class="fore5">￥4999.00</td>
+		                                   	</tr>
+		                                </table>
+		                        	</div>
+			                        <div class="review-tbody cart-tbody">
+	                                 	<table class="order-table" width="100%" border="0" cellspacing="0" cellpadding="0">
+		                                   	<tr>
+		                                     	<td class="fore1">
+			                                       <div class="p-goods">
+			                                            <div class="p-img"><a href="#" target="_blank"><img  src="images/phone10.jpg" alt=""></a></div>    
+			                                            <div class="p-names">
+			                                            <a href="#"  target="_blank" >iPhone5s 金银灰色 指纹识别 送3600M流量</a>
+			                                            <p class="font_green">好友推荐最高得100元话费x1微信晒单得20元话费x1 </p></div>    
+			                                        </div>
+		                                    	</td>
+			                                    <td class="fore2">
+			                                        颜色：金色<br />
+			                                        号码：18612345678（武汉）<br />
+			                                        套餐：286元3GiPhone套餐<br />
+			                                        合约：预存话费送手机<br />
+			                                        协议期：24个月<br />                                        
+			                                    </td>
+			                                    <td class="fore3 "><span class="font_red">库存紧张</span></td>
+			                                    <td class="fore4">1</td>
+			                                    <td class="fore5">￥4999.00</td>
+		                                   </tr>
+		                                </table>
+			                        </div>
+		                      	</div>
+
+		                      	<div class="statistic fr">
+		                         	<div class="list"><span><em>2</em> 件商品，总商品金额：</span><em class="price">￥2346.20</em></div>
+		                         	<div class="list"><span>运费：</span><em class="price">￥0.00</em></div>
+		                      	</div>
+		                    </div>                          
+		                </div>
+		            </div>
+
+
+		            <div class="steps">
+                  		<div class="steps-title">7.结算信息</div>
+	                  	<div class="steps-content">
+		                    <div class="special-form">
+	                           <div class="step-stitle"> <b></b>发票信息</div>
+	                           <div class="step-cont">
+	                               <div class="list">
+                                        <span class="label">发票抬头：</span>
+                                        <div class="field">
+                                            <input type="text" class="textbox" id="w" name="w" value="" maxlength="11">
+                                            <div class="my-hint">提示框</div>
+                                        </div>
+	                               </div>
+	                               <div class="list-prompt">我们将提供打印发票随同订购商品一起寄送，发票抬头默认为您的姓名。</div>
+	                               <div class="list">
+                                        <span class="label">发票内容：</span>
+                                        <div class="field">
+                                            <span>明细</span>
+                                        </div>
+	                               </div>
+	                            </div>
+		                    </div>
+	                    
+		                    <div class="special-form">
+	                           	<div class="step-stitle"> <b></b>我有推荐人</div>
+	                           	<div class="step-cont">
+	                               	<div class="list">
+                                        <span class="label">推荐人姓名：</span>
+                                        <div class="field">
+                                            <input type="text" class="textbox" id="w" name="w" value="" maxlength="11">
+                                            <div class="my-hint2">错误提示</div>
+                                        </div>
+	                               	</div>
+	                                <div class="list">
+                                        <span class="label">推荐人手机：</span>
+                                        <div class="field">
+                                            <input type="text" class="textbox" id="w" name="w" value="" maxlength="11">
+                                            <div class="my-hint2">错误提示</div>
+                                        </div>
+	                               </div>
+	                           	</div>
+		                    </div>  
+		                    <div class="special-form">
+	                           	<div class="step-stitle"> <b></b>留言</div>
+	                           	<div class="step-cont">
+                                	<div class="list">
+                                        <span class="label">留言：</span>
+                                        <div class="field">
+                                            <input type="text" class="textbox" id="w" name="w" value="" maxlength="100">
+                                        </div>
+	                               	</div>
+	                           	</div>
+		                    </div>                                 
+	                  	</div>
+             		</div>	
 
      			</div>
+
+     			<div class="checkout-buttons">
+     				<a href="javascript:;" class="btn-checkout">提交订单</a>   
+     				<a href="javascript:;" class="btn-checkoutno">提交订单</a>   
+		          	<span class="total">应付总额：<strong id="payPriceId">￥2365.50</strong>元 	</span>		                 
+		        </div>
 			</div>
 
 			<div class="side service-side none" id="side-pop">
