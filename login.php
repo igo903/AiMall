@@ -57,6 +57,10 @@
 							            <img class="ui-checkcode-imgcode-img" align="absMiddle" alt="请输入您看到的内容" src="https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&r=0.9321065918075809"  title="点击刷新图片校验码">
 							            <a href="#" class="imgcode-a">看不清，换一张</a>
 							        </div>
+
+							        <div class="ui-form-item ui-form-item-error">
+							            <div class="ui-form-explain">* 密码错误，请重新输入密码</div>
+							        </div>
 							        <div class="ui-form-item">
 							            <input type="submit" class="ui-button btn350" value="登录">
 							        </div>
