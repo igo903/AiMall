@@ -183,7 +183,7 @@
 
 			        <div class="cart-btn">
 				            <a href="#" class="goonbuy">继续购物</a>
-				            <a href="#" class="goaccounps">去结算</a>
+				            <a href="orders.php" class="goaccounps">去结算</a>
 				    </div>
 				</div>
 

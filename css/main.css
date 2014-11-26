@@ -4971,3 +4971,84 @@ a.delbtns:hover {
   margin-top: 10px;
   text-decoration: none;
 }
+
+.failure {
+  margin-top: 20px;
+  background: url("../images/yun-no.jpg") no-repeat 200px 40px;
+  min-height: 200px;
+  padding: 70px 0 0 350px;
+}
+.failure span {
+  font-size: 18px;
+  color: #7e7e7e;
+  font-weight: bold;
+  display: block;
+  float: left;
+}
+.failure b {
+  font-size: 18px;
+  font-weight: bold;
+  color: #35a539;
+  display: block;
+  max-width: 120px;
+  overflow: hidden;
+  height: 25px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  float: left;
+}
+
+.correlation {
+  overflow: hidden;
+}
+
+.correlation .correlation-title {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.correlation .correlation-title .font_through {
+  color: #333;
+  text-decoration: line-through;
+}
+
+.correlation .correlation-cont {
+  overflow: hidden;
+  border-top: 2px solid #f33f00;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-bottom: 0px;
+}
+
+.correlation .correlation-cont .prd-list {
+  border-bottom: 1px solid #e8e8e8;
+  margin-top: 0px;
+}
+
+.correlation .correlation-cont .channel-item {
+  width: 210px;
+  margin-left: -2px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.correlation .correlation-cont .merchandise-box {
+  border: 0px;
+}
+
+.showmore {
+  height: 43px;
+  line-height: 43px;
+  border: 1px solid #f2f2f2;
+  color: #717171;
+  background: url("../images/showmore.jpg") no-repeat 625px 16px #f9f9f9;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 15px;
+  float: left;
+  clear: both;
+  width: 1188px;
+}

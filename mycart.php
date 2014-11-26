@@ -19,7 +19,7 @@
 			            <div class="fr">现在<a href="#" class="btn-noimg">登录</a>您购物车中的商品将被永久保存</div>
 			        </div>
 
-			        <div class="mycart-content wbox">
+			        <div class="mycart-content">
 			            <div class="message">
 			              购物车内暂时没有商品，<a href="#">登录</a>后，将显示您之前加入的商品<br />去<a href="#">首页</a>挑选喜欢的商品
 			            </div>

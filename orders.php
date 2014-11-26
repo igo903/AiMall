@@ -349,7 +349,7 @@
 		        </div>
 			</div>
 
-			<div class="side service-side none" id="side-pop">
+			<di	v class="side service-side none" id="side-pop">
 					<?php include("service_side.php"); ?>
 				</div><!--//service-side-->
 			</div><!--//home-part-1-->
