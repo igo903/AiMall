@@ -156,12 +156,14 @@ i{font-style: normal;}
     line-height: 35px;
     color: #666;
     position:relative;
+
+    a{
+    	margin-left: 15px;
+	    color: #666;
+	    display: inline-block;
+    }
 }
-.mininavInner a{
-    margin-left: 15px;
-    color: #666;
-    display: inline-block;
-}
+
 .mininavInner a:hover,.mininavInner a:link,.mininavInner i.app {
     color: #666;
 }
@@ -181,73 +183,74 @@ i{font-style: normal;}
     margin: 0 auto;
     padding: 10px 0 15px;
     position: relative;
-}
-.head .logo {
-    float: left;
-    display: inline;
-    position: relative;
-    width: 290px;
-}
-.head .steps{
-	position: absolute;
-	top: 18px;
-	right: 0;
-	width: 500px;
+
+    .logo {
+	    float: left;
+	    display: inline;
+	    position: relative;
+	    width: 290px;
+
+	    .ailogo {
+		    display: block;
+		    width: 230px;
+		    height: 60px;
+		    background-image: url(../images/logo.png);
+		    background-repeat: no-repeat;
+		}
+		span{
+			position: absolute;
+			right: 0px;
+			top: 10px;
+			font-size: 16px;
+			color: #333;
+		}
+		.loginicon{
+			display: block;
+			position: absolute;
+			right: -90px;
+			bottom: 10px;
+			font-size: 16px;
+			color: #333;
+			width: 101px;
+			height:21px;
+			border-left: 5px solid #eee;
+			padding-left: 15px;
+		}
+
+	}
+	.steps{
+		position: absolute;
+		top: 18px;
+		right: 0;
+		width: 500px;
+	}
+	.searchTxt {
+	    float: left;
+	    width: 415px;
+	    height: 30px;
+	    border: 2px solid #ff5500;
+	    border-right: 0;
+	    position: relative;
+	    z-index: 20;
+	    background: #FFF;
+	}
+	#searchbar{width: 487px;}
+	.search-bd{margin-left: 90px;
+		span{
+		    position: absolute;
+		    top: 50px;
+		    right: 230px;
+		}
+		
+
+	}
 }
 
-.head .logo .ailogo {
-    display: block;
-    width: 230px;
-    height: 60px;
-    background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
-}
-.head .logo span{
-	position: absolute;
-	right: 0px;
-	top: 10px;
-	font-size: 16px;
-	color: #333;
-}
-.head .logo .loginicon{
-	display: block;
-	position: absolute;
-	right: -90px;
-	bottom: 10px;
-	font-size: 16px;
-	color: #333;
-	width: 101px;
-	height:21px;
-	border-left: 5px solid #eee;
-	padding-left: 15px;
-}
-
-.head .searchTxt {
-    float: left;
-    width: 415px;
-    height: 30px;
-    border: 2px solid #ff5500;
-    border-right: 0;
-    position: relative;
-    z-index: 20;
-    background: #FFF;
-}
-.head #searchbar{
-    width: 487px;
-}
-.head .search-bd{
-    margin-left: 90px;
-}
 /*@media (max-width:1189px) {
 	.head .search-bd {
 		margin-left: 9px;
 	}
 }*/
-.head .search-bd span{
-    position: absolute;
-    top: 50px;
-    right: 230px;
-}
 .head .search input {
     float: left;
     border: 0;
@@ -1033,9 +1036,11 @@ i{font-style: normal;}
 	height: 22px;
 	overflow: hidden;
 	color: #666;
-	/*-ms-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
 	text-overflow: ellipsis;
-	white-space:nowrap;*/
+	white-space:nowrap;
+
+	a{height: 22px;line-height: 22px;}
 }
 .channel-item .desc{
 	height: 40px;
@@ -1359,26 +1364,37 @@ i{font-style: normal;}
 		width: 90px;
 		height: 90px;
 	}
+	ul{
+		padding:  0px 10px 0 10px;
+
+		li{
+			width: 212px;
+			text-align: center;
+			padding-bottom: 10px;
+			border-bottom: 1px dotted #e8e8e8;
+			padding: 10px 0;
+
+			&.last{border-bottom: none;}
+
+			.info a{
+				display: block;
+				width:208px;
+				height:22px;
+				-ms-text-overflow: ellipsis;
+				text-overflow: ellipsis;
+				white-space:nowrap;
+				overflow: hidden;
+			}
+		}
+	}
+	h3{
+		background: #f5f5f5;
+		line-height: 40px;
+		height: 40px;
+		padding: 0 20px;
+	}
 }
-.left-col-hot h3{
-	background: #f5f5f5;
-	line-height: 40px;
-	height: 40px;
-	padding: 0 20px;
-}
-.left-col-hot ul{
-	padding:  0px 10px 0 10px;
-}
-.left-col-hot ul li{
-	width: 212px;
-	text-align: center;
-	padding-bottom: 10px;
-	border-bottom: 1px dotted #e8e8e8;
-	padding: 10px 0;
-}
-.left-col-hot ul li.last{
-	border-bottom: none;
-}
+
 .right-col-detail{
 	width: 946px;
 }
@@ -3190,8 +3206,7 @@ line-height: 40px;
 .belonging{
    float: left;
    background-color: #fff;
-   clear: both;
-   padding-bottom: 20px;	
+   clear: both;	
 }
 .belonging h1{
 	height: 35px;
@@ -3219,13 +3234,22 @@ line-height: 40px;
 	line-height: 33px;
 	position: relative;
 	cursor: pointer;
+
+	&:hover{
+		border:1px solid #ff5500; 
+		z-index: 10;
+		width: 66px; 
+		height: 33px;
+		line-height: 33px;
+		color:#ff5500 !important;
+	}
+	&.selected{
+		border:1px solid #ff5500;
+		color:#ff5500;
+	}
 }
 .belonging  .cities li:hover{
-	border:1px solid #ff5500; 
-	z-index: 10;
-	width: 66px; 
-	height: 33px;
-	line-height: 33px;	
+		
 }
 .belonging  .cities li a{
 	text-decoration: none;
@@ -3532,6 +3556,9 @@ line-height: 40px;
 
 #switchnNumberContent.overlay_content, #switchTaocan.overlay_content,#switch4GTaocan.overlay_content,#switchABCTaocan.overlay_content{
 	width: 800px;
+}
+#switchCityContent.overlay_content{
+	padding-bottom: 10px;
 }
 
 

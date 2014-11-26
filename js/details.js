@@ -105,7 +105,7 @@ seajs.use(['jquery'],function($){
 		});
 
 		$('.cities li').click(function(){
-			var cityname = $(this).find('a').html();
+			var cityname = $(this).html();
 			$('.current-city').html(cityname);
 			$('#overlay_area').hide();
 			$('.overlay_content').hide();
