@@ -2059,7 +2059,7 @@ a.btn, .btn {
   top: 10px;
 }
 
-.jingxuan .info a {
+.jingxuan .info a, .hotsell .info a {
   width: 117px;
   height: 35px;
   overflow: hidden;
@@ -2082,6 +2082,9 @@ a.btn, .btn {
 .hotsell a.btn {
   margin-left: 0;
   color: #ff3300;
+  height: 25px;
+  line-height: 25px;
+  width: 80px;
 }
 
 .channel-item.innove {
@@ -3738,6 +3741,9 @@ a.btn, .btn {
   position: relative;
   cursor: pointer;
 }
+.belonging .cities li a {
+  text-decoration: none;
+}
 .belonging .cities li:hover {
   border: 1px solid #ff5500;
   z-index: 10;
@@ -3749,10 +3755,7 @@ a.btn, .btn {
 .belonging .cities li.selected {
   border: 1px solid #ff5500;
   color: #ff5500;
-}
-
-.belonging .cities li a {
-  text-decoration: none;
+  z-index: 1;
 }
 
 .ui-dialog .ui-dialog-close {
@@ -4087,6 +4090,10 @@ a.btn, .btn {
 
 #switchCityContent.overlay_content {
   padding-bottom: 10px;
+}
+
+#aiAgreement.overlay_content .txt {
+  padding: 10px;
 }
 
 .login {

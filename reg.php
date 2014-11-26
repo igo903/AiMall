@@ -96,7 +96,7 @@
 				         <div class="ui-form-item">
 				            <label for="test" class=" label-plus">
 				                <input class="ui-checkbox "  id="test" value="" type="checkbox">
-				                我已阅读并同意<a href="" class="label-a">《亚信商城注册协议》</a>
+				                我已阅读并同意<a href="javascript:;" class="label-a" id="aiAgree" data-name="aiAgreement">《亚信商城注册协议》</a>
 				            </label>
 				        </div>
 
@@ -114,4 +114,28 @@
 	</div>
 </div>
 
+
+
+
+<div id="aiAgreement" class="belonging overlay_content">
+	<div class="close_overlay"><a href="javascript:;"></a></div>
+	<div class="white">
+		<div class="">
+			<h1>注册协议</h1>
+			<div class="txt">SD放松放松东方时代发</div>
+			<div class="gobuy">
+				<a href="javascript:;" class="">确定</a>
+			</div>
+		</div><!--//-->
+	</div>
+</div>
+
+
+
+<div id="overlay_area">
+	<div></div>
+</div>
+
+
+<script type="text/javascript" src="js/details.js"></script>
 <?php include("footer.php"); ?>

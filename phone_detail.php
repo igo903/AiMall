@@ -555,18 +555,18 @@
 					<h1>选择归属地</h1>
 					<div class="cities">
 						<ul>
-							<li>南京市</li>
+							<li class="selected">南京市</li>
 							<li>无锡市</li>
 							<li>徐州市</li>
 							<li>常州市</li>
 							<li>苏州市</li>
 							<li>南通市</li>
-							<li class="selected">连云港市</li>
+							<li >连云港市</li>
 							<li>淮安市</li>
 							<li>盐城市</li>
 							<li>扬州市</li>
 							<li>镇江市</li>
-							<li>泰州市</li>
+							<li class="selected">泰州市</li>
 						</ul>
 					</div> 
 				</div><!--//allcities-->
