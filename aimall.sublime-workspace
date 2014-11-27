@@ -1,0 +1,778 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"ove",
+				"tov-e	text-overflow: ellipsis;"
+			],
+			[
+				"db",
+				"d-b	display: block;"
+			],
+			[
+				"pagin",
+				"pagination"
+			],
+			[
+				"h",
+				"h	height"
+			],
+			[
+				"di",
+				"d-i	display: inline;"
+			],
+			[
+				"trigger",
+				"triggerType"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"pop",
+				"popupNumType"
+			],
+			[
+				"ff",
+				"ff3600"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"line",
+				"line_comments"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"spin",
+				"spinOnce"
+			],
+			[
+				"reco",
+				"recommend_panel.php"
+			],
+			[
+				"l",
+				"last"
+			],
+			[
+				"hot",
+				"hotsell"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"service",
+				"service_side"
+			],
+			[
+				"mouse",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"borr",
+				"border-radius"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"mouseo",
+				"mouseover	.mouseover()"
+			],
+			[
+				"cal",
+				"calLeft"
+			],
+			[
+				"scroll",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"scoll",
+				"scrollLeft"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"new",
+				"newNum"
+			],
+			[
+				"swit",
+				"switchCity"
+			],
+			[
+				"tao",
+				"taocanTxt"
+			],
+			[
+				"class",
+				"class=\"money"
+			],
+			[
+				"switch",
+				"switchTaocan"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"parent",
+				"parents	.parents()"
+			],
+			[
+				"tod",
+				"todos"
+			],
+			[
+				"inn",
+				"innerHTML"
+			],
+			[
+				"todo",
+				"todoIndex"
+			],
+			[
+				"panel",
+				"panelName"
+			],
+			[
+				"doc",
+				"docH"
+			],
+			[
+				"link",
+				"linkage"
+			],
+			[
+				"user",
+				"userService"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"submi",
+				"submitted"
+			],
+			[
+				"sub",
+				"submit	.submit()"
+			],
+			[
+				"ng-op",
+				"ng-options	AngularJS"
+			],
+			[
+				"in",
+				"insertAfter	.insertAfter()"
+			],
+			[
+				"inser",
+				"insertBefore	.insertBefore()"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"flo",
+				"floatingmenu_icon"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"td",
+				"td-l	text-decoration: line-through;"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"ng-swi",
+				"ng-switch-default	AngularJS"
+			],
+			[
+				"ng-swit",
+				"ng-switch-when	AngularJS"
+			],
+			[
+				"to",
+				"tov	text-overflow: ${ellipsis};"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"li",
+				"lisp	list-style-position"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 89292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 82848,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/sass"
+	],
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/js/details.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/reg.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/number_list.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/sass/main.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/js/common.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/main.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/phone_detail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/tanchuang.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/config.rb",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/sass/main00.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/css/main00.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/sass/_head.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/sass/_base.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/mycart2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/mobile_list.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/sass/ie.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/header2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/recommend_panel.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/service_side.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/Index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/css/jquery.modal.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-dialog/1.4.0/src/confirmbox-debug.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-dialog/1.4.0/dialog-debug.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-dialog/1.4.0/src/confirmbox.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-dialog/1.4.0/src/dialog.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/alice-paging/1.1.0/paging.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/easyzoom/src/easyzoom.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-switchable/1.1.0/switchable-debug.js",
+		"/Users/Alain/Downloads/easyzoom.js.Rename",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/css/easyzoom.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/css/taobao.css",
+		"/Users/Alain/Downloads/EasyZoom-master/index.html",
+		"/Users/Alain/Downloads/EasyZoom-master/css/easyzoom.css",
+		"/Users/Alain/Downloads/zoom-master/demo.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/jquery/1.7.2/jquery-debug.js",
+		"/Users/Alain/Downloads/EasyZoom-master/src/easyzoom.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/position/1.1.0/index-debug.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/easing/1.3.0/index.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AngularVCourse/angular04.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/AngularVCourse/angular05.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/ww.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/js/upward.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/js/innov.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/innove_detail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/js/upward",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/innove_list.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AngularVCourse/js/app5.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/Innovate.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/Main.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/Innovate.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/mobile_list.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/package.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/css/input.css",
+		"/Users/Alain/Works/jdf_demo/js/index.js",
+		"/Users/Alain/Works/jdf_demo/build/jdf_demo/widget/accordion/accordion.js",
+		"/Users/Alain/Works/jdf_demo/css/index.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/sass/input.scss",
+		"/usr/local/lib/node_modules/jdf/package.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/alice-base/1.1.0/src/base.css",
+		"/Users/Alain/Downloads/whol2014-master/Web/Main.html",
+		"/Users/Alain/Works/StackoverflowReader/package.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/alice-form/1.1.0/src/form.css",
+		"/Applications/XAMPP/xamppfiles/etc/original/httpd.conf",
+		"/Applications/XAMPP/xamppfiles/etc/httpd.conf",
+		"/Applications/XAMPP/xamppfiles/apache2/conf/httpd.conf",
+		"/Applications/XAMPP/xamppfiles/etc/extra/httpd-xampp.conf",
+		"/Users/Alain/Downloads/whol2014-master/Web/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/css/slick.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-switchable/1.1.0/src/carousel.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/slick/1.3.11/slick/slick.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-switchable/1.1.0/package.json",
+		"/Users/Alain/Downloads/whol2014-master/Web/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-popup/1.2.0/popup-debug.js",
+		"/Users/Alain/Downloads/whol2014-master/Web/sea-modules/arale/popup/1.1.6/popup-debug.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules/arale-popup/1.2.0/src/popup.js",
+		"/Users/Alain/Downloads/whol2014-master/Web/sea-modules/jquery/jquery/1.10.1/jquery.js",
+		"/Users/Alain/Downloads/whol2014-master/Web/sea-modules/jquery/jquery/1.10.1/jquery-debug.js",
+		"/Users/Alain/Downloads/whol2014-master/Web/sea-modules/jquery/jquery/1.10.1/jquery-1.10.1.js",
+		"/Users/Alain/Downloads/whol2014-0ded20de24dcd8c9463a753cbcd7b5da637e5a9c/Main.html",
+		"/Users/Alain/Downloads/whol2014-0ded20de24dcd8c9463a753cbcd7b5da637e5a9c/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AngularVCourse/angular01.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/AngularVCourse/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/AngularVCourse/js/angular.js",
+		"/Users/Alain/Works/AngularVCourse/angular-1.3.0/angular00.html",
+		"/Users/Alain/Works/AngularVCourse/angular-1.3.0/angular.js",
+		"/Users/Alain/Works/AiMall/spm_modules/alice/1.0.0/index.css",
+		"/Users/Alain/Works/AiMall/spm_modules/alice-base/1.1.0/src/base.css",
+		"/Users/Alain/Works/AiMall/spm_modules/arale-class/1.2.0/class.js",
+		"/Users/Alain/Works/AiMall/spm_modules/arale-cookie/1.1.0/index.js",
+		"/Users/Alain/Works/AiMall/Old/商城前台html20140926/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/AiMall/",
+			"/Applications/XAMPP/xamppfiles/htdocs/AiMall/spm_modules"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"---",
+			"==",
+			"fo .m",
+			" .m",
+			"aiAgreement",
+			"switch",
+			"a.btn",
+			"ul li .info",
+			"li.selected",
+			"市",
+			"ci",
+			".selected",
+			"overlay_c",
+			"elli",
+			"ell",
+			"left-col-hot",
+			"belong",
+			"FETCH_HEAD",
+			"\">\n",
+			"select .select",
+			".select",
+			"cond",
+			".row.gobuy a",
+			"gobuy",
+			"立即",
+			"cond",
+			"smallimg li",
+			"ui-popup",
+			"mini",
+			"ui-pop",
+			"popup",
+			"popupNumType",
+			".cond",
+			"switchcitycontent",
+			"da'ta",
+			"todo",
+			"todoIndex",
+			"javsecpt",
+			"linear",
+			"webkit",
+			"animate",
+			"webkit",
+			"details-comment",
+			"linear",
+			"webkit",
+			"linear",
+			"lin",
+			"webkit",
+			"background-image",
+			"removecondition",
+			"186",
+			"common",
+			"caret",
+			"spin",
+			"fa",
+			"number-list",
+			"bar",
+			".ai",
+			"bar",
+			"filter-panel",
+			"ai",
+			"side",
+			"</br>",
+			"overlay_content",
+			"consol",
+			"=\"number\"",
+			".number",
+			"b class=\"num\"",
+			"switchnNumber",
+			"moreinfo",
+			".selected",
+			"switchtao",
+			"switchntao",
+			"switchnNumberContent2",
+			"preview",
+			"href=\"#\"",
+			"#",
+			"switchnNumberContent",
+			"switchCityContent",
+			"switch",
+			"choose",
+			"content",
+			"closetpl",
+			"data-role=close",
+			"data-role",
+			"ConfirmBox.",
+			"closeTpl",
+			"close",
+			"data-role=close",
+			"dialog.handlebars",
+			"confirmbox-debug",
+			"confirm",
+			"data-role",
+			"dialog",
+			"data-role=close",
+			"data-role",
+			"ui-dialog",
+			"console",
+			"linkage",
+			"this.$image",
+			"this.$link",
+			"$link",
+			"zoomHref",
+			"$link",
+			"$target",
+			"on",
+			"mouseover",
+			"channel-item",
+			"mouseleave",
+			"mouse",
+			"move",
+			"mag",
+			"cursor",
+			"_move",
+			"mouseover",
+			"hover",
+			"flyout",
+			".js",
+			"channel-item",
+			"notice",
+			"last",
+			"filter-panel",
+			"更多",
+			".php",
+			"close",
+			"fa ",
+			"fa-",
+			"input"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"javascript",
+			"<br/>",
+			"b class=\"number\"",
+			"href=\"javascript:;\"",
+			"imgfile",
+			"linkage",
+			".channel",
+			".notice",
+			"518",
+			"516",
+			"518",
+			"514",
+			"carousel-phones"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 37.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "aimall.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

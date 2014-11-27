@@ -1312,6 +1312,7 @@ i{font-style: normal;}
 	padding: 5px 0 5px 10px;
 	margin-left: 60px;
 	margin-top: 5px;
+	margin-bottom: 5px;
 	background: #f5fbff;
 	border:1px solid #e8e8e8;
 }
@@ -1603,16 +1604,7 @@ i{font-style: normal;}
 }
 .details-comment .percent dd div {
 	overflow: hidden;height: 10px;width: 0;background-color: #ED0000;
-
 	@include background-image(linear-gradient(to bottom right, #ff5500 0, #ff3600 100%));
-
-
-	/*background-image: -ms-linear-gradient(top,#ff5500 0,#ff3600 100%);
-	background-image: -moz-linear-gradient(top,#ff5500 0,#ff3600 100%);
-	background-image: -o-linear-gradient(top,#ff5500 0,#ff3600 100%);
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#ff5500),color-stop(1,#ff3600));
-	background-image: -webkit-linear-gradient(top,#ff5500 0,#ff3600 100%);
-	background-image: linear-gradient(to bottom,#ff5500 0,#ff3600 100%);*/
 }
 .details-comment .actor-new {
 	float: left;
@@ -1960,7 +1952,6 @@ a.btn, .btn{
 	background: url("../images/my-bd.jpg");
 	width:183px; 
 	height:40px; 
-	font-family:"微软雅黑"; 
 	color:#fff; 
 	font-size:14px; 
 	text-align:center; 
@@ -2444,7 +2435,6 @@ a.btn, .btn{
 	border: 1px solid #f2f2f2;
 	background: url(../images/btn-bj.jpg) repeat-x;
 	line-height: 25px;
-	font-family: "微软雅黑";
 	font-size: 14px;
 	color: #959595;
 	display: block;
@@ -3053,23 +3043,26 @@ line-height: 40px;
 }
 
 .business{
-}
-.business p{
-	margin-left: 20px;
-	font-size: 14px;
-	font-weight:bold;
-	color: #333;
-	line-height: 50px;
-}
-.business .businessul{
-	background-color: #f8f8f8;
-	border-top: 1px dashed #e8e8e8;
-	border-bottom: 1px dashed #e8e8e8;
-	overflow: hidden;
-}
-.business .businessul li{
-	margin: 10px 0;
-	overflow: hidden;
+
+	p{
+		margin-left: 20px;
+		font-size: 14px;
+		font-weight:bold;
+		color: #333;
+		line-height: 50px;
+	}
+
+	.businessul{
+		background-color: #f8f8f8;
+		border-top: 1px dashed #e8e8e8;
+		border-bottom: 1px dashed #e8e8e8;
+		overflow: hidden;
+
+		li{
+			margin: 10px 0;
+			overflow: hidden;
+		}
+	}
 }
 .business .businessul .spanleft{
 	float: left;
@@ -3769,7 +3762,7 @@ line-height: 40px;
 #delall .detailtit {
 	display: block;
 	height: 25px;
-	ottom: 1px solid #f2f2f2;
+	bottom: 1px solid #f2f2f2;
 	background-color: #f3f3f3;
 	border-top: 0px;
 }
@@ -3780,7 +3773,6 @@ line-height: 40px;
 	color: #666;
 	font-weight: bold;
 	font-size: 14px;
-	font-family: "微软雅黑";
 }
 #delall .detailtit i {
 	float: right;
