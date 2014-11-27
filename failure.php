@@ -19,9 +19,7 @@
 
 				<div class="correlation">
 					<div class="correlation-title"><span class="font_red">上网卡 手机</span> <span class="font_through">套鼠标</span>  相关结果如下：</div>
-					<div class="correlation-cont">
-						
-
+					<div class="correlation-cont">		
 
 						<div class="prd-list row">
 						

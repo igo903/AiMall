@@ -29,51 +29,51 @@
    				<div class="recommend-panel fn-clear mt12">
 		    		<div class="col-main">
 						
-							<div class="hotsell hoticon">
-								<h3>热卖</h3>
-								<ul>		
-									<li>
-										<img src="images/601_90x90.jpg" alt="">
-										<div class="info">
-											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-											<i>￥4899.00</i>
-											<a href="javascript:;" class="btn buy">立即订购</a>
-										</div>
-									</li>
-									<li>
-										<img src="images/659_90x90.jpg" alt="">
-										<div class="info">
-											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-											<i>￥4899.00</i>
-											<a href="javascript:;" class="btn buy">立即订购</a>
-										</div>
-									</li>
-									<li>
-										<img src="images/546_90x90.jpg" alt="">
-										<div class="info">
-											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-											<i>￥4899.00</i>
-											<a href="javascript:;" class="btn buy">立即订购</a>
-										</div>
-									</li>
-									<li>
-										<img src="images/611_90x90.jpg" alt="">
-										<div class="info">
-											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-											<i>￥4899.00</i>
-											<a href="javascript:;" class="btn buy">立即订购</a>
-										</div>
-									</li>
-									<li>
-										<img src="images/659_90x90.jpg" alt="">
-										<div class="info">
-											<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
-											<i>￥4899.00</i>
-											<a href="javascript:;" class="btn buy">立即订购</a>
-										</div>
-									</li>
-								</ul>
-							</div>
+						<div class="hotsell hoticon">
+							<h3>热卖</h3>
+							<ul>		
+								<li>
+									<img src="images/601_90x90.jpg" alt="">
+									<div class="info">
+										<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+										<i>￥4899.00</i>
+										<a href="javascript:;" class="btn buy">立即订购</a>
+									</div>
+								</li>
+								<li>
+									<img src="images/659_90x90.jpg" alt="">
+									<div class="info">
+										<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+										<i>￥4899.00</i>
+										<a href="javascript:;" class="btn buy">立即订购</a>
+									</div>
+								</li>
+								<li>
+									<img src="images/546_90x90.jpg" alt="">
+									<div class="info">
+										<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+										<i>￥4899.00</i>
+										<a href="javascript:;" class="btn buy">立即订购</a>
+									</div>
+								</li>
+								<li>
+									<img src="images/611_90x90.jpg" alt="">
+									<div class="info">
+										<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+										<i>￥4899.00</i>
+										<a href="javascript:;" class="btn buy">立即订购</a>
+									</div>
+								</li>
+								<li>
+									<img src="images/659_90x90.jpg" alt="">
+									<div class="info">
+										<a href="javascript:;">iPhone5S 默认开通炫铃升级版 </a>
+										<i>￥4899.00</i>
+										<a href="javascript:;" class="btn buy">立即订购</a>
+									</div>
+								</li>
+							</ul>
+						</div>
 						
 					</div>
 		    	</div>
