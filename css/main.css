@@ -1972,6 +1972,13 @@ a.btn, .btn {
   position: relative;
   background: #fff;
 }
+a.btn.disabled, .btn.disabled {
+  background: #d6d6d6;
+  cursor: default;
+}
+a.btn.disabled:hover, .btn.disabled:hover {
+  background: #d6d6d6;
+}
 
 .prd-list .channel-item a.btn.save {
   background: #efefef;
@@ -4059,7 +4066,10 @@ a.btn, .btn {
   width: 960px;
 }
 #aiAgreement.overlay_content .txt {
-  padding: 10px;
+  padding: 0 25px 25px 25px;
+  height: 400px;
+  overflow-y: scroll;
+  margin-top: 10px;
 }
 #aiAgreement.overlay_content .txt p {
   margin: 5px 0;

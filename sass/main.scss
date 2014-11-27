@@ -1740,6 +1740,14 @@ a.btn, .btn{
 	text-align: center;
 	position: relative;
 	background: #fff;
+
+	&.disabled{
+		background:#d6d6d6;
+		cursor:default;
+		&:hover{
+			background:#d6d6d6;
+		}
+	}
 }
 .prd-list .channel-item a.btn.save{
 	background: #efefef;
@@ -3588,7 +3596,10 @@ line-height: 40px;
 	width: 960px;
 
 	.txt{
-		padding:10px;
+		padding:0 25px 25px 25px;
+		height:400px;
+		overflow-y: scroll;
+		margin-top: 10px;
 
 		p{
 			margin:5px 0;
