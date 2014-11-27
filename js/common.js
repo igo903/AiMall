@@ -147,4 +147,24 @@ seajs.use(['slick/1.3.11/slick/slick-debug', 'jquery'], function(slick, $) {
 });
 
 
+seajs.use(['arale-autocomplete/1.4.1/autocomplete-debug','jquery'],function(AutoComplete, $){
+	var ac = new AutoComplete({
+        trigger: '#acTrigger1',
+        header: '<div class="{{classPrefix}}-header"></div>',
+        footer: '<div class="{{classPrefix}}-footer">搜索 {{query}} 的{{length}}个结果</div>',
+        html: '<strong>{{city}}</strong><span>{{prov}}</span><span>{{query}} 的{{length}}</span>',
+        dataSource: [
+          {city: '上海', prov: '上海', label: '上海', value: 'shanghai', alias: ['上海']},
+          {city: '苏州', prov: '江苏', label: '苏州', value: 'suzhou', alias: ['苏州']},
+          {city: '深圳', prov: '广州', label: '深圳', value: 'shenzhen', alias: ['深圳']},
+          {city: '沈阳', prov: '辽宁', label: '沈阳', value: 'shenyang', alias: ['沈阳']}
+        ],
+        width: 150
+    }).render();
+
+    ac.element.on('click', '#xxx', function() {
+      //alert(1);
+    })
+});
+
 

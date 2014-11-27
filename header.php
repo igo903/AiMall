@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="spm_modules/alice-base/1.1.0/src/base.css">
 	<link rel="stylesheet" href="spm_modules/alice-button/1.3.0/button.css">
+	<link rel="stylesheet" href="spm_modules/alice-select/1.1.0/select.css">
 	<link rel="stylesheet" href="spm_modules/fontawesome/css/font-awesome.min.css">
 	<script type="text/javascript" src="spm_modules/seajs/2.3.0/sea-debug.js"></script>
 	<!--[if lt IE 9]>
@@ -67,7 +68,7 @@
 							<div class="search" id="sosobar">
 								<div id="searchTxt" class="searchTxt">
 									<input name="s" type="hidden" value="">
-									<input type="text"  name="q"  size="30" id="wholSearchTxt">
+									<input type="text"  name="q"  size="30" id="acTrigger1" value autocomplete="off">
 								</div>
 							</div>
 							<div class="searchBtn">
