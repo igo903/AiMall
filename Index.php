@@ -96,9 +96,9 @@
 							    <div class="ui-switchable-content" data-role="content">
 							        <div data-role="panel">
 							        	<ul>
-							        		<li><a href="mycart.php">续约沃送礼，短信加流量！</a></li>
-							        		<li><a href="pluscart.php">"盛夏同学惠，沃派送大礼"，沃派暑期促销</a></li>
-							        		<li><a href="javascript:;">3G新入网即送"联通秘书"</a></li>
+							        		<li><a href="mycart.php">我的购物车未登陆</a></li>
+							        		<li><a href="failure.php">搜索失败</a></li>
+							        		<li><a href="javascript:;">3G新入网即送"联通秘书"</a></li>							        		
 							        		<li><a href="javascript:;">查询"个人信息"，号码状态轻松知晓</a></li>
 							        	</ul>
 							        </div>
