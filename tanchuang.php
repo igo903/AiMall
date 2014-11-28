@@ -340,7 +340,7 @@
 						    </div>
 
 						    <div class="wrap">
-					            <p>热卖商品</p>
+					            <p>热卖商品1</p>
 						        <ul>
 						            <li>
 						               <div class="p-img"><a href="#"><img src="images/phone08.jpg" /></a></div>
