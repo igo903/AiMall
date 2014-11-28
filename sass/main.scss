@@ -41,6 +41,33 @@ $info-input:270px;
 	border-right: 1px solid #eee;
 	border-bottom: 1px solid #eee;	
 }
+@mixin btnred{
+	color: #fff;
+  	text-align: center;
+	background: #ff5500;				
+	border-radius: 3px;
+	text-align: center;	
+	text-decoration: none;
+}
+@mixin btnredhover{
+	background: #ff3300;
+}
+@mixin btngrey{
+	text-align: center;
+	background: #f8f8f8;
+	border-radius: 3px;
+	border: 1px solid #e8e8e8;
+	text-decoration: none;
+}
+@mixin btngreyhover{
+	color: #666;
+	background-color: #f1f1f1;
+}
+
+
+
+
+
 
 
 .font_red{
@@ -1083,7 +1110,7 @@ i{font-style: normal;}
 .filter-panel, .direct-buy, .management-panel{
 	margin-top: 10px;
 }
-.filter-panel .bread-nav, .direct-buy .bread-nav, .management-panel .bread-nav, .helpbox .bread-nav{
+.filter-panel .bread-nav, .direct-buy .bread-nav, .management-panel .bread-nav, .helpbox .bread-nav,.details-panel .bread-nav{
 	height: 30px;
 	line-height: 30px;
 }
@@ -3021,6 +3048,9 @@ line-height: 40px;
 #switchAddressContent.overlay_content{
 	width: 500px;
 }
+#switchLoginContent.overlay_content{
+	width: 450px;
+}
 .overlay_content .switchnbuttn{
 	width: 190px;
 	margin: 20px auto 10px;
@@ -4924,16 +4954,13 @@ a.delbtns:hover {
 			&.add-ender {
 				width: 150px;
 				height: 35px;
-				line-height: 35px;
-			  	color: #fff;
-			  	text-align: center;
-				display: block;				
+				line-height: 35px;			  				
 				margin-right: 10px;
-				background: #ff5500;				
-  				border-radius: 3px;
-  				text-align: center;
+				display: block;
+				@include btnred();
+				
 				&:hover {
-				 	background: #ff3300;
+				 	@include btnredhover();
 				}
 			}
 
@@ -4941,15 +4968,11 @@ a.delbtns:hover {
 				width: 104px;
 				height: 33px;
 				line-height: 33px;
-				text-align: center;
 				display: block;
-				background: #f8f8f8;
-				border-radius: 3px;
-				border: 1px solid #e8e8e8;
+				@include btngrey();
 				
 				&:hover{
-					color: #666;
-					 background-color: #f1f1f1;
+					@include btngreyhover();
 				}
 			}
 
@@ -5020,23 +5043,223 @@ a.delbtns:hover {
 			border-top: 0px;
 			min-height: 704px;
 			margin-left: -1px;
+
+			.helprighttitle {
+				height: 36px;
+				background: #e7e7e7;
+				padding-left: 20px;
+				font-size: 14px;
+				color: #666666;
+				line-height: 36px;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+
+			.helprightdl {
+				height: 36px;
+				background-color: #eaf8ff;
+				border-left: 5px solid #547ec2;
+				margin: 0 10px 10px 10px;
+				line-height: 36px;
+				padding-left: 10px;
+				font-size: 14px;
+				color: #666;
+				font-weight: bold;
+			}
+			.helprightdd {
+				margin-left: 28px;
+				color: #666;
+				line-height: 30px;
+				margin-bottom: 20px;
+				margin-right: 10px;
+				img {
+					margin-bottom: 30px;
+				}
+				b.bmt {
+					padding-top: 30px;
+					display: block;
+					clear: both;
+				}
+				td .zfimg {
+					width: 148px;
+					height: 43px;
+					border: 1px solid #d7d7d7;
+					margin-right: 10px;
+					text-align: center;
+					padding-top: 5px;
+				}
+			}
 		}
 	}
 }
 
 
+.logint{
+	overflow: hidden;
+	width: 400px;
+	
+	padding: 40px 0 40px 50px;
+	position: relative;
+
+	.ui-form-item{
+		padding-left: 0px;
+		padding-bottom: 0px;
+	}
+
+	.ui-label{
+		width: 400px;
+		margin-left: 0px;
+		text-align: left;
+		font-weight: bold;
+		font-size: 12px;
+		color: #666;
+	}
+	.ui-input{
+		width: 330px;
+		margin-top: 10px;
+	}
+	.entries {
+		padding-top: 10px;
+		overflow: hidden;
+		zoom: 1;
+
+		li{
+			width: 165px;
+			float: left;
+			&.tcr{
+			text-align: right;
+			margin-right: 20px;
+		}
+		}
+	}
+}
+
+
+.details-panel{
+	margin-top: 10px;
+
+	.details-cont{
+		@include box-btop();
+
+		.orderstate {
+			height: 140px;
+			background-color: #f9f9f9;
+			.mt {
+				height: 70px;
+				padding-left: 30px;
+				overflow: hidden;
+				line-height: 70px;
+				color: #424242;
+				background-color: #e7e7e7;
+				margin-bottom: 1px;
+
+				strong {
+					float: left;
+					font-size: 14px;
+
+					a {
+						margin-left: 20px;
+						&.payt{
+							padding:5px 10px;
+							@include btnred();
+							&:hover{
+								@include btnredhover();
+							}
+						}
+					}
+				}
+
+
+				.fr {
+					margin: 20px 10px 0 0;
+					float: right;
+					a.edit-address {
+						float: left;
+						width: 93px;
+						height: 25px;
+						line-height: 25px;
+						margin-right: 10px;
+						display: block;
+						@include btnred();
+
+						&:hover{
+							@include btnredhover();
+						}
+					}
+					a.cancel-order {
+						float: left;
+						width: 93px;
+						height: 25px;
+						line-height: 25px;
+						display: block;
+						@include btnred();
+
+						&:hover{
+							@include btnredhover();
+						}
+					}
+				}
+			}
+
+			.mc {
+				border-top: 1px dashed #ebebeb;
+				background-color: #f9f9f9;
+				height: 49px;
+				padding: 10px 0px 9px 30px;
+				p {
+					line-height: 25px;
+				}
+			}
+		}
+
+		.process {
+			height: 135px;
+			margin-top: 35px;
+		}
+	}
+}
+
+.ui-step.ui-step-7 li {
+    width: 16%;
+    height: 70px;
+    position: relative;
+}
+.ui-step .ui-step-done .iconfont.icongreen {
+color: #38ac01;
+}
+.ui-step .ui-step-active .iconfont.iconred {
+color: #f33f00;
+}
+.ui-step .ui-step-done .ui-step-line.icongreen {
+background: #38ac01;
+}
+.ui-step .ui-step-done .ui-step-line.iconred {
+background: #f33f00;
+}
+.text2{position: absolute; bottom: 0px; left: 0px; }
 
 
 
 
+// &.add-ender {
+// 				width: 150px;
+// 				height: 35px;
+// 				line-height: 35px;			  				
+// 				margin-right: 10px;
+// 				@include btnred();
+				
+// 				&:hover {
+// 				 	@include btnredhover();
+// 				}
+// 			}
 
-
-
-
-
-.helpright .helprighttitle{ height:36px; background: #e7e7e7; padding-left:20px; font-size:14px; color:#666666; line-height:36px; font-weight:bold; margin-bottom:10px;}
-.helpright .helprightdl{ height:36px; background-color:#eaf8ff; border-left:5px solid #547ec2; margin:0 10px 10px 10px; line-height:36px; padding-left:10px; font-size:14px ; color:#666; font-weight:bold;}
-.helpright .helprightdd{ margin-left:28px; color:#666; line-height:30px; margin-bottom:20px; margin-right:10px;}
-.helpright .helprightdd img{ margin-bottom:30px;}
-.helpright .helprightdd b.bmt{ padding-top:30px; display:block; clear:both;}
-.helpright .helprightdd td .zfimg{ width:148pxc; height:43px; border:1px solid #d7d7d7; margin-right:10px; text-align:center; padding-top:5px;}
+// 			&.add-cancel {
+// 				width: 104px;
+// 				height: 33px;
+// 				line-height: 33px;
+// 				@include btngrey();
+				
+// 				&:hover{
+// 					@include btngreyhover();
+// 				}
+// 			}

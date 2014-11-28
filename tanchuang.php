@@ -441,9 +441,64 @@
 
 
 
+
+
+				<!-- 登录 -->
+				<div id="switchLoginContent" class="belonging overlay_content" style="display:block; position: relative; top:0px;">
+	                <div class="close_overlay"><a href="javascript:;"></a></div>
+	                <div class="white">
+	                	<div class="allcities">
+
+							<h1>您尚未登录</h1>
+							<div class="logint">
+								<form class="ui-form" name="" method="post" action="#" id="">
+								    <fieldset>
+								        <legend>表单标题</legend>
+									<div class="ui-form-item">
+							            <label for="" class="ui-label">邮箱/手机/固网(无区号)：</label>
+							            <input class="ui-input" type="text"> <span class="ui-form-other"></span>
+							            <p class="ui-form-explain">用户名为电子邮箱。</p>
+							        </div>
+
+							        <div class="ui-form-item ui-form-item-error">
+							            <label for="" class="ui-label">登录密码：</label>
+							            <input class="ui-input" type="text"> <span class="ui-form-other"></span>
+							            <p class="ui-form-explain">* 密码错误，请重新输入密码</p>
+							        </div>
+
+							        <div class="ui-form-item ui-form-item-error">
+							            <label for="" class="ui-label">验证码：</label>
+							            <input class="ui-input ui-input-checkcode yzm2" type="text" data-explain="请输入右图中字符，不区分大小写。" maxlength="4" autocomplete="off" value="" name="fourcode">
+							            <img class="ui-checkcode-imgcode-img" align="absMiddle" alt="请输入您看到的内容" src="https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&amp;r=0.9321065918075809" title="点击刷新图片校验码">
+							            <a href="#" class="imgcode-a">看不清，换一张</a>
+							        </div>
+							        <div class="ui-form-item ui-form-item-error">
+							            <p class="ui-form-explain">* 验证码错误，请重新输入</p>
+							        </div>
+
+							        <div class="ui-form-item">
+							            <input type="submit" class="ui-button btn350" value="登录">
+							        </div>
+							        </fieldset>
+							  	</form>		
+
+							  	<div class="entries">
+									<ul>
+										<li class="tcr"><a href="javascript:;">忘记密码?</a></li>
+										<li><a href="reg.php">快速注册</a></li>
+									</ul>
+								</div>						
+							</div>
+							
+						</div>
+	                </div>	                
+				</div>
+
+
+
 </div>
 
-				
+<link rel="stylesheet" href="spm_modules/alice-form/1.1.0/src/form.css">			
 
 
 

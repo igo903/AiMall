@@ -1243,7 +1243,7 @@ i {
   margin-top: 10px;
 }
 
-.filter-panel .bread-nav, .direct-buy .bread-nav, .management-panel .bread-nav, .helpbox .bread-nav {
+.filter-panel .bread-nav, .direct-buy .bread-nav, .management-panel .bread-nav, .helpbox .bread-nav, .details-panel .bread-nav {
   height: 30px;
   line-height: 30px;
 }
@@ -3432,6 +3432,10 @@ a.btn.disabled:hover, .btn.disabled:hover {
   width: 500px;
 }
 
+#switchLoginContent.overlay_content {
+  width: 450px;
+}
+
 .overlay_content .switchnbuttn {
   width: 190px;
   margin: 20px auto 10px;
@@ -5305,13 +5309,14 @@ a.delbtns:hover {
   width: 150px;
   height: 35px;
   line-height: 35px;
+  margin-right: 10px;
+  display: block;
   color: #fff;
   text-align: center;
-  display: block;
-  margin-right: 10px;
   background: #ff5500;
   border-radius: 3px;
   text-align: center;
+  text-decoration: none;
 }
 .add-input .add-btn a.add-ender:hover {
   background: #ff3300;
@@ -5320,11 +5325,12 @@ a.delbtns:hover {
   width: 104px;
   height: 33px;
   line-height: 33px;
-  text-align: center;
   display: block;
+  text-align: center;
   background: #f8f8f8;
   border-radius: 3px;
   border: 1px solid #e8e8e8;
+  text-decoration: none;
 }
 .add-input .add-btn a.add-cancel:hover {
   color: #666;
@@ -5389,8 +5395,7 @@ a.delbtns:hover {
   min-height: 704px;
   margin-left: -1px;
 }
-
-.helpright .helprighttitle {
+.helpbox .help-cont .helpright .helprighttitle {
   height: 36px;
   background: #e7e7e7;
   padding-left: 20px;
@@ -5400,8 +5405,7 @@ a.delbtns:hover {
   font-weight: bold;
   margin-bottom: 10px;
 }
-
-.helpright .helprightdl {
+.helpbox .help-cont .helpright .helprightdl {
   height: 36px;
   background-color: #eaf8ff;
   border-left: 5px solid #547ec2;
@@ -5412,30 +5416,182 @@ a.delbtns:hover {
   color: #666;
   font-weight: bold;
 }
-
-.helpright .helprightdd {
+.helpbox .help-cont .helpright .helprightdd {
   margin-left: 28px;
   color: #666;
   line-height: 30px;
   margin-bottom: 20px;
   margin-right: 10px;
 }
-
-.helpright .helprightdd img {
+.helpbox .help-cont .helpright .helprightdd img {
   margin-bottom: 30px;
 }
-
-.helpright .helprightdd b.bmt {
+.helpbox .help-cont .helpright .helprightdd b.bmt {
   padding-top: 30px;
   display: block;
   clear: both;
 }
-
-.helpright .helprightdd td .zfimg {
-  width: 148pxc;
+.helpbox .help-cont .helpright .helprightdd td .zfimg {
+  width: 148px;
   height: 43px;
   border: 1px solid #d7d7d7;
   margin-right: 10px;
   text-align: center;
   padding-top: 5px;
+}
+
+.logint {
+  overflow: hidden;
+  width: 400px;
+  padding: 40px 0 40px 50px;
+  position: relative;
+}
+.logint .ui-form-item {
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.logint .ui-label {
+  width: 400px;
+  margin-left: 0px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  color: #666;
+}
+.logint .ui-input {
+  width: 330px;
+  margin-top: 10px;
+}
+.logint .entries {
+  padding-top: 10px;
+  overflow: hidden;
+  zoom: 1;
+}
+.logint .entries li {
+  width: 165px;
+  float: left;
+}
+.logint .entries li.tcr {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.details-panel {
+  margin-top: 10px;
+}
+.details-panel .details-cont {
+  border-top: 2px solid #f33f00;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.details-panel .details-cont .orderstate {
+  height: 140px;
+  background-color: #f9f9f9;
+}
+.details-panel .details-cont .orderstate .mt {
+  height: 70px;
+  padding-left: 30px;
+  overflow: hidden;
+  line-height: 70px;
+  color: #424242;
+  background-color: #e7e7e7;
+  margin-bottom: 1px;
+}
+.details-panel .details-cont .orderstate .mt strong {
+  float: left;
+  font-size: 14px;
+}
+.details-panel .details-cont .orderstate .mt strong a {
+  margin-left: 20px;
+}
+.details-panel .details-cont .orderstate .mt strong a.payt {
+  padding: 5px 10px;
+  color: #fff;
+  text-align: center;
+  background: #ff5500;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+}
+.details-panel .details-cont .orderstate .mt strong a.payt:hover {
+  background: #ff3300;
+}
+.details-panel .details-cont .orderstate .mt .fr {
+  margin: 20px 10px 0 0;
+  float: right;
+}
+.details-panel .details-cont .orderstate .mt .fr a.edit-address {
+  float: left;
+  width: 93px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 10px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: #ff5500;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+}
+.details-panel .details-cont .orderstate .mt .fr a.edit-address:hover {
+  background: #ff3300;
+}
+.details-panel .details-cont .orderstate .mt .fr a.cancel-order {
+  float: left;
+  width: 93px;
+  height: 25px;
+  line-height: 25px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: #ff5500;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+}
+.details-panel .details-cont .orderstate .mt .fr a.cancel-order:hover {
+  background: #ff3300;
+}
+.details-panel .details-cont .orderstate .mc {
+  border-top: 1px dashed #ebebeb;
+  background-color: #f9f9f9;
+  height: 49px;
+  padding: 10px 0px 9px 30px;
+}
+.details-panel .details-cont .orderstate .mc p {
+  line-height: 25px;
+}
+.details-panel .details-cont .process {
+  height: 135px;
+  margin-top: 35px;
+}
+
+.ui-step.ui-step-7 li {
+  width: 16%;
+  height: 70px;
+  position: relative;
+}
+
+.ui-step .ui-step-done .iconfont.icongreen {
+  color: #38ac01;
+}
+
+.ui-step .ui-step-active .iconfont.iconred {
+  color: #f33f00;
+}
+
+.ui-step .ui-step-done .ui-step-line.icongreen {
+  background: #38ac01;
+}
+
+.ui-step .ui-step-done .ui-step-line.iconred {
+  background: #f33f00;
+}
+
+.text2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }

@@ -69,7 +69,7 @@
 							<div class="entries">
 								<ul>
 									<li class="tcr"><a href="javascript:;">忘记密码?</a></li>
-									<li><a href="javascript:;">快速注册</a></li>
+									<li><a href="reg.php">快速注册</a></li>
 								</ul>
 							</div>
 						</div>
