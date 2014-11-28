@@ -108,8 +108,7 @@
 								    </dd>
 							    </dl>
 							</div>		
-						</div>		
-						<div class="prd-list row">
+						
 						
 							<div class="channel-item">
 								<dl>
