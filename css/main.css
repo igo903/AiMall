@@ -5050,3 +5050,136 @@ a.delbtns:hover {
   clear: both;
   width: 1188px;
 }
+
+.noticebox {
+  overflow: hidden;
+  border-top: 2px solid #f33f00;
+}
+.noticebox .noticeleft {
+  width: 179px;
+  border: 1px solid #d7d7d7;
+  border-right: 0px;
+  float: left;
+}
+.noticebox .noticeleft .noticedd {
+  height: 33px;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+  padding-left: 16px;
+  background-color: #e7e7e7;
+  line-height: 33px;
+  border: 1px solid #d7d7d7;
+  border-left: 0px;
+}
+.noticebox .noticeleft ul li {
+  height: 38px;
+  line-height: 38px;
+  padding-left: 33px;
+  border-right: 1px solid #d7d7d7;
+}
+.noticebox .noticeleft ul li.active {
+  height: 38px;
+  background: url("../images/noticeacbj.jpg") no-repeat 167px 0 #f7f7f7;
+  line-height: 38px;
+  position: relative;
+  border-right: 0px;
+}
+.noticebox .noticeleft ul li.active a {
+  color: #f33f00;
+}
+.noticebox .noticeleft ul li a {
+  color: #999;
+}
+.noticebox .noticeleft dt {
+  color: #f33f00;
+  line-height: 30px;
+  padding-left: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background: url("../images/d.jpg") no-repeat 7px 12px;
+  width: 150px;
+}
+.noticebox .noticeleft dt a {
+  color: #f33f00;
+}
+.noticebox .noticeright {
+  width: 1009px;
+  float: left;
+  border: 1px solid #d7d7d7;
+  border-top: 0px;
+  min-height: 500px;
+  margin-left: -1px;
+}
+.noticebox .noticeright .noticerighttitle {
+  height: 36px;
+  background: #f9f9f9;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #666666;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.noticebox .noticeright .noticerightdd {
+  margin-left: 28px;
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+.noticebox .noticeright .noticerightdd li {
+  border-bottom: 1px dashed #ccc;
+  font-size: 14px;
+  color: #333;
+  list-style: inside;
+  position: relative;
+  line-height: 35px;
+}
+.noticebox .noticeright .noticerightdd li span {
+  color: 666px;
+  position: absolute;
+  right: 0px;
+}
+.noticebox .noticeall {
+  width: 1188px;
+  float: left;
+  border: 1px solid #d7d7d7;
+  border-top: 0px;
+  min-height: 500px;
+}
+.noticebox .noticeall .noticecont {
+  overflow: hidden;
+  margin: 0 20px;
+}
+.noticebox .noticeall .noticecont .noticecont-title {
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  font-size: 24px;
+  padding: 30px 0;
+  height: auto;
+}
+.noticebox .noticeall .noticecont .noticecont-title p {
+  font-size: 12px;
+  color: #999;
+  margin: 20px 0 0 0;
+}
+.noticebox .noticeall .noticecont .noticecont-cont {
+  margin: 20px 0;
+  line-height: 30px;
+  overflow: hidden;
+}
+.noticebox .noticeall .noticecont .noticecont-cont .conta {
+  font-size: 14px;
+  font-weight: bold;
+}
+.noticebox .noticeall .noticecont .noticecont-cont .contc {
+  float: right;
+}
+.noticebox .noticeall .noticecont .noticecont-cont .contc p {
+  text-align: right;
+}
+.noticebox #pagination.ui-paging {
+  margin-right: 20px;
+}

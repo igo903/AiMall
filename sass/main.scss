@@ -4626,6 +4626,161 @@ a.delbtns:hover {
 
 }
 
+.noticebox {
+	overflow: hidden;
+	border-top: 2px solid #f33f00;
+
+	.noticeleft {
+		width: 179px;
+		border: 1px solid #d7d7d7;
+		border-right: 0px;
+		float: left;
+
+		.noticedd {
+			height: 33px;
+			font-size: 14px;
+			color: #666;
+			font-weight: bold;
+			padding-left: 16px;
+			background-color: #e7e7e7;
+			line-height: 33px;
+			border: 1px solid #d7d7d7;
+			border-left: 0px;
+		}
+
+		ul li {
+			height: 38px;
+			line-height: 38px;
+			padding-left: 33px;
+			border-right: 1px solid #d7d7d7;
+
+			&.active {
+				height: 38px;
+				background: url("../images/noticeacbj.jpg") no-repeat 167px 0 #f7f7f7;
+				line-height: 38px;
+				position: relative;
+				border-right: 0px;
+
+				a{ 
+					color:#f33f00;
+				}
+			}
+
+			a{ 
+				color:#999;
+			}
+		}
+
+		dt {
+			color: #f33f00;
+			line-height: 30px;
+			padding-left: 20px;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			background: url("../images/d.jpg") no-repeat 7px 12px;
+			width: 150px;
+
+			a {
+				color: #f33f00;
+			}
+		}
+	}
+
+	.noticeright {
+		width: 1009px;
+		float: left;
+		border: 1px solid #d7d7d7;
+		border-top: 0px;
+		min-height: 500px;
+		margin-left: -1px;
+
+		.noticerighttitle {
+			height: 36px;
+			background: #f9f9f9;
+			padding-left: 20px;
+			font-size: 14px;
+			color: #666666;
+			line-height: 36px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.noticerightdd {
+			margin-left: 28px;
+			color: #666;
+			line-height: 30px;
+			margin-bottom: 20px;
+			margin-right: 40px;
+
+			li {
+				border-bottom: 1px dashed #ccc;
+				font-size: 14px;
+				color: #333;
+				list-style: inside;
+				position: relative;
+				line-height: 35px;
+
+				span {
+					color: 666px;
+					position: absolute;
+					right: 0px;
+				}
+			}
+		}
+
+	}
+	.noticeall {
+		width: 1188px;
+		float: left;
+		border: 1px solid #d7d7d7;
+		border-top: 0px;
+		min-height: 500px;
+
+		.noticecont {
+			overflow: hidden;
+			margin: 0 20px;
+
+			.noticecont-title {
+				border-bottom: 1px solid #eee;
+				text-align: center;
+				font-size: 24px;
+				padding: 30px 0;
+				height: auto;
+
+				p {
+					font-size: 12px;
+					color: #999;
+					margin: 20px 0 0 0;
+				}
+			}
+
+			.noticecont-cont {
+				margin: 20px 0;
+				line-height: 30px;
+				overflow: hidden;
+
+				.conta {
+					font-size: 14px;
+					font-weight: bold;
+				}
+				.contc{ 
+					float:right;
+
+					p {
+						text-align: right;
+					}
+				}
+			}
+		}
+	}
+
+	#pagination.ui-paging{
+		margin-right: 20px;
+	}
+
+}
+
+
 
 
 
