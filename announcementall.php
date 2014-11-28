@@ -35,7 +35,7 @@
 		              	<div class="noticerighttitle">公告</div>
 		              	<div class="noticerightdd">
 			                <ul>
-			                   	<li>10月14日至15日支撑系统升级，如造成不便敬请谅解！<span>2014-10-15</span></li>
+			                   	<li><a href="announcement.php">10月14日至15日支撑系统升级，如造成不便敬请谅解！</a><span>2014-10-15</span></li>
 			                   	<li>10月14日至15日支撑系统升级，如造成不便敬请谅解！<span>2014-10-15</span></li>
 			                   	<li>10月14日至15日支撑系统升级，如造成不便敬请谅解！<span>2014-10-15</span></li>
 			                   	<li>10月14日至15日支撑系统升级，如造成不便敬请谅解！<span>2014-10-15</span></li>

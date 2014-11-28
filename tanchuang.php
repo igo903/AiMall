@@ -371,6 +371,76 @@
 
 
 
+
+
+				<!-- 使用新地址 -->
+				<div id="switchAddressContent" class="belonging overlay_content" style="display:block; position: relative; top:0px;">
+	                <div class="close_overlay"><a href="javascript:;"></a></div>
+	                <div class="white">
+	                	<div class="allcities">
+
+							<h1>使用新地址</h1>
+							<div class="add-input">
+						        <div class="add-item">
+				                   	<span class="label"><em>*</em>收货人：</span>
+				                   	<div class="fl">
+				                        <input type="text" class="itxt" maxlength="20" id="nickName" name=" " value="请填写真实姓名">
+				                        <div class="my-hint2">请输入正确的收货人姓名</div>
+				                        <div class="my-hint2g">请输入正确的收货人姓名</div>
+				                   	</div>
+					         	</div>
+					         	<div class="add-item">
+				                    <span class="label"><em>*</em>地区：</span>
+				                    <div class="fl">
+				                         <select name="w" class="selt mr5" id="county" value="2848">
+				                           <option value="省/直辖市">省/直辖市</option>
+				                         </select>
+				                         <select name="w" class="selt mr5" id="county" value="2848">
+				                           <option value="市">市</option>
+				                         </select>
+				                         <select name="w" class="selt mr5" id="county" value="2848">
+				                           <option value="县/区">县/区</option>
+				                         </select>
+				                         <div class="my-hint2">地区为必选项</div>
+									</div>
+					         	</div>
+					         	<div class="add-item">
+				                   	<span class="label"><em>*</em>详细地址：</span>
+				                   	<div class="fl">
+			                        	<input type="text" class="itxt" maxlength="20" id="nickName" name=" " value="请填写详细路名及门牌号">
+			                        	<div class="my-hint2">详细地址不能超过30个汉字</div>
+				                   	</div>
+					         	</div>
+						                
+					         	<div class="add-item">
+				                   	<span class="label"><em>*</em>手机号码：</span>
+				                   	<div class="fl">
+				                        <input type="text" class="itxt" maxlength="20" id="nickName" name=" " value="请填写手机号码">
+				                        <div class="my-hint2">请输入正确的手机号码</div>
+				                   	</div>
+						        </div>
+						                
+						        <div class="add-item">
+				                   	<span class="label">电子邮箱：</span>
+				                   	<div class="fl">
+				                        <input type="password" class="itxt" maxlength="20" id="nickName" name=" " value="">
+				                        <div class="my-hint2">请输入正确的收货人姓名</div>
+				                   	</div>
+						        </div>
+						        
+						        <div class="add-btn">
+						           <a href="#" class="add-ender">确认收货地址</a>
+						           <a href="#" class="add-cancel">取消</a>
+						        </div>         
+						     
+						     </div>
+							
+						</div>
+	                </div>	                
+				</div>
+
+
+
 </div>
 
 				

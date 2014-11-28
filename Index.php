@@ -89,7 +89,7 @@
 							<div class="notice" id="side-tab-a">
 								<div class="notice-hd">
 									<ul class="ui-switchable-nav" data-role="nav">
-								        <li data-role="trigger">公告资讯</li>
+								        <li data-role="trigger"><a href="announcementall.php">公告资讯</a></li>
 								        <li data-role="trigger">促销活动</li>
 								    </ul>
 							    </div>
