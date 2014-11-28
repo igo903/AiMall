@@ -3750,13 +3750,13 @@ a.btn.disabled:hover, .btn.disabled:hover {
 }
 
 .belonging .chooseunmber {
-  margin: 20px 20px 0px 20px;
+  margin: 10px 20px 0px 20px;
   clear: both;
   float: left;
 }
 
 .belonging .chooseunmber .screening {
-  height: 50px;
+  height: 40px;
   float: left;
   clear: both;
 }
@@ -3774,7 +3774,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin-left: 10px;
 }
 .belonging .screening .cond .ui-popup {
-  width: 80px;
+  width: 122px;
   padding: 0;
   background: #fff;
   border-top: 0px;
@@ -3816,12 +3816,12 @@ a.btn.disabled:hover, .btn.disabled:hover {
 }
 
 .belonging .screening .number-select {
-  width: 84px;
+  width: 124px;
   line-height: 26px;
 }
 
 .belonging .screening .number-select .select {
-  width: 70px;
+  width: 112px;
   height: 26px;
   line-height: 26px;
   border: 1px solid #e8e8e8;
@@ -3847,7 +3847,6 @@ a.btn.disabled:hover, .btn.disabled:hover {
 }
 
 .belonging .chooseunmber .numberbox {
-  margin: 10px 0;
   float: left;
   clear: both;
 }
@@ -3930,11 +3929,14 @@ a.btn.disabled:hover, .btn.disabled:hover {
 
 .belonging .numberbox li.todos .close {
   position: absolute;
-  right: 5px;
+  right: 0px;
   top: 0px;
   color: #666;
   font-weight: bold;
   display: block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
 }
 
 .belonging .numberok {
