@@ -1721,6 +1721,11 @@ i{font-style: normal;}
 
 .prd-list{
 	margin-top: 20px;
+	.bread-hint{
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+	}
 }
 #pagination.ui-paging{
 	margin: 10px 0;
