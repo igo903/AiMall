@@ -40,6 +40,10 @@
   color: #999;
 }
 
+.font_green {
+  color: #33cc00;
+}
+
 body {
   background: #fff;
 }
@@ -4197,12 +4201,12 @@ a.btn.disabled:hover, .btn.disabled:hover {
   clear: both;
   width: 1188px;
   margin-bottom: 20px;
+  padding-bottom: 30px;
   border-top: 2px solid #f33f00;
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
-
 .reg-cont .reg-login {
   position: absolute;
   right: 0px;
@@ -4210,37 +4214,30 @@ a.btn.disabled:hover, .btn.disabled:hover {
   font-weight: normal;
   color: #666;
 }
-
 .reg-cont .reg-login a {
   color: #4397e3;
   text-decoration: underline;
 }
-
 .reg-cont .reg-box {
   margin-left: 270px;
   margin-top: 60px;
   margin-bottom: 30px;
   position: relative;
 }
-
-.ui-form-item .label-plus {
+.reg-cont .reg-box .label-plus {
   color: #999;
 }
-
-.reg-box .ui-input {
+.reg-cont .reg-box .ui-input {
   width: 350px;
 }
-
-.reg-box a.label-a {
+.reg-cont .reg-box a.label-a {
   color: #4397e3;
   text-decoration: underline;
 }
-
-.reg-box .ui-form-item {
+.reg-cont .reg-box .ui-form-item {
   position: relative;
 }
-
-.reg-box .form-prompt {
+.reg-cont .reg-box .form-prompt {
   position: absolute;
   left: 550px;
   top: 0px;
@@ -4249,6 +4246,42 @@ a.btn.disabled:hover, .btn.disabled:hover {
   border: 1px solid #ffbdbf;
   padding: 7px 9px 7px 30px;
   color: #666;
+}
+.reg-cont .regok {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 140px 100px 0 540px;
+  overflow: hidden;
+  min-height: 100px;
+  position: relative;
+}
+.reg-cont .regok .cart-ok {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  width: 125px;
+  height: 76px;
+  background: url("../images/yun.jpg") no-repeat;
+}
+.reg-cont .regok p {
+  font-size: 14px;
+}
+.reg-cont .gobuyreg {
+  width: 350px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ff5500;
+  margin: 20px auto 0;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 3px;
+  display: block;
+}
+.reg-cont .gobuyreg:hover {
+  background-color: #ff3300;
+  text-decoration: none;
 }
 
 #delall {
