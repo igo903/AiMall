@@ -2188,16 +2188,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
   float: left;
   background: #f9f9f9;
 }
-
-.management-panel .right-col {
-  width: 1004px;
-  float: left;
-  padding-bottom: 20px;
-  border: 2px solid #eee;
-  margin-left: -2px;
-}
-
-.management-panel .my-user {
+.management-panel .left-col .my-user {
   width: 175px;
   height: 147px;
   padding: 20px 0 0 5px;
@@ -2205,26 +2196,22 @@ a.btn.disabled:hover, .btn.disabled:hover {
   color: #424242;
   border-right: 2px solid #eee;
 }
-
-.management-panel .my-img {
+.management-panel .left-col .my-user .my-img {
   width: 78px;
   height: 78px;
   border: 1px solid #e1e1e1;
   float: left;
   margin-right: 10px;
 }
-
-.management-panel .my-name {
+.management-panel .left-col .my-user .my-name {
   width: 74px;
   margin-top: 5px;
   float: left;
 }
-
-.management-panel .my-name2 {
+.management-panel .left-col .my-user .my-name2 {
   margin-top: 15px;
 }
-
-.management-panel .my-title {
+.management-panel .left-col .my-title {
   background: url("../images/my-bd.jpg");
   width: 183px;
   height: 40px;
@@ -2237,8 +2224,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
   left: 0px;
   z-index: 2;
 }
-
-.management-panel .my-link li {
+.management-panel .left-col .my-link li {
   width: 140px;
   height: 33px;
   line-height: 33px;
@@ -2251,19 +2237,16 @@ a.btn.disabled:hover, .btn.disabled:hover {
   border-right: 2px solid #eee;
   position: relative;
 }
-
-.management-panel .my-link li a {
+.management-panel .left-col .my-link li a {
   display: block;
   width: 140px;
   height: 33px;
   color: #b7b7b7;
 }
-
-.management-panel .my-link li a:hover {
+.management-panel .left-col .my-link li a:hover {
   color: #000;
 }
-
-.management-panel .my-link li.myselected {
+.management-panel .left-col .my-link li.myselected {
   color: #b7b7b7;
   background: #fff;
   border-left: 3px solid #f33f00;
@@ -2271,8 +2254,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
   height: 33px;
   border-right: 0px;
 }
-
-.myicon01, .myicon02, .myicon03, .myicon04, .myicon05, .myicon06 {
+.management-panel .left-col .my-link li .myicon01, .management-panel .left-col .my-link li .myicon02, .management-panel .left-col .my-link li .myicon03, .management-panel .left-col .my-link li .myicon04, .management-panel .left-col .my-link li .myicon05, .management-panel .left-col .my-link li .myicon06 {
   position: absolute;
   left: 15px;
   top: 12px;
@@ -2280,32 +2262,29 @@ a.btn.disabled:hover, .btn.disabled:hover {
   height: 15px;
   background: url("../images/my-icon.png") no-repeat 0 0;
 }
-
-.myicon01 {
+.management-panel .left-col .my-link li .myicon02 {
   background-position: 0 0;
 }
-
-.myicon02 {
+.management-panel .left-col .my-link li .myicon03 {
   background-position: 0 -25px;
 }
-
-.myicon03 {
-  background-position: 0 -49px;
-}
-
-.myicon04 {
+.management-panel .left-col .my-link li .myicon04 {
   background-position: 0 -73px;
 }
-
-.myicon05 {
+.management-panel .left-col .my-link li .myicon05 {
   background-position: 0 -98px;
 }
-
-.myicon06 {
+.management-panel .left-col .my-link li .myicon06 {
   background-position: 0 -145px;
 }
-
-.management-panel .right-title {
+.management-panel .right-col {
+  width: 1004px;
+  float: left;
+  padding-bottom: 20px;
+  border: 2px solid #eee;
+  margin-left: -2px;
+}
+.management-panel .right-col .right-title {
   height: 36px;
   background-color: #f9f9f9;
   font-size: 18px;
@@ -2315,125 +2294,103 @@ a.btn.disabled:hover, .btn.disabled:hover {
   line-height: 36px;
   font-weight: bold;
 }
-
-.management-panel .evaluate {
+.management-panel .right-col .evaluate {
+  /*评价管理*/
   margin: 25px 0 0 25px;
 }
-
-.management-panel .evaluate h2 {
+.management-panel .right-col .evaluate h2 {
   font-size: 12px;
   color: #999;
 }
-
-.management-panel .evaluate h2 b {
+.management-panel .right-col .evaluate h2 b {
   color: #ff0000;
 }
-
-.management-panel .writing {
+.management-panel .right-col .evaluate .writing {
   width: 958px;
   border: 1px solid #e8e8e8;
   margin: 10px 0 20px 0;
 }
-
-.management-panel .writing-title {
+.management-panel .right-col .evaluate .writing .writing-title {
   height: 34px;
   border-bottom: 1px solid #e8e8e8;
   background-color: #f9f9f9;
 }
-
-.management-panel .writing-title .item-name {
+.management-panel .right-col .evaluate .writing .writing-title .item-name {
   width: 460px;
   line-height: 34px;
   color: #828282;
   margin-left: 25px;
   float: left;
 }
-
-.management-panel .writing-title .item-info {
+.management-panel .right-col .evaluate .writing .writing-title .item-info {
   width: 320px;
   line-height: 34px;
   color: #828282;
   float: left;
 }
-
-.management-panel .writing-title .item-comm {
+.management-panel .right-col .evaluate .writing .writing-title .item-comm {
   width: 150px;
   line-height: 34px;
   color: #828282;
   float: left;
 }
-
-.management-panel .writing-cont {
+.management-panel .right-col .evaluate .writing .writing-cont {
   border-bottom: 1px solid #e8e8e8;
   overflow: hidden;
   padding-bottom: 10px;
 }
-
-.management-panel .writing-cont .item-name {
+.management-panel .right-col .evaluate .writing .writing-cont .item-name {
   width: 460px;
   margin: 20px 0 0 25px;
   float: left;
 }
-
-.management-panel .writing-cont .picimg {
+.management-panel .right-col .evaluate .writing .writing-cont .item-name .picimg {
   width: 58px;
   height: 58px;
   border: 1px solid #f2f2f2;
   float: left;
 }
-
-.management-panel .writing-cont .picname {
+.management-panel .right-col .evaluate .writing .writing-cont .item-name .picname {
   float: left;
   color: #4397e3;
   margin: 18px 0 0 10px;
 }
-
-.management-panel .writing-cont .item-info {
+.management-panel .right-col .evaluate .writing .writing-cont .item-info {
   width: 320px;
   margin: 20px 0 0 0;
   color: #828282;
   line-height: 20px;
   float: left;
 }
-
-.management-panel .writing-cont .item-comm {
+.management-panel .right-col .evaluate .writing .writing-cont .item-comm {
   width: 150px;
   margin: 40px 0 0 0;
   float: left;
 }
-
-.management-panel .writing-cont .item-comm span {
+.management-panel .right-col .evaluate .writing .writing-cont .item-comm span {
   color: #4397e3;
 }
-
-.management-panel .writing-text {
+.management-panel .right-col .evaluate .writing .writing-text {
   background-color: #f9f9f9;
   padding: 25px;
   position: relative;
 }
-
-.management-panel .writing-text .evaluatesj {
+.management-panel .right-col .evaluate .writing .writing-text .evaluatesj {
   width: 32px;
   height: 16px;
   position: absolute;
   top: -16px;
   right: 120px;
-  background: url(../images/evaluatesj.jpg) no-repeat 0 0;
+  background: url("../images/evaluatesj.jpg") no-repeat 0 0;
 }
-
-.management-panel .writing-text .item {
+.management-panel .right-col .evaluate .writing .writing-text .item {
   display: block;
   margin-bottom: 20px;
   line-height: 30px;
   clear: both;
   overflow: hidden;
 }
-
-.management-panel .writing-text .item em {
-  color: #ff0000;
-}
-
-.management-panel .writing-text .item span.label {
+.management-panel .right-col .evaluate .writing .writing-text .item span.label {
   float: left;
   height: 18px;
   line-height: 18px;
@@ -2443,34 +2400,32 @@ a.btn.disabled:hover, .btn.disabled:hover {
   color: #999;
   margin-right: 10px;
 }
-
-.management-panel .writing-text .item .fl {
+.management-panel .right-col .evaluate .writing .writing-text .item span em {
+  color: #ff0000;
+}
+.management-panel .right-col .evaluate .writing .writing-text .item .fl {
   float: left;
 }
-
-.management-panel .writing-text .wrapper {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .wrapper {
   height: 20px;
   padding: 5px;
   width: 130px;
 }
-
-.management-panel .writing-text .stara {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .wrapper .stara {
   float: left;
   width: 19px;
   height: 16px;
-  background: url(../images/evaluatestar.png) 0 -16px no-repeat;
+  background: url("../images/evaluatestar.png") 0 -16px no-repeat;
   margin-right: 7px;
 }
-
-.management-panel .writing-text .tips-list {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .tips-list {
   display: block;
   width: 700px;
   overflow: hidden;
   border-bottom: 1px dashed #e8e8e8;
   padding-bottom: 10px;
 }
-
-.management-panel .writing-text .tips-list li {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .tips-list li {
   margin-right: 5px;
   float: left;
   cursor: pointer;
@@ -2481,47 +2436,40 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin-bottom: 5px;
   white-space: nowrap;
 }
-
-.management-panel .writing-text .tips-list li s.f-check {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .tips-list li s.f-check {
   display: inline-block;
   vertical-align: middle;
   width: 13px;
   height: 13px;
   overflow: hidden;
-  background: url(../images/cicon.png) -15px 0;
+  background: url("../images/cicon.png") -15px 0;
   margin-right: 5px;
 }
-
-.management-panel .writing-text .tips-list li.select {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .tips-list li.select {
   padding: 5px 8px;
   border: 2px solid #ff5500;
 }
-
-.management-panel .writing-text .tips-list li.select s.f-check {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .tips-list li.select s.f-check {
   background-position: 0px 0;
 }
-
-.management-panel .writing-text .custom {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .custom {
   border-bottom: 1px dashed #e8e8e8;
   padding: 10px 0;
   overflow: hidden;
 }
-
-.management-panel .writing-text .custom span {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .custom span {
   margin-right: 10px;
   color: #999;
   float: left;
 }
-
-.management-panel .writing-text .custominput {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .custom .custominput {
   border: 1px solid #d8d8d8;
   height: 26px;
   float: left;
   padding-left: 10px;
   color: #ccc;
 }
-
-.management-panel .writing-text .custom a {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .custom a {
   width: 38px;
   height: 26px;
   line-height: 26px;
@@ -2533,29 +2481,10 @@ a.btn.disabled:hover, .btn.disabled:hover {
   float: left;
   text-align: center;
 }
-
-.management-panel .writing-text .item-cont {
-  float: left;
-  width: 650px;
-}
-
-.management-panel .writing-text .item-cont .area {
-  width: 650px;
-  height: 88px;
-  padding: 5px;
-  color: #ccc;
-}
-
-.management-panel .writing-text .item-cont .msg-text {
-  float: right;
-  color: #999;
-}
-
-.management-panel .writing-text .item-text {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .item-text {
   color: #666;
 }
-
-.management-panel .writing-text .commstar {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .commstar {
   width: 141px;
   height: 20px;
   background: url("../images/evaluate.png") no-repeat 0 0px;
@@ -2565,35 +2494,48 @@ a.btn.disabled:hover, .btn.disabled:hover {
   zoom: 1;
   display: block;
 }
-
-.management-panel .writing-text .commstar1 {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .commstar .commstar1 {
   width: 29px;
   height: 20px;
   background: url("../images/evaluate.png") no-repeat -141px 0px;
 }
-
-.management-panel .writing-text .commstar2 {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .commstar .commstar2 {
   width: 57px;
   height: 20px;
   background: url("../images/evaluate.png") no-repeat -141px 0px;
 }
-
-.management-panel .writing-text .commstar3 {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .commstar .commstar3 {
   width: 85px;
   height: 20px;
   background: url("../images/evaluate.png") no-repeat -141px 0px;
 }
-
-.management-panel .writing-text .commstar4 {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .commstar .commstar4 {
   width: 112px;
   height: 20px;
   background: url("../images/evaluate.png") no-repeat -141px 0px;
 }
-
-.management-panel .writing-text .commstar5 {
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .commstar .commstar5 {
   width: 140px;
   height: 20px;
   background: url("../images/evaluate.png") no-repeat -141px 0px;
+}
+.management-panel .right-col .evaluate .writing .writing-text .item .item-cont {
+  float: left;
+  width: 650px;
+}
+.management-panel .right-col .evaluate .writing .writing-text .item .item-cont .area {
+  width: 650px;
+  height: 88px;
+  padding: 5px;
+  color: #ccc;
+}
+.management-panel .right-col .evaluate .writing .writing-text .item .item-cont .msg-text {
+  float: right;
+  color: #999;
+}
+.management-panel .right-col .mycllect {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .management-panel .ordersbox {
