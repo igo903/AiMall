@@ -292,6 +292,18 @@ i {
 }
 .head #searchbar {
   width: 487px;
+  position: relative;
+}
+.head #searchbar .autocomplete-panel {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 400px;
+  height: 300px;
+  background: #fff;
+  border: 2px solid #ff5500;
+  z-index: 100;
+  display: none;
 }
 .head .search-bd {
   margin-left: 90px;
@@ -2186,9 +2198,9 @@ a.btn.disabled:hover, .btn.disabled:hover {
 }
 
 .management-panel .my-user {
-  width: 165px;
+  width: 175px;
   height: 147px;
-  padding: 20px 0 0 15px;
+  padding: 20px 0 0 5px;
   overflow: hidden;
   color: #424242;
   border-right: 2px solid #eee;
@@ -2204,7 +2216,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
 
 .management-panel .my-name {
   width: 74px;
-  margin-top: 20px;
+  margin-top: 5px;
   float: left;
 }
 
@@ -4122,8 +4134,11 @@ a.btn.disabled:hover, .btn.disabled:hover {
   color: #666;
   zoom: 1;
 }
-
-.login-box .ui-form-item {
+.login-box .ailk-box .ui-form-explain {
+  height: 22px;
+  line-height: 22px;
+}
+.login-box .ailk-box .ui-form-item {
   padding: 0;
 }
 

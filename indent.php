@@ -18,42 +18,7 @@
 						<span>创新产品</span>
 					</div>
 					<div class="content">
-						<div class="left-col">
-							<div class="my-user">
-								<div class="my-img"><img src="images/meimage.jpg" /></div>
-			                    <div class="my-name">张三</div>
-			                    <div class="my-name my-name2">司徒斯托瑟</div>
-							</div>
-							<div class="my-title">我的沃云</div>
-							<div class="my-link">
-								<ul>
-									<li class="myselected">
-										<div class="myicon01"></div>
-             					    	<a href="indent.php">订单中心</a>
-             						</li>
-             						<li>
-										<div class="myicon02"></div>
-             					    	<a href="info.php">个人信息</a>
-             						</li>
-             						<li>
-										<div class="myicon03"></div>
-             					    	<a href="#">我的收藏</a>
-             						</li>
-             						<li>
-										<div class="myicon04"></div>
-             					    	<a href="#">收货地址管理</a>
-             						</li>
-             						<li>
-										<div class="myicon06"></div>
-             					    	<a href="comment.php">评价管理</a>
-             						</li>
-             						<li>
-										<div class="myicon05"></div>
-             					    	<a href="#">密码管理</a>
-             						</li>
-								</ul>
-							</div>	
-						</div>
+						<?php include("personal_side.php"); ?>
 
 						<div class="right-col">
 							<div class="right-title">订单中心</div>

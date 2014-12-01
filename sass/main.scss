@@ -275,7 +275,21 @@ i{font-style: normal;}
 	    z-index: 20;
 	    background: #FFF;
 	}
-	#searchbar{width: 487px;}
+	#searchbar{
+		width: 487px;position: relative;
+		.autocomplete-panel{
+			position: absolute;
+			top:32px;
+			left: 0;
+			width:400px;
+			height:300px;
+			background: #fff;
+			border:2px solid #ff5500;
+			z-index: 100;
+			display:none;
+		}
+
+	}
 	.search-bd{margin-left: 90px;
 		span{
 		    position: absolute;
@@ -1970,9 +1984,9 @@ a.btn, .btn{
 	margin-left:-2px;
 }
 .management-panel .my-user{ 
-	width:165px; 
+	width:175px; 
 	height:147px; 
-	padding:20px 0 0 15px; 
+	padding:20px 0 0 5px; 
 	overflow:hidden; 
 	color:#424242; 
 	border-right:2px solid #eee;
@@ -1986,7 +2000,7 @@ a.btn, .btn{
 }
 .management-panel .my-name{ 
 	width:74px; 
-	margin-top:20px;
+	margin-top:5px;
 	float:left;}
 .management-panel .my-name2{
 	margin-top:15px;
@@ -3679,9 +3693,14 @@ line-height: 40px;
 	padding: 10px 0;
 	color: #666;
 	zoom: 1;
-}
-.login-box .ui-form-item{
-	 padding: 0;
+
+	.ui-form-explain{
+		height: 22px;
+		line-height: 22px;
+	}
+	.ui-form-item{
+		 padding: 0;
+	}
 }
 .login-box .ui-label{
 	margin-left: 0px;
