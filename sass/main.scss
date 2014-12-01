@@ -5242,13 +5242,20 @@ a.delbtns:hover {
 		.process {
 			height: 135px;
 			margin-top: 35px;
+			padding: 0 50px;
+
+			.text2 {
+				position: absolute;
+				top: 65px;
+				left: -10px;
+			}
 		}
 	}
 }
 
 .ui-step.ui-step-7 li {
     width: 16%;
-    height: 70px;
+    height: 170px;
     position: relative;
 }
 .ui-step .ui-step-done .iconfont.icongreen {
@@ -5263,30 +5270,203 @@ background: #38ac01;
 .ui-step .ui-step-done .ui-step-line.iconred {
 background: #f33f00;
 }
-.text2{position: absolute; bottom: 0px; left: 0px; }
+
+
+.details-b {
+	border-top: 1px dashed #ddd;
+	padding-bottom: 30px;
+	overflow: hidden;
+
+	.details-t {
+		height: 36px;
+		background-color: #e7e7e7;
+		padding-left: 20px;
+		font-size: 18px;
+		color: #424242;
+		line-height: 36px;
+		font-weight: bold;
+		width: 1168px;
+	}
+	.details-c {
+
+		.delivery {
+			height: 30px;
+			margin: 15px 0;
+
+			span {
+				padding: 0 20px;
+			}
+		}
+
+		.trace-table {
+			width: 1165px;
+			margin: 0 auto;
+			border: 1px solid #d7d7d7;
+			border-right: 0px;
+
+			td {
+				border-right: 1px solid #d7d7d7;
+				&.for1{
+					height: 35px;
+					background-color: #f9f9f9;
+					text-align: center;
+					color:#828282;
+					width:220px;
+				}
+				&.for2{
+					@extend .for1;
+					width:700px; 
+				}
+				&.for3{
+					@extend .for1;
+					width:240px;
+				}
+				&.for4{
+					height: 35px;
+					padding-left: 10px;
+					width:210px; 
+				}
+				&.for5{
+					@extend .for4;
+					width:690px;
+				}
+				&.for6{
+					@extend .for4;
+					width:230px;
+				}
+			}
+		}
+
+		dl {
+			padding: 10px 30px;
+
+			dt{
+				margin-bottom: 4px;
+				font-size: 14px;
+				color: #424242;
+				font-weight: bold;
+			}
+			dd{
+
+				li {
+					font-size: 12px;
+					line-height: 25px;
+				}
+			}
+		}
+
+		.inventory {
+			overflow: hidden;
+			border-top: 2px solid #d7d7d7;
+			border-bottom: 1px solid #eee;
+			border-left: 1px solid #eee;
+			border-right: 1px solid #eee;
+			margin: 20px 35px;
+
+			.review-thead {
+				width: 100%;
+				height: 36px;
+				background-color: #f9f9f9;
+
+				.fore1 {
+					width: 370px;
+					padding-left: 40px;
+				}
+				.fore2 {
+					width: 250px;
+				}
+				.fore3 {
+					width: 160px;
+					text-align: center
+				}
+				.fore4 {
+					width: 160px;
+					text-align: center
+				}
+				.fore5 {
+					width: 160px;
+					text-align: center
+				}
+			}
+
+			.review-tbody {
+				border-bottom: 1px solid #ddd;
+				padding: 10px 0;
+
+				.order-table {
+					width: 1116px;
+
+					.fore1 {
+						width: 365px;
+						padding-left: 40px;
+					}
+					.fore2 {
+						width: 250px;
+						color: #828282;
+					}
+					.fore3 {
+						width: 160px;
+						color: #828282;
+						text-align: center
+					}
+					.fore4 {
+						width: 160px;
+						text-align: center
+					}
+					.fore5 {
+						width: 160px;
+						text-align: center;
+						font-size: 16px;
+						color: #f33f00;
+						font-weight: bold;
+					}
+				}
+			}
+
+			.statistic {
+					width: 100%;
+					overflow: hidden;
+					float: right;
+					margin: 10px 40px;
+
+					.list {
+						height: 24px;
+						line-height: 24px;
+						overflow: hidden;
+						zoom: 1;
+						font-weight: bold;
+						color: #434343;
+						width: 300px;
+						float: right;
+						clear: both;
+
+						span {
+							width: 180px;
+							margin-right: 20px;
+							float: left;
+							text-align: right;
+						}
+						.price {
+							float: left;
+							width: 100px;
+							text-align: right;
+							font-weight: bold;
+						}
+						.font_red {
+							color: #f33f00;
+							font-weight: bold;
+							font-size: 14px;
+						}
+					}
+			}
+		}
+	}
+}
 
 
 
 
-// &.add-ender {
-// 				width: 150px;
-// 				height: 35px;
-// 				line-height: 35px;			  				
-// 				margin-right: 10px;
-// 				@include btnred();
-				
-// 				&:hover {
-// 				 	@include btnredhover();
-// 				}
-// 			}
 
-// 			&.add-cancel {
-// 				width: 104px;
-// 				height: 33px;
-// 				line-height: 33px;
-// 				@include btngrey();
-				
-// 				&:hover{
-// 					@include btngreyhover();
-// 				}
-// 			}
+
+
+

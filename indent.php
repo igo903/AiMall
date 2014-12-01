@@ -101,9 +101,9 @@
 					                    <div class="cell p-total">￥4000.00<p>网上支付</p></div>
 					                    <div class="cell p-inventory">待付款</div>
 					                    <div class="cell p-action">
-					                       <a href="#" class="payment">付款</a><br />
-					                       <a href="#">订单详情</a><br />
-					                       <a href="#" id="t-order">取消</a>
+					                       <a href="javascript:;" class="payment">付款</a><br />
+					                       <a href=" indent_details.php">订单详情</a><br />
+					                       <a href="javascript:;" id="t-order">取消</a>
 					                    </div>				                	
 				                	</div>				                	
 				                </div>
@@ -199,9 +199,9 @@
 					                    <div class="cell p-total">￥4000.00<p>网上支付</p></div>
 					                    <div class="cell p-inventory">待付款</div>
 					                    <div class="cell p-action">
-					                       <a href="#" class="payment">付款</a><br />
-					                       <a href="#">订单详情</a><br />
-					                       <a href="#" id="t-order">取消</a>
+					                       <a href="javascript:;" class="payment">付款</a><br />
+					                       <a href=" indent_details.php">订单详情</a><br />
+					                       <a href="javascript:;" id="t-order">取消</a>
 					                    </div>				                	
 				                	</div>				                	
 				                </div>
@@ -242,7 +242,8 @@
 					                    <div class="cell p-action">
 					                       <div class="btn01" id="t2">修改入网号码</div>
                        					   <div class="btn01" id="t-id">修改入网资料</div>
-					                       <a href="#">订单详情</a><br />
+					                       <a href="indent_details.php">订单详情</a><br />
+					                       
 					                    </div>				                	
 				                	</div>				                	
 				                </div>

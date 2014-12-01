@@ -5588,11 +5588,17 @@ a.delbtns:hover {
 .details-panel .details-cont .process {
   height: 135px;
   margin-top: 35px;
+  padding: 0 50px;
+}
+.details-panel .details-cont .process .text2 {
+  position: absolute;
+  top: 65px;
+  left: -10px;
 }
 
 .ui-step.ui-step-7 li {
   width: 16%;
-  height: 70px;
+  height: 170px;
   position: relative;
 }
 
@@ -5612,8 +5618,168 @@ a.delbtns:hover {
   background: #f33f00;
 }
 
-.text2 {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
+.details-b {
+  border-top: 1px dashed #ddd;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.details-b .details-t {
+  height: 36px;
+  background-color: #e7e7e7;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #424242;
+  line-height: 36px;
+  font-weight: bold;
+  width: 1168px;
+}
+.details-b .details-c .delivery {
+  height: 30px;
+  margin: 15px 0;
+}
+.details-b .details-c .delivery span {
+  padding: 0 20px;
+}
+.details-b .details-c .trace-table {
+  width: 1165px;
+  margin: 0 auto;
+  border: 1px solid #d7d7d7;
+  border-right: 0px;
+}
+.details-b .details-c .trace-table td {
+  border-right: 1px solid #d7d7d7;
+}
+.details-b .details-c .trace-table td.for1, .details-b .details-c .trace-table td.for2, .details-b .details-c .trace-table td.for3 {
+  height: 35px;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #828282;
+  width: 220px;
+}
+.details-b .details-c .trace-table td.for2 {
+  width: 700px;
+}
+.details-b .details-c .trace-table td.for3 {
+  width: 240px;
+}
+.details-b .details-c .trace-table td.for4, .details-b .details-c .trace-table td.for5, .details-b .details-c .trace-table td.for6 {
+  height: 35px;
+  padding-left: 10px;
+  width: 210px;
+}
+.details-b .details-c .trace-table td.for5 {
+  width: 690px;
+}
+.details-b .details-c .trace-table td.for6 {
+  width: 230px;
+}
+.details-b .details-c dl {
+  padding: 10px 30px;
+}
+.details-b .details-c dl dt {
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #424242;
+  font-weight: bold;
+}
+.details-b .details-c dl dd li {
+  font-size: 12px;
+  line-height: 25px;
+}
+.details-b .details-c .inventory {
+  overflow: hidden;
+  border-top: 2px solid #d7d7d7;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  margin: 20px 35px;
+}
+.details-b .details-c .inventory .review-thead {
+  width: 100%;
+  height: 36px;
+  background-color: #f9f9f9;
+}
+.details-b .details-c .inventory .review-thead .fore1 {
+  width: 370px;
+  padding-left: 40px;
+}
+.details-b .details-c .inventory .review-thead .fore2 {
+  width: 250px;
+}
+.details-b .details-c .inventory .review-thead .fore3 {
+  width: 160px;
+  text-align: center;
+}
+.details-b .details-c .inventory .review-thead .fore4 {
+  width: 160px;
+  text-align: center;
+}
+.details-b .details-c .inventory .review-thead .fore5 {
+  width: 160px;
+  text-align: center;
+}
+.details-b .details-c .inventory .review-tbody {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.details-b .details-c .inventory .review-tbody .order-table {
+  width: 1116px;
+}
+.details-b .details-c .inventory .review-tbody .order-table .fore1 {
+  width: 365px;
+  padding-left: 40px;
+}
+.details-b .details-c .inventory .review-tbody .order-table .fore2 {
+  width: 250px;
+  color: #828282;
+}
+.details-b .details-c .inventory .review-tbody .order-table .fore3 {
+  width: 160px;
+  color: #828282;
+  text-align: center;
+}
+.details-b .details-c .inventory .review-tbody .order-table .fore4 {
+  width: 160px;
+  text-align: center;
+}
+.details-b .details-c .inventory .review-tbody .order-table .fore5 {
+  width: 160px;
+  text-align: center;
+  font-size: 16px;
+  color: #f33f00;
+  font-weight: bold;
+}
+.details-b .details-c .inventory .statistic {
+  width: 100%;
+  overflow: hidden;
+  float: right;
+  margin: 10px 40px;
+}
+.details-b .details-c .inventory .statistic .list {
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  zoom: 1;
+  font-weight: bold;
+  color: #434343;
+  width: 300px;
+  float: right;
+  clear: both;
+}
+.details-b .details-c .inventory .statistic .list span {
+  width: 180px;
+  margin-right: 20px;
+  float: left;
+  text-align: right;
+}
+.details-b .details-c .inventory .statistic .list .price {
+  float: left;
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+}
+.details-b .details-c .inventory .statistic .list .font_red {
+  color: #f33f00;
+  font-weight: bold;
+  font-size: 14px;
 }
