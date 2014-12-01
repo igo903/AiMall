@@ -4003,6 +4003,13 @@ a.btn.disabled:hover, .btn.disabled:hover {
   border: none;
   display: block;
 }
+.belonging .gobuy a.disabled {
+  background: #d6d6d6;
+  cursor: default;
+}
+.belonging .gobuy a.disabled:hover {
+  background: #d6d6d6;
+}
 
 .belonging .gobuy a:hover {
   text-decoration: none;
