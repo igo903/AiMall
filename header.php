@@ -77,18 +77,12 @@
 							</div>
 							<div class="autocomplete-panel">
 								<ul>
-									<p><a href="javascript:;">手机</a></p>
+									<li><a href="javascript:;">手机套</a><i>约有6789个商品</i></li>
+									<p>在<a href="javascript:;" class="ai">手机</a>分类中搜索<i>约有29876个商品</i></p>
 									<li class="selected"><a href="javascript:;">手机壳</a><i>约有29876个商品</i></li>
 									<li><a href="javascript:;">手机套</a><i>约有6789个商品</i></li>
 									<li><a href="javascript:;">手机挂绳</a><i>约有6234个商品</i></li>
 									<li><a href="javascript:;">手机贴膜</a><i>约有789个商品</i></li>
-								</ul>
-								<ul>
-									<p><a href="javascript:;">手游</a></p>
-									<li><a href="javascript:;">手游点卡卡</a><i>约有29876个商品</i></li>
-									<li><a href="javascript:;">手游记录</a><i>约有6789个商品</i></li>
-									<li><a href="javascript:;">手游积分</a><i>约有6234个商品</i></li>
-									<li><a href="javascript:;">手游充值</a><i>约有789个商品</i></li>
 								</ul>
 							</div>
 

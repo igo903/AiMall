@@ -304,6 +304,13 @@ i {
   border: 2px solid #ff5500;
   z-index: 100;
   overflow: hidden;
+  padding: 5px 0;
+}
+.head #searchbar .autocomplete-panel .hint {
+  height: 25px;
+  line-height: 25px;
+  padding-top: 5px;
+  padding-left: 10px;
 }
 .head #searchbar .autocomplete-panel li {
   height: 25px;
@@ -320,11 +327,18 @@ i {
   color: #666;
 }
 .head #searchbar .autocomplete-panel p {
-  font-size: 14px;
+  margin: 0px 0 0 10px;
   font-weight: bold;
-  margin: 10px 0 0 10px;
   height: 25px;
   line-height: 25px;
+  position: relative;
+  color: #666;
+}
+.head #searchbar .autocomplete-panel p i {
+  position: absolute;
+  right: 10px;
+  color: #666;
+  font-weight: normal;
 }
 .head .search-bd {
   margin-left: 90px;

@@ -291,6 +291,13 @@ i{font-style: normal;}
 			border:2px solid #ff5500;
 			z-index: 100;
 			overflow: hidden;
+			padding:5px 0;
+
+			.hint{
+				@include lh25();
+				padding-top: 5px;
+				padding-left: 10px;
+			}
 
 			li{
 				height: 25px;line-height: 25px;
@@ -308,9 +315,18 @@ i{font-style: normal;}
 				}
 			}
 			p{
-				font-size: 14px;font-weight: bold;
-				margin:10px 0 0 10px;
+				margin:0px 0 0 10px;
+				font-weight: bold;
 				height: 25px;line-height: 25px;
+				position: relative;
+				color:#666;
+
+				i{
+					position: absolute;
+					right: 10px;
+					color: #666;
+					font-weight: normal;
+				}
 			}
 		}
 

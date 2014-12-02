@@ -515,7 +515,6 @@
 										<a href="javascript:;" class="">暂不取消</a>
 									</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
