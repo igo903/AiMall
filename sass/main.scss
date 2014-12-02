@@ -63,7 +63,10 @@ $info-input:270px;
 	color: #666;
 	background-color: #f1f1f1;
 }
-
+@mixin lh25{
+	height: 25px;
+	line-height: 25px;
+}
 
 
 
@@ -281,12 +284,33 @@ i{font-style: normal;}
 			position: absolute;
 			top:32px;
 			left: 0;
-			width:400px;
-			height:300px;
+			width:414px;
+			height:280px;
 			background: #fff;
 			border:2px solid #ff5500;
 			z-index: 100;
-			display:none;
+			overflow: hidden;
+
+			li{
+				height: 25px;line-height: 25px;
+				padding-left: 10px;
+				position: relative;
+
+				&.selected{
+					background:#f8f8f8;
+				}
+
+				i{
+					position: absolute;
+					right: 10px;
+					color: #666;
+				}
+			}
+			p{
+				font-size: 14px;font-weight: bold;
+				margin:10px 0 0 10px;
+				height: 25px;line-height: 25px;
+			}
 		}
 
 	}
