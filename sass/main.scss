@@ -3802,10 +3802,14 @@ line-height: 40px;
 	clear: both;
 	width: 100%;
 	margin: 10px 0;
+	text-align: center;
+
+	&.one{
+		a {display: inline-block;}
+	}
 }
 .belonging .gobuy a {
 	height: 35px;
-	width: 140px;
 	margin: 0 auto;
 	line-height: 35px;
 	background: #ff5500;
@@ -3902,6 +3906,15 @@ line-height: 40px;
 	background: #FFF;
 	/*padding: 20px;
 	width: 400px;*/
+	.wrapper{
+		padding: 20px;
+		.drops{
+			width:100%;
+			option {font-size: 14px;}
+		}
+	}
+	h3{font-size: 15px;}
+	h4{font-size: 14px;margin:5px 0;}
 }
 
 

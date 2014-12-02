@@ -496,6 +496,32 @@
 
 
 
+				<!--取消订单-->
+				<div id="switchCancelOrder" class="belonging overlay_content" style="display:block; position: relative; top:0px;">
+					<div class="close_overlay"><a href="javascript:;"></a></div>
+					<div class="white">
+						<div class="">
+							<h1>取消订单</h1>
+							<div class="wrapper">
+								<h3>您确定要取消订单么？取消订单后，不能恢复。</h3>
+								<h4>您选择取消的理由: </h4>
+									<select name="mydropdown" class="drops">
+										<option value="dislike1">不喜欢就是不喜欢</option>
+										<option value="dislike2">不好看就是不好看</option>
+										<option value="dislike3">不好玩就是不好玩</option>
+									</select>
+									<div class="gobuy one">
+										<a href="javascript:;" class="">确定取消</a>
+										<a href="javascript:;" class="">暂不取消</a>
+									</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+
 </div>
 
 <link rel="stylesheet" href="spm_modules/alice-form/1.1.0/src/form.css">			

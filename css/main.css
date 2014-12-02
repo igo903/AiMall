@@ -4089,11 +4089,14 @@ a.btn.disabled:hover, .btn.disabled:hover {
   clear: both;
   width: 100%;
   margin: 10px 0;
+  text-align: center;
+}
+.belonging .gobuy.one a {
+  display: inline-block;
 }
 
 .belonging .gobuy a {
   height: 35px;
-  width: 140px;
   margin: 0 auto;
   line-height: 35px;
   background: #ff5500;
@@ -4191,6 +4194,22 @@ a.btn.disabled:hover, .btn.disabled:hover {
   background: #FFF;
   /*padding: 20px;
   width: 400px;*/
+}
+.overlay_content div.white .wrapper {
+  padding: 20px;
+}
+.overlay_content div.white .wrapper .drops {
+  width: 100%;
+}
+.overlay_content div.white .wrapper .drops option {
+  font-size: 14px;
+}
+.overlay_content div.white h3 {
+  font-size: 15px;
+}
+.overlay_content div.white h4 {
+  font-size: 14px;
+  margin: 5px 0;
 }
 
 #switchnNumberContent.overlay_content, #switchTaocan.overlay_content, #switch4GTaocan.overlay_content, #switchABCTaocan.overlay_content {
