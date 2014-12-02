@@ -47,3 +47,26 @@
 		</div>
 	</div>
 </div><!--//topnav-->
+
+<div id="Ai_Wrap" class="wrap row">		
+	<div class="screen-hd row" id="home-part-1">
+
+		<div class="head">
+			<div class="logo">
+				<h1>
+					<a href="index.php" class="ailogo"></a>
+				</h1>
+				<b class="loginicon">欢迎注册</b>
+			</div>
+		</div>
+
+		<div class="reg-cont">
+		<div class="reg-login">我已注册，现在<a href="">登录</a></div>
+
+			嗯嗯
+		</div>
+
+	</div>
+</div>
+
+<?php include("footer.php"); ?>

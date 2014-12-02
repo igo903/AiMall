@@ -16,7 +16,7 @@
 				</li>
 				<li>
 				<div class="myicon03"></div>
-			    	<a href="#">我的收藏</a>
+			    	<a href="collect.php">我的收藏</a>
 				</li>
 				<li>
 				<div class="myicon04"></div>
