@@ -103,7 +103,7 @@
 					<div class="buy-study tudy2">
 		              	<p><span class=" font_green">新密码设置成功！请您牢记密码</span></p>
 		            </div>
-		            <a href="javascript:;" class="confirm finpwdbtncen">立即购物</a>
+		            <a href="index.php" class="confirm finpwdbtncen">立即购物</a>
 				</div>
 			</div>
 		</div>

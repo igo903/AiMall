@@ -104,7 +104,7 @@
 		              	<p>确认邮件已发送至您的邮箱：<span class=" font_green">Cot***@163.com</span></p>
 		              	<p>请您登录邮箱完成验证。</p>
 		            </div>
-		            <a href="javascript:;" class="confirm finpwdbtncen">登录邮箱</a>
+		            <a href="findpwd3.php" class="confirm finpwdbtncen">登录邮箱</a>
 		            <div class="email-hint">如果您的邮箱无法正常接收邮件，请拨打 10010 客服热线！</div>
 				</div>
 			</div>

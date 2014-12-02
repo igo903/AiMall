@@ -104,7 +104,7 @@
 		              	<p>验证方式：<span class=" font_green">邮箱</span></p>
 		              	<p>您的邮箱：<span class=" font_green">111***@qq.com</span></p>
 		            </div>
-		            <a href="javascript:;" class="confirm finpwdbtncen">发送邮件</a>
+		            <a href="findpwd2-2.php" class="confirm finpwdbtncen">发送邮件</a>
 		            <a href="javascript:;" class="confirmno finpwdbtncen">发送邮件</a>
 				</div>
 			</div>
