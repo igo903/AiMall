@@ -65,7 +65,7 @@
 			<div class="finpwd-box">
 				<div class="finpwd-step">
 					<ol class="ui-step ui-step-4">
-					    <li class="ui-step-start ui-step-active">
+					    <li class="ui-step-start  ui-step-done ">
 					        <div class="ui-step-line">-</div>
 					        <div class="ui-step-icon">
 					            <i class="iconfont">&#xf02f;</i>
@@ -73,7 +73,7 @@
 					            <span class="ui-step-text">第一步</span>
 					        </div>
 					    </li>
-					    <li class="">
+					    <li class="ui-step-active">
 					        <div class="ui-step-line">-</div>
 					        <div class="ui-step-icon">
 					            <i class="iconfont">&#xf02f;</i>
@@ -100,33 +100,12 @@
 					</ol>
 				</div>
 				<div class="finpwd-input">
-					<form class="ui-form" name="" method="post" action="#" id="">
-					    <fieldset>
-					        <legend>表单标题</legend>
-
-					        <div class="ui-form-item">
-					            <label for="" class="ui-label">
-					                邮箱：
-					            </label>
-					            <input class="ui-input inputplus" type="text"> <span class="ui-form-other"></span>
-					            <p class="ui-form-explain">为了您的账号安全，请确保邮箱真实有效！</p>
-					            <div class="form-prompt">错误提示</div>
-					        </div>
-
-					        <div class="ui-form-item">
-					            <label for="" class="ui-label">
-					            	验证码：
-					            </label>
-					            <input class="ui-input ui-input-checkcode yzm" type="text" data-explain="请输入右图中字符，不区分大小写。" maxlength="4" autocomplete="off" value="" name="fourcode">
-					            <img class="ui-checkcode-imgcode-img" align="absMiddle" alt="请输入您看到的内容" src="https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&r=0.9321065918075809"  title="点击刷新图片校验码">
-					            <a href="#" class="imgcode-a">看不清，换一张</a>
-					        </div>
-
-					        <div class="ui-form-item">
-					            <input type="submit" class="ui-button confirm" value="下一步">
-					        </div>
-					   	</fieldset>
-					</form>
+					<div class="buy-study2 tudy2">
+		              	<p>验证方式：<span class=" font_green">邮箱</span></p>
+		              	<p>您的邮箱：<span class=" font_green">111***@qq.com</span></p>
+		            </div>
+		            <a href="javascript:;" class="confirm finpwdbtncen">发送邮件</a>
+		            <a href="javascript:;" class="confirmno finpwdbtncen">发送邮件</a>
 				</div>
 			</div>
 		</div>

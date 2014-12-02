@@ -4499,6 +4499,86 @@ a.btn.disabled:hover, .btn.disabled:hover {
 .reg-cont .finpwd-box .finpwd-input .inputplus {
   width: 350px;
 }
+.reg-cont .finpwd-box .finpwd-input .ui-form-item {
+  position: relative;
+}
+.reg-cont .finpwd-box .finpwd-input .confirm {
+  color: #fff;
+  text-align: center;
+  background: #ff5500;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  width: 370px;
+  border: 0px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+}
+.reg-cont .finpwd-box .finpwd-input .confirm:hover {
+  background: #ff3300;
+}
+.reg-cont .finpwd-box .finpwd-input .confirmno {
+  text-align: center;
+  background: #f8f8f8;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  text-decoration: none;
+  width: 370px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: default;
+}
+.reg-cont .finpwd-box .finpwd-input .confirmno:hover {
+  color: #666;
+}
+.reg-cont .finpwd-box .finpwd-input .finpwdbtncen {
+  margin: 0 auto;
+}
+.reg-cont .finpwd-box .finpwd-input .form-prompt {
+  position: absolute;
+  left: 545px;
+  top: 0px;
+  width: 300px;
+  background: #ffebec url("../images/formprompt.jpg") no-repeat 10px 10px;
+  border: 1px solid #ffbdbf;
+  padding: 7px 9px 7px 30px;
+  color: #666;
+}
+
+.buy-study {
+  background: url("../images/yun.jpg") no-repeat 0px 0;
+  padding: 20px 0 0 150px;
+  height: 100px;
+}
+
+.buy-study2 {
+  background: url("../images/yun-no.jpg") no-repeat 0px 0;
+  padding: 20px 0 0 150px;
+  height: 100px;
+}
+
+.tudy2 {
+  background-position: 160px 0;
+  padding: 20px 0 0 320px;
+}
+
+.buy-study p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.email-hint {
+  color: #e74b3c;
+  background: url("../images/triangle.png") no-repeat 5px 3px;
+  padding-left: 30px;
+  margin: 10px 0 0 160px;
+}
 
 #delall {
   position: absolute;

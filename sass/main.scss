@@ -4150,8 +4150,6 @@ line-height: 40px;
 			color: #666;
 		}
 			
-		
-
 
 	}
 
@@ -4204,12 +4202,85 @@ line-height: 40px;
 		.finpwd-input{
 			width: 700px;
 			margin: 50px auto 0;
+
 			.inputplus{
 				width: 350px;
 			}
+			.ui-form-item{
+				position: relative;
+			}
+
+			.confirm{
+				@include btnred();
+				width: 370px;
+				border: 0px;
+				height: 40px;
+				line-height: 40px;
+				display: block;
+				font-weight: bold;
+				font-size: 14px;
+				&:hover{
+					@include btnredhover();
+				}
+				
+			}
+			.confirmno{
+				@include btngrey();
+				width: 370px;
+				height: 40px;
+				line-height: 40px;
+				display: block;
+				font-weight: bold;
+				font-size: 14px;
+				cursor: default;
+				&:hover{
+					color: #666;
+				}
+
+				
+			}
+			.finpwdbtncen{
+				margin: 0 auto;
+			}
+			.form-prompt{
+			position: absolute;
+			left: 545px;
+			top: 0px;
+			width: 300px;
+			background:#ffebec url("../images/formprompt.jpg") no-repeat 10px 10px;
+			border: 1px solid #ffbdbf;
+			padding: 7px 9px 7px 30px;
+			color: #666;
+		}
+
+
 		}
 	}
 
+}
+
+
+
+.buy-study {
+	background: url("../images/yun.jpg") no-repeat 00px 0;
+	padding: 20px 0 0 150px;
+	height: 100px;
+}
+.buy-study2 {
+	background: url("../images/yun-no.jpg") no-repeat 00px 0;
+	padding: 20px 0 0 150px;
+	height: 100px;
+}
+.tudy2{ background-position:160px 0;padding:20px 0 0 320px;}
+.buy-study p {
+	font-size: 14px;
+	line-height: 30px;
+}
+.email-hint {
+	color: #e74b3c;
+	background: url("../images/triangle.png") no-repeat 5px 3px;
+	padding-left: 30px;
+	margin: 10px 0 0 160px
 }
 
 
