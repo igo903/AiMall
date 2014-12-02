@@ -20,7 +20,7 @@
 				</li>
 				<li>
 				<div class="myicon04"></div>
-			    	<a href="#">收货地址管理</a>
+			    	<a href="sidemanage.php">收货地址管理</a>
 				</li>
 				<li>
 				<div class="myicon06"></div>

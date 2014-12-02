@@ -2559,6 +2559,120 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin-right: 25px;
 }
 
+.address-box {
+  border-bottom: 1px dashed #f0f0f0;
+  margin: 0 10px;
+  clear: both;
+  width: 980px;
+}
+
+.address-title {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.address-cont {
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.address-cont td {
+  border: 1px solid #eaeef1;
+}
+
+.address-thead {
+  background-color: #f9f9f9;
+  height: 35px;
+}
+
+.address-thead .for1, .address-thead .details-b .details-c .trace-table td.for2, .details-b .details-c .trace-table .address-thead td.for2, .address-thead .details-b .details-c .trace-table td.for3, .details-b .details-c .trace-table .address-thead td.for3 {
+  width: 70px;
+  text-align: center;
+}
+
+.address-thead .for2 {
+  width: 410px;
+  text-align: center;
+}
+
+.address-thead .for3 {
+  width: 120px;
+  text-align: center;
+}
+
+.address-thead .for4, .address-thead .details-b .details-c .trace-table td.for5, .details-b .details-c .trace-table .address-thead td.for5, .address-thead .details-b .details-c .trace-table td.for6, .details-b .details-c .trace-table .address-thead td.for6 {
+  width: 190px;
+  text-align: center;
+}
+
+.address-thead .for5 {
+  width: 95px;
+  text-align: center;
+}
+
+.address-thead .for6 {
+  width: 100px;
+  text-align: center;
+}
+
+.address-table {
+  background-color: #fff;
+}
+
+.address-table td {
+  line-height: 25px;
+  padding: 20px 0;
+}
+
+.address-table .for1, .address-table .details-b .details-c .trace-table td.for2, .details-b .details-c .trace-table .address-table td.for2, .address-table .details-b .details-c .trace-table td.for3, .details-b .details-c .trace-table .address-table td.for3 {
+  width: 70px;
+  text-align: center;
+  border-top: 0px;
+}
+
+.address-table .for2 {
+  width: 390px;
+  padding-left: 20px;
+  border-top: 0px;
+}
+
+.address-table .for3 {
+  width: 120px;
+  text-align: center;
+  border-top: 0px;
+}
+
+.address-table .for4, .address-table .details-b .details-c .trace-table td.for5, .details-b .details-c .trace-table .address-table td.for5, .address-table .details-b .details-c .trace-table td.for6, .details-b .details-c .trace-table .address-table td.for6 {
+  width: 190px;
+  text-align: center;
+  border-top: 0px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.address-table .for5 {
+  width: 95px;
+  text-align: center;
+  border-top: 0px;
+}
+
+.address-table .for6 {
+  width: 100px;
+  text-align: center;
+  border-top: 0px;
+}
+
+.yestable {
+  background-color: #fffaf7;
+}
+
+.my-side {
+  margin: 40px 0 40px 40px;
+  overflow: hidden;
+}
+
 .management-panel .ordersbox {
   margin: 20px 10px 0;
 }
@@ -4238,6 +4352,42 @@ a.btn.disabled:hover, .btn.disabled:hover {
   padding: 7px 9px 7px 30px;
   color: #666;
 }
+.reg-cont .reg-box .p-strength {
+  width: 370px;
+  height: 22px;
+  padding-left: 1px;
+  position: absolute;
+  top: 35px;
+  left: 170px;
+  overflow: hidden;
+}
+.reg-cont .reg-box .p-strength ul li {
+  width: 122px;
+  height: 20px;
+  float: left;
+  border: 1px solid #dbdbdb;
+  margin: 0 0 0 -1px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #828282;
+  background-color: #f7f7f7;
+}
+.reg-cont .reg-box .p-strength ul li.weak {
+  background-color: #f33801;
+  border: 1px solid #f33801;
+  color: #fff;
+}
+.reg-cont .reg-box .p-strength ul li.mod {
+  background-color: #fecb00;
+  border: 1px solid #fecb00;
+  color: #fff;
+}
+.reg-cont .reg-box .p-strength ul li.forte {
+  background-color: #c8ca04;
+  border: 1px solid #c8ca04;
+  color: #fff;
+}
 .reg-cont .regok {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -4273,6 +4423,20 @@ a.btn.disabled:hover, .btn.disabled:hover {
 .reg-cont .gobuyreg:hover {
   background-color: #ff3300;
   text-decoration: none;
+}
+.reg-cont .finpwd-box {
+  margin-top: 80px;
+}
+.reg-cont .finpwd-box .finpwd-step {
+  width: 850px;
+  margin: 0 auto;
+}
+.reg-cont .finpwd-box .finpwd-input {
+  width: 700px;
+  margin: 50px auto 0;
+}
+.reg-cont .finpwd-box .finpwd-input .inputplus {
+  width: 350px;
 }
 
 #delall {

@@ -25,7 +25,7 @@
 
 		<div class="fn-left">
 			<span>产业互联网-亚信商城开通啦！</span>
-			<a href="login.php>" class="ai">请登录</a>
+			<a href="login.php" class="ai">请登录</a>
 			<a href="javascript:;">免费注册</a>
 		</div>
 		
@@ -71,6 +71,7 @@
 				            <label for="username" class="ui-label label-plus"> <span class="ui-form-required">*</span>注册邮箱</label>
 				            <input id="username" name="username" class="ui-input" type="text" />
 				            <div class="ui-form-explain">默认文案</div>
+				            
 				            <div class="form-prompt">邮箱已被占用	</div>
 				        </div>
 
@@ -78,12 +79,27 @@
 				            <label for="username" class="ui-label label-plus"><span class="ui-form-required">*</span>设置密码</label>
 				            <input id="username" name="username" class="ui-input" type="password" />
 				            <div class="ui-form-explain">默认文案</div>
+				            <div class="p-strength">
+		                     	<ul>
+		                         	<li class="weak">弱</li>
+		                         	<li>中</li>
+		                         	<li>强</li>
+		                     	</ul>
+		                   	</div>
+				            
 				        </div>
 
 				        <div class="ui-form-item">
 				            <label for="username" class="ui-label label-plus"><span class="ui-form-required">*</span>确认密码</label>
 				            <input id="username" name="username" class="ui-input" type="password" />
 				            <div class="ui-form-explain">默认文案</div>
+				            <div class="p-strength">
+		                     	<ul>
+		                         	<li class="weak"><!--弱--></li>
+		                         	<li class="mod"><!--中--></li>
+		                         	<li class="forte">强</li>
+		                     	</ul>
+		                   	</div>
 				        </div>
 
 				        <div class="ui-form-item">
