@@ -2558,119 +2558,142 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin-left: 25px;
   margin-right: 25px;
 }
-
-.address-box {
+.management-panel .right-col .address-box {
   border-bottom: 1px dashed #f0f0f0;
   margin: 0 10px;
   clear: both;
   width: 980px;
 }
-
-.address-title {
+.management-panel .right-col .address-box .address-title {
   height: 30px;
   line-height: 30px;
   padding-left: 15px;
   font-size: 14px;
 }
-
-.address-cont {
+.management-panel .right-col .address-box .address-cont {
   overflow: hidden;
   margin: 20px 0;
 }
-
-.address-cont td {
+.management-panel .right-col .address-box .address-cont td {
   border: 1px solid #eaeef1;
 }
-
-.address-thead {
+.management-panel .right-col .address-box .address-cont .address-thead {
   background-color: #f9f9f9;
   height: 35px;
 }
-
-.address-thead .for1, .address-thead .details-b .details-c .trace-table td.for2, .details-b .details-c .trace-table .address-thead td.for2, .address-thead .details-b .details-c .trace-table td.for3, .details-b .details-c .trace-table .address-thead td.for3 {
+.management-panel .right-col .address-box .address-cont .address-thead .for1, .management-panel .right-col .address-box .address-cont .address-thead .details-b .details-c .trace-table td.for2, .details-b .details-c .trace-table .management-panel .right-col .address-box .address-cont .address-thead td.for2, .management-panel .right-col .address-box .address-cont .address-thead .details-b .details-c .trace-table td.for3, .details-b .details-c .trace-table .management-panel .right-col .address-box .address-cont .address-thead td.for3 {
   width: 70px;
   text-align: center;
 }
-
-.address-thead .for2 {
+.management-panel .right-col .address-box .address-cont .address-thead .for2 {
   width: 410px;
   text-align: center;
 }
-
-.address-thead .for3 {
+.management-panel .right-col .address-box .address-cont .address-thead .for3 {
   width: 120px;
   text-align: center;
 }
-
-.address-thead .for4, .address-thead .details-b .details-c .trace-table td.for5, .details-b .details-c .trace-table .address-thead td.for5, .address-thead .details-b .details-c .trace-table td.for6, .details-b .details-c .trace-table .address-thead td.for6 {
+.management-panel .right-col .address-box .address-cont .address-thead .for4, .management-panel .right-col .address-box .address-cont .address-thead .details-b .details-c .trace-table td.for5, .details-b .details-c .trace-table .management-panel .right-col .address-box .address-cont .address-thead td.for5, .management-panel .right-col .address-box .address-cont .address-thead .details-b .details-c .trace-table td.for6, .details-b .details-c .trace-table .management-panel .right-col .address-box .address-cont .address-thead td.for6 {
   width: 190px;
   text-align: center;
 }
-
-.address-thead .for5 {
+.management-panel .right-col .address-box .address-cont .address-thead .for5 {
   width: 95px;
   text-align: center;
 }
-
-.address-thead .for6 {
+.management-panel .right-col .address-box .address-cont .address-thead .for6 {
   width: 100px;
   text-align: center;
 }
-
-.address-table {
+.management-panel .right-col .address-box .address-cont .address-body .address-table {
   background-color: #fff;
 }
-
-.address-table td {
+.management-panel .right-col .address-box .address-cont .address-body .address-table td {
   line-height: 25px;
   padding: 20px 0;
 }
-
-.address-table .for1, .address-table .details-b .details-c .trace-table td.for2, .details-b .details-c .trace-table .address-table td.for2, .address-table .details-b .details-c .trace-table td.for3, .details-b .details-c .trace-table .address-table td.for3 {
+.management-panel .right-col .address-box .address-cont .address-body .address-table .for1, .management-panel .right-col .address-box .address-cont .address-body .address-table .details-b .details-c .trace-table td.for2, .details-b .details-c .trace-table .management-panel .right-col .address-box .address-cont .address-body .address-table td.for2, .management-panel .right-col .address-box .address-cont .address-body .address-table .details-b .details-c .trace-table td.for3, .details-b .details-c .trace-table .management-panel .right-col .address-box .address-cont .address-body .address-table td.for3 {
   width: 70px;
   text-align: center;
   border-top: 0px;
 }
-
-.address-table .for2 {
+.management-panel .right-col .address-box .address-cont .address-body .address-table .for2 {
   width: 390px;
   padding-left: 20px;
   border-top: 0px;
 }
-
-.address-table .for3 {
+.management-panel .right-col .address-box .address-cont .address-body .address-table .for3 {
   width: 120px;
   text-align: center;
   border-top: 0px;
 }
-
-.address-table .for4, .address-table .details-b .details-c .trace-table td.for5, .details-b .details-c .trace-table .address-table td.for5, .address-table .details-b .details-c .trace-table td.for6, .details-b .details-c .trace-table .address-table td.for6 {
+.management-panel .right-col .address-box .address-cont .address-body .address-table .for4, .management-panel .right-col .address-box .address-cont .address-body .address-table .details-b .details-c .trace-table td.for5, .details-b .details-c .trace-table .management-panel .right-col .address-box .address-cont .address-body .address-table td.for5, .management-panel .right-col .address-box .address-cont .address-body .address-table .details-b .details-c .trace-table td.for6, .details-b .details-c .trace-table .management-panel .right-col .address-box .address-cont .address-body .address-table td.for6 {
   width: 190px;
   text-align: center;
   border-top: 0px;
   word-break: break-all;
   word-wrap: break-word;
 }
-
-.address-table .for5 {
+.management-panel .right-col .address-box .address-cont .address-body .address-table .for5 {
   width: 95px;
   text-align: center;
   border-top: 0px;
 }
-
-.address-table .for6 {
+.management-panel .right-col .address-box .address-cont .address-body .address-table .for6 {
   width: 100px;
   text-align: center;
   border-top: 0px;
+}
+.management-panel .right-col .my-side {
+  margin: 40px 0 40px 40px;
+  overflow: hidden;
+}
+.management-panel .right-col .my-side .ui-input {
+  width: 320px;
+}
+.management-panel .right-col .my-side .select-w {
+  width: 110px;
+  height: 30px;
+}
+.management-panel .right-col .my-side .sidebtn {
+  color: #fff;
+  text-align: center;
+  background: #ff5500;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  border: 0px;
+  height: 30px;
+}
+.management-panel .right-col .my-side .sidebtn:hover {
+  background: #ff3300;
 }
 
 .yestable {
   background-color: #fffaf7;
 }
 
-.my-side {
-  margin: 40px 0 40px 40px;
-  overflow: hidden;
+.passwordmanage {
+  margin-top: 50px;
+}
+.passwordmanage .ui-form-item {
+  position: relative;
+}
+.passwordmanage .ui-input {
+  width: 370px;
+}
+.passwordmanage .passbtn {
+  color: #fff;
+  text-align: center;
+  background: #ff5500;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  border: 0px;
+  height: 30px;
+}
+.passwordmanage .passbtn:hover {
+  background: #ff3300;
 }
 
 .management-panel .ordersbox {
@@ -4300,6 +4323,43 @@ a.btn.disabled:hover, .btn.disabled:hover {
   top: 60px;
 }
 
+.p-strength {
+  width: 370px;
+  height: 22px;
+  padding-left: 1px;
+  position: absolute;
+  top: 35px;
+  left: 170px;
+  overflow: hidden;
+}
+.p-strength ul li {
+  width: 122px;
+  height: 20px;
+  float: left;
+  border: 1px solid #dbdbdb;
+  margin: 0 0 0 -1px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #828282;
+  background-color: #f7f7f7;
+}
+.p-strength ul li.weak {
+  background-color: #f33801;
+  border: 1px solid #f33801;
+  color: #fff;
+}
+.p-strength ul li.mod {
+  background-color: #fecb00;
+  border: 1px solid #fecb00;
+  color: #fff;
+}
+.p-strength ul li.forte {
+  background-color: #c8ca04;
+  border: 1px solid #c8ca04;
+  color: #fff;
+}
+
 .reg-cont {
   position: relative;
   float: left;
@@ -4351,42 +4411,6 @@ a.btn.disabled:hover, .btn.disabled:hover {
   border: 1px solid #ffbdbf;
   padding: 7px 9px 7px 30px;
   color: #666;
-}
-.reg-cont .reg-box .p-strength {
-  width: 370px;
-  height: 22px;
-  padding-left: 1px;
-  position: absolute;
-  top: 35px;
-  left: 170px;
-  overflow: hidden;
-}
-.reg-cont .reg-box .p-strength ul li {
-  width: 122px;
-  height: 20px;
-  float: left;
-  border: 1px solid #dbdbdb;
-  margin: 0 0 0 -1px;
-  line-height: 20px;
-  text-align: center;
-  font-weight: bold;
-  color: #828282;
-  background-color: #f7f7f7;
-}
-.reg-cont .reg-box .p-strength ul li.weak {
-  background-color: #f33801;
-  border: 1px solid #f33801;
-  color: #fff;
-}
-.reg-cont .reg-box .p-strength ul li.mod {
-  background-color: #fecb00;
-  border: 1px solid #fecb00;
-  color: #fff;
-}
-.reg-cont .reg-box .p-strength ul li.forte {
-  background-color: #c8ca04;
-  border: 1px solid #c8ca04;
-  color: #fff;
 }
 .reg-cont .regok {
   margin-top: 20px;

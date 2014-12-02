@@ -28,7 +28,7 @@
 				</li>
 				<li>
 				<div class="myicon05"></div>
-			    	<a href="#">密码管理</a>
+			    	<a href="passwordmanage.php">密码管理</a>
 				</li>
 		</ul>
 	</div>	

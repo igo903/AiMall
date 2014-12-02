@@ -41,6 +41,7 @@ $info-input:270px;
 	border-right: 1px solid #eee;
 	border-bottom: 1px solid #eee;	
 }
+
 @mixin btnred{
 	color: #fff;
   	text-align: center;
@@ -2390,34 +2391,154 @@ a.btn, .btn{
 			margin-left: 25px;
 			margin-right: 25px;
 		}
+
+		.address-box {
+			border-bottom: 1px dashed #f0f0f0;
+			margin: 0 10px;
+			clear: both;
+			width: 980px;
+
+			.address-title {
+				height: 30px;
+				line-height: 30px;
+				padding-left: 15px;
+				font-size: 14px;
+			}
+			.address-cont {
+				overflow: hidden;
+				margin: 20px 0;
+
+				td {
+					border: 1px solid #eaeef1
+				}
+				.address-thead {
+					background-color: #f9f9f9;
+					height: 35px;
+					.for1 {
+						width: 70px;
+						text-align: center;
+					}
+					.for2 {
+						width: 410px;
+						text-align: center;
+					}
+					.for3 {
+						width: 120px;
+						text-align: center;
+					}
+					.for4 {
+						width: 190px;
+						text-align: center;
+					}
+					.for5 {
+						width: 95px;
+						text-align: center;
+					}
+					.for6 {
+						width: 100px;
+						text-align: center;
+					}
+				}
+				.address-body{
+
+					.address-table {
+						background-color: #fff;
+
+						td {
+							line-height: 25px;
+							padding: 20px 0
+						}
+
+						.for1 {
+							width: 70px;
+							text-align: center;
+							border-top: 0px
+						}
+						.for2 {
+							width: 390px;
+							padding-left: 20px;
+							border-top: 0px
+						}
+						.for3 {
+							width: 120px;
+							text-align: center;
+							border-top: 0px
+						}
+						.for4 {
+							width: 190px;
+							text-align: center;
+							border-top: 0px;
+							word-break: break-all;
+							word-wrap: break-word;
+						}
+						.for5 {
+							width: 95px;
+							text-align: center;
+							border-top: 0px
+						}
+						.for6 {
+							width: 100px;
+							text-align: center;
+							border-top: 0px
+						}
+					}
+
+				}
+
+			}
+	
+		}
+
+		.my-side {
+			margin: 40px 0 40px 40px;
+			overflow: hidden;
+
+			.ui-input{
+				 width: 320px;	
+			}
+
+			.select-w {
+				width: 110px;
+				height: 30px;
+			}
+			.sidebtn{
+				@include btnred();
+				border: 0px;
+				height: 30px;
+				&:hover{
+					@include btnredhover();
+				}
+			}
+		}
 	}
 }
 
 
-
-
-.address-box{ border-bottom:1px dashed #f0f0f0; margin:0 10px;clear:both; width:980px;}
-.address-title{ height:30px; line-height:30px; padding-left:15px; font-size:14px;}
-.address-cont{ overflow:hidden; margin:20px 0; }
-.address-cont td{ border:1px solid #eaeef1}
-.address-thead{ background-color:#f9f9f9; height:35px;}
-.address-thead .for1{ width:70px; text-align:center;}
-.address-thead .for2{ width:410px;text-align:center;}
-.address-thead .for3{ width:120px;text-align:center;}
-.address-thead .for4{ width:190px;text-align:center;}
-.address-thead .for5{ width:95px;text-align:center;}
-.address-thead .for6{ width:100px;text-align:center;}
-
-.address-table{ background-color:#fff;}
-.address-table td{ line-height:25px; padding:20px 0}
-.address-table .for1{ width:70px; text-align:center; border-top:0px}
-.address-table .for2{ width:390px; padding-left:20px;border-top:0px}
-.address-table .for3{ width:120px;text-align:center;border-top:0px}
-.address-table .for4{ width:190px;text-align:center;border-top:0px;word-break: break-all; word-wrap: break-word;}
-.address-table .for5{ width:95px;text-align:center;border-top:0px}
-.address-table .for6{ width:100px;text-align:center;border-top:0px}
 .yestable{ background-color:#fffaf7;}
-.my-side{ margin:40px 0 40px 40px; overflow:hidden;}
+
+
+
+
+
+.passwordmanage{
+	margin-top: 50px;
+
+	.ui-form-item{
+		position: relative;
+	}
+	.ui-input{
+		width: 370px;	
+	}
+	.passbtn{
+		@include btnred();
+		border: 0px;
+		height: 30px;
+		&:hover{
+			@include btnredhover();
+		}
+	}
+}
+
 
 
 
@@ -3905,6 +4026,45 @@ line-height: 40px;
 	top: 60px;
 }
 
+
+.p-strength {
+	width: 370px;
+	height: 22px;
+	padding-left: 1px;
+	position: absolute;
+	top: 35px;
+	left: 170px;
+	overflow: hidden;
+
+	ul li {
+		width: 122px;
+		height: 20px;
+		float: left;
+		border: 1px solid #dbdbdb;
+		margin: 0 0 0 -1px;
+		line-height: 20px;
+		text-align: center;
+		font-weight: bold;
+		color: #828282;
+		background-color: #f7f7f7;
+		&.weak {
+			background-color: #f33801;
+			border: 1px solid #f33801;
+			color: #fff;
+		}
+		&.mod {
+			background-color: #fecb00;
+			border: 1px solid #fecb00;
+			color: #fff;
+		}
+		&.forte {
+			background-color: #c8ca04;
+			border: 1px solid #c8ca04;
+			color: #fff;
+		}
+	}
+}
+
 .reg-cont{
 	 position:relative; 
 	 float:left; 
@@ -3956,44 +4116,7 @@ line-height: 40px;
 			padding: 7px 9px 7px 30px;
 			color: #666;
 		}
-		.p-strength {
-			width: 370px;
-			height: 22px;
-			padding-left: 1px;
-			position: absolute;
-			top: 35px;
-			left: 170px;
-			overflow: hidden;
-
-			ul li {
-				width: 122px;
-				height: 20px;
-				float: left;
-				border: 1px solid #dbdbdb;
-				margin: 0 0 0 -1px;
-				line-height: 20px;
-				text-align: center;
-				font-weight: bold;
-				color: #828282;
-				background-color: #f7f7f7;
-				&.weak {
-					background-color: #f33801;
-					border: 1px solid #f33801;
-					color: #fff;
-				}
-				&.mod {
-					background-color: #fecb00;
-					border: 1px solid #fecb00;
-					color: #fff;
-				}
-				&.forte {
-					background-color: #c8ca04;
-					border: 1px solid #c8ca04;
-					color: #fff;
-				}
-			}
-		}
-		
+			
 		
 
 
@@ -5651,9 +5774,6 @@ background: #f33f00;
 		}
 	}
 }
-
-
-
 
 
 

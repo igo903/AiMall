@@ -39,49 +39,49 @@
 				                          	<td class="for6">操作</td>
 				                        </tr>
 			                      	</table>
-				                      	<div class="address-body">
-			                         		<div class="address-tbody">
-				                             	<table width="100%" class="address-table yestable" border="0" cellspacing="0" cellpadding="0">
-					                                <tr>
-					                                  	<td class="for1">张三</td>
-					                                  	<td class="for2">湖北  武汉市  江汉区  江汉经济开发区 江旺路8号爱帝楼3楼</td>
-					                                  	<td class="for3">18611111111</td>
-					                                  	<td class="for4">asa@163.com</td>
-					                                  	<td class="for5"><span class="font_red">默认地址</span></td>
-					                                  	<td class="for6"><a href="#">修改</a> <a href="#" id="cancelb">删除</a></td>
-					                                </tr>
-				                              	</table>
-				                         	</div> 
-				                         	<div class="address-tbody">
-				                             	<table width="100%" class="address-table" border="0" cellspacing="0" cellpadding="0">
-				                                	<tr>
+			                      	<div class="address-body">
+		                         		<div class="address-tbody">
+			                             	<table width="100%" class="address-table yestable" border="0" cellspacing="0" cellpadding="0">
+				                                <tr>
+				                                  	<td class="for1">张三</td>
+				                                  	<td class="for2">湖北  武汉市  江汉区  江汉经济开发区 江旺路8号爱帝楼3楼</td>
+				                                  	<td class="for3">18611111111</td>
+				                                  	<td class="for4">asa@163.com</td>
+				                                  	<td class="for5"><span class="font_red">默认地址</span></td>
+				                                  	<td class="for6"><a href="#">修改</a> <a href="#" id="cancelb">删除</a></td>
+				                                </tr>
+			                              	</table>
+			                         	</div> 
+			                         	<div class="address-tbody">
+			                             	<table width="100%" class="address-table" border="0" cellspacing="0" cellpadding="0">
+			                                	<tr>
+			                                  	<td class="for1">张三</td>
+			                                  	<td class="for2">湖北  武汉市  江汉区  江汉经济开发区 江旺路8号爱帝楼3楼</td>
+			                                  	<td class="for3">18611111111</td>
+			                                  	<td class="for4">asa@163.com</td>
+			                                  	<td class="for5"><span><a href="#">设为默认</a></span></td>
+			                                  	<td class="for6"><a href="#">修改</a> <a href="#">删除</a></td>
+			                                	</tr>
+			                              </table>
+			                         	</div> 
+			                         	<div class="address-tbody">
+			                             	<table width="100%" class="address-table" border="0" cellspacing="0" cellpadding="0">
+				                                <tr>
 				                                  	<td class="for1">张三</td>
 				                                  	<td class="for2">湖北  武汉市  江汉区  江汉经济开发区 江旺路8号爱帝楼3楼</td>
 				                                  	<td class="for3">18611111111</td>
 				                                  	<td class="for4">asa@163.com</td>
 				                                  	<td class="for5"><span><a href="#">设为默认</a></span></td>
 				                                  	<td class="for6"><a href="#">修改</a> <a href="#">删除</a></td>
-				                                	</tr>
-				                              </table>
-				                         	</div> 
-				                         	<div class="address-tbody">
-				                             	<table width="100%" class="address-table" border="0" cellspacing="0" cellpadding="0">
-					                                <tr>
-					                                  	<td class="for1">张三</td>
-					                                  	<td class="for2">湖北  武汉市  江汉区  江汉经济开发区 江旺路8号爱帝楼3楼</td>
-					                                  	<td class="for3">18611111111</td>
-					                                  	<td class="for4">asa@163.com</td>
-					                                  	<td class="for5"><span><a href="#">设为默认</a></span></td>
-					                                  	<td class="for6"><a href="#">修改</a> <a href="#">删除</a></td>
-					                                </tr>
-				                              	</table>
-				                         </div> 
-				                      </div>
+				                                </tr>
+			                              	</table>
+			                         </div> 
+			                      </div>
 				                      
 				              </div>
 				          	</div>
 
-				          	<div class="my-side ">  
+				          	<div class="my-side">  
 				          		<form class="ui-form" name="" method="post" action="#" id="">
 								    <fieldset>
 								        <legend>表单标题</legend>
@@ -91,23 +91,75 @@
 								                <span class="ui-form-required">*</span>收货人：
 								            </label>
 								            <input class="ui-input" type="text"> <span class="ui-form-other"></span>
-								            <p class="ui-form-explain">默认文案。</p>
+								        </div>
+
+								        <div class="ui-form-item">
+								            <label for="" class="ui-label">
+								            	<span class="ui-form-required">*</span>地区：
+								            </label>
+								            <select id="province" name="province" class="select-w">
+								                <option value="">
+								                请选择
+								                </option>
+								                <option value="省/直辖市">
+								                省/直辖市
+								                </option>
+								            </select>
+
+								            <select id="province" name="province" class="select-w">
+								                <option value="">
+								                请选择
+								                </option>
+								                <option value="省/直辖市">
+								                省/直辖市
+								                </option>
+								            </select>
+
+								            <select id="province" name="province" class="select-w">
+								                <option value="">
+								                请选择
+								                </option>
+								                <option value="省/直辖市">
+								                省/直辖市
+								                </option>
+								            </select>
+								        </div>
+
+								        <div class="ui-form-item">
+								            <label for="" class="ui-label">
+								                <span class="ui-form-required">*</span>详细地址：
+								            </label>
+								            <input class="ui-input" type="text"> <span class="ui-form-other"></span>
+								        </div>
+
+								        <div class="ui-form-item">
+								            <label for="" class="ui-label">
+								                <span class="ui-form-required">*</span>手机号码：
+								            </label>
+								            <input class="ui-input" type="text"> <span class="ui-form-other"></span>
+								        </div>
+
+								        <div class="ui-form-item">
+								            <label for="" class="ui-label">
+								                电子邮箱：
+								            </label>
+								            <input class="ui-input" type="text"> <span class="ui-form-other"></span>
+								        </div>
+
+								        <div class="ui-form-item">
+								            <label for="test">
+								                <input class="ui-checkbox" id="test" value="" type="checkbox">
+								                作为我的默认地址
+								            </label>
+								        </div>
+
+								         <div class="ui-form-item">
+								            <input type="submit" class="ui-button  sidebtn" value="保存收货地址">
 								        </div>
 								        
 					         		</fieldset>
 								</form>
 				          	</div>
-
-
-
-
-
-
-
-
-
-
-
 
 						</div>
 					</div>
