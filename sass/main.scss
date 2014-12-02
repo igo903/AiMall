@@ -1507,6 +1507,7 @@ i{font-style: normal;}
 	border-left: 1px solid #e8e8e8;
 	border-right: 1px solid #e8e8e8;
 	width:98px;
+	z-index: 10;
 }
 .right-col-detail .ui-switchable-nav .fill2{
 	width: 506px;
@@ -3745,7 +3746,7 @@ line-height: 40px;
 .overlay_content {
 	background-color: #FFF;
 	left: 300px;
-	position: fixed;
+	position: absolute;
 	top: 70px;
 	width: 500px;
 	z-index: 110;
@@ -3938,6 +3939,9 @@ line-height: 40px;
 		}
 		.ui-input{
 			width: 350px;
+			&.ui-input-checkcode{
+				width:100px;
+			}
 		}
 		a.label-a{
 			color: #4397e3;

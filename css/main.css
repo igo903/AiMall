@@ -1657,6 +1657,7 @@ i {
   border-left: 1px solid #e8e8e8;
   border-right: 1px solid #e8e8e8;
   width: 98px;
+  z-index: 10;
 }
 
 .right-col-detail .ui-switchable-nav .fill2 {
@@ -4132,7 +4133,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
 .overlay_content {
   background-color: #FFF;
   left: 300px;
-  position: fixed;
+  position: absolute;
   top: 70px;
   width: 500px;
   z-index: 110;
@@ -4334,6 +4335,9 @@ a.btn.disabled:hover, .btn.disabled:hover {
 }
 .reg-cont .reg-box .ui-input {
   width: 350px;
+}
+.reg-cont .reg-box .ui-input.ui-input-checkcode {
+  width: 100px;
 }
 .reg-cont .reg-box a.label-a {
   color: #4397e3;
