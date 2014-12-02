@@ -98,10 +98,10 @@
 								<p class="m"><span>已选择:<b class="rmbTaocan">166元套餐</b>（含上网流量2GB，语音通话500分钟）| <b class="contactTxt">24个月存费送机合约</b>（含赠送话费1200元，分23个月返还）</span></p>
 							</div>
 
-							<div class="row">
-								<span class="de">数量:</span>
-								<a class="" href="javascript:void(0)">-</a>
-                                <input type="text" value="1" class="count-text" />
+							<div class="row calc">
+								<span class="de">数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量:</span>
+								<a class="minus" href="javascript:void(0)">-</a>
+                                <input type="text" value="999" class="count-text" />
                                 <a class="plus" href="javascript:void(0)">+</a>
 							</div>
 

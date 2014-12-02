@@ -1385,6 +1385,22 @@ i{font-style: normal;}
 	// height: 40px;
 	line-height: 40px;
 	padding: 0px 0 0px 15px;
+
+	&.calc{
+		a{
+			height: 25px;
+			line-height: 25px;
+			margin:0px 5px;
+			padding: 0px;
+			width: 25px;
+		}
+		.count-text{
+			width: 50px;
+			@include lh25();
+			text-align: center;
+			border:1px solid #e8e8e8;
+		}
+	}
 }
 .direct-buy .right-col .row.moreinfo{
 	// height: 70px;
