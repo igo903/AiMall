@@ -1929,9 +1929,6 @@ a.btn, .btn{
 	position: absolute;
 	right: 0px;
 	top: 10px;
-	
-
-
 }
 .jingxuan .info a, .hotsell .info a{
 	width: 117px;
@@ -4047,13 +4044,13 @@ line-height: 40px;
 		a {display: inline-block;}
 	}
 }
-.belonging .gobuy a {
+ .gobuy a {
 	height: 35px;
 	margin: 0 auto;
 	line-height: 35px;
 	background: #ff5500;
 	width: 80px;
-	color: #fff;
+	color: #fff !important;
 	text-align: center;
 	border-radius: 3px;
 	border: none;
@@ -4067,7 +4064,7 @@ line-height: 40px;
 		}
 	}
 }
-.belonging .gobuy a:hover{
+ .gobuy a:hover{
 	text-decoration: none;
 	background-color: #ff3300;
 }
@@ -4345,7 +4342,7 @@ line-height: 40px;
 
 	.msg{
 		width:340px;
-		padding: 100px 0;
+		padding: 50px 0;
 		padding-left: 150px;
 		margin:0px auto;
 		background: url("../images/yun.jpg") no-repeat 0 center;
@@ -6191,6 +6188,30 @@ background: #f33f00;
 	}
 
 }
+
+
+.shopping-pay-box{
+	h3{font:14px bolder;margin:10px 0;}
+	a#confirmPay{width:350px;}
+	.pay-content{
+		width:1114px;
+		border:8px solid #f2f2f2;
+		padding:30px 25px;
+		height:35px;
+
+		
+		
+		.pay-form{
+			float: left; width: 130px;height: 40px;position: relative;
+			margin-right: 10px;
+			input{position: absolute;top:10px;left:0px;}
+			img{position: absolute;top:0px; right:10px;}
+		}
+		img{width: 95px;height: 31px;}
+	}
+}
+
+
 
 
 

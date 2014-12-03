@@ -68,6 +68,24 @@
 			</div>	
 		</div>
 
+		<div class="shopping-pay-box">
+            <h3 class="pay-title">请选择支付方式</h3>
+            <div class="pay-content form">
+               <div class="pay-form">
+                  <input type="radio" name="radio" id="radio" value="radio">
+                  <img src="images/zhifub.png">
+               </div>
+               <div class="pay-form">
+                  <input type="radio" name="radio" id="radio" value="radio">
+                  <img src="images/zxzf.png">
+               </div>
+           </div>
+           <div class="row gobuy mt12">
+           		<a href="javascript:;" class="" id="confirmPay">确认支付</a>
+           	</div>
+           
+         </div>
+
 	</div>
 </div>
 
