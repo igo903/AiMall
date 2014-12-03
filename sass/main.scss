@@ -5994,7 +5994,7 @@ background: #f33f00;
 
 
 .paycosttitle{ height:76px; border-top:1px solid #d7d7d7;}
-.paycosttitle .titleleft{ float:left; width:140px; background:url(../images/g_icon.png) no-repeat 16px -923px;height:76px; line-height:76px; padding-left:80px; font-size:14px; color:#666; font-weight:bold;}
+.paycosttitle .titleleft{ float:left; width:140px; background:url("../images/t.png") no-repeat 15px 12px;height:76px; line-height:76px; padding-left:80px; font-size:14px; color:#666; font-weight:bold;}
 .paycosttitle .titleright{ float:right; width:450px; height:64px; padding-top:12px;}
 .paycosttitle .titleright li{display: list-item; float:left;width:165px; margin-right:7px; position:relative; text-align:center;}
 .paycosttitle .titleright li .node{ width:28px; height:28px; background:url(../images/process.jpg) no-repeat -134px -30px;   margin:0 auto;}
@@ -6027,9 +6027,23 @@ background: #f33f00;
 .payyoucan{border-bottom:1px dashed #d3d3d3; height:50px; line-height:50px; padding-left:20px;}
 .payyoucan a{ text-decoration:underline; margin:0 10px;}
 
-.paycostcont .paycostcontbtn{ margin:20px 0 0 140px;}
-.paycostcont .paycostcontbtn a{ margin-right:10px;overflow:hidden; float:left;}
-.paycostcont .paycostcontbtn a.btn05{ overflow:hidden; float:left;}
+.paycostcont .paycostcontbtn {
+	margin: 20px 0 0 140px;
+
+	a {
+		@include btnred();
+		width: 150px;
+		height: 30px;
+		line-height: 30px;
+		overflow: hidden;
+		float: left;
+		&:hover{
+			@include btnredhover();
+		}
+	}
+}
+ 
+
 .payconsthint{ padding-bottom:20px;}
 .payconsthint .hinttitile{ color:#0066cc; font-style:14px; margin:20px 0 10px 15px;}
 .payconsthint p{ line-height:30px; margin-left:20px; color:#666;}

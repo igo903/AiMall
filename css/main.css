@@ -6233,7 +6233,7 @@ a.delbtns:hover {
 .paycosttitle .titleleft {
   float: left;
   width: 140px;
-  background: url(../images/g_icon.png) no-repeat 16px -923px;
+  background: url("../images/t.png") no-repeat 15px 12px;
   height: 76px;
   line-height: 76px;
   padding-left: 80px;
@@ -6447,16 +6447,21 @@ a.delbtns:hover {
 .paycostcont .paycostcontbtn {
   margin: 20px 0 0 140px;
 }
-
 .paycostcont .paycostcontbtn a {
-  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  background: #ff5500;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
   overflow: hidden;
   float: left;
 }
-
-.paycostcont .paycostcontbtn a.btn05 {
-  overflow: hidden;
-  float: left;
+.paycostcont .paycostcontbtn a:hover {
+  background: #ff3300;
 }
 
 .payconsthint {

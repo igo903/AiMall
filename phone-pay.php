@@ -108,7 +108,7 @@
 			                    
 			             	</ul>
 			             	<div class="paycostcontbtn">
-			                	<a href="#" class="btn05">下一步</a>
+			                	<a href="#">下一步</a>
 			             	</div>
 			          	</div>
               
