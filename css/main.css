@@ -2688,6 +2688,9 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin: 40px 0 40px 40px;
   overflow: hidden;
 }
+.management-panel .right-col .my-side .ui-form-item {
+  position: relative;
+}
 .management-panel .right-col .my-side .ui-input {
   width: 320px;
 }
@@ -2707,6 +2710,16 @@ a.btn.disabled:hover, .btn.disabled:hover {
 }
 .management-panel .right-col .my-side .sidebtn:hover {
   background: #ff3300;
+}
+.management-panel .right-col .my-side .form-prompt {
+  position: absolute;
+  left: 520px;
+  top: 0px;
+  width: 300px;
+  background: #ffebec url("../images/formprompt.jpg") no-repeat 10px 10px;
+  border: 1px solid #ffbdbf;
+  padding: 7px 9px 7px 30px;
+  color: #666;
 }
 
 .yestable {
@@ -6404,7 +6417,7 @@ a.delbtns:hover {
 }
 
 .paycostcontok {
-  background: url("../images/yun2.jpg") no-repeat 200px 50px #f9f9f9;
+  background: url("../images/yun.jpg") no-repeat 200px 50px #f9f9f9;
   border: 1px dashed #d3d3d3;
   border-left: 0px;
   border-right: 0px;

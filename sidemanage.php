@@ -91,6 +91,7 @@
 								                <span class="ui-form-required">*</span>收货人：
 								            </label>
 								            <input class="ui-input" type="text"> <span class="ui-form-other"></span>
+								            <div class="form-prompt">错误提示</div>
 								        </div>
 
 								        <div class="ui-form-item">

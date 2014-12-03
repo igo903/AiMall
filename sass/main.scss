@@ -2537,6 +2537,10 @@ a.btn, .btn{
 			margin: 40px 0 40px 40px;
 			overflow: hidden;
 
+			.ui-form-item{
+				position: relative;
+			}
+
 			.ui-input{
 				 width: 320px;	
 			}
@@ -2552,6 +2556,16 @@ a.btn, .btn{
 				&:hover{
 					@include btnredhover();
 				}
+			}
+			.form-prompt{
+				position: absolute;
+				left: 520px;
+				top: 0px;
+				width: 300px;
+				background:#ffebec url("../images/formprompt.jpg") no-repeat 10px 10px;
+				border: 1px solid #ffbdbf;
+				padding: 7px 9px 7px 30px;
+				color: #666;
 			}
 		}
 	}
@@ -6019,7 +6033,7 @@ background: #f33f00;
 .paycostcont li .inputright .paytext .paytextmoney{ font-size:24px; color:#ff0000;}
 .paycostcont li .inputright .paytext .paytextnumber{ font-size:18px; color:#333; margin-right:15px;}
 
-.paycostcontok{ background:url("../images/yun2.jpg") no-repeat 200px 50px #f9f9f9;border:1px dashed #d3d3d3; border-left:0px; border-right:0px; padding:70px 0 30px 350px;}
+.paycostcontok{ background:url("../images/yun.jpg") no-repeat 200px 50px #f9f9f9;border:1px dashed #d3d3d3; border-left:0px; border-right:0px; padding:70px 0 30px 350px;}
 .paycostcontok p{ margin-bottom:20px;}
 .paycostcontok .okhint1{ font-size:18px; color:#35a539; font-weight:bold;}
 .paycostcontok .okhint2 span{ margin:0 20px; color:#999;}
