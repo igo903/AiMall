@@ -6019,7 +6019,7 @@ background: #f33f00;
 .paycostcont li .inputright .paytext .paytextmoney{ font-size:24px; color:#ff0000;}
 .paycostcont li .inputright .paytext .paytextnumber{ font-size:18px; color:#333; margin-right:15px;}
 
-.paycostcontok{ background:url(../images/yun2.jpg) no-repeat 200px 50px #f9f9f9;border:1px dashed #d3d3d3; border-left:0px; border-right:0px; padding:70px 0 30px 350px;}
+.paycostcontok{ background:url("../images/yun2.jpg") no-repeat 200px 50px #f9f9f9;border:1px dashed #d3d3d3; border-left:0px; border-right:0px; padding:70px 0 30px 350px;}
 .paycostcontok p{ margin-bottom:20px;}
 .paycostcontok .okhint1{ font-size:18px; color:#35a539; font-weight:bold;}
 .paycostcontok .okhint2 span{ margin:0 20px; color:#999;}
@@ -6037,6 +6037,7 @@ background: #f33f00;
 		line-height: 30px;
 		overflow: hidden;
 		float: left;
+		margin-right: 20px;
 		&:hover{
 			@include btnredhover();
 		}

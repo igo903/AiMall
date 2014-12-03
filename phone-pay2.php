@@ -90,7 +90,7 @@
 		                    </li>
 		                 </ul>
 		                 <div class="paycostcontbtn">
-		                   <a href="#">下一步</a>
+		                   <a href="phone-pay3.php">下一步</a>
 		                 </div>
 		              </div>
 		              

@@ -65,52 +65,38 @@
 			          	</div>
               
 			          	<div class="paycostcont">
-			         		<ul>
-			                	<li>
+		                 	<ul>
+			                    <li>
 			                       	<div class="inputleft">交费号码：</div>
 			                       	<div class="inputright">
-			                            <input name="textfield2" type="text" class="inputpay" id="textfield" value="请输入您要充值的手机号码" />
-			                       	</div>
-			                    </li>
-			                    <li>
-			                       <div class="inputleft">支付方式：</div>
-			                       <div class="inputright">
-			                          	<input name="radio" type="radio" class="radioleft" id="radio" value="radio" checked="checked" />
-			                          	<label for="radio" class="radioright">在线支付 <span>（通过网银、支付宝账号等支付）</span></label>
-			                              
-			                         	<input name="radio" type="radio" class="radioleft" id="radio" value="radio" />
-			                         	<label for="radio" class="radioright">充值卡充值 <span> （通过购买的联通充值卡密码充值）</span></label>
-
+			                            <div class="paytext"><span class="paytextnumber">186 8888 8888</span><span class="font_gray6">南京</span></div> 
 			                       	</div>
 			                    </li>
 			                    <li>
 			                       	<div class="inputleft">交费金额：</div>
 			                       	<div class="inputright">
-			                    		<div class="paymoney">20元</div>
-			                            <div class="paymoney moneyactive">30元</div>
-			                            <div class="paymoney">50元</div>
-			                            <div class="paymoney">100元</div>
-			                            <div class="paymoney">300元</div>
-			                            
-			                            <div class="payelse">
-			                                <div class="else">其他</div>
-			                                <input name="textfield2" type="text" class="elseinput" id="textfield" />
-			                                元
-			                            </div>
+			                            <div class="paytext"><span class="paytextmoney">100.00</span> 元</div> 
 			                       	</div>
 			                    </li>
 			                    <li>
-			                       	<div class="inputleft">支付金额：</div>
+			                       	<div class="inputleft">交费金额：</div>
 			                       	<div class="inputright">
-			                        	<div class="paytext"><span class="paytextmoney">98.5</span> 元  （节省1.5元）</div> 
+			                            <div class="paytext font_blue">充值卡充值</div> 
+			                       </div>
+			                    </li>
+			                    <li>
+			                       	<div class="inputleft">订单号：</div>
+			                       	<div class="inputright">
+			                            <div class="paytext font_blue">10233333776522</div> 
 			                       	</div>
-			                	</li>
+			                    </li>
 			                    
-			             	</ul>
-			             	<div class="paycostcontbtn">
-			                	<a href="phone-pay2.php">下一步</a>
-			             	</div>
-			          	</div>
+		                 	</ul>
+		                 	<div class="paycostcontbtn">
+			                   	<a href="phone-pay2.php" >上一步</a>
+			                   	<a href="phone-pay4.php" >确认交费</a>
+		                 	</div>
+		              	</div>
               
 			          	<div class="payconsthint">
 			               <div class="hinttitile">温馨提示：</div>

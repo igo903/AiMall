@@ -6404,7 +6404,7 @@ a.delbtns:hover {
 }
 
 .paycostcontok {
-  background: url(../images/yun2.jpg) no-repeat 200px 50px #f9f9f9;
+  background: url("../images/yun2.jpg") no-repeat 200px 50px #f9f9f9;
   border: 1px dashed #d3d3d3;
   border-left: 0px;
   border-right: 0px;
@@ -6459,6 +6459,7 @@ a.delbtns:hover {
   line-height: 30px;
   overflow: hidden;
   float: left;
+  margin-right: 20px;
 }
 .paycostcont .paycostcontbtn a:hover {
   background: #ff3300;
