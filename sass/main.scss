@@ -292,6 +292,8 @@ i{font-style: normal;}
 			z-index: 100;
 			overflow: hidden;
 			padding:5px 0;
+			
+			.selected{background:#f8f8f8;}
 
 			.hint{
 				@include lh25();
@@ -303,10 +305,6 @@ i{font-style: normal;}
 				height: 25px;line-height: 25px;
 				padding-left: 10px;
 				position: relative;
-
-				&.selected{
-					background:#f8f8f8;
-				}
 
 				i{
 					position: absolute;
@@ -960,8 +958,8 @@ i{font-style: normal;}
 .notice .ui-switchable-content li{
 	height: 25px;
 	line-height: 25px;
-	list-style-type: disc;
-	list-style-position: inside;
+	/*list-style-type: disc;
+	list-style-position: inside;*/
 	width: 252px;
 	overflow: hidden;
 }
@@ -1100,6 +1098,12 @@ i{font-style: normal;}
 	margin-left: -1px;
 	margin-top: -1px;
 	overflow: hidden;
+
+	.p-img{
+		width: 210px;
+		height: 184px;
+		overflow: hidden;
+	}
 }
 .channel-item:hover{
 	
@@ -1408,6 +1412,7 @@ i{font-style: normal;}
 }
 .direct-buy .right-col .row .again{
 	margin-left: 10px;
+	cursor:pointer;
 }
 .direct-buy .right-col .row.moreinfo .m{
 	padding: 5px 0 5px 10px;
@@ -1958,6 +1963,12 @@ a.btn, .btn{
 .channel-item.innove{
 	position: relative;
 	height: 170px;
+
+	.p-img{
+		width: 80px;
+		height: 80px;
+		overflow: hidden;
+	}
 
 }
 .channel-item.innove h3{
@@ -2932,8 +2943,7 @@ line-height: 40px;
 .mycartbox .mycart-remind{ 
 	margin-top:15px; 
 	overflow:hidden;
-	float:left; 
-	clear:both; 
+	height: 30px;
 	width:100%;
 	position: relative;
 }

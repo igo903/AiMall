@@ -78,8 +78,8 @@
 							<div class="autocomplete-panel">
 								<ul>
 									<li><a href="javascript:;">手机套</a><i>约有6789个商品</i></li>
-									<p>在<a href="javascript:;" class="ai">手机</a>分类中搜索<i>约有29876个商品</i></p>
-									<li class="selected"><a href="javascript:;">手机壳</a><i>约有29876个商品</i></li>
+									<li class="selected"><p>在<a href="javascript:;" class="ai">手机</a>分类中搜索<i>约有29876个商品</i></p></li>
+									<li class=""><a href="javascript:;">手机壳</a><i>约有29876个商品</i></li>
 									<li><a href="javascript:;">手机套</a><i>约有6789个商品</i></li>
 									<li><a href="javascript:;">手机挂绳</a><i>约有6234个商品</i></li>
 									<li><a href="javascript:;">手机贴膜</a><i>约有789个商品</i></li>
