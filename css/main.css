@@ -2358,6 +2358,9 @@ a.btn.disabled:hover, .btn.disabled:hover {
   line-height: 36px;
   font-weight: bold;
 }
+.management-panel .right-col .yestable {
+  background-color: #fffaf7;
+}
 .management-panel .right-col .evaluate {
   /*评价管理*/
   margin: 25px 0 0 25px;
@@ -2724,26 +2727,19 @@ a.btn.disabled:hover, .btn.disabled:hover {
   padding: 7px 9px 7px 30px;
   color: #666;
 }
-
-.yestable {
-  background-color: #fffaf7;
-}
-
-.myon-box {
+.management-panel .right-col .myon-box {
   border-bottom: 1px dashed #f0f0f0;
   margin: 20px 10px;
   clear: both;
   width: 980px;
 }
-
-.myon_tab_menu {
+.management-panel .right-col .myon-box .myon_tab_menu {
   clear: both;
   padding-left: 1px;
   border-bottom: 1px solid #e7e7e7;
   height: 35px;
 }
-
-.myon_tab_menu li {
+.management-panel .right-col .myon-box .myon_tab_menu li {
   float: left;
   text-align: center;
   cursor: pointer;
@@ -2756,12 +2752,10 @@ a.btn.disabled:hover, .btn.disabled:hover {
   line-height: 34px;
   margin-bottom: -1px;
 }
-
-.myon_tab_menu li.hover {
+.management-panel .right-col .myon-box .myon_tab_menu li.hover {
   background: #DFDFDF;
 }
-
-.myon_tab_menu li.selected {
+.management-panel .right-col .myon-box .myon_tab_menu li.selected {
   color: #f33f00;
   background: #fff;
   border-top: 2px solid #f33f00;
@@ -2769,41 +2763,33 @@ a.btn.disabled:hover, .btn.disabled:hover {
   border-bottom: 0px;
   height: 36px;
 }
-
-.myon_tab_box {
+.management-panel .right-col .myon-box .myon_tab_box {
   clear: both;
 }
-
-.myon_tab_box .tabdiv {
-  overflow: hidden;
-}
-
-.myon_tab_box td {
+.management-panel .right-col .myon-box .myon_tab_box td {
   border: 1px solid #eaeef1;
 }
-
-.myon_tab_box .myon_retrieve {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv {
+  overflow: hidden;
+}
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .myon_retrieve {
   overflow: hidden;
   margin: 25px 0;
 }
-
-.myon_tab_box .myon_retrieve label {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .myon_retrieve label {
   margin-left: 30px;
 }
-
-.myon_tab_box .myon_retrieve .retrieveinput1 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .myon_retrieve .retrieveinput1 {
   height: 24px;
   border: 1px solid #d7d7d7;
   padding: 0 0 0 10px;
 }
-
-.myon_tab_box .myon_retrieve .retrieveselect {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .myon_retrieve .retrieveselect {
   width: 105px;
   height: 25px;
   border: 1px solid #d7d7d7;
 }
-
-.myon_tab_box .myon_retrieve .retrievebtn {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .myon_retrieve .retrievebtn {
   background: url("../images/retrievebtn.png") no-repeat 10px 2px;
   width: 70px;
   height: 26px;
@@ -2812,108 +2798,94 @@ a.btn.disabled:hover, .btn.disabled:hover {
   cursor: pointer;
   margin-left: 10px;
 }
-
-.myon_tab_box .myon_retrieve .retrievebtn:hover {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .myon_retrieve .retrievebtn:hover {
   background-color: #CCC;
 }
-
-.address-thead {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont {
+  overflow: hidden;
+  margin: 20px 0;
+}
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont td {
+  border: 1px solid #eaeef1;
+}
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead {
   background-color: #f9f9f9;
   height: 35px;
 }
-
-.address-thead .on1 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on1 {
   width: 180px;
   text-align: center;
 }
-
-.address-thead .on2 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on2 {
   width: 184px;
   text-align: center;
 }
-
-.address-thead .on3 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on3 {
   width: 97px;
   text-align: center;
 }
-
-.address-thead .on4 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on4 {
   width: 121px;
   text-align: center;
 }
-
-.address-thead .on5 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on5 {
   width: 135px;
   text-align: center;
 }
-
-.address-thead .on6 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on6 {
   width: 132px;
   text-align: center;
 }
-
-.address-thead .on7 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on7 {
   width: 123px;
   text-align: center;
 }
-
-.address-thead .on8 {
-  width: 180px;
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on8 {
+  width: 190px;
   text-align: center;
 }
-
-.address-thead .on9 {
-  width: 132px;
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-thead .on9 {
+  width: 100px;
   text-align: center;
 }
-
-.address-table {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table {
   background-color: #fff;
 }
-
-.address-table td {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table td {
   line-height: 25px;
   padding: 20px 0;
 }
-
-.address-table .on1 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on1 {
   width: 180px;
   text-align: center;
 }
-
-.address-table .on2 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on2 {
   width: 184px;
   text-align: center;
 }
-
-.address-table .on3 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on3 {
   width: 97px;
   text-align: center;
 }
-
-.address-table .on4 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on4 {
   width: 121px;
   text-align: center;
   word-break: break-all;
   word-wrap: break-word;
 }
-
-.address-table .on5 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on5 {
   width: 135px;
   text-align: center;
 }
-
-.address-table .on6 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on6 {
   width: 132px;
   text-align: center;
 }
-
-.address-table .on7 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on7 {
   width: 123px;
   text-align: center;
 }
-
-.address-table .on7 a {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on7 a {
   display: block;
   width: 70px;
   height: 25px;
@@ -2922,38 +2894,32 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin: 0 auto;
   color: #333;
 }
-
-.address-table .on7 a:hover {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on7 a:hover {
   background-color: #CCC;
   color: #fff;
 }
-
-.address-table .on8 {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on8 {
   width: 180px;
   text-align: center;
+  padding-left: 10px;
 }
-
-.address-table .on9 {
-  width: 132px;
-  text-align: center;
-}
-
-.address-table .on8-align {
-  text-align: left;
-}
-
-.address-table .on8 span.l {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on8 span .l {
   width: 65px;
   float: left;
   text-align: right;
 }
-
-.address-table .on8 span.r {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on8 span .r {
   width: 110px;
   float: left;
 }
-
-.address-table a.reblink {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on9 {
+  width: 100px;
+  text-align: center;
+}
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table .on8-align {
+  text-align: left;
+}
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table a.reblink {
   width: 68px;
   height: 23px;
   overflow: hidden;
@@ -2961,76 +2927,11 @@ a.btn.disabled:hover, .btn.disabled:hover {
   clear: both;
   background-color: #f33f00;
   color: #fff;
-  margin: 0 0 0 56px;
+  margin: 0 0 0 25px;
+  text-decoration: none;
 }
-
-.address-table a.reblink:hover {
+.management-panel .right-col .myon-box .myon_tab_box .tabdiv .address-cont .address-table a.reblink:hover {
   background-color: #cc3300;
-}
-
-#unsubscribebox {
-  position: absolute;
-  width: 540px;
-  border: 5px solid #c2c2c2;
-  background: #fff;
-  display: none;
-  padding-bottom: 30px;
-  z-index: 101;
-}
-
-#unsubscribebox .detailtit {
-  height: 40px;
-  border-bottom: 1px solid #f2f2f2;
-  display: block;
-  border-top: 2px solid #f33f00;
-}
-
-#unsubscribebox .detailtit span {
-  float: left;
-  line-height: 40px;
-  padding: 0 8px;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: "微软雅黑";
-}
-
-#unsubscribebox .detailtit i {
-  float: right;
-  margin: 5px 5px;
-  background: url(../images/thickbox_close.png) no-repeat;
-  width: 23px;
-  height: 23px;
-  text-indent: -9999px;
-  cursor: pointer;
-}
-
-#unsubscribebox .enterbox {
-  margin: 10px 75px 20px;
-}
-
-#unsubscribebox .enterbox .pli {
-  overflow: hidden;
-  line-height: 35px;
-}
-
-#unsubscribebox .enterbox .pli-l {
-  width: 60px;
-  float: left;
-  margin-right: 5px;
-}
-
-#unsubscribebox .enterbox .pli-r {
-  float: left;
-}
-
-#unsubscribebox .enterlink {
-  margin: 0 0 0 130px;
-  overflow: hidden;
-}
-
-#unsubscribebox .enterlink a {
-  float: left;
-  margin-right: 10px;
 }
 
 .passwordmanage {

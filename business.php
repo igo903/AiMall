@@ -49,8 +49,8 @@
 			                                      	<td class="on8">业务信息</td>
 			                                      	<td class="on9">办理时间</td>
 			                                      	<td class="on9">操作</td>
-			                                      	<td class="on8">受理结果</td>
-			                                      	<td class="on8">备注</td>
+			                                      	<td class="on9">受理结果</td>
+			                                      	<td class="on9">备注</td>
 			                                    </tr>
 		                                  	</table>
 		                                  	<div class="address-body">
@@ -66,8 +66,8 @@
 			                                              	</td>
 			                                              	<td class="on9">2014年8月12日</td>
 			                                              	<td class="on9">订购</td>
-			                                              	<td class="on8">开通处理中</td>
-			                                              	<td class="on8">-----------</td>
+			                                              	<td class="on9">开通处理中</td>
+			                                              	<td class="on9">-----------</td>
 			                                            </tr>
 			                                       </table>
 		                                     	</div> 
@@ -83,8 +83,8 @@
 			                                              	</td>
 			                                              	<td class="on9">2014年8月12日</td>
 			                                              	<td class="on9">订购</td>
-			                                              	<td class="on8">开通成功</td>
-			                                              	<td class="on8">-----------</td>
+			                                              	<td class="on9">开通成功</td>
+			                                              	<td class="on9">-----------</td>
 			                                            </tr>
 			                                       	</table>
 		                                     	</div>  
@@ -100,8 +100,8 @@
 			                                              	</td>
 			                                              	<td class="on9">2014年8月12日</td>
 			                                              	<td class="on9">订购</td>
-			                                              	<td class="on8">开通处理中<p><a class="reblink" href="#">快速充值</a></p></td>
-			                                              	<td class="on8">-----------</td>
+			                                              	<td class="on9">开通处理中<p><a class="reblink" href="#">快速充值</a></p></td>
+			                                              	<td class="on9">-----------</td>
 			                                            </tr>
 			                                       	</table>
 		                                     	</div> 
