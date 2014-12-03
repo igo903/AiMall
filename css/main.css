@@ -299,7 +299,6 @@ i {
   top: 32px;
   left: 0;
   width: 414px;
-  height: 280px;
   background: #fff;
   border: 2px solid #ff5500;
   z-index: 100;
@@ -4248,6 +4247,35 @@ a.btn.disabled:hover, .btn.disabled:hover {
 }
 .overlay_content div.white .wrapper {
   padding: 20px;
+  display: inline-block;
+}
+.overlay_content div.white .wrapper .box-hint {
+  text-align: center;
+  width: 223px;
+  height: 100px;
+  line-height: 80px;
+  border: 1px solid #efefef;
+  float: left;
+  margin: 0px 0px 0px 0px;
+  font-size: 16px;
+  position: relative;
+}
+.overlay_content div.white .wrapper .box-hint i {
+  margin-right: 5px;
+}
+.overlay_content div.white .wrapper .box-hint.pass {
+  margin-right: 5px;
+  color: green;
+}
+.overlay_content div.white .wrapper .box-hint.fail {
+  margin-left: 5px;
+}
+.overlay_content div.white .wrapper .box-hint a {
+  position: absolute;
+  top: 50px;
+  left: 76px;
+  line-height: 22px;
+  font-size: 12px;
 }
 .overlay_content div.white .wrapper .drops {
   width: 100%;
@@ -4442,6 +4470,33 @@ a.btn.disabled:hover, .btn.disabled:hover {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
+}
+.reg-cont .msg {
+  width: 340px;
+  padding: 100px 0;
+  padding-left: 150px;
+  margin: 0px auto;
+  background: url("../images/yun.jpg") no-repeat 0 center;
+}
+.reg-cont .msg h2 {
+  font-size: 16px;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.reg-cont .msg h3 {
+  margin-bottom: 5px;
+}
+.reg-cont .msg p {
+  font-weight: bold;
+}
+.reg-cont h1 {
+  position: absolute;
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  top: -30px;
+  right: 0px;
 }
 .reg-cont .reg-login {
   position: absolute;

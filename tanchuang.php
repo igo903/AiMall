@@ -520,6 +520,28 @@
 				</div>
 
 
+				<!--付款确认-->
+				<div id="switchPayConfirm" class="belonging overlay_content" style="display:block; position: relative; top:0px;">
+					<div class="close_overlay"><a href="javascript:;"></a></div>
+					<div class="white">
+						<div class="">
+							<h1>付款确认</h1>
+							<div class="wrapper">
+								<div class="box-hint pass">
+									<p><i class="fa fa-check-circle fa-lg"></i>已完成支付</p>
+									<a href="javascript:;">查看订单详情</a>
+								</div>
+								<div class="box-hint fail">
+									<p><i class="fa fa-close fa-lg"></i>支付遇到问题</p>
+									<a href="javascript:;">查看支付帮助</a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 
 </div>
 
