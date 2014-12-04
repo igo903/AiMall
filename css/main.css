@@ -2604,6 +2604,16 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin-left: 25px;
   margin-right: 25px;
 }
+.management-panel .right-col .mycllect .mycllect-null .tips {
+  height: 100px;
+  background: url("../images/icon2.png") 400px 0 no-repeat;
+  text-align: left;
+  text-indent: 500px;
+  line-height: 78px;
+  font-size: 18px;
+  color: #666;
+  margin-top: 45px;
+}
 .management-panel .right-col .address-box {
   border-bottom: 1px dashed #f0f0f0;
   margin: 0 10px;

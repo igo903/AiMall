@@ -1,0 +1,66 @@
+.time-buy {
+  margin-top: 10px;
+}
+.time-buy .bread-nav {
+  height: 30px;
+  line-height: 30px;
+}
+.time-buy .time-box {
+  overflow: hidden;
+}
+.time-buy .time-box .time-fl {
+  width: 120px;
+  float: left;
+}
+.time-buy .time-box .time-fl .time-logo {
+  height: 40px;
+  padding: 80px 0 0 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background: #ff5500 url("../images/timelogo.png") no-repeat 40px 30px;
+}
+.time-buy .time-box .time-fl .time-nav {
+  background-color: #34353a;
+}
+.time-buy .time-box .time-fl .time-nav li {
+  height: 35px;
+  line-height: 35px;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.time-buy .time-box .time-fl .time-nav li a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.time-buy .time-box .time-fl .time-nav li:hover {
+  background-color: #666;
+}
+.time-buy .time-box .time-fl .time-nav li.t-hover {
+  background-color: #666;
+}
+.time-buy .time-box .time-fr {
+  float: left;
+  width: 1044px;
+  height: 100px;
+  padding-left: 25px;
+  border-top: 2px solid #f33f00;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.time-buy .time-box .time-fr .time-title {
+  height: 27px;
+  background: url("../images/timetitlebj.jpg") repeat-x;
+}
+.time-buy .time-box .time-fr .time-title .t-title01, .time-buy .time-box .time-fr .time-title .t-title02, .time-buy .time-box .time-fr .time-title .t-title03 {
+  background: url("../images/time-icon.png") no-repeat 0 0 #fff;
+  height: 25px;
+}
+.time-buy .time-box .time-fr .time-title .t-title02 {
+  background-position: 0 46px;
+}
+.time-buy .time-box .time-fr .time-title .t-title03 {
+  background-position: 0 92px;
+}

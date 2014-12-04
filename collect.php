@@ -165,6 +165,10 @@
 									</div>
 								</div>
 
+								<div class="mycllect-null">
+									<p class="tips">尚未收藏</p>
+								</div>
+
 								<div class="ui-paging row fn-right" id="pagination">
 								    <a href="#" class="ui-paging-prev">
 								        <i class="iconfont" title="左三角形">&#xF039;</i> 上一页
@@ -185,6 +189,7 @@
 								    <span class="ui-paging-which"><input name="some_name" value="6" type="text"></span>
 								    <a class="ui-paging-info ui-paging-goto" href="#">跳转</a>
 								</div>
+
 							</div>
 						</div>
 					</div>

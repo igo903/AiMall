@@ -2436,6 +2436,20 @@ a.btn, .btn{
 		.mycllect{
 			margin-left: 25px;
 			margin-right: 25px;
+
+			.mycllect-null{
+
+				.tips {
+					height: 100px;
+					background: url("../images/icon2.png") 400px 0 no-repeat;
+					text-align: left;
+					text-indent: 500px;
+					line-height: 78px;
+					font-size: 18px;
+					color: #666;
+					margin-top: 45px;
+				}
+			}
 		}
 
 		.address-box {
