@@ -2302,6 +2302,10 @@ a.btn, .btn{
 									height:16px;
 									background:url("../images/evaluatestar.png") 0 -16px no-repeat; 
 									margin-right:7px;
+
+									&.red-star{
+										background-position: 0px 0px;
+									}
 								}
 							}
 

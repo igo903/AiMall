@@ -53,7 +53,7 @@
 			                               	<span class="label"><em>*</em>评分：</span>
 			                                <div class="fl">
 			                                    <div class="wrapper">
-			                                        <a class="stara" ></a>
+			                                        <a class="stara red-star" ></a>
 			                                        <a class="stara" ></a>
 			                                        <a class="stara" ></a>
 			                                        <a class="stara" ></a>

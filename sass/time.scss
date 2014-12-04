@@ -7,6 +7,7 @@
 	}
 	.time-box{
 		overflow: hidden;
+		background:url("../images/timeleft.jpg") repeat-y 0 0;
 
 		.time-fl{
 			width: 120px;
@@ -46,12 +47,9 @@
 			}
 
 		}
-
-
 		.time-fr{
 			float: left;
 			width: 1044px;
-			height: 100px;
 			padding-left: 25px;
 			border-top: 2px solid #f33f00;
 			border-right: 1px solid #eee;
@@ -59,22 +57,133 @@
 
 			.time-title{
 				height: 27px;
-				background:url("../images/timetitlebj.jpg") repeat-x ;
+				margin-top: 20px;
+				background:url("../images/timetitlebj.jpg") repeat-x 0 4px;
+				margin-right: 33px;
 
 				.t-title01{
 					background:url("../images/time-icon.png") no-repeat 0 0 #fff;
-					height: 25px;
+					height: 27px;
+					width: 80px;
 
 				}
 				.t-title02{
 					@extend .t-title01; 
-					background-position: 0 46px;
+					background-position: 0 -46px;
 				}
 				.t-title03{
 					@extend .t-title01; 
-					background-position: 0 92px;
+					background-position: 0 -92px;
 				}
 			}
+			
+			.time-list{
+				overflow: hidden;
+				margin: 20px 0;
+
+				.time-item{
+					float: left;
+					width: 318px;
+					height: 378px;
+					float: left;
+					border: 1px solid #e8e8e8;
+					position: relative;
+					margin-right: 25px;
+
+					.t-img{
+						width: 318px;
+						height: 210px;
+						overflow: hidden;
+						text-align: center;
+						
+						img{
+							width: 200px;
+							height: 200px;
+						}
+					}
+					.t-name{
+						margin: 0 15px;
+
+						h4{
+							margin: 0 0px 6px;
+							color: #333;
+						}
+						h3{
+							
+							font-size: 12px;
+							line-height: 16px;
+							padding: 0;
+							color: #999;
+						}
+					}
+					.t-price{
+						overflow: hidden;
+						height: 40px;
+						padding: 0 10px;
+						position: relative;
+
+						.tPrice{
+							font-size: 13px;
+							color: #ff5500;
+							height: 36px;
+							padding-top: 5px;
+							margin-top: 10px;
+
+							.tnum {
+								font-size: 26px;
+								font-weight: bold;
+								line-height: 1;
+							}
+							.original{
+								color: #666;
+							}
+						}
+						.tcart {
+							position: absolute;
+							right: 20px;
+							bottom: 0px;
+							width: 80px;
+							height: 25px;
+							line-height: 25px;
+							color: #fff;
+						  	text-align: center;
+							background: #ff5500;				
+							border-radius: 3px;
+							text-align: center;	
+							text-decoration: none;
+
+							&:hover{
+								background: #ff3300;
+							}
+						}
+					}
+					.t-available{
+						margin: 20px 10px 0;
+						color: #666;
+
+						span{
+							color: #ff0000;
+						}
+					}
+
+					.t-time{
+						height: 40px;
+						line-height: 40px;
+						background-color: #e8e8e8;
+						position: absolute;
+						bottom: 0px;
+						left: 0px;
+						width: 288px;
+						padding: 0 15px;
+						font-size: 14px;
+
+						span{
+							color:#ff0000;
+						}
+					}
+				}
+			}
+
 		}
 
 	}

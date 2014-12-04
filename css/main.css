@@ -2488,6 +2488,9 @@ a.btn.disabled:hover, .btn.disabled:hover {
   background: url("../images/evaluatestar.png") 0 -16px no-repeat;
   margin-right: 7px;
 }
+.management-panel .right-col .evaluate .writing .writing-text .item .fl .wrapper .stara.red-star {
+  background-position: 0px 0px;
+}
 .management-panel .right-col .evaluate .writing .writing-text .item .fl .tips-list {
   display: block;
   width: 700px;

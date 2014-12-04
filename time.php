@@ -37,9 +37,258 @@
 						</div>
 
 						<div class="time-fr">
-							<div class="time-title">
-								<div class="t-title01">
-									
+							<div>
+								<div class="time-title">
+									<div class="t-title01"></div>
+								</div>
+								<div class="time-list">
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>
+
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>
+
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>								
+								</div>
+							</div>
+
+							<div>
+								<div class="time-title">
+									<div class="t-title02"></div>
+								</div>
+								<div class="time-list">
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>
+
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>
+
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>								
+								</div>
+							</div>
+
+							<div>
+								<div class="time-title">
+									<div class="t-title03"></div>
+								</div>
+								<div class="time-list">
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>
+
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>
+
+									<div class="time-item">
+										<div class="t-img">
+											<a href="javascript:;"><img src="images/mobile_xm.jpg" alt=""></a>
+										</div>
+										<div class="t-name">
+					                        <a href="javascript:;" target="_blank">
+					                        	<h4>小米 小米4 4G全国套餐合约机</h4>
+					                        	<h3>5英寸高饱和度屏幕 骁龙801四核2.5GHz</h3>
+					                        </a>
+					                    </div>
+										<div class="t-price">
+						                    <div class="tPrice">
+						                        <span>￥</span>
+						                        <span class="tnum">2119</span>
+						                        <span class="original">￥2819</span>
+						                    </div>					                    
+						                    <a href="javascript:;" target="_blank" class="tcart">立省400元</a>
+						                </div>
+						                <div class="t-available">
+						                	限量<span>100</span>台   每人限购<span>2</span>台
+						                </div>
+										<div class="t-time">
+											剩余时间： <span>1</span> 时 <span>18</span> 分 <span>18</span> 秒
+										</div>
+									</div>								
 								</div>
 							</div>
 						</div>
