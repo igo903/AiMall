@@ -528,14 +528,89 @@
 							<h1>付款确认</h1>
 							<div class="wrapper">
 								<div class="box-hint pass">
-									<p><i class="fa fa-check-circle fa-lg"></i><a href="javascript:;">已完成支付</a></p>
+									<p><i class="fa fa-check-circle fa-lg"></i><a href="javascript:;" class="">已完成支付</a></p>
 									<a href="javascript:;" class="link">查看订单详情</a>
 								</div>
 								<div class="box-hint fail">
-									<p><i class="fa fa-close fa-lg"></i><a href="javascript:;">支付遇到问题</a></p>
+									<p><i class="fa fa-close fa-lg"></i>支付遇到问题</p>
 									<a href="javascript:;" class="link">查看支付帮助</a>
 								</div>
 								
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!--修改收货地址管理-->
+				<div id="switchAddressEdit" class="belonging overlay_content" style="display:block; position: relative; top:0px;">
+					<div class="close_overlay"><a href="javascript:;"></a></div>
+					<div class="white">
+						<div class="">
+							<h1>修改收货地址管理</h1>
+							<div class="wrapper db">
+								
+								<div class="addressEdit-form">
+									<form class="ui-form" name="" method="post" action="#" id="">
+								    	<fieldset>
+								        <div class="ui-form-item">
+								            <label for="" class="ui-label">
+					                            <span class="ui-form-required">*</span>地区：
+					                        </label>
+								            <select id="province" name="province">
+								                <option value="">请选择</option>
+								                <option value="北京">北京</option>
+								                <option value="上海">上海</option>
+								                <option value="天津">天津</option>
+								                <option value="浙江">浙江</option>
+								            </select>
+								            <select id="city" name="city">
+								                <option value="">请选择</option>
+								                <option value="北京">北京</option>
+								                <option value="上海">上海</option>
+								                <option value="天津">天津</option>
+								                <option value="浙江">浙江</option>
+								            </select>
+								            <select id="district" name="district">
+								                <option value="">请选择</option>
+								                <option value="北京">北京</option>
+								                <option value="上海">上海</option>
+								                <option value="天津">天津</option>
+								                <option value="浙江">浙江</option>
+								            </select>
+								        </div>
+
+								        <div class="ui-form-item">
+								            <label for="" class="ui-label"></label>
+											<input class="ui-input" type="text" width="300px">
+								        </div>
+								        <div class="ui-form-item">
+						                   <label for="" class="ui-label">
+					                            <span class="ui-form-required">*</span>配送时间：
+					                        </label>
+											<form>
+												<input type="radio" name="sex" value="male" checked class="radio">不限时间送货
+												<br>
+												<input type="radio" name="sex" value="female" class="radio">仅工作日送货
+												<br>
+												<input type="radio" name="sex" value="female" class="radio">仅双休日、节假日送货
+											</form> 
+
+						                </div>
+								    </fieldset>
+								</form>
+							</div>
+
+
+
+
+
+
+
+								<div class="gobuy one">
+									<a href="javascript:;">确认修改</a>
+									<a href="javascript:;">关闭</a>
+								</div>
 							</div>
 						</div>
 					</div>

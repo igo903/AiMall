@@ -2268,6 +2268,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin-top: 5px;
   float: left;
   word-wrap: break-word;
+  word-break: break-all;
   height: 55px;
   overflow: hidden;
 }
@@ -4493,6 +4494,9 @@ a.btn.disabled:hover, .btn.disabled:hover {
   margin-right: 5px;
   color: green;
 }
+.overlay_content div.white .wrapper .box-hint.pass p a {
+  color: green;
+}
 .overlay_content div.white .wrapper .box-hint.fail {
   margin-left: 5px;
 }
@@ -5092,6 +5096,18 @@ a.delbtns:hover {
 .ui-form-item .btn290:hover {
   background-color: #ff3300;
   text-decoration: none;
+}
+
+.addressEdit-form .radio {
+  margin-right: 5px;
+  height: 25px;
+  line-height: 25px;
+}
+.addressEdit-form .ui-input {
+  width: 200px;
+}
+.addressEdit-form .ui-form-item {
+  padding-bottom: 10px;
 }
 
 .exobox {
@@ -6200,10 +6216,10 @@ a.delbtns:hover {
   top: auto;
   right: auto;
 }
-.process .ui-step-7 li.ui-step-end .iconfont {
+.process .ui-step-7 li.ui-step-done .iconfont {
   color: #38ac01;
 }
-.process .ui-step-7 li.ui-step-end .iconfont.ui-step-number {
+.process .ui-step-7 li.ui-step-done .iconfont.ui-step-number {
   color: #fff;
 }
 
@@ -6217,16 +6233,8 @@ a.delbtns:hover {
   color: #38ac01;
 }
 
-.ui-step .ui-step-active .iconfont.iconred {
-  color: #f33f00;
-}
-
 .ui-step .ui-step-done .ui-step-line.icongreen {
   background: #38ac01;
-}
-
-.ui-step .ui-step-done .ui-step-line.iconred {
-  background: #f33f00;
 }
 
 .details-b {

@@ -2062,6 +2062,7 @@ a.btn, .btn{
 				margin-top:5px;
 				float:left;
 				word-wrap:break-word;
+				word-break: break-all;
 				height: 55px;
 				overflow: hidden;
 			}
@@ -4175,7 +4176,7 @@ line-height: 40px;
 			font-size: 16px;
 			position: relative;
 			i{margin-right: 5px;}
-			&.pass{margin-right: 5px; color:green;}
+			&.pass{margin-right: 5px; color:green; p a{color:green;}}
 			&.fail{margin-left: 5px;}
 			a.link{position: absolute;top:50px;left:76px;line-height: 22px;font-size: 12px;}
 		}
@@ -4734,6 +4735,18 @@ a.delbtns:hover {
 	text-decoration: none;
 }	
 
+.addressEdit-form{
+	.radio{
+		margin-right: 5px;
+		@include lh25()
+	}
+	.ui-input{
+		width:200px;
+	}
+	.ui-form-item{
+		padding-bottom: 10px;
+	}
+}
 
 
 
@@ -5954,11 +5967,11 @@ a.delbtns:hover {
 		position: relative;
 		top: auto;
 		right:auto;
-
+	}
+	&.ui-step-done{
 		.iconfont{color:#38ac01;
 			&.ui-step-number{color:#fff;}
 		}
-
 	}
 
 }
@@ -5972,15 +5985,9 @@ a.delbtns:hover {
 .ui-step .ui-step-done .iconfont.icongreen {
 color: #38ac01;
 }
-.ui-step .ui-step-active .iconfont.iconred {
-color: #f33f00;
-}
-.ui-step .ui-step-done .ui-step-line.icongreen {
-background: #38ac01;
-}
-.ui-step .ui-step-done .ui-step-line.iconred {
-background: #f33f00;
-}
+.ui-step .ui-step-active .iconfont.iconred {}
+.ui-step .ui-step-done .ui-step-line.icongreen {background: #38ac01;}
+.ui-step .ui-step-done .ui-step-line.iconred {}
 
 
 .details-b {
