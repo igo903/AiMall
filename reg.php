@@ -72,7 +72,7 @@
 				            <input id="username" name="username" class="ui-input" type="text" />
 				            <div class="ui-form-explain">默认文案</div>
 				            
-				            <div class="form-prompt">邮箱已被占用	</div>
+				            <div class="form-prompt">该邮箱已存在，立即<a href="javascript:;">登录</a></div>
 				        </div>
 
 				        <div class="ui-form-item">

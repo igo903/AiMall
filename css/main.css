@@ -4750,6 +4750,10 @@ a.btn.disabled:hover, .btn.disabled:hover {
   padding: 7px 9px 7px 30px;
   color: #666;
 }
+.reg-cont .reg-box .form-prompt a {
+  color: #ff5500;
+  margin: 0px 2px;
+}
 .reg-cont .regok {
   margin-top: 20px;
   margin-bottom: 40px;
