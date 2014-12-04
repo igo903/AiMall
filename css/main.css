@@ -6796,3 +6796,8 @@ a.delbtns:hover {
   margin-left: 20px;
   color: #666;
 }
+
+.ui-form-item .ui-form-explain {
+  height: 25px;
+  line-height: 25px;
+}

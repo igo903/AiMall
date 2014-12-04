@@ -6301,3 +6301,9 @@ background: #f33f00;
 .payconsthint{ padding-bottom:20px;}
 .payconsthint .hinttitile{ color:#0066cc; font-style:14px; margin:20px 0 10px 15px;}
 .payconsthint p{ line-height:30px; margin-left:20px; color:#666;}
+
+
+
+.ui-form-item .ui-form-explain{
+	@include lh25();
+}
