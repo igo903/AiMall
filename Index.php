@@ -13,7 +13,7 @@
 					<li><a href="javascript:;">流量专区</a></li>
 					<li><a href="javascript:;">沃云.推荐</a></li>
 					<li><a href="javascript:;">团购</a></li>
-					<li><a href="javascript:;">限时购</a></li>
+					<li><a href="time.php">限时购</a></li>
 				</ul>
 			</div>
 
