@@ -1,7 +1,7 @@
 <div class="left-col">
 	<div class="my-user">
 		<div class="my-img"><img src="images/meimage.jpg" /></div>
-        <div class="my-name">张三张三张三张三张三张三张三张三张三</div>
+        <div class="my-name">saadfasdfadfadfafafasdfadadfadf</div>
 	</div>
 	<div class="my-title">我的沃云</div>
 	<div class="my-link">

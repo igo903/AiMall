@@ -32,6 +32,7 @@
 			
 			<div class="fn-right dropdowns">		
 				<div class="fn-left">
+					<a href="javascript:;" class="" id="shoppingCart"><i class="fa fa-shopping-cart" id=""></i>购物车</a>
 					<a href="javascript:;" id="myMall">我的商城<i class="fa fa-angle-down" id="rm"></i></a>
 					<ul id="popupMyMall" class="fn-hide ui-popup">
 						<li><a href="indent.php">我的订单</a></li>

@@ -214,7 +214,7 @@ i{font-style: normal;}
 }
 .mininavInner i {
 	color: #f33f00;
-	margin-left: 3px;
+	margin: 5px;
 }
 
 
@@ -2061,6 +2061,9 @@ a.btn, .btn{
 				width:74px; 
 				margin-top:5px;
 				float:left;
+				word-wrap:break-word;
+				height: 55px;
+				overflow: hidden;
 			}
 			.my-name2{
 				margin-top:15px;
@@ -5941,13 +5944,21 @@ a.delbtns:hover {
 	}
 }
 
-.process .ui-step-7 li.ui-step-end{
-	width:4%;
-	position: relative;
-	top: auto;
-	right:auto;
+.process .ui-step-7 li{
+	&.ui-step-end{
+		width:4%;
+		position: relative;
+		top: auto;
+		right:auto;
+
+		.iconfont{color:#38ac01;
+			&.ui-step-number{color:#fff;}
+		}
+
+	}
 
 }
+
 
 .ui-step.ui-step-7 li {
     width: 16%;

@@ -92,7 +92,7 @@
 							        </div>
 							    </li>
 
-							    <li class="ui-step-end">
+							    <li class="ui-step-end ui-step-done">
 							        <div class="ui-step-line">-</div>
 							        <div class="ui-step-icon">
 							            <i class="iconfont">&#xf02f;</i>
