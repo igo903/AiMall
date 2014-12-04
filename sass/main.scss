@@ -4140,11 +4140,10 @@ line-height: 40px;
 }
 .overlay_content div.white {
 	background: #FFF;
-	/*padding: 20px;
-	width: 400px;*/
 	.wrapper{
 		padding: 20px;
 		display:inline-block;
+		&.db{display: block;}
 		.box-hint{
 			text-align: center;
 			width: 223px;
@@ -4157,7 +4156,7 @@ line-height: 40px;
 			i{margin-right: 5px;}
 			&.pass{margin-right: 5px; color:green;}
 			&.fail{margin-left: 5px;}
-			a{position: absolute;top:50px;left:76px;line-height: 22px;font-size: 12px;}
+			a.link{position: absolute;top:50px;left:76px;line-height: 22px;font-size: 12px;}
 		}
 
 		.drops{
@@ -5559,7 +5558,11 @@ a.delbtns:hover {
 }
 
 
-
+.domore{
+	font-size: 14px;
+	margin-bottom: 20px;
+	a{margin:0px 5px;}
+}
 
 
 
@@ -5922,6 +5925,14 @@ a.delbtns:hover {
 			}
 		}
 	}
+}
+
+.process .ui-step-7 li.ui-step-end{
+	width:4%;
+	position: relative;
+	top: auto;
+	right:auto;
+
 }
 
 .ui-step.ui-step-7 li {

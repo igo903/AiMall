@@ -68,6 +68,12 @@
 			</div>	
 		</div>
 
+		<div class="domore mt12">
+			您可以继续: <a href="javascript:;">查看订单详情</a>
+			<a href="javascript:;">继续购物</a>
+			<a href="javascript:;">我的收藏</a>
+		</div>
+
 		<div class="shopping-pay-box">
             <h3 class="pay-title">请选择支付方式</h3>
             <div class="pay-content form">

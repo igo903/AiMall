@@ -4451,12 +4451,13 @@ a.btn.disabled:hover, .btn.disabled:hover {
 
 .overlay_content div.white {
   background: #FFF;
-  /*padding: 20px;
-  width: 400px;*/
 }
 .overlay_content div.white .wrapper {
   padding: 20px;
   display: inline-block;
+}
+.overlay_content div.white .wrapper.db {
+  display: block;
 }
 .overlay_content div.white .wrapper .box-hint {
   text-align: center;
@@ -4479,7 +4480,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
 .overlay_content div.white .wrapper .box-hint.fail {
   margin-left: 5px;
 }
-.overlay_content div.white .wrapper .box-hint a {
+.overlay_content div.white .wrapper .box-hint a.link {
   position: absolute;
   top: 50px;
   left: 76px;
@@ -5819,6 +5820,14 @@ a.delbtns:hover {
   margin-right: 20px;
 }
 
+.domore {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.domore a {
+  margin: 0px 5px;
+}
+
 .add-input {
   padding: 15px 15px 15px 40px;
   overflow: hidden;
@@ -6167,6 +6176,13 @@ a.delbtns:hover {
   position: absolute;
   top: 65px;
   left: -10px;
+}
+
+.process .ui-step-7 li.ui-step-end {
+  width: 4%;
+  position: relative;
+  top: auto;
+  right: auto;
 }
 
 .ui-step.ui-step-7 li {

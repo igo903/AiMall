@@ -502,7 +502,7 @@
 					<div class="white">
 						<div class="">
 							<h1>取消订单</h1>
-							<div class="wrapper">
+							<div class="wrapper db">
 								<h3>您确定要取消订单么？取消订单后，不能恢复。</h3>
 								<h4>您选择取消的理由: </h4>
 									<select name="mydropdown" class="drops">
@@ -528,12 +528,12 @@
 							<h1>付款确认</h1>
 							<div class="wrapper">
 								<div class="box-hint pass">
-									<p><i class="fa fa-check-circle fa-lg"></i>已完成支付</p>
-									<a href="javascript:;">查看订单详情</a>
+									<p><i class="fa fa-check-circle fa-lg"></i><a href="javascript:;">已完成支付</a></p>
+									<a href="javascript:;" class="link">查看订单详情</a>
 								</div>
 								<div class="box-hint fail">
-									<p><i class="fa fa-close fa-lg"></i>支付遇到问题</p>
-									<a href="javascript:;">查看支付帮助</a>
+									<p><i class="fa fa-close fa-lg"></i><a href="javascript:;">支付遇到问题</a></p>
+									<a href="javascript:;" class="link">查看支付帮助</a>
 								</div>
 								
 							</div>
