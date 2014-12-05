@@ -292,7 +292,7 @@ i{font-style: normal;}
 			overflow: hidden;
 			padding:5px 0;
 			
-			.selected{background:#f8f8f8;}
+			.selected, li:hover{background:#f8f8f8;cursor:pointer;}
 
 			.hint{
 				@include lh25();
