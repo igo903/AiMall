@@ -50,10 +50,10 @@
 							        </div>
 							        
 							    </li>
-							    <li class="ui-step-active ui-step-done">
-							        <div class="ui-step-line iconred">-</div>
+							    <li class="ui-step-error">
+							        <div class="ui-step-line">-</div>
 							        <div class="ui-step-icon ">
-							            <i class="iconfont iconred">&#xf02f;</i>
+							            <i class="iconfont">&#xf02f;</i>
 							            <i class="ui-step-number">2</i>
 							            <span class="ui-step-text step-text-plus">订单付款</span>
 							            <div class="text2" >2014-07-24<br />14:32:09</div>

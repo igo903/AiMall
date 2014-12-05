@@ -5109,6 +5109,9 @@ a.delbtns:hover {
 .addressEdit-form .ui-form-item {
   padding-bottom: 10px;
 }
+.addressEdit-form .ui-form-item select {
+  width: 70px;
+}
 
 .exobox {
   margin-top: 15px;
@@ -6221,6 +6224,9 @@ a.delbtns:hover {
 }
 .process .ui-step-7 li.ui-step-done .iconfont.ui-step-number {
   color: #fff;
+}
+.process .ui-step-7 li.ui-step-error .iconfont {
+  color: #ff3300;
 }
 
 .ui-step.ui-step-7 li {

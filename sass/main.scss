@@ -4745,6 +4745,7 @@ a.delbtns:hover {
 	}
 	.ui-form-item{
 		padding-bottom: 10px;
+		select{width:70px;}
 	}
 }
 
@@ -5972,6 +5973,9 @@ a.delbtns:hover {
 		.iconfont{color:#38ac01;
 			&.ui-step-number{color:#fff;}
 		}
+	}
+	&.ui-step-error{
+		.iconfont{color:#ff3300;}
 	}
 
 }

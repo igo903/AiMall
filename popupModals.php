@@ -573,7 +573,7 @@
 								            </select>
 								            <select id="district" name="district">
 								                <option value="">请选择</option>
-								                <option value="北京">北京</option>
+								                <option value="北京">北京北京北京北京北京北京北京北京北京北京北京北京北京</option>
 								                <option value="上海">上海</option>
 								                <option value="天津">天津</option>
 								                <option value="浙江">浙江</option>
