@@ -305,8 +305,9 @@ i {
   overflow: hidden;
   padding: 5px 0;
 }
-.head #searchbar .autocomplete-panel .selected {
+.head #searchbar .autocomplete-panel .selected, .head #searchbar .autocomplete-panel li:hover {
   background: #f8f8f8;
+  cursor: pointer;
 }
 .head #searchbar .autocomplete-panel .hint {
   height: 25px;

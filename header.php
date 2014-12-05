@@ -44,7 +44,6 @@
 					<a href="javascript:;" class="" id="mobileMall">手机商城</a>
 					<a href="javascript:;" id="clientService">客户服务</a>
 					<a href="javascript:;" class="" id="siteMap">网站导航</a>
-					<a href="javascript:;" class="" id="bookmarkAi">收藏亚信商城</a>
 				</div>
 			</div>
 		</div>
