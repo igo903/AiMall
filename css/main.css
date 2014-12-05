@@ -6849,6 +6849,60 @@ a.delbtns:hover {
   color: #666;
 }
 
+.errorbox {
+  margin-top: 20px;
+  border-top: 2px solid #f33f00;
+}
+.errorbox .reeor404 {
+  background: url("../images/404.jpg") no-repeat center center;
+  height: 360px;
+  width: 810px;
+  padding: 100px 0 0 400px;
+}
+.errorbox .reeor404 .reeortitle {
+  font-size: 25px;
+  line-height: 30px;
+  font-family: "微软雅黑";
+  color: #454343;
+  margin-bottom: 30px;
+}
+.errorbox .reeor404 .reeorhint {
+  overflow: hidden;
+  margin-bottom: 10px;
+  color: #828282;
+}
+.errorbox .reeor404 .reeorhint .reeortit {
+  margin-bottom: 10px;
+}
+.errorbox .reeor404 .reeorhint .reeortit .i01, .errorbox .reeor404 .reeorhint .reeortit .i02 {
+  width: 12px;
+  height: 12px;
+  background: url(../images/erroricon.png) no-repeat 0 0px;
+  display: block;
+  float: left;
+  margin: 3px 5px 0 0;
+}
+.errorbox .reeor404 .reeorhint .reeortit .i02 {
+  background-position: 0 -20px;
+}
+.errorbox .reeor404 .reeorhint a {
+  text-align: center;
+  background: #f8f8f8;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  float: left;
+}
+.errorbox .reeor404 .reeorhint a:hover {
+  color: #666;
+  background-color: #f1f1f1;
+}
+
 .ui-form-item .ui-form-explain {
   height: 25px;
   line-height: 25px;

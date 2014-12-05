@@ -6355,6 +6355,74 @@ color: #38ac01;
 
 
 
+.errorbox{
+	margin-top: 20px;
+	border-top: 2px solid #f33f00;
+
+	.reeor404 {
+		background: url("../images/404.jpg") no-repeat center center;
+		height: 360px;
+		width: 810px;
+		padding: 100px 0 0 400px;
+
+		.reeortitle {
+			font-size: 25px;
+			line-height: 30px;
+			font-family: "微软雅黑";
+			color: #454343;
+			margin-bottom: 30px;
+		}
+
+		.reeorhint {
+			overflow: hidden;
+			margin-bottom: 10px;
+			color: #828282;
+
+			.reeortit {
+				margin-bottom: 10px;
+
+				.i01 {
+					width: 12px;
+					height: 12px;
+					background: url(../images/erroricon.png) no-repeat 0 -0px;
+					display: block;
+					float: left;
+					margin: 3px 5px 0 0;
+				}
+
+				.i02 {
+					@extend .i01;
+					background-position: 0 -20px;
+				}				
+			}
+
+
+			a{
+				@include btngrey();
+				display: block;
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+				margin-right: 10px;
+				float: left;
+
+				&:hover{
+					@include btngreyhover();
+				}
+			}
+		}
+	}
+	
+}
+
+
+
+
+
+
 .ui-form-item .ui-form-explain{
 	@include lh25();
 }
+
+
+

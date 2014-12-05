@@ -61,7 +61,7 @@
 		</div>
 
 		<div class="reg-cont">
-		<div class="reg-login">我已注册，现在<a href="">登录</a></div>
+			<div class="reg-login">我已注册，现在<a href="">登录</a></div>
 
 			<div class="reg-box">
 				<form class="ui-form" name="" method="post" action="#" id="">
