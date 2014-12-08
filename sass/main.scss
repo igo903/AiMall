@@ -6237,6 +6237,43 @@ color: #38ac01;
 			a {
 				color: #999;
 			}
+
+			.cicon01{
+				width: 20px; height: 20px; background: url("../images/costicon.png") no-repeat 0 0; position: absolute; left: 19px; top: 10px; 
+			}
+			.cicon02{
+				@extend .cicon01;
+				background-position: 0px -31px;
+			}
+			.cicon03{
+				@extend .cicon01;
+				background-position: 0px -62px;
+			}
+			.cicon04{
+				@extend .cicon01;
+				background-position: 0px -92px;
+			}
+			.cicon05{
+				@extend .cicon01;
+				background-position: 0px -122px;
+			}
+			.cicon06{
+				@extend .cicon01;
+				background-position: 0px -154px;
+			}
+			.cicon07{
+				@extend .cicon01;
+				background-position: 0px -184px;
+			}
+			.cicon08{
+				@extend .cicon01;
+				background-position: 0px -215px;
+			}
+			.cicon09{
+				@extend .cicon01;
+				background-position: 0px -249px;
+			}
+
 			&.active {
 				height: 38px;
 				background: url("../images/costacbj.jpg") no-repeat 21px 0 #f7f7f7;
@@ -6245,9 +6282,20 @@ color: #38ac01;
 				border-right: 0px;
 				color: #f33f00;
 				z-index: 10;
+
+				.cicon01{background-position: -20px 0px;}
+				.cicon02{background-position: -20px -31px;}
+				.cicon03{background-position: -20px -62px;}
+				.cicon04{background-position: -20px -92px;}
+				.cicon05{background-position: -20px -122px;}
+				.cicon06{background-position: -20px -154px;}
+				.cicon07{background-position: -20px -184px;}
+				.cicon08{background-position: -20px -215px;}
+				.cicon09{background-position: -20px -249px;}
 			}
 		}
 	}
+
 	.costright {
 		width: 1009px;
 		float: left;
@@ -6258,6 +6306,226 @@ color: #38ac01;
 		min-height: 500px;
 		padding-bottom: 60px;
 		position: relative;
+
+		.paycosttitle {
+			height: 76px;
+			border-top: 1px solid #d7d7d7;
+
+			.titleleft {
+				float: left;
+				width: 140px;
+				background: url("../images/t.png") no-repeat 15px 12px;
+				height: 76px;
+				line-height: 76px;
+				padding-left: 80px;
+				font-size: 14px;
+				color: #666;
+				font-weight: bold;
+			}
+
+			.titleright {
+				float: right;
+				width: 450px;
+				height: 64px;
+				padding-top: 12px;
+			}
+		}
+
+
+
+		.paycostcont {
+			background-color: #f9f9f9;
+			border: 1px dashed #d3d3d3;
+			border-left: 0px;
+			border-right: 0px;
+			padding: 20px 0 150px 0;
+
+			li {
+				margin-bottom: 20px;
+				width: 700px;
+				overflow: hidden;
+
+				.inputleft {
+					float: left;
+					width: 120px;
+					text-align: right;
+					line-height: 32px;
+					height: 32px;
+				}
+				.inputright {
+					float: left;
+					width: 430px;
+					margin-left: 18px;
+
+					.inputpay {
+						width: 240px;
+						height: 30px;
+						padding-left: 10px;
+						border: 1px solid #dbdbdb;
+					}
+
+					.radioleft {
+						float: left;
+						margin: 8px 10px 0 0;
+						clear: left;
+					}
+					.radioright {
+						float: left;
+						line-height: 30px;
+						color: #0066cc;
+
+						span {
+							color: #999;
+						}
+					}
+					.paymoney {
+						height: 28px;
+						line-height: 28px;
+						color: #000;
+						font-size: 14px;
+						text-align: center;
+						border: 1px solid #dbdbdb;
+						background-color: #fff;
+						width: 78px;
+						float: left;
+						margin-right: 5px;
+						cursor: pointer;
+					}
+					.moneyactive {
+						border: 2px solid #f33f00;
+						width: 76px;
+						height: 26px;
+						background: url("../images/ni2.jpg") right bottom no-repeat;
+						background-color: #fff;
+					}
+					.payelse {
+						margin: 10px 0 0 0;
+						float: left;
+						clear: both;
+						line-height: 28px;
+
+						.else {
+							width: 49px;
+							height: 28px;
+							text-align: center;
+							border: 1px solid #dbdbdb;
+							border-right: 0px;
+							background-color: #f9f9f9;
+							color: #666;
+							float: left;
+						}
+						.elseinput {
+							width: 78px;
+							height: 28px;
+							border: 1px solid #dbdbdb;
+							background-color: #fff;
+							float: left;
+							margin-right: 10px;
+							padding-left: 10px;
+						}
+					}
+
+					.paytext{ 
+						line-height:30px;
+
+						.paytextmoney {
+							font-size: 24px;
+							color: #ff0000;
+						}
+
+						.paytextnumber {
+							font-size: 18px;
+							color: #333;
+							margin-right: 15px;
+						}
+					}
+
+				}
+			}
+
+			.paycostcontbtn {
+				margin: 20px 0 0 140px;
+
+				a {
+					@include btnred();
+					width: 150px;
+					height: 30px;
+					line-height: 30px;
+					overflow: hidden;
+					float: left;
+					margin-right: 20px;
+					&:hover{
+						@include btnredhover();
+					}
+				}
+			}
+		}
+
+		.payconsthint{ 
+			padding-bottom:20px;
+
+			.hinttitile {
+				color: #0066cc;
+				font-style: 14px;
+				margin: 20px 0 10px 15px;
+			}
+
+			p {
+				line-height: 30px;
+				margin-left: 20px;
+				color: #666;
+			}
+
+		}
+
+		.paycostcontok {
+			background: url("../images/yun2.jpg") no-repeat 200px 50px #f9f9f9;
+			border: 1px dashed #d3d3d3;
+			border-left: 0px;
+			border-right: 0px;
+			padding: 70px 0 30px 350px;
+
+			p {
+				margin-bottom: 20px;
+
+				.okhint1 {
+					font-size: 18px;
+					color: #35a539;
+					font-weight: bold;
+				}
+
+				.okhint2{
+					span {
+						margin: 0 20px;
+						color: #999;
+					}
+				}
+
+				.okhint3{
+					span {
+					font-size: 24px;
+					color: #ff0000;
+					margin: 0 10px 0 20px;
+					}
+				}
+			}
+		}
+
+
+		.payyoucan {
+			border-bottom: 1px dashed #d3d3d3;
+			height: 50px;
+			line-height: 50px;
+			padding-left: 20px;
+
+			a {
+				text-decoration: underline;
+				margin: 0 10px;
+			}
+		}
+
+
+
 	}
 
 }
@@ -6284,91 +6552,6 @@ color: #38ac01;
 	}
 }
 
-
-
-
-
-
-.costleft li .cicon01, .costleft li .cicon02, .costleft li .cicon03, .costleft li .cicon04, .costleft li .cicon05, .costleft li .cicon06, .costleft li .cicon07, .costleft li .cicon08, .costleft li .cicon09 { width: 20px; height: 20px; background: url("../images/costicon.png") no-repeat 0 0; position: absolute; left: 19px; top: 10px; }
-.costleft li .cicon01{background-position: 0px 0px;}
-.costleft li .cicon02{background-position: 0px -31px;}
-.costleft li .cicon03{background-position: 0px -62px;}
-.costleft li .cicon04{background-position: 0px -92px;}
-.costleft li .cicon05{background-position: 0px -122px;}
-.costleft li .cicon06{background-position: 0px -154px;}
-.costleft li .cicon07{background-position: 0px -184px;}
-.costleft li .cicon08{background-position: 0px -215px;}
-.costleft li .cicon09{background-position: 0px -249px;}
-.costleft li.active .cicon01{background-position: -20px 0px;}
-.costleft li.active .cicon02{background-position: -20px -31px;}
-.costleft li.active .cicon03{background-position: -20px -62px;}
-.costleft li.active .cicon04{background-position: -20px -92px;}
-.costleft li.active .cicon05{background-position: -20px -122px;}
-.costleft li.active .cicon06{background-position: -20px -154px;}
-.costleft li.active .cicon07{background-position: -20px -184px;}
-.costleft li.active .cicon08{background-position: -20px -215px;}
-.costleft li.active .cicon09{background-position: -20px -249px;}
-.costright .costrighttitle{ height:36px; background: #f9f9f9; padding-left:20px; font-size:14px; color:#666666; line-height:36px; font-weight:bold; margin-bottom:10px;}
-.costright .costcontml{ margin:0 22px;}
-
-
-
-
-.paycosttitle{ height:76px; border-top:1px solid #d7d7d7;}
-.paycosttitle .titleleft{ float:left; width:140px; background:url("../images/t.png") no-repeat 15px 12px;height:76px; line-height:76px; padding-left:80px; font-size:14px; color:#666; font-weight:bold;}
-.paycosttitle .titleright{ float:right; width:450px; height:64px; padding-top:12px;}
-.paycosttitle .titleright li{display: list-item; float:left;width:165px; margin-right:7px; position:relative; text-align:center;}
-.paycosttitle .titleright li .node{ width:28px; height:28px; background:url(../images/process.jpg) no-repeat -134px -30px;   margin:0 auto;}
-.paycosttitle .titleright li .proce{ width:126px; height:15px; background:url(../images/process.jpg) no-repeat 0px -37px;position:absolute; left:105px; top:8px; }
-.paycosttitle .titleright li .text1{ padding-top:10px; color:#999;}
-.paycosttitle .titleright li.green .node{ background:url(../images/process.jpg) no-repeat -134px -60px;}
-.paycosttitle .titleright li.green .proce{ background:url(../images/process.jpg) no-repeat 0px -68px;}
-.paycostcont{ background-color:#f9f9f9; border:1px dashed #d3d3d3; border-left:0px; border-right:0px; padding:20px 0 150px 0;}
-.paycostcont li{ margin-bottom:	20px; width:700px; overflow:hidden;}
-.paycostcont li .inputleft{ float:left; width:120px; text-align:right; line-height:32px; height:32px;}
-.paycostcont li .inputright{ float:left; width:430px; margin-left:18px;}
-.paycostcont li .inputright .inputpay{ width:240px; height:30px; padding-left:10px; border:1px solid #dbdbdb; }
-.paycostcont li .inputright .radioleft{ float:left; margin:8px 10px 0 0; clear:left;}
-.paycostcont li .inputright .radioright{ float:left; line-height:30px; color:#0066cc;}
-.paycostcont li .inputright .radioright span{ color:#999;}
-.paycostcont li .inputright .paymoney{ height:28px; line-height:28px; color:#000; font-size:14px; text-align:center; border:1px solid #dbdbdb; background-color:#fff; width:78px; float:left; margin-right:5px; cursor:pointer;} 
-.paycostcont li .inputright .moneyactive{ border:2px solid #f33f00; width:76px; height:26px; background:url(../images/ni2.jpg) right bottom no-repeat;background-color:#fff;}
-.paycostcont li .inputright .payelse{ margin:10px 0 0 0; float:left; clear:both;line-height:28px; }
-.paycostcont li .inputright .payelse .else{ width:49px; height:28px; text-align:center; border:1px solid #dbdbdb; border-right:0px; background-color:#f9f9f9; color:#666; float:left;}
-.paycostcont li .inputright .payelse .elseinput{ width:78px; height:28px; border:1px solid #dbdbdb; background-color:#fff;float:left; margin-right:10px; padding-left:10px;}
-.paycostcont li .inputright .paytext{ line-height:30px;}
-.paycostcont li .inputright .paytext .paytextmoney{ font-size:24px; color:#ff0000;}
-.paycostcont li .inputright .paytext .paytextnumber{ font-size:18px; color:#333; margin-right:15px;}
-
-.paycostcontok{ background:url("../images/yun.jpg") no-repeat 200px 50px #f9f9f9;border:1px dashed #d3d3d3; border-left:0px; border-right:0px; padding:70px 0 30px 350px;}
-.paycostcontok p{ margin-bottom:20px;}
-.paycostcontok .okhint1{ font-size:18px; color:#35a539; font-weight:bold;}
-.paycostcontok .okhint2 span{ margin:0 20px; color:#999;}
-.paycostcontok .okhint3 span{ font-size:24px; color:#ff0000; margin:0 10px 0 20px;}
-.payyoucan{border-bottom:1px dashed #d3d3d3; height:50px; line-height:50px; padding-left:20px;}
-.payyoucan a{ text-decoration:underline; margin:0 10px;}
-
-.paycostcont .paycostcontbtn {
-	margin: 20px 0 0 140px;
-
-	a {
-		@include btnred();
-		width: 150px;
-		height: 30px;
-		line-height: 30px;
-		overflow: hidden;
-		float: left;
-		margin-right: 20px;
-		&:hover{
-			@include btnredhover();
-		}
-	}
-}
- 
-
-.payconsthint{ padding-bottom:20px;}
-.payconsthint .hinttitile{ color:#0066cc; font-style:14px; margin:20px 0 10px 15px;}
-.payconsthint p{ line-height:30px; margin-left:20px; color:#666;}
 
 
 
