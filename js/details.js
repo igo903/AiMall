@@ -5,6 +5,7 @@ seajs.config({
 
 	alias:{
 		"jquery":"jquery/1.7.2/jquery-debug.js",
+		"countdown":"jquery.countdown/jquery.countdown.js",
 		"easyzoom":"easyzoom/src/easyzoom.js"
 	},
 	preload: ["jquery"]
@@ -47,6 +48,20 @@ seajs.use(['easyzoom', 'jquery'], function(Easyz, $) {
 	var api = $easyzoom.data('easyZoom');
 });
 
+
+seajs.use(['countdown', 'jquery'], function(countdown, $){
+	
+
+	$('#clock').countdown('2015/01/30').on('update.countdown', function(event) {
+	   var $this = $(this).html(event.strftime(''
+	     + '<span>%H</span> 时 '
+	     + '<span>%M</span> 分 '
+	     + '<span>%S</span> 秒'));
+	});
+
+	
+
+});
 
 
 

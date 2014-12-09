@@ -1425,6 +1425,14 @@ i{font-style: normal;}
 	height: 50px;
 	line-height: 25px;
 	padding: 15px 0 15px 15px;
+	position: relative;
+
+	.countdown-container{
+		position: absolute;
+		top:8px;
+		right: 50px;
+		span{font-size: 20px;background: url(../images/timefont_bg2.png) no-repeat;display: inline-block;text-align: center; color:#fff;width: 35px;height: 33px;line-height: 33px;}
+	}
 }
 
 .direct-buy .right-col .row .de{
