@@ -3526,6 +3526,35 @@ a.btn.disabled:hover, .btn.disabled:hover {
   width: 1188px;
   *min-height: 120px;
 }
+.cart-tbody .cart-gifts {
+  background-color: #f5fbff;
+  border-bottom: 1px solid #eee;
+  padding: 10px 20px;
+  width: 1148px;
+  float: left;
+  position: relative;
+}
+.cart-tbody .cart-gifts .giftsicon {
+  position: absolute;
+  left: 70px;
+  top: -13px;
+  width: 26px;
+  height: 14px;
+  background: url("../images/giftsicon.jpg") no-repeat 0 0;
+}
+.cart-tbody .cart-gifts span {
+  float: left;
+  overflow: hidden;
+  color: #999;
+}
+.cart-tbody .cart-gifts .gifts-item {
+  height: 25px;
+  line-height: 25px;
+}
+.cart-tbody .cart-gifts .gifts-item .gifts-name {
+  width: 400px;
+  display: block;
+}
 .cart-tbody .cell {
   float: left;
   min-height: 52px;
@@ -3564,9 +3593,6 @@ a.btn.disabled:hover, .btn.disabled:hover {
 .cart-tbody .p-names a {
   text-decoration: none;
   color: #547ec2;
-}
-.cart-tbody .p-names .font_green {
-  color: #34a539;
 }
 .cart-tbody .p-message {
   width: 180px;
