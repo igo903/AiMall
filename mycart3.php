@@ -110,7 +110,7 @@
 			                        协议期：24个月<br />
 			                    </div>
 
-			                    <div class="cell p-price">￥4999.00<p>￥5200.00</p></div>
+			                    <div class="cell p-price"><span class="p-money">抢购价：￥2119</span></div>
 			                    <div class="cell p-inventory"><span>库存紧张</span></div>
 			                    <div class="cell p-quantity">
 				                     <div class="quantity-form ">
