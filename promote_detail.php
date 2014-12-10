@@ -46,20 +46,39 @@
 						<div class="right-col">
 							<h3>苹果(APPLE)5S 16G版 3G手机 WCDMA/GSM</h3>
 							<h4>指纹识别传感器、64位架构的全新A7芯片+M7协处理器</h4>
-							<div class="price row orgin-p">
-								<span class="de">资 费:</span>
+							<div class="price row orgin-p promote">
+								<span class="de">抢购价:</span>
 								<span class="priceNum">￥4569</span><span>元</span>
 								<br>
-								<span class="de">原 价:</span>
+								<span class="de">原&nbsp;&nbsp;&nbsp;价:</span>
 								<span class="linethr">￥4999元</span>
+								<br>
+								<span class="de">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+								<span>每人限购<i class="ai">2</i>台,共<i class="ai">100</i>台抢完即止，活动结束后恢复原价。</span>
 
 								<div class="countdown-container" id="">
 									<p>距离活动结束仅剩下：</p>
 									<div id="clock"></div>
 								</div>
-
-
 							</div>
+
+
+							<div class="price orgin-p promotion">
+								<span class="de">促销信息:</span>
+								<span class=""><i class="zeng">赠</i>赠下方三件热销商品，赠完为止。</span>
+								<span class="fold">折叠</span><i class="fa fa-angle-up " id="fa"></i>
+								<div class="card">
+									<p class="fn-clear"><img src="images/img_zp.png" alt="赠品"><a href="javascript:;">买即送50元电子充值卡（次月充值）<span>x1</span></a></p>
+									<p class="fn-clear"><img src="images/img_zp.png" alt="赠品"><a href="javascript:;">在线支付再赠送50元话费 <span>x1</span></a></p>
+									<p class="fn-clear"><img src="images/img_zp.png" alt="赠品"><a href="javascript:;">微信分享并截图给客户赠送20元话费 <span>x1</span></a></p>
+								</div>
+								
+							</div>
+
+							
+
+
+
 							<div class="row">
 								<span class="de">商品编号:</span>
 								<span>823</span>

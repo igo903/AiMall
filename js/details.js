@@ -156,8 +156,6 @@ seajs.use(['jquery'],function($){
 		});
 
 
-
-
 		$('#switchTaocan .r2 li').click(function(){
 			var taocanTxt = $(this).find('p').html();
 			$(this).siblings().removeClass("selected");
@@ -178,6 +176,11 @@ seajs.use(['jquery'],function($){
 
 		$('#switchTaocan .gobuy a').click(function(){
 			var ok = $('#switchTaocan .numberok').html();
+		});
+
+		$('.fold').click(function(){
+			$('.card').toggleClass('fn-hide');
+			$(this).next().toggleClass('fa-angle-down');
 		});
 
 });

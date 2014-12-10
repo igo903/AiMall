@@ -75,6 +75,12 @@ seajs.use(['jquery'],function($){
 				$("body,html").animate({scrollTop:0});
 			}
 		});
+
+		$('.filter-bar .btn.priceUpDown').click(function(){
+			$(this).find('i').toggleClass('fa-caret-up');
+		});
+
+
 	});
 	
 

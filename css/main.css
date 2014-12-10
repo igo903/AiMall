@@ -1385,8 +1385,8 @@ i {
 
 .filter-bar .btn i {
   position: absolute;
-  right: 15px;
-  top: 11px;
+  right: 14px;
+  top: 8px;
   cursor: pointer;
 }
 
@@ -1395,11 +1395,11 @@ i {
 }
 
 .filter-bar .btn.selected i {
-  color: #333;
+  color: #fff;
 }
 
 .filter-bar .btn.selected i.fa-caret-up {
-  color: #666 !important;
+  color: #fff;
 }
 
 .filter-bar a:hover {
@@ -1574,6 +1574,51 @@ i {
   line-height: 25px;
   padding: 15px 0 15px 15px;
   position: relative;
+}
+.direct-buy .right-col .price.orgin-p.promote {
+  height: 80px;
+}
+.direct-buy .right-col .price.orgin-p.promotion {
+  background: #ffebec;
+  margin-top: 0px;
+  height: auto;
+}
+.direct-buy .right-col .price.orgin-p.promotion .card {
+  padding-left: 55px;
+  color: #666;
+  margin-top: 5px;
+}
+.direct-buy .right-col .price.orgin-p.promotion .card p {
+  margin-bottom: 5px;
+}
+.direct-buy .right-col .price.orgin-p.promotion .card p a {
+  line-height: 30px;
+  height: 30px;
+}
+.direct-buy .right-col .price.orgin-p.promotion .card img {
+  border: 1px solid #f8f8f8;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  float: left;
+}
+.direct-buy .right-col .price.orgin-p.promotion .zeng {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  background: #ff3300;
+  display: inline-block;
+  margin-right: 5px;
+}
+.direct-buy .right-col .price.orgin-p.promotion .fold {
+  margin: 0 5px;
+  color: #0066cc;
+  cursor: pointer;
+}
+.direct-buy .right-col .price.orgin-p.promotion #fa {
+  color: #0066cc;
 }
 .direct-buy .right-col .price.orgin-p .countdown-container {
   position: absolute;
@@ -2253,6 +2298,10 @@ a.btn.disabled:hover, .btn.disabled:hover {
 .num-list .gobuy .info {
   float: left;
   margin-left: 30px;
+}
+.num-list .gobuy .info i {
+  width: 60px;
+  display: inline-block;
 }
 
 .num-list .gobuy .buy {

@@ -88,9 +88,8 @@
 				<div class="filter-bar">
 					<span class="btn selected">默认</span>
 					<span class="btn ">号码</span>
-					<span class="btn selected">价格 
-						<i class="fa fa-caret-up ai" title="点击后按价格从高到低"></i>
-						<i class="fa fa-caret-down" title="点击后按价格从低到高"></i>
+					<span class="btn selected priceUpDown">价格 
+						<i class="fa fa-caret-down" title="点击后按价格从高到低"></i>
 					</span>
 					
 					<div class="turn-page">
