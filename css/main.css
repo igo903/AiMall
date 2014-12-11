@@ -6920,3 +6920,208 @@ a.delbtns:hover {
   height: 25px;
   line-height: 25px;
 }
+
+.delorder {
+  position: absolute;
+  right: 30px;
+  top: 37px;
+  width: 250px;
+  border: 1px solid #c4c4c4;
+  background: #fff;
+  display: none;
+  z-index: 101;
+  padding-bottom: 20px;
+  *right: 80px;
+  *top: 5px;
+}
+
+.delorder .detailtit {
+  display: block;
+  height: 25px;
+  ottom: 1px solid #f2f2f2;
+  background-color: #f3f3f3;
+  border-top: 0px;
+}
+
+.delorder .detailtit span {
+  float: left;
+  line-height: 25px;
+  padding: 0 0 0 10px;
+  color: #666;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+
+.delorder .detailtit i {
+  float: right;
+  margin: 5px 5px;
+  background: url("../images/dialog-close.gif") no-repeat;
+  width: 13px;
+  height: 13px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.delorder .delorder-c {
+  text-align: center;
+  padding: 20px 0 0 0;
+  color: #c00;
+  line-height: 22px;
+}
+
+.delorder .delorder-b {
+  padding: 20px 0 0 65px;
+}
+
+.delorder .delorder-b a {
+  float: left;
+  margin-right: 10px;
+  line-height: 20px;
+}
+
+.delorder .delorder-b a:hover {
+  text-decoration: none;
+}
+
+.dialog-inner {
+  width: 250px;
+  border-color: #ddd;
+  border: 5px solid #c2c2c2;
+  background-color: #fff;
+  position: absolute;
+  left: 727px;
+  top: 30px;
+  display: none;
+}
+
+.dialog-toolbar {
+  display: block;
+  height: 40px;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0 10px;
+  border-top: 2px solid #ff5500;
+}
+
+.dialog-close {
+  float: right;
+  margin: 5px 5px;
+  background: url("../images/thickbox_close.png") no-repeat;
+  width: 23px;
+  height: 23px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.dialog-title {
+  float: left;
+  line-height: 40px;
+  padding: 0 8px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+.dialog-content {
+  width: 220px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.clearfix {
+  display: block;
+}
+
+.multiple-select {
+  width: 99px;
+  height: 198px;
+  margin: 0 5px;
+  float: left;
+  display: inline;
+  line-height: 25px;
+}
+
+.exobox .steps .special-form .step-cont {
+  display: none;
+}
+
+.exobox .steps .address ul li.add-selected {
+  width: 202px;
+  height: 132px;
+  border: 1px solid #fff;
+  background: url("../images/address-bd.jpg") no-repeat;
+}
+
+#delall {
+  position: absolute;
+  left: 120px;
+  top: -15px;
+  width: 250px;
+  border: 1px solid #c4c4c4;
+  background: #fff;
+  display: none;
+  z-index: 101;
+  padding-bottom: 20px;
+  *left: 130px;
+  *top: 10px;
+}
+
+#protocolbox {
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  border: 5px solid #c2c2c2;
+  background: #fff;
+  display: none;
+  z-index: 101;
+}
+
+#protocolbox .detailtit {
+  display: block;
+  height: 40px;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 2px solid #ff5500;
+}
+
+#protocolbox .detailtit span {
+  float: left;
+  line-height: 40px;
+  padding: 0 8px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+
+#protocolbox .detailtit i {
+  float: right;
+  margin: 5px 5px;
+  background: url("../images/thickbox_close.png") no-repeat;
+  width: 23px;
+  height: 23px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+#protocolbox .login-box {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#protocolbox .protocol-cont {
+  height: 450px;
+  margin-top: 17px;
+}
+
+#protocolbox .protocol-cont h2 {
+  text-align: center;
+  font-weight: bold;
+  height: 30px;
+  margin: 20px 0;
+}
+
+#protocolbox .protocol-cont .protocol-text {
+  height: 340px;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: 0 15px 15px;
+}
