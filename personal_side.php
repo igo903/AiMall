@@ -34,6 +34,10 @@
 				<div class="myicon07"></div>
 		    	<a href="business.php">我的业务</a>
 			</li>
+			<li>
+				<div class="myicon08"></div>
+		    	<a href="vip.php">会员管理</a>
+			</li>
 		</ul>
 	</div>	
 </div>

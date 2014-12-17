@@ -2384,7 +2384,7 @@ a.btn.disabled:hover, .btn.disabled:hover {
   height: 33px;
   border-right: 0px;
 }
-.management-panel .left-col .my-link li .myicon01, .management-panel .left-col .my-link li .myicon02, .management-panel .left-col .my-link li .myicon03, .management-panel .left-col .my-link li .myicon04, .management-panel .left-col .my-link li .myicon05, .management-panel .left-col .my-link li .myicon06, .management-panel .left-col .my-link li .myicon07 {
+.management-panel .left-col .my-link li .myicon01, .management-panel .left-col .my-link li .myicon02, .management-panel .left-col .my-link li .myicon03, .management-panel .left-col .my-link li .myicon04, .management-panel .left-col .my-link li .myicon05, .management-panel .left-col .my-link li .myicon06, .management-panel .left-col .my-link li .myicon07, .management-panel .left-col .my-link li .myicon08 {
   position: absolute;
   left: 15px;
   top: 12px;
@@ -2410,6 +2410,9 @@ a.btn.disabled:hover, .btn.disabled:hover {
 }
 .management-panel .left-col .my-link li .myicon07 {
   background-position: 0 -121px;
+}
+.management-panel .left-col .my-link li .myicon08 {
+  background-position: 0 -170px;
 }
 .management-panel .right-col {
   width: 1004px;
@@ -7124,4 +7127,227 @@ a.delbtns:hover {
   overflow: scroll;
   overflow-x: hidden;
   margin: 0 15px 15px;
+}
+
+.vipbox {
+  margin: 20px 10px 0 20px;
+  overflow: hidden;
+}
+.vipbox .vipinfo {
+  margin-bottom: 30px;
+}
+.vipbox .vipinfo .vip-name {
+  font-size: 14px;
+}
+.vipbox .vipinfo .vip-name span {
+  color: #0066cc;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.vipbox .vipinfo .vip-rank {
+  margin-top: 20px;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+}
+.vipbox .vipinfo .vip-rank s {
+  background: url("../images/rank.jpg") repeat 0 0;
+  display: inline-block;
+  height: 22px;
+  text-decoration: none;
+  width: 22px;
+  vertical-align: middle;
+  float: left;
+  margin-right: 10px;
+}
+.vipbox .vipinfo .vip-rank span {
+  float: left;
+  margin-right: 20px;
+  line-height: 22px;
+}
+.vipbox .vipinfo .vip-rank span a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+.vipbox .vipinfo .vip-rank .number-rank {
+  width: 100px;
+  height: 12px;
+  margin: 7px 10px 0 0;
+  background-color: #eee;
+  float: left;
+}
+.vipbox .vipinfo .vip-rank .number-rank i {
+  background-color: #00cc33;
+  height: 12px;
+  display: block;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i1 {
+  width: 10%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i2 {
+  width: 20%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i3 {
+  width: 30%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i4 {
+  width: 40%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i5 {
+  width: 50%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i6 {
+  width: 60%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i7 {
+  width: 70%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i8 {
+  width: 80%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i9 {
+  width: 90%;
+}
+.vipbox .vipinfo .vip-rank .number-rank i.i10 {
+  width: 100%;
+}
+.vipbox .viptab {
+  width: 960px;
+}
+.vipbox .viptab .details-hd {
+  overflow: hidden;
+  border-left: 1px solid #e8e8e8;
+}
+.vipbox .viptab .details-hd .ui-switchable-nav li {
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #e8e8e8;
+  border-top: 2px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  background: #f5f5f5;
+  text-align: center;
+  margin-left: -1px;
+  float: left;
+  width: 100px;
+  cursor: pointer;
+  position: relative;
+}
+.vipbox .viptab .details-hd .ui-switchable-nav .ui-switchable-active {
+  background: #fff;
+  border-bottom: 0px;
+  color: #ff3300;
+  border-top: 2px solid #ff3300;
+}
+.vipbox .viptab .details-hd .ui-switchable-nav .fill {
+  width: 652px;
+  height: 37px;
+  float: left;
+  border-top: 0px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-right: 0px solid #e8e8e8;
+}
+.vipbox .viptab .details-hd .ui-switchable-nav .fill2 {
+  width: 752px;
+  height: 37px;
+  float: left;
+  border-top: 0px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-right: 0px solid #e8e8e8;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel {
+  overflow: hidden;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .tab-mt {
+  height: 30px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .tab-mt h1 {
+  float: left;
+  color: #666;
+  font-weight: bold;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .tab-mt .extra {
+  float: right;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .tab-mt .extra .sele {
+  margin-right: 10px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .tab-mt .extra a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table {
+  border-top: 3px solid #eee;
+  width: 960px;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 20px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat {
+  background-color: #fafafa;
+  height: 32px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat li {
+  float: left;
+  line-height: 32px;
+  color: #999;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat li.w1 {
+  width: 200px;
+  padding-left: 20px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat li.w2 {
+  width: 350px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat li.w3 {
+  width: 240px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat li.w4 {
+  width: 150px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat li.w5 {
+  width: 410px;
+  padding-left: 20px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat li.w6 {
+  width: 375px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-theat li.w7 {
+  width: 155px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody {
+  line-height: 40px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody ul {
+  border-bottom: 1px dashed #f2f2f2;
+  overflow: hidden;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li {
+  float: left;
+  line-height: 40px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li.w1 {
+  width: 200px;
+  padding-left: 20px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li.w2 {
+  width: 350px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li.w3 {
+  width: 240px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li.w4 {
+  width: 150px;
+  color: #999;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li.w5 {
+  width: 410px;
+  padding-left: 20px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li.w6 {
+  width: 375px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li.w7 {
+  width: 155px;
 }
