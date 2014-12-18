@@ -83,7 +83,9 @@ $info-input:270px;
 .font_green{
 	color: #33cc00;
 }
-
+.font_blue{
+	color: #0066cc;
+}
 
 body{
     background:#fff;
@@ -6863,7 +6865,7 @@ color: #38ac01;
 					border-right: 0px solid #e8e8e8;
 				}
 				.fill2{
-					width: 752px;
+					width: 755px;
 					height: 37px;
 					float: left;
 					border-top: 0px solid #e8e8e8;
@@ -6877,6 +6879,7 @@ color: #38ac01;
 			
 			.tab-panel{
 				overflow: hidden;
+				min-height: 500px;
 
 				.tab-mt{
 					height: 30px;
@@ -6982,10 +6985,183 @@ color: #38ac01;
 								width: 155px;
 							}										
 						}
-					}
-
-					
+					}					
 				}
+
+				.viptab-two{
+
+					.viptab-nav{
+						height: 80px;
+						margin-top: 20px;
+
+						li{
+							width: 308px;
+							height: 78px;
+							border: 1px solid #e8e8e8;
+							float: left;
+							background-color: #f8f8f8;
+
+							&.mr15{
+								margin-right: 15px;
+							}
+							&.nav-active{
+								.s1{
+									background-position: 0 -70px;
+								}
+								.s2{
+									background-position: -70px -70px;
+								}
+								.s3{
+									background-position: -140px -70px;
+								}
+								span{
+									color: #ff5500;
+								}
+
+							}
+
+							s{
+								width: 60px;
+								height: 60px;
+								margin: 10px 20px 0 30px;
+								display: block;
+								float: left;
+								background: url("../images/viptab.png") no-repeat 0 0;
+
+								&.s1{
+									background-position: 0 0;
+								}
+								&.s2{
+									background-position: -70px 0;
+								}
+								&.s3{
+									background-position: -140px 0;
+								}
+
+							}
+							span{
+								float: left;
+								font-size: 18px;
+								color: #333;
+								line-height: 78px;
+								font-weight: bold;
+							}
+						}
+					}
+					
+					.viptab-content{
+						margin-top: 20px;
+
+						.tabtwo-panel{
+							overflow: hidden;
+							
+							.viptab-txt{
+								line-height: 25px;
+
+								h1{
+									font-size: 14px;
+									font-weight: bold;
+								}
+							}
+
+							.viptab-step{
+								margin-top: 20px;
+								padding-top: 60px;
+								height: 150px;
+								position: relative;
+
+								.mynumberbox{									
+									position: absolute;									
+									top: 0px;
+									left: 500px;
+
+									.mynumber{
+										height: 40px;
+										line-height: 40px;
+										background-color: #f8f8f8;
+										border: 1px solid #ddd;
+										text-align: center;
+										width: 175px;
+										position: relative;
+
+										s{
+											position: absolute;
+											top: 40px;
+											left: 20px;
+											width: 22px;
+											height: 11px;
+											background: url("../images/d.png") no-repeat 0 0;
+										}
+									}
+						
+
+								}
+
+								li{
+									float: left;
+									height: 18px;
+									line-height: 18px;
+									padding-left: 10px;
+									margin-right: 2px;
+									color: #fff;
+									position: relative;
+
+									s{
+										width: 50px;
+										height: 50px;
+										background: url("../images/vip.png") no-repeat 0 0;
+										position: absolute;
+										top: 25px;
+										left: 0px;
+									}
+
+									&.li1{
+										background-color: #79bf7b;
+										width: 270px;
+									}
+									&.li2{
+										background-color: #4fc5c5;
+										width: 270px;
+
+										s{
+											background-position: -50px 0;
+										}
+									}
+									&.li3{
+										background-color: #ffcc00;
+										width: 270px;
+										s{
+											background-position: -100px 0;
+										}
+									}
+									&.li4{
+										background-color: #ff5500;
+										width: 102px;
+										s{
+											background-position: -150px 0;
+										}
+									}
+								}
+							}
+
+							.tabtwo-table{
+								line-height: 33px;
+								margin-bottom: 20px;
+
+								td{
+									border: 1px solid #ccc;
+									text-indent: 20px;
+								}
+							}
+
+		
+
+						}
+					}	
+
+				}
+
+
 			}
 		}
 	}

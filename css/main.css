@@ -44,6 +44,10 @@
   color: #33cc00;
 }
 
+.font_blue {
+  color: #0066cc;
+}
+
 body {
   background: #fff;
 }
@@ -7247,7 +7251,7 @@ a.delbtns:hover {
   border-right: 0px solid #e8e8e8;
 }
 .vipbox .viptab .details-hd .ui-switchable-nav .fill2 {
-  width: 752px;
+  width: 755px;
   height: 37px;
   float: left;
   border-top: 0px solid #e8e8e8;
@@ -7256,6 +7260,7 @@ a.delbtns:hover {
 }
 .vipbox .viptab .ui-switchable-content .tab-panel {
   overflow: hidden;
+  min-height: 500px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .tab-mt {
   height: 30px;
@@ -7350,4 +7355,145 @@ a.delbtns:hover {
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-table .viptab-tbody li.w7 {
   width: 155px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav {
+  height: 80px;
+  margin-top: 20px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li {
+  width: 308px;
+  height: 78px;
+  border: 1px solid #e8e8e8;
+  float: left;
+  background-color: #f8f8f8;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li.mr15 {
+  margin-right: 15px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li.nav-active .s1 {
+  background-position: 0 -70px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li.nav-active .s2 {
+  background-position: -70px -70px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li.nav-active .s3 {
+  background-position: -140px -70px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li.nav-active span {
+  color: #ff5500;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li s {
+  width: 60px;
+  height: 60px;
+  margin: 10px 20px 0 30px;
+  display: block;
+  float: left;
+  background: url("../images/viptab.png") no-repeat 0 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li s.s1 {
+  background-position: 0 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li s.s2 {
+  background-position: -70px 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li s.s3 {
+  background-position: -140px 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-nav li span {
+  float: left;
+  font-size: 18px;
+  color: #333;
+  line-height: 78px;
+  font-weight: bold;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content {
+  margin-top: 20px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel {
+  overflow: hidden;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-txt {
+  line-height: 25px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-txt h1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step {
+  margin-top: 20px;
+  padding-top: 60px;
+  height: 150px;
+  position: relative;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step .mynumberbox {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step .mynumberbox .mynumber {
+  height: 40px;
+  line-height: 40px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  text-align: center;
+  width: 175px;
+  position: relative;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step .mynumberbox .mynumber s {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 22px;
+  height: 11px;
+  background: url("../images/d.png") no-repeat 0 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li {
+  float: left;
+  height: 18px;
+  line-height: 18px;
+  padding-left: 10px;
+  margin-right: 2px;
+  color: #fff;
+  position: relative;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li s {
+  width: 50px;
+  height: 50px;
+  background: url("../images/vip.png") no-repeat 0 0;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li1 {
+  background-color: #79bf7b;
+  width: 270px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li2 {
+  background-color: #4fc5c5;
+  width: 270px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li2 s {
+  background-position: -50px 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li3 {
+  background-color: #ffcc00;
+  width: 270px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li3 s {
+  background-position: -100px 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li4 {
+  background-color: #ff5500;
+  width: 102px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li4 s {
+  background-position: -150px 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .tabtwo-table {
+  line-height: 33px;
+  margin-bottom: 20px;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .tabtwo-table td {
+  border: 1px solid #ccc;
+  text-indent: 20px;
 }
