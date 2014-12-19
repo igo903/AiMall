@@ -6171,8 +6171,8 @@ a.delbtns:hover {
 }
 .helpbox .help-cont .helpright .helprightdl {
   height: 36px;
-  background-color: #eaf8ff;
-  border-left: 5px solid #547ec2;
+  background-color: #e8e8e8;
+  border-left: 5px solid #ff5500;
   margin: 0 10px 10px 10px;
   line-height: 36px;
   padding-left: 10px;

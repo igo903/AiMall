@@ -27,8 +27,8 @@
 								<div class="viptab">
 									<div class="details-hd">
 										<ul class="ui-switchable-nav" data-role="nav">
-											<li data-role="trigger">产看成长值</li>
-											<li class=" ui-switchable-active" data-role="trigger"><a href="vip5.php">会员级别</a></li>
+											<li data-role="trigger"><a href="vip4.php">产看成长值</a></li>
+											<li class=" ui-switchable-active" data-role="trigger">会员级别</li>
 											<div class="fill2"></div>
 										</ul>
 									</div>

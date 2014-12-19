@@ -30,5 +30,9 @@
             <li><a href="help11.php">交费充值</a></li>
             <li><a href="help12.php" >营业厅分布查询</a></li>
             <li><a href="help13.php">号码归属地查询</a></li>
-       	</ul> 
+       	</ul>
+    <div class="helpdd">会员权益</div>
+        <ul>
+            <li><a href="help14.php">会员介绍</a></li>
+        </ul> 
 </div>
