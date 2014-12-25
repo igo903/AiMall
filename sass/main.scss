@@ -7102,43 +7102,50 @@ color: #38ac01;
 									height: 18px;
 									line-height: 18px;
 									padding-left: 10px;
-									margin-right: 2px;
 									color: #fff;
 									position: relative;
+									width: 230px;
 
 									s{
-										width: 50px;
+										width: 200px;
+										padding-left: 55px;
 										height: 50px;
 										background: url("../images/vip.png") no-repeat 0 0;
 										position: absolute;
 										top: 25px;
 										left: 0px;
+										text-decoration: none;
+
+										.p-vip{
+											color: #333;
+											font-weight: bold;
+											margin: 5px 0 5px 0;
+										}
+										.p-number{
+											color: #999;
+										}
 									}
 
 									&.li1{
 										background-color: #79bf7b;
-										width: 270px;
 									}
 									&.li2{
 										background-color: #4fc5c5;
-										width: 270px;
 
 										s{
-											background-position: -50px 0;
+											background-position: 0px -60px;
 										}
 									}
 									&.li3{
 										background-color: #ffcc00;
-										width: 270px;
 										s{
-											background-position: -100px 0;
+											background-position: 0px -120px;
 										}
 									}
 									&.li4{
 										background-color: #ff5500;
-										width: 102px;
 										s{
-											background-position: -150px 0;
+											background-position: 0px -180px;
 										}
 									}
 								}

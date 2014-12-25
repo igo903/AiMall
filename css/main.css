@@ -7452,42 +7452,48 @@ a.delbtns:hover {
   height: 18px;
   line-height: 18px;
   padding-left: 10px;
-  margin-right: 2px;
   color: #fff;
   position: relative;
+  width: 230px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li s {
-  width: 50px;
+  width: 200px;
+  padding-left: 55px;
   height: 50px;
   background: url("../images/vip.png") no-repeat 0 0;
   position: absolute;
   top: 25px;
   left: 0px;
+  text-decoration: none;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li s .p-vip {
+  color: #333;
+  font-weight: bold;
+  margin: 5px 0 5px 0;
+}
+.vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li s .p-number {
+  color: #999;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li1 {
   background-color: #79bf7b;
-  width: 270px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li2 {
   background-color: #4fc5c5;
-  width: 270px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li2 s {
-  background-position: -50px 0;
+  background-position: 0px -60px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li3 {
   background-color: #ffcc00;
-  width: 270px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li3 s {
-  background-position: -100px 0;
+  background-position: 0px -120px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li4 {
   background-color: #ff5500;
-  width: 102px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .viptab-step li.li4 s {
-  background-position: -150px 0;
+  background-position: 0px -180px;
 }
 .vipbox .viptab .ui-switchable-content .tab-panel .viptab-two .viptab-content .tabtwo-panel .tabtwo-table {
   line-height: 33px;

@@ -67,10 +67,30 @@
 																</div>
 															</div>
 															<ul>
-																<li class="li1">0<s></s></li>
-																<li class="li2">2000 <s></s></li>
-																<li class="li3">6000 <s></s></li>
-																<li class="li4">12000 <s></s></li>
+																<li class="li1">0
+																	<s>
+																		<p class="p-vip">普通卡会员</p>
+																		<p class="p-number">0-1999</p>
+																	</s>
+																</li>
+																<li class="li2">2000 
+																	<s>
+																		<p class="p-vip">银卡会员</p>
+																		<p class="p-number">2000-5999</p>
+																	</s>
+																</li>
+																<li class="li3">6000
+																	<s>
+																		<p class="p-vip">金卡会员</p>
+																		<p class="p-number">6000-11999</p>
+																	</s>
+																</li>
+																<li class="li4">12000 
+																	<s>
+																		<p class="p-vip">白金卡会员</p>
+																		<p class="p-number">12000-无上限</p>
+																	</s>
+																</li>
 															</ul>
 														</div>
 													</div>
